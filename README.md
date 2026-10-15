@@ -65,11 +65,7 @@ El contenido se desarrolla en español y está orientado tanto al aprendizaje es
 | **`servicios/`** | Configuración y gestión de demonios, servidores y bases de datos. | Servidores web (Nginx, Apache), BDD (Redis, PostgreSQL), Cron y Journald. |
 
 ## LinuxCore.site
-<p align="center">
-  <a href="https://linuxcore.site/">
-    <img src=".github/media/linuxcore-site-preview.gif" alt="Vista previa de inuxCore Web | Comandos y Distribuciones" width="100%">
-  </a>
-</p>
+[![Vista previa de LinuxCore Web | Comandos y Distribuciones](.github/media/linuxcore-site-preview.GIF)](https://linuxcore.site/)
 <p align="center">
   <a href="https://linuxcore.site/">
     <strong>Abrir LinuxCore Web</strong>
