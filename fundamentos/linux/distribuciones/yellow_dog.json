@@ -1,0 +1,13 @@
+{
+    "nombre":  "Yellow Dog Linux",
+    "descripcion":  "Distribución Linux histórica con soporte para sistemas basados en la arquitectura Power.",
+    "web_oficial":  "https://web.archive.org/web/20100103142228/http://yellowdoglinux.com/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "",
+    "gestor_paquetes":  [],
+    "fuentes": ["https://web.archive.org/web/20100103142228/http://yellowdoglinux.com/"]
+}

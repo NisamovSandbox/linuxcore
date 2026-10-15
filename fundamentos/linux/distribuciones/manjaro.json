@@ -1,0 +1,15 @@
+{
+    "nombre":  "Manjaro Linux",
+    "descripcion":  "Distribución de actualización continua basada en Arch Linux, que ofrece herramientas y repositorios propios.",
+    "web_oficial":  "https://manjaro.org/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Arch Linux",
+    "gestor_paquetes":  [
+
+                        ],
+    "fuentes": ["https://manjaro.org/", "https://github.com/manjaro"]
+}

@@ -1,0 +1,13 @@
+{
+    "nombre":  "Zorin OS",
+    "descripcion":  "Sistema operativo de escritorio basado en Ubuntu, diseñado para ofrecer una experiencia familiar y accesible.",
+    "web_oficial":  "https://zorin.com/os/",
+    "fecha_origen":  "2008",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Ubuntu",
+    "gestor_paquetes":  ["APT/dpkg", "Flatpak", "Snap"],
+    "fuentes": ["https://zorin.com/about/", "https://zorin.com/os/details/"]
+}

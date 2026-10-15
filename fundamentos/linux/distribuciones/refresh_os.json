@@ -1,0 +1,13 @@
+{
+    "nombre":  "RefreshOS",
+    "descripcion":  "Distribución de escritorio basada actualmente en Debian y KDE Plasma; sus versiones 1.x se basaban en Kubuntu.",
+    "web_oficial":  "https://www.refreshos.org/",
+    "fecha_origen":  "2022 (versión preliminar); 2023 (primera versión estable)",
+    "autores":  [
+                    "Jordan Tyler Burchett (desarrollador inicial)",
+                    "eXybit Technologies (mantenedor actual)"
+                ],
+    "distribucion_base":  "Debian (versiones 1.x: Kubuntu)",
+    "gestor_paquetes":  ["APT", "paquetes DEB"],
+    "fuentes": ["https://www.refreshos.org/refreshos_news.html", "https://www.refreshos.org/faq_support.html", "https://www.refreshos.org/about_support.html"]
+}

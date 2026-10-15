@@ -1,0 +1,13 @@
+{
+    "nombre":  "Red Hat Enterprise Linux",
+    "descripcion":  "Distribución empresarial de Red Hat, con soporte y ciclo de vida orientados a entornos de producción.",
+    "web_oficial":  "https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux",
+    "fecha_origen":  "2001 (introducción de la edición empresarial)",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Linaje Red Hat; Fedora y CentOS Stream forman parte del flujo upstream",
+    "gestor_paquetes":  ["DNF", "RPM"],
+    "fuentes": ["https://www.redhat.com/en/about/brand/standards/history", "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/managing_software_with_the_dnf_tool/index"]
+}

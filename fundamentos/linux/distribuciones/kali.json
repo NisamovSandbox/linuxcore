@@ -1,0 +1,14 @@
+{
+    "nombre":  "Kali Linux",
+    "descripcion":  "Distribución basada en Debian para pruebas de penetración, auditoría de seguridad y análisis forense digital.",
+    "web_oficial":  "https://www.kali.org/",
+    "fecha_origen":  "2013",
+    "autores":  [
+                    "Mati Aharoni",
+                    "Jim O’Gorman",
+                    "Devon Kearns"
+                ],
+    "distribucion_base":  "Debian",
+    "gestor_paquetes":  ["APT/dpkg"],
+    "fuentes": ["https://www.kali.org/docs/introduction/what-is-kali-linux/", "https://www.kali.org/docs/introduction/kali-linux-history/", "https://www.kali.org/about-us/", "https://www.kali.org/docs/introduction/press-release/"]
+}

@@ -1,0 +1,15 @@
+{
+    "nombre":  "Drauger OS",
+    "descripcion":  "Distribución de escritorio basada en Ubuntu con ajustes orientados al rendimiento en videojuegos.",
+    "web_oficial":  "https://drauger.org/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Ubuntu",
+    "gestor_paquetes":  [
+
+                        ],
+    "fuentes": ["https://drauger.org/", "https://github.com/drauger-os-development"]
+}

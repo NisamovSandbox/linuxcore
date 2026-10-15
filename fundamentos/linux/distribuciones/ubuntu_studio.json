@@ -1,0 +1,13 @@
+{
+    "nombre":  "Ubuntu Studio",
+    "descripcion":  "Sabor oficial de Ubuntu orientado a producción de audio, vídeo, gráficos, fotografía y publicación.",
+    "web_oficial":  "https://ubuntustudio.org/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Ubuntu",
+    "gestor_paquetes":  ["APT/dpkg (heredado de Ubuntu)"],
+    "fuentes": ["https://ubuntustudio.org/about/", "https://documentation.ubuntu.com/server/how-to/software/package-management/"]
+}

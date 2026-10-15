@@ -1,0 +1,12 @@
+{
+    "nombre":  "CAINE",
+    "descripcion":  "Distribución live italiana que proporciona un entorno y herramientas para investigaciones de informática forense.",
+    "web_oficial":  "https://www.caine-live.net/",
+    "fecha_origen":  "2009 (primera versión listada: CAINE 0.5)",
+    "autores":  [
+                    "Nanni Bassetti (jefe de proyecto y desarrollador)"
+                ],
+    "distribucion_base":  "Ubuntu",
+    "gestor_paquetes":  ["APT/dpkg (heredado de Ubuntu)"],
+    "fuentes": ["https://www.caine-live.net/page4/page4.html", "https://www.caine-live.net/page6/files/category-release.html", "https://www.caine-live.net/page8/page8.html"]
+}

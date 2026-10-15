@@ -1,0 +1,13 @@
+{
+    "nombre":  "elementary OS",
+    "descripcion":  "Sistema operativo basado en Linux y de código abierto, centrado en la facilidad de uso y la privacidad.",
+    "web_oficial":  "https://elementary.io/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "",
+    "gestor_paquetes":  [],
+    "fuentes": ["https://elementary.io/", "https://github.com/elementary/os/wiki/OS-8-FAQ"]
+}

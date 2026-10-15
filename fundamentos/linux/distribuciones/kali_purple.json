@@ -1,0 +1,13 @@
+{
+    "nombre":  "Kali Linux Purple",
+    "descripcion":  "Iniciativa y edición de Kali orientada a seguridad defensiva, operaciones de equipo azul y ejercicios de equipo púrpura.",
+    "web_oficial":  "https://www.kali.org/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Kali Linux (basado en Debian)",
+    "gestor_paquetes":  ["APT/dpkg"],
+    "fuentes": ["https://www.kali.org/blog/kali-linux-2023-1-release/", "https://www.kali.org/docs/introduction/what-is-kali-linux/"]
+}

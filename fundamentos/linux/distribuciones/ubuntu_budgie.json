@@ -1,0 +1,12 @@
+{
+    "nombre":  "Ubuntu Budgie",
+    "descripcion":  "Sabor de Ubuntu que integra el escritorio Budgie.",
+    "web_oficial":  "https://ubuntubudgie.org/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "David Mohammed (fundador del proyecto)"
+                ],
+    "distribucion_base":  "Ubuntu",
+    "gestor_paquetes":  ["APT/dpkg (heredado de Ubuntu)"],
+    "fuentes": ["https://ubuntubudgie.org/about/", "https://ubuntubudgie.org/team/", "https://documentation.ubuntu.com/server/how-to/software/package-management/"]
+}

@@ -1,0 +1,12 @@
+{
+    "nombre":  "BackBox",
+    "descripcion":  "Distribución orientada a pruebas de penetración y evaluación de la seguridad informática.",
+    "web_oficial":  "https://linux.backbox.org/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "Raffaele Forte"
+                ],
+    "distribucion_base":  "Ubuntu",
+    "gestor_paquetes":  ["APT/dpkg (heredado de Ubuntu)"],
+    "fuentes": ["https://linux.backbox.org/"]
+}

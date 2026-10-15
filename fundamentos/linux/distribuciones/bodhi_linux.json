@@ -1,0 +1,13 @@
+{
+    "nombre":  "Bodhi Linux",
+    "descripcion":  "Distribución ligera basada en Ubuntu LTS, con el entorno de escritorio Moksha.",
+    "web_oficial":  "https://www.bodhilinux.com/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Ubuntu LTS",
+    "gestor_paquetes":  ["APT", "Synaptic"],
+    "fuentes": ["https://www.bodhilinux.com/w/what-is-bodhi-linux/", "https://www.bodhilinux.com/w/release-cycle/"]
+}

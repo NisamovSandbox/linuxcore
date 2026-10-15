@@ -1,0 +1,12 @@
+{
+    "nombre":  "GoboLinux",
+    "descripcion":  "Distribución experimental que reorganiza la jerarquía del sistema de archivos y ofrece un sistema propio de compilación e instalación de software.",
+    "web_oficial":  "https://gobolinux.org/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "Hisham Muhammad"
+                ],
+    "distribucion_base":  "Independiente",
+    "gestor_paquetes":  ["Compile (sistema de compilación e instalación del proyecto)"],
+    "fuentes": ["https://gobolinux.org/at_a_glance.html", "https://gobolinux.org/compile.html", "https://gobolinux.org/news/119.html"]
+}

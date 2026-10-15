@@ -1,0 +1,13 @@
+{
+    "nombre":  "GParted Live",
+    "descripcion":  "Distribución live de propósito específico para particionar discos; no debe confundirse con la aplicación GParted.",
+    "web_oficial":  "https://gparted.org/livecd.php",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Debian Live",
+    "gestor_paquetes":  ["APT (apt-get)"],
+    "fuentes": ["https://gparted.org/livecd.php", "https://gparted.org/add-packages-in-gparted-live.php", "https://gparted.org/news.php"]
+}

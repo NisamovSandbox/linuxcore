@@ -1,0 +1,13 @@
+{
+    "nombre":  "MX Linux",
+    "descripcion":  "Distribución de peso medio basada en Debian Stable, con el entorno Xfce como edición principal.",
+    "web_oficial":  "https://mxlinux.org/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Debian Stable",
+    "gestor_paquetes":  ["APT", "aptitude"],
+    "fuentes": ["https://github.com/MX-Linux", "https://mxlinux.org/wiki/system/aptitude/"]
+}

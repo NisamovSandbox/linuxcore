@@ -1,0 +1,13 @@
+{
+    "nombre":  "Absolute Linux",
+    "descripcion":  "Distribución ligera basada en Slackware, con selección de software y configuración orientadas a ofrecer un sistema listo para usar.",
+    "web_oficial":  "https://www.absolutelinux.org/",
+    "fecha_origen":  "2007 (el sitio oficial indica actividad desde ese año)",
+    "autores":  [
+                    "Paul Sherman",
+                    "Jordan Tyler Burchett (mantenedor actual)"
+                ],
+    "distribucion_base":  "Slackware",
+    "gestor_paquetes":  ["pkgtools de Slackware"],
+    "fuentes": ["https://www.absolutelinux.org/"]
+}

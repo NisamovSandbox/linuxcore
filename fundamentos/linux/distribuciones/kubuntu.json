@@ -1,0 +1,13 @@
+{
+    "nombre":  "Kubuntu",
+    "descripcion":  "Sabor comunitario de Ubuntu que integra el entorno de escritorio KDE Plasma y aplicaciones KDE.",
+    "web_oficial":  "https://kubuntu.org/",
+    "fecha_origen":  "2004",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Ubuntu",
+    "gestor_paquetes":  ["APT/dpkg (heredado de Ubuntu)"],
+    "fuentes": ["https://kubuntu.org/about/", "https://ubuntu.com/desktop/flavors", "https://help.ubuntu.com/community/AptGet/Howto"]
+}

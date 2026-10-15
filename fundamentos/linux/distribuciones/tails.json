@@ -1,0 +1,12 @@
+{
+    "nombre":  "Tails",
+    "descripcion":  "Sistema portable que enruta el tráfico de red a través de Tor y está diseñado para reducir los rastros locales.",
+    "web_oficial":  "https://tails.net/",
+    "fecha_origen":  "2009 (primera publicación anunciada)",
+    "autores":  [
+                    "Equipo de Tails (proyecto integrado en Tor Project)"
+                ],
+    "distribucion_base":  "Debian GNU/Linux",
+    "gestor_paquetes":  ["APT/dpkg"],
+    "fuentes": ["https://tails.net/about/", "https://tails.net/doc/persistent_storage/additional_software/index.en.html", "https://blog.torproject.org/tor-tails-join-forces/"]
+}

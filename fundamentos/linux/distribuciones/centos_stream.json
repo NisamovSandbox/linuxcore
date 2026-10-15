@@ -1,0 +1,15 @@
+{
+    "nombre":  "CentOS Stream",
+    "descripcion":  "Distribución de entrega continua que participa en el desarrollo de Red Hat Enterprise Linux y se sitúa entre Fedora y RHEL.",
+    "web_oficial":  "https://www.centos.org/centos-stream/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Fedora (flujo de desarrollo previo a RHEL)",
+    "gestor_paquetes":  [
+
+                        ],
+    "fuentes": ["https://docs.centos.org/centos-stream-docs/", "https://www.centos.org/centos-stream/"]
+}

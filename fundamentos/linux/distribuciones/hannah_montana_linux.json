@@ -1,0 +1,13 @@
+{
+    "nombre":  "Hannah Montana Linux",
+    "descripcion":  "",
+    "web_oficial":  "https://sourceforge.net/projects/hmlinux/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "",
+    "gestor_paquetes":  [],
+    "fuentes": ["https://sourceforge.net/projects/hmlinux/"]
+}

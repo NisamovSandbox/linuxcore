@@ -1,0 +1,13 @@
+{
+    "nombre":  "Nitrux",
+    "descripcion":  "Sistema Linux inmutable dirigido a estaciones de trabajo, con escritorio y mecanismos propios de distribución de aplicaciones.",
+    "web_oficial":  "https://nxos.org/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "",
+    "gestor_paquetes":  ["NX AppHub/AppBoxes", "Flatpak", "AppImage", "Distrobox (según documentación del proyecto)"],
+    "fuentes": ["https://nxos.org/", "https://nxos.org/documentation/software-management/appfinder/", "https://nxos.org/documentation/core-concepts/philosophy/"]
+}

@@ -1,0 +1,12 @@
+{
+    "nombre":  "Edubuntu",
+    "descripcion":  "Sabor oficial de Ubuntu orientado a la educación, las escuelas y las aulas.",
+    "web_oficial":  "https://edubuntu.org/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "Oliver Grawert (fundador, según el proyecto)"
+                ],
+    "distribucion_base":  "Ubuntu",
+    "gestor_paquetes":  ["APT/dpkg (heredado de Ubuntu)"],
+    "fuentes": ["https://edubuntu.org/", "https://ubuntu.com/desktop/flavors", "https://edubuntu.org/news.html", "https://help.ubuntu.com/community/AptGet/Howto"]
+}

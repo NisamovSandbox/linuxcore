@@ -1,0 +1,12 @@
+{
+    "nombre":  "Arch Linux",
+    "descripcion":  "Distribución independiente para x86-64, de propósito general, centrada en la simplicidad y el control del usuario.",
+    "web_oficial":  "https://archlinux.org/",
+    "fecha_origen":  "2002 (primera versión formal)",
+    "autores":  [
+                    "Judd Vinet"
+                ],
+    "distribucion_base":  "Independiente",
+    "gestor_paquetes":  ["pacman"],
+    "fuentes": ["https://archlinux.org/about/", "https://wiki.archlinux.org/title/Arch_Linux#History"]
+}

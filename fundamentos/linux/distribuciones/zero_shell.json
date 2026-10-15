@@ -1,0 +1,14 @@
+{
+    "nombre":  "Zeroshell",
+    "descripcion":  "Distribución basada en Linux para dispositivos de red, incluidos routers y cortafuegos, administrada mediante interfaz web.",
+    "web_oficial":  "https://www.zeroshell.org/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "Fulvio Ricciardi (titular de derechos del proyecto; fundador no confirmado)"
+                ],
+    "distribucion_base":  "",
+    "gestor_paquetes":  [
+
+                        ],
+    "fuentes": ["https://web.archive.org/web/20191212033645/https://zeroshell.org/"]
+}

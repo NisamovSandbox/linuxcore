@@ -1,0 +1,12 @@
+{
+    "nombre":  "Parrot OS",
+    "descripcion":  "Distribución GNU/Linux basada en Debian, con herramientas para ciberseguridad, privacidad y análisis forense.",
+    "web_oficial":  "https://parrotsec.org/",
+    "fecha_origen":  "2013",
+    "autores":  [
+                    "Lorenzo Faletra"
+                ],
+    "distribucion_base":  "Debian",
+    "gestor_paquetes":  ["APT/dpkg"],
+    "fuentes": ["https://parrotsec.org/docs/"]
+}

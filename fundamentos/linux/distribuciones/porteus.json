@@ -1,0 +1,12 @@
+{
+    "nombre":  "Porteus",
+    "descripcion":  "Distribución modular, ligera y portable, diseñada para arrancar desde medios extraíbles.",
+    "web_oficial":  "https://www.porteus.org/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "Fanthom (líder del remix de Slax del que procede el proyecto)"
+                ],
+    "distribucion_base":  "Slackware; el proyecto también documenta una variante basada en Debian",
+    "gestor_paquetes":  ["PPM", "herramientas Slackware (según variante)"],
+    "fuentes": ["https://www.porteus.org/info/why-choose-porteus.html", "https://www.porteus.org/info/features.html", "https://www.porteus.org/faq/desktop-faq.html"]
+}

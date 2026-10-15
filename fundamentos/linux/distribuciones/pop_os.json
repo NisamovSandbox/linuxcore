@@ -1,0 +1,13 @@
+{
+    "nombre":  "Pop!_OS",
+    "descripcion":  "Sistema operativo de escritorio desarrollado por System76, enfocado en productividad, personalización y creación.",
+    "web_oficial":  "https://system76.com/pop",
+    "fecha_origen":  "2017 (primera versión)",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Ubuntu",
+    "gestor_paquetes":  ["APT/dpkg"],
+    "fuentes": ["https://github.com/pop-os/pop"]
+}

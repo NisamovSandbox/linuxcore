@@ -1,0 +1,13 @@
+{
+    "nombre":  "TUXEDO OS",
+    "descripcion":  "Sistema operativo de escritorio desarrollado por TUXEDO Computers y optimizado para sus equipos, también distribuido como ISO instalable.",
+    "web_oficial":  "https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Ubuntu/Kubuntu, con modificaciones de TUXEDO",
+    "gestor_paquetes":  ["APT/dpkg"],
+    "fuentes": ["https://www.tuxedocomputers.com/en/Infos/Help-Support/Frequently-asked-questions/What-is-the-differences-between-TUXEDO-OS-and-Ubuntu/Kubuntu-_1.tuxedo"]
+}

@@ -1,0 +1,12 @@
+{
+    "nombre":  "Puppy Linux",
+    "descripcion":  "Familia de distribuciones Linux pequeñas, con herramientas propias; sus variantes pueden usar diferentes bases.",
+    "web_oficial":  "https://puppylinux.com/",
+    "fecha_origen":  "2003",
+    "autores":  [
+                    "Barry Kauler (creador original)"
+                ],
+    "distribucion_base":  "Variable según variante: Debian, Ubuntu, Slackware u otras",
+    "gestor_paquetes":  ["Puppy Package Manager", "PET (formato de paquetes)"],
+    "fuentes": ["https://github.com/puppylinux-woof-CE/puppylinux-woof-CE.github.io/blob/master/history.md", "https://github.com/puppylinux-woof-CE/puppylinux-woof-CE.github.io/blob/master/faq.md", "https://github.com/puppylinux-woof-CE/woof-CE"]
+}

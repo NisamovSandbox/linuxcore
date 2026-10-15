@@ -1,0 +1,1088 @@
+{
+  "_meta": {
+    "total_registros": 60
+  },
+  "distribuciones": [
+    {
+      "nombre": "Absolute Linux",
+      "descripcion": "Distribución ligera basada en Slackware, con selección de software y configuración orientadas a ofrecer un sistema listo para usar.",
+      "web_oficial": "https://www.absolutelinux.org/",
+      "fecha_origen": "2007 (el sitio oficial indica actividad desde ese año)",
+      "autores": [
+        "Paul Sherman",
+        "Jordan Tyler Burchett (mantenedor actual)"
+      ],
+      "distribucion_base": "Slackware",
+      "gestor_paquetes": [
+        "pkgtools de Slackware"
+      ],
+      "fuentes": [
+        "https://www.absolutelinux.org/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/absolute.json"
+    },
+    {
+      "nombre": "Alpine Linux",
+      "descripcion": "Distribución independiente, ligera y orientada a la seguridad, basada en musl libc y BusyBox.",
+      "web_oficial": "https://alpinelinux.org/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Independiente",
+      "gestor_paquetes": [
+        "apk"
+      ],
+      "fuentes": [
+        "https://alpinelinux.org/about/",
+        "https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/alpine.json"
+    },
+    {
+      "nombre": "Apartheid Linux",
+      "descripcion": "",
+      "web_oficial": "",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "",
+      "gestor_paquetes": [],
+      "fuentes": [],
+      "archivo_fuente": "fundamentos/linux/distribuciones/apartheid.json"
+    },
+    {
+      "nombre": "Arch Linux",
+      "descripcion": "Distribución independiente para x86-64, de propósito general, centrada en la simplicidad y el control del usuario.",
+      "web_oficial": "https://archlinux.org/",
+      "fecha_origen": "2002 (primera versión formal)",
+      "autores": [
+        "Judd Vinet"
+      ],
+      "distribucion_base": "Independiente",
+      "gestor_paquetes": [
+        "pacman"
+      ],
+      "fuentes": [
+        "https://archlinux.org/about/",
+        "https://wiki.archlinux.org/title/Arch_Linux#History"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/arch.json"
+    },
+    {
+      "nombre": "BackBox",
+      "descripcion": "Distribución orientada a pruebas de penetración y evaluación de la seguridad informática.",
+      "web_oficial": "https://linux.backbox.org/",
+      "fecha_origen": "",
+      "autores": [
+        "Raffaele Forte"
+      ],
+      "distribucion_base": "Ubuntu",
+      "gestor_paquetes": [
+        "APT/dpkg (heredado de Ubuntu)"
+      ],
+      "fuentes": [
+        "https://linux.backbox.org/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/back_box.json"
+    },
+    {
+      "nombre": "Biebian Linux",
+      "descripcion": "",
+      "web_oficial": "",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "",
+      "gestor_paquetes": [],
+      "fuentes": [],
+      "archivo_fuente": "fundamentos/linux/distribuciones/biebian_linux.json"
+    },
+    {
+      "nombre": "Bodhi Linux",
+      "descripcion": "Distribución ligera basada en Ubuntu LTS, con el entorno de escritorio Moksha.",
+      "web_oficial": "https://www.bodhilinux.com/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Ubuntu LTS",
+      "gestor_paquetes": [
+        "APT",
+        "Synaptic"
+      ],
+      "fuentes": [
+        "https://www.bodhilinux.com/w/what-is-bodhi-linux/",
+        "https://www.bodhilinux.com/w/release-cycle/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/bodhi_linux.json"
+    },
+    {
+      "nombre": "CAINE",
+      "descripcion": "Distribución live italiana que proporciona un entorno y herramientas para investigaciones de informática forense.",
+      "web_oficial": "https://www.caine-live.net/",
+      "fecha_origen": "2009 (primera versión listada: CAINE 0.5)",
+      "autores": [
+        "Nanni Bassetti (jefe de proyecto y desarrollador)"
+      ],
+      "distribucion_base": "Ubuntu",
+      "gestor_paquetes": [
+        "APT/dpkg (heredado de Ubuntu)"
+      ],
+      "fuentes": [
+        "https://www.caine-live.net/page4/page4.html",
+        "https://www.caine-live.net/page6/files/category-release.html",
+        "https://www.caine-live.net/page8/page8.html"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/caine_csi_linux.json"
+    },
+    {
+      "nombre": "CAT OS",
+      "descripcion": "Distribución de escritorio basada en Arch Linux, de actualización continua y con instalador y perfiles de escritorio.",
+      "web_oficial": "https://catos.info/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Arch Linux",
+      "gestor_paquetes": [
+        "pacman"
+      ],
+      "fuentes": [
+        "https://catos.info/docs/intro",
+        "https://catos.info/docs/package-management/repository"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/cat_os.json"
+    },
+    {
+      "nombre": "CentOS Stream",
+      "descripcion": "Distribución de entrega continua que participa en el desarrollo de Red Hat Enterprise Linux y se sitúa entre Fedora y RHEL.",
+      "web_oficial": "https://www.centos.org/centos-stream/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Fedora (flujo de desarrollo previo a RHEL)",
+      "gestor_paquetes": [],
+      "fuentes": [
+        "https://docs.centos.org/centos-stream-docs/",
+        "https://www.centos.org/centos-stream/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/centos_stream.json"
+    },
+    {
+      "nombre": "Debian",
+      "descripcion": "Distribución de sistema operativo libre desarrollada por una comunidad de voluntarios.",
+      "web_oficial": "https://www.debian.org/",
+      "fecha_origen": "16 de agosto de 1993",
+      "autores": [
+        "Ian Murdock"
+      ],
+      "distribucion_base": "Independiente",
+      "gestor_paquetes": [
+        "APT",
+        "dpkg"
+      ],
+      "fuentes": [
+        "https://www.debian.org/intro/about",
+        "https://www.debian.org/doc/manuals/project-history/intro.en.html",
+        "https://www.debian.org/doc/manuals/debian-faq/pkgtools.en.html"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/debian.json"
+    },
+    {
+      "nombre": "DEFT Linux",
+      "descripcion": "",
+      "web_oficial": "https://www.deftlinux.net/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "",
+      "gestor_paquetes": [],
+      "fuentes": [
+        "https://www.deftlinux.net/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/deft.json"
+    },
+    {
+      "nombre": "Drauger OS",
+      "descripcion": "Distribución de escritorio basada en Ubuntu con ajustes orientados al rendimiento en videojuegos.",
+      "web_oficial": "https://drauger.org/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Ubuntu",
+      "gestor_paquetes": [],
+      "fuentes": [
+        "https://drauger.org/",
+        "https://github.com/drauger-os-development"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/drauger.json"
+    },
+    {
+      "nombre": "Edubuntu",
+      "descripcion": "Sabor oficial de Ubuntu orientado a la educación, las escuelas y las aulas.",
+      "web_oficial": "https://edubuntu.org/",
+      "fecha_origen": "",
+      "autores": [
+        "Oliver Grawert (fundador, según el proyecto)"
+      ],
+      "distribucion_base": "Ubuntu",
+      "gestor_paquetes": [
+        "APT/dpkg (heredado de Ubuntu)"
+      ],
+      "fuentes": [
+        "https://edubuntu.org/",
+        "https://ubuntu.com/desktop/flavors",
+        "https://edubuntu.org/news.html",
+        "https://help.ubuntu.com/community/AptGet/Howto"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/edubuntu.json"
+    },
+    {
+      "nombre": "elementary OS",
+      "descripcion": "Sistema operativo basado en Linux y de código abierto, centrado en la facilidad de uso y la privacidad.",
+      "web_oficial": "https://elementary.io/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "",
+      "gestor_paquetes": [],
+      "fuentes": [
+        "https://elementary.io/",
+        "https://github.com/elementary/os/wiki/OS-8-FAQ"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/elementary_os.json"
+    },
+    {
+      "nombre": "Fedora Linux",
+      "descripcion": "Distribución comunitaria de Linux que impulsa tecnologías y software libre y de código abierto.",
+      "web_oficial": "https://fedoraproject.org/",
+      "fecha_origen": "2003 (lanzamiento de Fedora Core)",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Independiente",
+      "gestor_paquetes": [
+        "DNF",
+        "RPM"
+      ],
+      "fuentes": [
+        "https://fedoraproject.org/wiki/History_of_Red_Hat_Linux",
+        "https://docs.fedoraproject.org/en-US/quick-docs/dnf/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/fedora.json"
+    },
+    {
+      "nombre": "gNewSense",
+      "descripcion": "",
+      "web_oficial": "https://www.gnewsense.org/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "",
+      "gestor_paquetes": [],
+      "fuentes": [
+        "https://www.gnewsense.org/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/gnewsense.json"
+    },
+    {
+      "nombre": "GoboLinux",
+      "descripcion": "Distribución experimental que reorganiza la jerarquía del sistema de archivos y ofrece un sistema propio de compilación e instalación de software.",
+      "web_oficial": "https://gobolinux.org/",
+      "fecha_origen": "",
+      "autores": [
+        "Hisham Muhammad"
+      ],
+      "distribucion_base": "Independiente",
+      "gestor_paquetes": [
+        "Compile (sistema de compilación e instalación del proyecto)"
+      ],
+      "fuentes": [
+        "https://gobolinux.org/at_a_glance.html",
+        "https://gobolinux.org/compile.html",
+        "https://gobolinux.org/news/119.html"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/gobo_linux.json"
+    },
+    {
+      "nombre": "GParted Live",
+      "descripcion": "Distribución live de propósito específico para particionar discos; no debe confundirse con la aplicación GParted.",
+      "web_oficial": "https://gparted.org/livecd.php",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Debian Live",
+      "gestor_paquetes": [
+        "APT (apt-get)"
+      ],
+      "fuentes": [
+        "https://gparted.org/livecd.php",
+        "https://gparted.org/add-packages-in-gparted-live.php",
+        "https://gparted.org/news.php"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/gparted.json"
+    },
+    {
+      "nombre": "Hannah Montana Linux",
+      "descripcion": "",
+      "web_oficial": "https://sourceforge.net/projects/hmlinux/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "",
+      "gestor_paquetes": [],
+      "fuentes": [
+        "https://sourceforge.net/projects/hmlinux/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/hannah_montana_linux.json"
+    },
+    {
+      "nombre": "Helal Linux",
+      "descripcion": "",
+      "web_oficial": "http://helallinux.com/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "",
+      "gestor_paquetes": [],
+      "fuentes": [
+        "https://github.com/mhsabbagh/helallinux"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/helal_linux.json"
+    },
+    {
+      "nombre": "Jewbuntu",
+      "descripcion": "",
+      "web_oficial": "",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "",
+      "gestor_paquetes": [],
+      "fuentes": [],
+      "archivo_fuente": "fundamentos/linux/distribuciones/jewbuntu.json"
+    },
+    {
+      "nombre": "Kali Linux",
+      "descripcion": "Distribución basada en Debian para pruebas de penetración, auditoría de seguridad y análisis forense digital.",
+      "web_oficial": "https://www.kali.org/",
+      "fecha_origen": "2013",
+      "autores": [
+        "Mati Aharoni",
+        "Jim O’Gorman",
+        "Devon Kearns"
+      ],
+      "distribucion_base": "Debian",
+      "gestor_paquetes": [
+        "APT/dpkg"
+      ],
+      "fuentes": [
+        "https://www.kali.org/docs/introduction/what-is-kali-linux/",
+        "https://www.kali.org/docs/introduction/kali-linux-history/",
+        "https://www.kali.org/about-us/",
+        "https://www.kali.org/docs/introduction/press-release/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/kali.json"
+    },
+    {
+      "nombre": "Kali Linux Purple",
+      "descripcion": "Iniciativa y edición de Kali orientada a seguridad defensiva, operaciones de equipo azul y ejercicios de equipo púrpura.",
+      "web_oficial": "https://www.kali.org/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Kali Linux (basado en Debian)",
+      "gestor_paquetes": [
+        "APT/dpkg"
+      ],
+      "fuentes": [
+        "https://www.kali.org/blog/kali-linux-2023-1-release/",
+        "https://www.kali.org/docs/introduction/what-is-kali-linux/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/kali_purple.json"
+    },
+    {
+      "nombre": "KNOPPIX",
+      "descripcion": "Sistema GNU/Linux arrancable como live, destinado a uso de escritorio, educación, rescate y demostraciones.",
+      "web_oficial": "https://www.knopper.net/knoppix/index-en.html",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Debian (documentado para KNOPPIX 9.1)",
+      "gestor_paquetes": [],
+      "fuentes": [
+        "https://www.knopper.net/knoppix/index-en.html",
+        "https://www.knopper.net/knoppix/knoppix910-en.html"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/knoppix.json"
+    },
+    {
+      "nombre": "Kubuntu",
+      "descripcion": "Sabor comunitario de Ubuntu que integra el entorno de escritorio KDE Plasma y aplicaciones KDE.",
+      "web_oficial": "https://kubuntu.org/",
+      "fecha_origen": "2004",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Ubuntu",
+      "gestor_paquetes": [
+        "APT/dpkg (heredado de Ubuntu)"
+      ],
+      "fuentes": [
+        "https://kubuntu.org/about/",
+        "https://ubuntu.com/desktop/flavors",
+        "https://help.ubuntu.com/community/AptGet/Howto"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/kubuntu.json"
+    },
+    {
+      "nombre": "Lesbian Linux",
+      "descripcion": "",
+      "web_oficial": "",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "",
+      "gestor_paquetes": [],
+      "fuentes": [],
+      "archivo_fuente": "fundamentos/linux/distribuciones/lesbian_linux.json"
+    },
+    {
+      "nombre": "Linux Mint",
+      "descripcion": "Distribución de escritorio cuyo proyecto prioriza una experiencia moderna, cómoda y fácil de usar; ofrece ediciones basadas en Ubuntu y Debian.",
+      "web_oficial": "https://linuxmint.com/",
+      "fecha_origen": "2006 (primera versión)",
+      "autores": [
+        "Clement Lefebvre"
+      ],
+      "distribucion_base": "Ubuntu; también ofrece Linux Mint Debian Edition (LMDE)",
+      "gestor_paquetes": [
+        "APT/dpkg"
+      ],
+      "fuentes": [
+        "https://linuxmint.com/about.php",
+        "https://linuxmint.com/rel_virginia.php"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/linux_mint.json"
+    },
+    {
+      "nombre": "Lubuntu",
+      "descripcion": "Sabor de Ubuntu que ofrece un escritorio ligero y configurable basado actualmente en LXQt.",
+      "web_oficial": "https://lubuntu.me/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Ubuntu",
+      "gestor_paquetes": [
+        "APT/dpkg (heredado de Ubuntu)"
+      ],
+      "fuentes": [
+        "https://lubuntu.me/",
+        "https://help.ubuntu.com/community/AptGet/Howto"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/lubuntu.json"
+    },
+    {
+      "nombre": "Manjaro Linux",
+      "descripcion": "Distribución de actualización continua basada en Arch Linux, que ofrece herramientas y repositorios propios.",
+      "web_oficial": "https://manjaro.org/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Arch Linux",
+      "gestor_paquetes": [],
+      "fuentes": [
+        "https://manjaro.org/",
+        "https://github.com/manjaro"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/manjaro.json"
+    },
+    {
+      "nombre": "muLinux",
+      "descripcion": "",
+      "web_oficial": "https://www.mulinux.org/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "",
+      "gestor_paquetes": [],
+      "fuentes": [
+        "https://www.mulinux.org/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/mulinux.json"
+    },
+    {
+      "nombre": "MX Linux",
+      "descripcion": "Distribución de peso medio basada en Debian Stable, con el entorno Xfce como edición principal.",
+      "web_oficial": "https://mxlinux.org/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Debian Stable",
+      "gestor_paquetes": [
+        "APT",
+        "aptitude"
+      ],
+      "fuentes": [
+        "https://github.com/MX-Linux",
+        "https://mxlinux.org/wiki/system/aptitude/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/mx_linux.json"
+    },
+    {
+      "nombre": "Nitrux",
+      "descripcion": "Sistema Linux inmutable dirigido a estaciones de trabajo, con escritorio y mecanismos propios de distribución de aplicaciones.",
+      "web_oficial": "https://nxos.org/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "",
+      "gestor_paquetes": [
+        "NX AppHub/AppBoxes",
+        "Flatpak",
+        "AppImage",
+        "Distrobox (según documentación del proyecto)"
+      ],
+      "fuentes": [
+        "https://nxos.org/",
+        "https://nxos.org/documentation/software-management/appfinder/",
+        "https://nxos.org/documentation/core-concepts/philosophy/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/nitrux.json"
+    },
+    {
+      "nombre": "Nyarch Linux",
+      "descripcion": "Distribución temática basada en Arch Linux y EzArcher, con personalizaciones de escritorio y herramientas propias.",
+      "web_oficial": "https://nyarchlinux.moe/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Arch Linux y EzArcher",
+      "gestor_paquetes": [
+        "nyay (paquetes AUR; gestor base no verificado)"
+      ],
+      "fuentes": [
+        "https://nyarchlinux.moe/",
+        "https://github.com/NyarchLinux/NyarchLinux"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/nyarch.json"
+    },
+    {
+      "nombre": "Parrot OS",
+      "descripcion": "Distribución GNU/Linux basada en Debian, con herramientas para ciberseguridad, privacidad y análisis forense.",
+      "web_oficial": "https://parrotsec.org/",
+      "fecha_origen": "2013",
+      "autores": [
+        "Lorenzo Faletra"
+      ],
+      "distribucion_base": "Debian",
+      "gestor_paquetes": [
+        "APT/dpkg"
+      ],
+      "fuentes": [
+        "https://parrotsec.org/docs/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/parrot.json"
+    },
+    {
+      "nombre": "Pop!_OS",
+      "descripcion": "Sistema operativo de escritorio desarrollado por System76, enfocado en productividad, personalización y creación.",
+      "web_oficial": "https://system76.com/pop",
+      "fecha_origen": "2017 (primera versión)",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Ubuntu",
+      "gestor_paquetes": [
+        "APT/dpkg"
+      ],
+      "fuentes": [
+        "https://github.com/pop-os/pop"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/pop_os.json"
+    },
+    {
+      "nombre": "Porteus",
+      "descripcion": "Distribución modular, ligera y portable, diseñada para arrancar desde medios extraíbles.",
+      "web_oficial": "https://www.porteus.org/",
+      "fecha_origen": "",
+      "autores": [
+        "Fanthom (líder del remix de Slax del que procede el proyecto)"
+      ],
+      "distribucion_base": "Slackware; el proyecto también documenta una variante basada en Debian",
+      "gestor_paquetes": [
+        "PPM",
+        "herramientas Slackware (según variante)"
+      ],
+      "fuentes": [
+        "https://www.porteus.org/info/why-choose-porteus.html",
+        "https://www.porteus.org/info/features.html",
+        "https://www.porteus.org/faq/desktop-faq.html"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/porteus.json"
+    },
+    {
+      "nombre": "Puppy Linux",
+      "descripcion": "Familia de distribuciones Linux pequeñas, con herramientas propias; sus variantes pueden usar diferentes bases.",
+      "web_oficial": "https://puppylinux.com/",
+      "fecha_origen": "2003",
+      "autores": [
+        "Barry Kauler (creador original)"
+      ],
+      "distribucion_base": "Variable según variante: Debian, Ubuntu, Slackware u otras",
+      "gestor_paquetes": [
+        "Puppy Package Manager",
+        "PET (formato de paquetes)"
+      ],
+      "fuentes": [
+        "https://github.com/puppylinux-woof-CE/puppylinux-woof-CE.github.io/blob/master/history.md",
+        "https://github.com/puppylinux-woof-CE/puppylinux-woof-CE.github.io/blob/master/faq.md",
+        "https://github.com/puppylinux-woof-CE/woof-CE"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/puppy.json"
+    },
+    {
+      "nombre": "Qubes OS",
+      "descripcion": "Sistema operativo centrado en la seguridad que aísla actividades en máquinas virtuales para reducir el impacto de compromisos.",
+      "web_oficial": "https://www.qubes-os.org/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Plantillas Fedora y Debian, entre otras; no tiene una única base",
+      "gestor_paquetes": [
+        "Depende de la plantilla (por ejemplo, DNF en Fedora y APT en Debian)"
+      ],
+      "fuentes": [
+        "https://doc.qubes-os.org/en/r4.3/user/templates/templates.html"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/qubes_os.json"
+    },
+    {
+      "nombre": "Red Hat Enterprise Linux",
+      "descripcion": "Distribución empresarial de Red Hat, con soporte y ciclo de vida orientados a entornos de producción.",
+      "web_oficial": "https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux",
+      "fecha_origen": "2001 (introducción de la edición empresarial)",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Linaje Red Hat; Fedora y CentOS Stream forman parte del flujo upstream",
+      "gestor_paquetes": [
+        "DNF",
+        "RPM"
+      ],
+      "fuentes": [
+        "https://www.redhat.com/en/about/brand/standards/history",
+        "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/managing_software_with_the_dnf_tool/index"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/redhat.json"
+    },
+    {
+      "nombre": "Red Star OS",
+      "descripcion": "",
+      "web_oficial": "",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "",
+      "gestor_paquetes": [],
+      "fuentes": [],
+      "archivo_fuente": "fundamentos/linux/distribuciones/red_star_os.json"
+    },
+    {
+      "nombre": "RefreshOS",
+      "descripcion": "Distribución de escritorio basada actualmente en Debian y KDE Plasma; sus versiones 1.x se basaban en Kubuntu.",
+      "web_oficial": "https://www.refreshos.org/",
+      "fecha_origen": "2022 (versión preliminar); 2023 (primera versión estable)",
+      "autores": [
+        "Jordan Tyler Burchett (desarrollador inicial)",
+        "eXybit Technologies (mantenedor actual)"
+      ],
+      "distribucion_base": "Debian (versiones 1.x: Kubuntu)",
+      "gestor_paquetes": [
+        "APT",
+        "paquetes DEB"
+      ],
+      "fuentes": [
+        "https://www.refreshos.org/refreshos_news.html",
+        "https://www.refreshos.org/faq_support.html",
+        "https://www.refreshos.org/about_support.html"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/refresh_os.json"
+    },
+    {
+      "nombre": "Rescatux",
+      "descripcion": "Sistema live basado en Debian para rescatar instalaciones GNU/Linux y Windows mediante asistentes de reparación.",
+      "web_oficial": "https://www.supergrubdisk.org/rescatux/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Debian Live",
+      "gestor_paquetes": [
+        "APT/dpkg"
+      ],
+      "fuentes": [
+        "https://www.supergrubdisk.org/rescatux/",
+        "https://github.com/rescatux/rescatux"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/rescatux.json"
+    },
+    {
+      "nombre": "RLSD Linux",
+      "descripcion": "",
+      "web_oficial": "",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "",
+      "gestor_paquetes": [],
+      "fuentes": [],
+      "archivo_fuente": "fundamentos/linux/distribuciones/rlsd_linux.json"
+    },
+    {
+      "nombre": "Slax",
+      "descripcion": "Sistema live compacto y portable, diseñado para arrancar desde USB, disco u otros medios.",
+      "web_oficial": "https://www.slax.org/",
+      "fecha_origen": "",
+      "autores": [
+        "Tomas Matejicek (creador, según el proyecto)"
+      ],
+      "distribucion_base": "Debian o Slackware, según la variante",
+      "gestor_paquetes": [
+        "APT (variante Debian)",
+        "slackpkg (variante Slackware)"
+      ],
+      "fuentes": [
+        "https://www.slax.org/introduction.php",
+        "https://www.slax.org/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/slax.json"
+    },
+    {
+      "nombre": "Tails",
+      "descripcion": "Sistema portable que enruta el tráfico de red a través de Tor y está diseñado para reducir los rastros locales.",
+      "web_oficial": "https://tails.net/",
+      "fecha_origen": "2009 (primera publicación anunciada)",
+      "autores": [
+        "Equipo de Tails (proyecto integrado en Tor Project)"
+      ],
+      "distribucion_base": "Debian GNU/Linux",
+      "gestor_paquetes": [
+        "APT/dpkg"
+      ],
+      "fuentes": [
+        "https://tails.net/about/",
+        "https://tails.net/doc/persistent_storage/additional_software/index.en.html",
+        "https://blog.torproject.org/tor-tails-join-forces/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/tails.json"
+    },
+    {
+      "nombre": "Tinfoil Hat Linux",
+      "descripcion": "",
+      "web_oficial": "",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "",
+      "gestor_paquetes": [],
+      "fuentes": [],
+      "archivo_fuente": "fundamentos/linux/distribuciones/tinfoil_hat_linux.json"
+    },
+    {
+      "nombre": "TUXEDO OS",
+      "descripcion": "Sistema operativo de escritorio desarrollado por TUXEDO Computers y optimizado para sus equipos, también distribuido como ISO instalable.",
+      "web_oficial": "https://www.tuxedocomputers.com/en/TUXEDO-OS_1.tuxedo",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Ubuntu/Kubuntu, con modificaciones de TUXEDO",
+      "gestor_paquetes": [
+        "APT/dpkg"
+      ],
+      "fuentes": [
+        "https://www.tuxedocomputers.com/en/Infos/Help-Support/Frequently-asked-questions/What-is-the-differences-between-TUXEDO-OS-and-Ubuntu/Kubuntu-_1.tuxedo"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/tuxedo_os.json"
+    },
+    {
+      "nombre": "Ubuntu",
+      "descripcion": "Distribución GNU/Linux desarrollada por Canonical y la comunidad, basada en Debian y disponible para equipos y servidores.",
+      "web_oficial": "https://ubuntu.com/",
+      "fecha_origen": "2004",
+      "autores": [
+        "Mark Shuttleworth",
+        "Equipo de desarrolladores de Debian (colaboradores iniciales)"
+      ],
+      "distribucion_base": "Debian",
+      "gestor_paquetes": [
+        "APT",
+        "dpkg"
+      ],
+      "fuentes": [
+        "https://ubuntu.com/about",
+        "https://documentation.ubuntu.com/server/how-to/software/package-management/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/ubuntu.json"
+    },
+    {
+      "nombre": "Ubuntu Budgie",
+      "descripcion": "Sabor de Ubuntu que integra el escritorio Budgie.",
+      "web_oficial": "https://ubuntubudgie.org/",
+      "fecha_origen": "",
+      "autores": [
+        "David Mohammed (fundador del proyecto)"
+      ],
+      "distribucion_base": "Ubuntu",
+      "gestor_paquetes": [
+        "APT/dpkg (heredado de Ubuntu)"
+      ],
+      "fuentes": [
+        "https://ubuntubudgie.org/about/",
+        "https://ubuntubudgie.org/team/",
+        "https://documentation.ubuntu.com/server/how-to/software/package-management/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/ubuntu_budgie.json"
+    },
+    {
+      "nombre": "Ubuntu Christian Edition",
+      "descripcion": "Distribución derivada de Ubuntu que incluía software cristiano y filtrado de contenido web.",
+      "web_oficial": "https://ubuntuce.com/",
+      "fecha_origen": "",
+      "autores": [
+        "Jereme Hancock (creador y desarrollador)"
+      ],
+      "distribucion_base": "Ubuntu",
+      "gestor_paquetes": [
+        "APT/dpkg (heredado de Ubuntu)"
+      ],
+      "fuentes": [
+        "https://ubuntuce.com/",
+        "https://documentation.ubuntu.com/server/how-to/software/package-management/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/ubuntu_christian_edition.json"
+    },
+    {
+      "nombre": "Ubuntu MATE",
+      "descripcion": "Sabor de Ubuntu con el escritorio MATE, que ofrece una interfaz de escritorio tradicional.",
+      "web_oficial": "https://ubuntu-mate.org/",
+      "fecha_origen": "2014 (lanzamiento inaugural)",
+      "autores": [
+        "Martin Wimpress",
+        "Alan Pope"
+      ],
+      "distribucion_base": "Ubuntu",
+      "gestor_paquetes": [
+        "APT/dpkg (heredado de Ubuntu)"
+      ],
+      "fuentes": [
+        "https://ubuntu-mate.org/about/",
+        "https://ubuntu-mate.org/about/history/",
+        "https://ubuntu-mate.org/about/team/",
+        "https://documentation.ubuntu.com/server/how-to/software/package-management/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/ubuntu_mate.json"
+    },
+    {
+      "nombre": "Ubuntu Satanic Edition",
+      "descripcion": "Remix histórico y paródico de Ubuntu.",
+      "web_oficial": "https://web.archive.org/web/20090213150132/http://ubuntusatanic.org/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Ubuntu",
+      "gestor_paquetes": [
+        "APT/dpkg (heredado de Ubuntu)"
+      ],
+      "fuentes": [
+        "https://web.archive.org/web/20090213150132/http://ubuntusatanic.org/",
+        "https://documentation.ubuntu.com/server/how-to/software/package-management/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/ubuntu_satanic_edition.json"
+    },
+    {
+      "nombre": "Ubuntu Studio",
+      "descripcion": "Sabor oficial de Ubuntu orientado a producción de audio, vídeo, gráficos, fotografía y publicación.",
+      "web_oficial": "https://ubuntustudio.org/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Ubuntu",
+      "gestor_paquetes": [
+        "APT/dpkg (heredado de Ubuntu)"
+      ],
+      "fuentes": [
+        "https://ubuntustudio.org/about/",
+        "https://documentation.ubuntu.com/server/how-to/software/package-management/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/ubuntu_studio.json"
+    },
+    {
+      "nombre": "Whonix",
+      "descripcion": "Sistema operativo orientado a la privacidad que separa Gateway y Workstation en máquinas virtuales y enruta el tráfico mediante Tor.",
+      "web_oficial": "https://www.whonix.org/",
+      "fecha_origen": "",
+      "autores": [
+        "Patrick Schleizer (fundador)"
+      ],
+      "distribucion_base": "Kicksecure, basado en Debian",
+      "gestor_paquetes": [
+        "APT/dpkg"
+      ],
+      "fuentes": [
+        "https://www.whonix.org/wiki/About",
+        "https://www.whonix.org/wiki/History"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/whonix.json"
+    },
+    {
+      "nombre": "Xubuntu",
+      "descripcion": "Sabor comunitario de Ubuntu que utiliza el escritorio Xfce, descrito por el proyecto como ligero y configurable.",
+      "web_oficial": "https://xubuntu.org/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Ubuntu",
+      "gestor_paquetes": [
+        "APT/dpkg (heredado de Ubuntu)"
+      ],
+      "fuentes": [
+        "https://xubuntu.org/",
+        "https://xubuntu.org/releases/",
+        "https://documentation.ubuntu.com/server/how-to/software/package-management/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/xubuntu.json"
+    },
+    {
+      "nombre": "Yellow Dog Linux",
+      "descripcion": "Distribución Linux histórica con soporte para sistemas basados en la arquitectura Power.",
+      "web_oficial": "https://web.archive.org/web/20100103142228/http://yellowdoglinux.com/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "",
+      "gestor_paquetes": [],
+      "fuentes": [
+        "https://web.archive.org/web/20100103142228/http://yellowdoglinux.com/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/yellow_dog.json"
+    },
+    {
+      "nombre": "Zenix Linux",
+      "descripcion": "",
+      "web_oficial": "",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "",
+      "gestor_paquetes": [],
+      "fuentes": [],
+      "archivo_fuente": "fundamentos/linux/distribuciones/zenix_linux.json"
+    },
+    {
+      "nombre": "Zeroshell",
+      "descripcion": "Distribución basada en Linux para dispositivos de red, incluidos routers y cortafuegos, administrada mediante interfaz web.",
+      "web_oficial": "https://www.zeroshell.org/",
+      "fecha_origen": "",
+      "autores": [
+        "Fulvio Ricciardi (titular de derechos del proyecto; fundador no confirmado)"
+      ],
+      "distribucion_base": "",
+      "gestor_paquetes": [],
+      "fuentes": [
+        "https://web.archive.org/web/20191212033645/https://zeroshell.org/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/zero_shell.json"
+    },
+    {
+      "nombre": "Zorin OS",
+      "descripcion": "Sistema operativo de escritorio basado en Ubuntu, diseñado para ofrecer una experiencia familiar y accesible.",
+      "web_oficial": "https://zorin.com/os/",
+      "fecha_origen": "2008",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Ubuntu",
+      "gestor_paquetes": [
+        "APT/dpkg",
+        "Flatpak",
+        "Snap"
+      ],
+      "fuentes": [
+        "https://zorin.com/about/",
+        "https://zorin.com/os/details/"
+      ],
+      "archivo_fuente": "fundamentos/linux/distribuciones/zorin_os.json"
+    }
+  ]
+}

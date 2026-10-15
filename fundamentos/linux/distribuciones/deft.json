@@ -1,0 +1,13 @@
+{
+    "nombre":  "DEFT Linux",
+    "descripcion":  "",
+    "web_oficial":  "https://www.deftlinux.net/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "",
+    "gestor_paquetes":  [],
+    "fuentes": ["https://www.deftlinux.net/"]
+}

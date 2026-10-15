@@ -1,0 +1,13 @@
+{
+    "nombre":  "Nyarch Linux",
+    "descripcion":  "Distribución temática basada en Arch Linux y EzArcher, con personalizaciones de escritorio y herramientas propias.",
+    "web_oficial":  "https://nyarchlinux.moe/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Arch Linux y EzArcher",
+    "gestor_paquetes":  ["nyay (paquetes AUR; gestor base no verificado)"],
+    "fuentes": ["https://nyarchlinux.moe/", "https://github.com/NyarchLinux/NyarchLinux"]
+}

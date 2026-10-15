@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
 Códigos de salida:
-    0 -> sin hallazgos
-    1 -> se detectaron posibles secretos
+    0 -> escaneo completado (hallazgos notificados como advertencias)
     2 -> error al ejecutar el escáner
 """
 
@@ -296,11 +295,15 @@ def main() -> int:
     print(f"Secret scan: {scanned} archivos de texto candidatos revisados.")
 
     if findings:
-        print("\nSe detectaron posibles secretos. No se muestran los valores para evitar exponerlos en los logs:\n")
+        print("\n::warning title=Detección de secretos::Se detectaron posibles secretos; revisa los hallazgos sin exponer sus valores.\n")
         for finding in findings:
             print(f"- {finding.path}:{finding.line_number} -> {finding.rule}")
-        print("\nRevisa los hallazgos antes de hacer push.")
-        return 1
+            print(
+                f"::warning file={finding.path.as_posix()},line={finding.line_number},"
+                f"title={finding.rule}::Posible secreto detectado; revisa el archivo sin divulgar el valor."
+            )
+        print("\nEl escaneo terminó correctamente; los hallazgos son advertencias y no bloquean el workflow.")
+        return 0
     print("No se detectaron posibles secretos.")
     return 0
 

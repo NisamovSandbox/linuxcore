@@ -1,0 +1,13 @@
+{
+    "nombre":  "Qubes OS",
+    "descripcion":  "Sistema operativo centrado en la seguridad que aísla actividades en máquinas virtuales para reducir el impacto de compromisos.",
+    "web_oficial":  "https://www.qubes-os.org/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Plantillas Fedora y Debian, entre otras; no tiene una única base",
+    "gestor_paquetes":  ["Depende de la plantilla (por ejemplo, DNF en Fedora y APT en Debian)"],
+    "fuentes": ["https://doc.qubes-os.org/en/r4.3/user/templates/templates.html"]
+}

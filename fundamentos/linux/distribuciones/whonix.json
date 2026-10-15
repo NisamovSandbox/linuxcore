@@ -1,0 +1,13 @@
+{
+    "nombre":  "Whonix",
+    "descripcion":  "Sistema operativo orientado a la privacidad que separa Gateway y Workstation en máquinas virtuales y enruta el tráfico mediante Tor.",
+    "web_oficial":  "https://www.whonix.org/",
+    "fecha_origen":  "2012",
+    "fecha_origen":  "",
+    "autores":  [
+                    "Patrick Schleizer (fundador)"
+                ],
+    "distribucion_base":  "Kicksecure, basado en Debian",
+    "gestor_paquetes":  ["APT/dpkg"],
+    "fuentes": ["https://www.whonix.org/wiki/About", "https://www.whonix.org/wiki/History"]
+}

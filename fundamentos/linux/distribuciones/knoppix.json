@@ -1,0 +1,15 @@
+{
+    "nombre":  "KNOPPIX",
+    "descripcion":  "Sistema GNU/Linux arrancable como live, destinado a uso de escritorio, educación, rescate y demostraciones.",
+    "web_oficial":  "https://www.knopper.net/knoppix/index-en.html",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Debian (documentado para KNOPPIX 9.1)",
+    "gestor_paquetes":  [
+
+                        ],
+    "fuentes": ["https://www.knopper.net/knoppix/index-en.html", "https://www.knopper.net/knoppix/knoppix910-en.html"]
+}

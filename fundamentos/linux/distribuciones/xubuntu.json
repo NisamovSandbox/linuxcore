@@ -1,0 +1,13 @@
+{
+    "nombre":  "Xubuntu",
+    "descripcion":  "Sabor comunitario de Ubuntu que utiliza el escritorio Xfce, descrito por el proyecto como ligero y configurable.",
+    "web_oficial":  "https://xubuntu.org/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Ubuntu",
+    "gestor_paquetes":  ["APT/dpkg (heredado de Ubuntu)"],
+    "fuentes": ["https://xubuntu.org/", "https://xubuntu.org/releases/", "https://documentation.ubuntu.com/server/how-to/software/package-management/"]
+}

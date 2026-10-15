@@ -1,0 +1,12 @@
+{
+    "nombre":  "Linux Mint",
+    "descripcion":  "Distribución de escritorio cuyo proyecto prioriza una experiencia moderna, cómoda y fácil de usar; ofrece ediciones basadas en Ubuntu y Debian.",
+    "web_oficial":  "https://linuxmint.com/",
+    "fecha_origen":  "2006 (primera versión)",
+    "autores":  [
+                    "Clement Lefebvre"
+                ],
+    "distribucion_base":  "Ubuntu; también ofrece Linux Mint Debian Edition (LMDE)",
+    "gestor_paquetes":  ["APT/dpkg"],
+    "fuentes": ["https://linuxmint.com/about.php", "https://linuxmint.com/rel_virginia.php"]
+}

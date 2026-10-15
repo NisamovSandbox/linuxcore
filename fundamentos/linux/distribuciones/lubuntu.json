@@ -1,0 +1,13 @@
+{
+    "nombre":  "Lubuntu",
+    "descripcion":  "Sabor de Ubuntu que ofrece un escritorio ligero y configurable basado actualmente en LXQt.",
+    "web_oficial":  "https://lubuntu.me/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Ubuntu",
+    "gestor_paquetes":  ["APT/dpkg (heredado de Ubuntu)"],
+    "fuentes": ["https://lubuntu.me/", "https://help.ubuntu.com/community/AptGet/Howto"]
+}

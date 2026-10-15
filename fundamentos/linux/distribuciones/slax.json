@@ -1,0 +1,12 @@
+{
+    "nombre":  "Slax",
+    "descripcion":  "Sistema live compacto y portable, diseñado para arrancar desde USB, disco u otros medios.",
+    "web_oficial":  "https://www.slax.org/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "Tomas Matejicek (creador, según el proyecto)"
+                ],
+    "distribucion_base":  "Debian o Slackware, según la variante",
+    "gestor_paquetes":  ["APT (variante Debian)", "slackpkg (variante Slackware)"],
+    "fuentes": ["https://www.slax.org/introduction.php", "https://www.slax.org/"]
+}

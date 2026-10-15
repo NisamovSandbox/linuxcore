@@ -1,0 +1,13 @@
+{
+    "nombre":  "Ubuntu",
+    "descripcion":  "Distribución GNU/Linux desarrollada por Canonical y la comunidad, basada en Debian y disponible para equipos y servidores.",
+    "web_oficial":  "https://ubuntu.com/",
+    "fecha_origen":  "2004",
+    "autores":  [
+                    "Mark Shuttleworth",
+                    "Equipo de desarrolladores de Debian (colaboradores iniciales)"
+                ],
+    "distribucion_base":  "Debian",
+    "gestor_paquetes":  ["APT", "dpkg"],
+    "fuentes": ["https://ubuntu.com/about", "https://documentation.ubuntu.com/server/how-to/software/package-management/"]
+}

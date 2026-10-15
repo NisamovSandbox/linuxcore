@@ -1,0 +1,13 @@
+{
+    "nombre":  "Rescatux",
+    "descripcion":  "Sistema live basado en Debian para rescatar instalaciones GNU/Linux y Windows mediante asistentes de reparación.",
+    "web_oficial":  "https://www.supergrubdisk.org/rescatux/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Debian Live",
+    "gestor_paquetes":  ["APT/dpkg"],
+    "fuentes": ["https://www.supergrubdisk.org/rescatux/", "https://github.com/rescatux/rescatux"]
+}

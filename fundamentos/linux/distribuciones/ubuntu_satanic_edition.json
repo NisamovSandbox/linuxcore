@@ -1,0 +1,13 @@
+{
+    "nombre":  "Ubuntu Satanic Edition",
+    "descripcion":  "Remix histórico y paródico de Ubuntu.",
+    "web_oficial":  "https://web.archive.org/web/20090213150132/http://ubuntusatanic.org/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Ubuntu",
+    "gestor_paquetes":  ["APT/dpkg (heredado de Ubuntu)"],
+    "fuentes": ["https://web.archive.org/web/20090213150132/http://ubuntusatanic.org/", "https://documentation.ubuntu.com/server/how-to/software/package-management/"]
+}

@@ -1,0 +1,13 @@
+{
+    "nombre":  "CAT OS",
+    "descripcion":  "Distribución de escritorio basada en Arch Linux, de actualización continua y con instalador y perfiles de escritorio.",
+    "web_oficial":  "https://catos.info/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Arch Linux",
+    "gestor_paquetes":  ["pacman"],
+    "fuentes": ["https://catos.info/docs/intro", "https://catos.info/docs/package-management/repository"]
+}

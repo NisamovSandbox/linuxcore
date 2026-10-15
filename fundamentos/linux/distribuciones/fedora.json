@@ -1,0 +1,13 @@
+{
+    "nombre":  "Fedora Linux",
+    "descripcion":  "Distribución comunitaria de Linux que impulsa tecnologías y software libre y de código abierto.",
+    "web_oficial":  "https://fedoraproject.org/",
+    "fecha_origen":  "2003 (lanzamiento de Fedora Core)",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Independiente",
+    "gestor_paquetes":  ["DNF", "RPM"],
+    "fuentes": ["https://fedoraproject.org/wiki/History_of_Red_Hat_Linux", "https://docs.fedoraproject.org/en-US/quick-docs/dnf/"]
+}

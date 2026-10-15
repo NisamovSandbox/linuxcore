@@ -1,0 +1,13 @@
+{
+    "nombre":  "Alpine Linux",
+    "descripcion":  "Distribución independiente, ligera y orientada a la seguridad, basada en musl libc y BusyBox.",
+    "web_oficial":  "https://alpinelinux.org/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Independiente",
+    "gestor_paquetes":  ["apk"],
+    "fuentes": ["https://alpinelinux.org/about/", "https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper"]
+}

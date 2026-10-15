@@ -1,0 +1,12 @@
+{
+    "nombre":  "Ubuntu Christian Edition",
+    "descripcion":  "Distribución derivada de Ubuntu que incluía software cristiano y filtrado de contenido web.",
+    "web_oficial":  "https://ubuntuce.com/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "Jereme Hancock (creador y desarrollador)"
+                ],
+    "distribucion_base":  "Ubuntu",
+    "gestor_paquetes":  ["APT/dpkg (heredado de Ubuntu)"],
+    "fuentes": ["https://ubuntuce.com/", "https://documentation.ubuntu.com/server/how-to/software/package-management/"]
+}

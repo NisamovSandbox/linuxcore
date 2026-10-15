@@ -1,0 +1,12 @@
+{
+    "nombre":  "Debian",
+    "descripcion":  "Distribución de sistema operativo libre desarrollada por una comunidad de voluntarios.",
+    "web_oficial":  "https://www.debian.org/",
+    "fecha_origen":  "16 de agosto de 1993",
+    "autores":  [
+                    "Ian Murdock"
+                ],
+    "distribucion_base":  "Independiente",
+    "gestor_paquetes":  ["APT", "dpkg"],
+    "fuentes": ["https://www.debian.org/intro/about", "https://www.debian.org/doc/manuals/project-history/intro.en.html", "https://www.debian.org/doc/manuals/debian-faq/pkgtools.en.html"]
+}

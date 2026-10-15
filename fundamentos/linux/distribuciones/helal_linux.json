@@ -1,0 +1,13 @@
+{
+    "nombre":  "Helal Linux",
+    "descripcion":  "",
+    "web_oficial":  "http://helallinux.com/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "",
+    "gestor_paquetes":  [],
+    "fuentes": ["https://github.com/mhsabbagh/helallinux"]
+}

@@ -1,0 +1,13 @@
+{
+    "nombre":  "Ubuntu MATE",
+    "descripcion":  "Sabor de Ubuntu con el escritorio MATE, que ofrece una interfaz de escritorio tradicional.",
+    "web_oficial":  "https://ubuntu-mate.org/",
+    "fecha_origen":  "2014 (lanzamiento inaugural)",
+    "autores":  [
+                    "Martin Wimpress",
+                    "Alan Pope"
+                ],
+    "distribucion_base":  "Ubuntu",
+    "gestor_paquetes":  ["APT/dpkg (heredado de Ubuntu)"],
+    "fuentes": ["https://ubuntu-mate.org/about/", "https://ubuntu-mate.org/about/history/", "https://ubuntu-mate.org/about/team/", "https://documentation.ubuntu.com/server/how-to/software/package-management/"]
+}
