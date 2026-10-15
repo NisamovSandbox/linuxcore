@@ -67,7 +67,7 @@ El contenido se desarrolla en español y está orientado tanto al aprendizaje es
 ## LinuxCore.site
 <p align="center">
   <a href="https://linuxcore.site/">
-    <img src=".github/media/linuxcore-site-preview.png" alt="Vista previa de inuxCore Web, el explorador de comandos Linux" width="100%">
+    <img src=".github/media/linuxcore-site-preview.gif" alt="Vista previa de inuxCore Web | Comandos y Distribuciones" width="100%">
   </a>
 </p>
 <p align="center">

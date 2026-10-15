@@ -22,9 +22,6 @@
 *.ini linguist-detectable=true
 *.ini linguist-language=INI
 
-*.env linguist-detectable=true
-*.env linguist-language=Bash
-
 *.properties linguist-detectable=true
 *.properties linguist-language=Java-Properties
 

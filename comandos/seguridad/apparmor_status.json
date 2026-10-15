@@ -1,7 +1,7 @@
 {
-  "id": "apparmor_status",
-  "nombre": "apparmor_status",
-  "descripcion": "Muestra el estado de AppArmor, los perfiles cargados y cuántos están en modo enforce o complain; es una consulta de auditoría.",
+  "id": "apparmor",
+  "nombre": "apparmor",
+  "descripcion": "AppArmor, perfiles cargados y cuántos están en modo enforce o complain; es una consulta de auditoría.",
   "clasificacion": {
     "categoria": "seguridad",
     "subcategoria": "general",
@@ -10,7 +10,7 @@
     ]
   },
   "sintaxis": {
-    "principal": "apparmor_status",
+    "principal": "apparmor",
     "alternativas": []
   },
   "parametros": [
@@ -40,8 +40,8 @@
     }
   },
   "ejemplos": [
-    {"nombre": "Resumen del estado", "comando": "sudo apparmor_status", "descripcion": "Consulta perfiles y modos de AppArmor en el equipo administrado.", "resultado_esperado": "Resumen de perfiles cargados, enforce y complain."},
-    {"nombre": "Comprobar habilitación", "comando": "apparmor_status --enabled", "descripcion": "Comprueba si AppArmor está habilitado sin modificar políticas.", "resultado_esperado": "Indicación de habilitación o deshabilitación."}
+    {"nombre": "Resumen del estado", "comando": "sudo apparmor", "descripcion": "Consulta perfiles y modos de AppArmor en el equipo administrado.", "resultado_esperado": "Resumen de perfiles cargados, enforce y complain."},
+    {"nombre": "Comprobar habilitación", "comando": "apparmor --enabled", "descripcion": "Comprueba si AppArmor está habilitado sin modificar políticas.", "resultado_esperado": "Indicación de habilitación o deshabilitación."}
   ],
   "automatizacion": {
     "idempotente": true,
