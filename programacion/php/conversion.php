@@ -1,3 +1,4 @@
+<?php
 // Al asignar (int) a una variable, se convierte a entero, eliminando la parte sobrante (decimal, texto, etc.) y devolviendo el valor entero.
 
 $nota=7.50;

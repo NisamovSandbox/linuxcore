@@ -1,3 +1,4 @@
+<?php
 // declaracion de variables
 $variable = "Hola mundo";
 $variable2 = 5;

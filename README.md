@@ -72,7 +72,7 @@ El contenido se desarrolla en español y está orientado tanto al aprendizaje es
 </p>
 <p align="center">
   <a href="https://linuxcore.site/">
-    <strong>↗ Abrir LinuxCore Web</strong>
+    <strong>Abrir LinuxCore Web</strong>
   </a>
 </p>
 

@@ -1,3 +1,4 @@
+<?php
 //ejemplo 1
 $instituto = "Instituto Ejemplo";
 echo "Bienvenido al {$instituto}";
