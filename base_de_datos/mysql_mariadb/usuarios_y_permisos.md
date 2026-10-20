@@ -50,12 +50,26 @@ Los plugins de autenticación (`ed25519`, `pam`) y los requisitos SSL están en 
 
 ```sql
 CREATE USER 'nuevo_usuario'@'%' IDENTIFIED BY 'miclave123' PASSWORD EXPIRE;
+-- Un vez dentro de ese usuario, no permitirá ejecutar comnandos hasta que se haya cambiado su clave
 
 -- Al entrar con ese usuario
 SET PASSWORD = PASSWORD('TuNuevaContraseña');
 
 -- Probar permisos
 SHOW DATABASES;
+```
+
+## Politicas de clave
+
+```sql
+-- Politicas por defecto
+CREATE USER 'usuario'@'%' IDENTIFIED BY 'clave' PASSWORD EXPIRE DEFAULT;
+
+-- La clave no expirará
+CREATE USER 'usuario'@'%' IDENTIFIED BY 'clave' PASSWORD EXPIRE NEVER;
+
+-- Plazo antes de que la clave expire
+CREATE USER 'usuario'@'%' IDENTIFIED BY 'clave' PASSWORD EXPIRE INTERVAL 365 DAY;
 ```
 
 ## Límites de recursos
@@ -129,4 +143,14 @@ FLUSH PRIVILEGES;
 
 ```sql
 DROP USER 'nombre_usuario'@'host';
+```
+
+## Bloqueo de usuarios
+
+```sql
+-- Bloqueo de cuenta 
+ALTER USER 'usuario'@'%' ACCOUNT LOCK;
+
+-- Desbloqueo de cuenta
+ALTER USER 'usuario'@'%' ACCOUNT UNLOCK;
 ```

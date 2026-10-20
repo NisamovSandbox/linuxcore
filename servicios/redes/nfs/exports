@@ -1,0 +1,5 @@
+# /etc/exports
+
+/compartida1/subd1 *(ro,sync,no_root_squash,no_subtree_check)
+/compartida1/subd2 192.168.1.15(rw,sync,root_squash,subtree_check)
+/compartida/subd3 192.168.4/24(ro,sync,no_root_squash,no_subtree_check)
