@@ -1,11 +1,4 @@
 #!/usr/bin/env python3
-"""Valida archivos Markdown en el repositorio.
-
-Comprueba:
-- enlaces relativos que apunten a archivos inexistentes
-- espacios finales innecesarios
-- estructura básica de cabeceras (opcional)
-"""
 
 from __future__ import annotations
 

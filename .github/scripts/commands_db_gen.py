@@ -5,7 +5,7 @@ import os
 def build_commands_db():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     repo_root = os.path.abspath(os.path.join(script_dir, "../.."))
-    commands_path = os.path.join(repo_root, "comandos")
+    commands_path = os.path.join(repo_root, "json", "comandos")
     output_path = os.path.join(repo_root, ".github", "db", "commands.json")
 
     if not os.path.isdir(commands_path):

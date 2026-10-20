@@ -10,7 +10,7 @@ from pathlib import Path
 from jsonschema import Draft202012Validator, FormatChecker
 
 ROOT = Path(__file__).resolve().parents[2]
-COMMANDS_DIR = ROOT / "comandos"
+COMMANDS_DIR = ROOT / "json" / "comandos"
 SCHEMA_PATH = ROOT / ".github" / "schemas" / "comando.schema.json"
 
 

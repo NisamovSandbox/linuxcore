@@ -19,7 +19,7 @@
       "fuentes": [
         "https://www.absolutelinux.org/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/absolute.json"
+      "archivo_fuente": "json/distribuciones/absolute.json"
     },
     {
       "nombre": "Alpine Linux",
@@ -38,7 +38,7 @@
         "https://alpinelinux.org/about/",
         "https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/alpine.json"
+      "archivo_fuente": "json/distribuciones/alpine.json"
     },
     {
       "nombre": "Apartheid Linux",
@@ -52,7 +52,7 @@
       "distribucion_base": "",
       "gestor_paquetes": [],
       "fuentes": [],
-      "archivo_fuente": "fundamentos/linux/distribuciones/apartheid.json"
+      "archivo_fuente": "json/distribuciones/apartheid.json"
     },
     {
       "nombre": "Arch Linux",
@@ -70,7 +70,7 @@
         "https://archlinux.org/about/",
         "https://wiki.archlinux.org/title/Arch_Linux#History"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/arch.json"
+      "archivo_fuente": "json/distribuciones/arch.json"
     },
     {
       "nombre": "BackBox",
@@ -87,7 +87,7 @@
       "fuentes": [
         "https://linux.backbox.org/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/back_box.json"
+      "archivo_fuente": "json/distribuciones/back_box.json"
     },
     {
       "nombre": "Biebian Linux",
@@ -101,7 +101,7 @@
       "distribucion_base": "",
       "gestor_paquetes": [],
       "fuentes": [],
-      "archivo_fuente": "fundamentos/linux/distribuciones/biebian_linux.json"
+      "archivo_fuente": "json/distribuciones/biebian_linux.json"
     },
     {
       "nombre": "Bodhi Linux",
@@ -121,7 +121,7 @@
         "https://www.bodhilinux.com/w/what-is-bodhi-linux/",
         "https://www.bodhilinux.com/w/release-cycle/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/bodhi_linux.json"
+      "archivo_fuente": "json/distribuciones/bodhi_linux.json"
     },
     {
       "nombre": "CAINE",
@@ -140,7 +140,7 @@
         "https://www.caine-live.net/page6/files/category-release.html",
         "https://www.caine-live.net/page8/page8.html"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/caine_csi_linux.json"
+      "archivo_fuente": "json/distribuciones/caine_csi_linux.json"
     },
     {
       "nombre": "CAT OS",
@@ -159,7 +159,7 @@
         "https://catos.info/docs/intro",
         "https://catos.info/docs/package-management/repository"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/cat_os.json"
+      "archivo_fuente": "json/distribuciones/cat_os.json"
     },
     {
       "nombre": "CentOS Stream",
@@ -176,7 +176,7 @@
         "https://docs.centos.org/centos-stream-docs/",
         "https://www.centos.org/centos-stream/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/centos_stream.json"
+      "archivo_fuente": "json/distribuciones/centos_stream.json"
     },
     {
       "nombre": "Debian",
@@ -196,7 +196,7 @@
         "https://www.debian.org/doc/manuals/project-history/intro.en.html",
         "https://www.debian.org/doc/manuals/debian-faq/pkgtools.en.html"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/debian.json"
+      "archivo_fuente": "json/distribuciones/debian.json"
     },
     {
       "nombre": "DEFT Linux",
@@ -212,7 +212,7 @@
       "fuentes": [
         "https://www.deftlinux.net/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/deft.json"
+      "archivo_fuente": "json/distribuciones/deft.json"
     },
     {
       "nombre": "Drauger OS",
@@ -229,7 +229,7 @@
         "https://drauger.org/",
         "https://github.com/drauger-os-development"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/drauger.json"
+      "archivo_fuente": "json/distribuciones/drauger.json"
     },
     {
       "nombre": "Edubuntu",
@@ -249,7 +249,7 @@
         "https://edubuntu.org/news.html",
         "https://help.ubuntu.com/community/AptGet/Howto"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/edubuntu.json"
+      "archivo_fuente": "json/distribuciones/edubuntu.json"
     },
     {
       "nombre": "elementary OS",
@@ -266,7 +266,7 @@
         "https://elementary.io/",
         "https://github.com/elementary/os/wiki/OS-8-FAQ"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/elementary_os.json"
+      "archivo_fuente": "json/distribuciones/elementary_os.json"
     },
     {
       "nombre": "Fedora Linux",
@@ -286,7 +286,7 @@
         "https://fedoraproject.org/wiki/History_of_Red_Hat_Linux",
         "https://docs.fedoraproject.org/en-US/quick-docs/dnf/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/fedora.json"
+      "archivo_fuente": "json/distribuciones/fedora.json"
     },
     {
       "nombre": "gNewSense",
@@ -302,7 +302,7 @@
       "fuentes": [
         "https://www.gnewsense.org/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/gnewsense.json"
+      "archivo_fuente": "json/distribuciones/gnewsense.json"
     },
     {
       "nombre": "GoboLinux",
@@ -321,7 +321,7 @@
         "https://gobolinux.org/compile.html",
         "https://gobolinux.org/news/119.html"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/gobo_linux.json"
+      "archivo_fuente": "json/distribuciones/gobo_linux.json"
     },
     {
       "nombre": "GParted Live",
@@ -341,7 +341,7 @@
         "https://gparted.org/add-packages-in-gparted-live.php",
         "https://gparted.org/news.php"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/gparted.json"
+      "archivo_fuente": "json/distribuciones/gparted.json"
     },
     {
       "nombre": "Hannah Montana Linux",
@@ -357,7 +357,7 @@
       "fuentes": [
         "https://sourceforge.net/projects/hmlinux/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/hannah_montana_linux.json"
+      "archivo_fuente": "json/distribuciones/hannah_montana_linux.json"
     },
     {
       "nombre": "Helal Linux",
@@ -373,7 +373,7 @@
       "fuentes": [
         "https://github.com/mhsabbagh/helallinux"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/helal_linux.json"
+      "archivo_fuente": "json/distribuciones/helal_linux.json"
     },
     {
       "nombre": "Jewbuntu",
@@ -387,7 +387,7 @@
       "distribucion_base": "",
       "gestor_paquetes": [],
       "fuentes": [],
-      "archivo_fuente": "fundamentos/linux/distribuciones/jewbuntu.json"
+      "archivo_fuente": "json/distribuciones/jewbuntu.json"
     },
     {
       "nombre": "Kali Linux",
@@ -409,7 +409,7 @@
         "https://www.kali.org/about-us/",
         "https://www.kali.org/docs/introduction/press-release/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/kali.json"
+      "archivo_fuente": "json/distribuciones/kali.json"
     },
     {
       "nombre": "Kali Linux Purple",
@@ -428,7 +428,7 @@
         "https://www.kali.org/blog/kali-linux-2023-1-release/",
         "https://www.kali.org/docs/introduction/what-is-kali-linux/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/kali_purple.json"
+      "archivo_fuente": "json/distribuciones/kali_purple.json"
     },
     {
       "nombre": "KNOPPIX",
@@ -445,7 +445,7 @@
         "https://www.knopper.net/knoppix/index-en.html",
         "https://www.knopper.net/knoppix/knoppix910-en.html"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/knoppix.json"
+      "archivo_fuente": "json/distribuciones/knoppix.json"
     },
     {
       "nombre": "Kubuntu",
@@ -465,7 +465,7 @@
         "https://ubuntu.com/desktop/flavors",
         "https://help.ubuntu.com/community/AptGet/Howto"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/kubuntu.json"
+      "archivo_fuente": "json/distribuciones/kubuntu.json"
     },
     {
       "nombre": "Lesbian Linux",
@@ -479,7 +479,7 @@
       "distribucion_base": "",
       "gestor_paquetes": [],
       "fuentes": [],
-      "archivo_fuente": "fundamentos/linux/distribuciones/lesbian_linux.json"
+      "archivo_fuente": "json/distribuciones/lesbian_linux.json"
     },
     {
       "nombre": "Linux Mint",
@@ -497,7 +497,7 @@
         "https://linuxmint.com/about.php",
         "https://linuxmint.com/rel_virginia.php"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/linux_mint.json"
+      "archivo_fuente": "json/distribuciones/linux_mint.json"
     },
     {
       "nombre": "Lubuntu",
@@ -516,7 +516,7 @@
         "https://lubuntu.me/",
         "https://help.ubuntu.com/community/AptGet/Howto"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/lubuntu.json"
+      "archivo_fuente": "json/distribuciones/lubuntu.json"
     },
     {
       "nombre": "Manjaro Linux",
@@ -533,7 +533,7 @@
         "https://manjaro.org/",
         "https://github.com/manjaro"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/manjaro.json"
+      "archivo_fuente": "json/distribuciones/manjaro.json"
     },
     {
       "nombre": "muLinux",
@@ -549,7 +549,7 @@
       "fuentes": [
         "https://www.mulinux.org/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/mulinux.json"
+      "archivo_fuente": "json/distribuciones/mulinux.json"
     },
     {
       "nombre": "MX Linux",
@@ -569,7 +569,7 @@
         "https://github.com/MX-Linux",
         "https://mxlinux.org/wiki/system/aptitude/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/mx_linux.json"
+      "archivo_fuente": "json/distribuciones/mx_linux.json"
     },
     {
       "nombre": "Nitrux",
@@ -592,7 +592,7 @@
         "https://nxos.org/documentation/software-management/appfinder/",
         "https://nxos.org/documentation/core-concepts/philosophy/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/nitrux.json"
+      "archivo_fuente": "json/distribuciones/nitrux.json"
     },
     {
       "nombre": "Nyarch Linux",
@@ -611,7 +611,7 @@
         "https://nyarchlinux.moe/",
         "https://github.com/NyarchLinux/NyarchLinux"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/nyarch.json"
+      "archivo_fuente": "json/distribuciones/nyarch.json"
     },
     {
       "nombre": "Parrot OS",
@@ -628,7 +628,7 @@
       "fuentes": [
         "https://parrotsec.org/docs/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/parrot.json"
+      "archivo_fuente": "json/distribuciones/parrot.json"
     },
     {
       "nombre": "Pop!_OS",
@@ -646,7 +646,7 @@
       "fuentes": [
         "https://github.com/pop-os/pop"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/pop_os.json"
+      "archivo_fuente": "json/distribuciones/pop_os.json"
     },
     {
       "nombre": "Porteus",
@@ -666,7 +666,7 @@
         "https://www.porteus.org/info/features.html",
         "https://www.porteus.org/faq/desktop-faq.html"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/porteus.json"
+      "archivo_fuente": "json/distribuciones/porteus.json"
     },
     {
       "nombre": "Puppy Linux",
@@ -686,7 +686,7 @@
         "https://github.com/puppylinux-woof-CE/puppylinux-woof-CE.github.io/blob/master/faq.md",
         "https://github.com/puppylinux-woof-CE/woof-CE"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/puppy.json"
+      "archivo_fuente": "json/distribuciones/puppy.json"
     },
     {
       "nombre": "Qubes OS",
@@ -704,7 +704,7 @@
       "fuentes": [
         "https://doc.qubes-os.org/en/r4.3/user/templates/templates.html"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/qubes_os.json"
+      "archivo_fuente": "json/distribuciones/qubes_os.json"
     },
     {
       "nombre": "Red Hat Enterprise Linux",
@@ -724,7 +724,7 @@
         "https://www.redhat.com/en/about/brand/standards/history",
         "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/managing_software_with_the_dnf_tool/index"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/redhat.json"
+      "archivo_fuente": "json/distribuciones/redhat.json"
     },
     {
       "nombre": "Red Star OS",
@@ -738,7 +738,7 @@
       "distribucion_base": "",
       "gestor_paquetes": [],
       "fuentes": [],
-      "archivo_fuente": "fundamentos/linux/distribuciones/red_star_os.json"
+      "archivo_fuente": "json/distribuciones/red_star_os.json"
     },
     {
       "nombre": "RefreshOS",
@@ -759,7 +759,7 @@
         "https://www.refreshos.org/faq_support.html",
         "https://www.refreshos.org/about_support.html"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/refresh_os.json"
+      "archivo_fuente": "json/distribuciones/refresh_os.json"
     },
     {
       "nombre": "Rescatux",
@@ -778,7 +778,7 @@
         "https://www.supergrubdisk.org/rescatux/",
         "https://github.com/rescatux/rescatux"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/rescatux.json"
+      "archivo_fuente": "json/distribuciones/rescatux.json"
     },
     {
       "nombre": "RLSD Linux",
@@ -792,7 +792,7 @@
       "distribucion_base": "",
       "gestor_paquetes": [],
       "fuentes": [],
-      "archivo_fuente": "fundamentos/linux/distribuciones/rlsd_linux.json"
+      "archivo_fuente": "json/distribuciones/rlsd_linux.json"
     },
     {
       "nombre": "Slax",
@@ -811,7 +811,7 @@
         "https://www.slax.org/introduction.php",
         "https://www.slax.org/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/slax.json"
+      "archivo_fuente": "json/distribuciones/slax.json"
     },
     {
       "nombre": "Tails",
@@ -830,7 +830,7 @@
         "https://tails.net/doc/persistent_storage/additional_software/index.en.html",
         "https://blog.torproject.org/tor-tails-join-forces/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/tails.json"
+      "archivo_fuente": "json/distribuciones/tails.json"
     },
     {
       "nombre": "Tinfoil Hat Linux",
@@ -844,7 +844,7 @@
       "distribucion_base": "",
       "gestor_paquetes": [],
       "fuentes": [],
-      "archivo_fuente": "fundamentos/linux/distribuciones/tinfoil_hat_linux.json"
+      "archivo_fuente": "json/distribuciones/tinfoil_hat_linux.json"
     },
     {
       "nombre": "TUXEDO OS",
@@ -862,7 +862,7 @@
       "fuentes": [
         "https://www.tuxedocomputers.com/en/Infos/Help-Support/Frequently-asked-questions/What-is-the-differences-between-TUXEDO-OS-and-Ubuntu/Kubuntu-_1.tuxedo"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/tuxedo_os.json"
+      "archivo_fuente": "json/distribuciones/tuxedo_os.json"
     },
     {
       "nombre": "Ubuntu",
@@ -882,7 +882,7 @@
         "https://ubuntu.com/about",
         "https://documentation.ubuntu.com/server/how-to/software/package-management/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/ubuntu.json"
+      "archivo_fuente": "json/distribuciones/ubuntu.json"
     },
     {
       "nombre": "Ubuntu Budgie",
@@ -901,7 +901,7 @@
         "https://ubuntubudgie.org/team/",
         "https://documentation.ubuntu.com/server/how-to/software/package-management/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/ubuntu_budgie.json"
+      "archivo_fuente": "json/distribuciones/ubuntu_budgie.json"
     },
     {
       "nombre": "Ubuntu Christian Edition",
@@ -919,7 +919,7 @@
         "https://ubuntuce.com/",
         "https://documentation.ubuntu.com/server/how-to/software/package-management/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/ubuntu_christian_edition.json"
+      "archivo_fuente": "json/distribuciones/ubuntu_christian_edition.json"
     },
     {
       "nombre": "Ubuntu MATE",
@@ -940,7 +940,7 @@
         "https://ubuntu-mate.org/about/team/",
         "https://documentation.ubuntu.com/server/how-to/software/package-management/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/ubuntu_mate.json"
+      "archivo_fuente": "json/distribuciones/ubuntu_mate.json"
     },
     {
       "nombre": "Ubuntu Satanic Edition",
@@ -959,7 +959,7 @@
         "https://web.archive.org/web/20090213150132/http://ubuntusatanic.org/",
         "https://documentation.ubuntu.com/server/how-to/software/package-management/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/ubuntu_satanic_edition.json"
+      "archivo_fuente": "json/distribuciones/ubuntu_satanic_edition.json"
     },
     {
       "nombre": "Ubuntu Studio",
@@ -978,7 +978,7 @@
         "https://ubuntustudio.org/about/",
         "https://documentation.ubuntu.com/server/how-to/software/package-management/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/ubuntu_studio.json"
+      "archivo_fuente": "json/distribuciones/ubuntu_studio.json"
     },
     {
       "nombre": "Whonix",
@@ -996,7 +996,7 @@
         "https://www.whonix.org/wiki/About",
         "https://www.whonix.org/wiki/History"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/whonix.json"
+      "archivo_fuente": "json/distribuciones/whonix.json"
     },
     {
       "nombre": "Xubuntu",
@@ -1016,7 +1016,7 @@
         "https://xubuntu.org/releases/",
         "https://documentation.ubuntu.com/server/how-to/software/package-management/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/xubuntu.json"
+      "archivo_fuente": "json/distribuciones/xubuntu.json"
     },
     {
       "nombre": "Yellow Dog Linux",
@@ -1032,7 +1032,7 @@
       "fuentes": [
         "https://web.archive.org/web/20100103142228/http://yellowdoglinux.com/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/yellow_dog.json"
+      "archivo_fuente": "json/distribuciones/yellow_dog.json"
     },
     {
       "nombre": "Zenix Linux",
@@ -1046,7 +1046,7 @@
       "distribucion_base": "",
       "gestor_paquetes": [],
       "fuentes": [],
-      "archivo_fuente": "fundamentos/linux/distribuciones/zenix_linux.json"
+      "archivo_fuente": "json/distribuciones/zenix_linux.json"
     },
     {
       "nombre": "Zeroshell",
@@ -1061,7 +1061,7 @@
       "fuentes": [
         "https://web.archive.org/web/20191212033645/https://zeroshell.org/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/zero_shell.json"
+      "archivo_fuente": "json/distribuciones/zero_shell.json"
     },
     {
       "nombre": "Zorin OS",
@@ -1082,7 +1082,7 @@
         "https://zorin.com/about/",
         "https://zorin.com/os/details/"
       ],
-      "archivo_fuente": "fundamentos/linux/distribuciones/zorin_os.json"
+      "archivo_fuente": "json/distribuciones/zorin_os.json"
     }
   ]
 }

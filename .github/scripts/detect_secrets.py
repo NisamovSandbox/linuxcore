@@ -185,7 +185,7 @@ def get_git_files() -> list[Path]:
         raise RuntimeError(f"No se pudo consultar Git: {exc}") from exc
 
     raw_paths = result.stdout.decode("utf-8", errors="replace").split("\0")
-    return [ROOT / p for p in raw_paths if p]
+    return [ROOT / p for p in raw_paths if p and (ROOT / p).is_file()]
 
 def get_all_files() -> list[Path]:
     files: list[Path] = []
