@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[2]
-SOURCE_DIR = ROOT / "fundamentos" / "linux" / "distribuciones"
+SOURCE_DIR = ROOT / "json" / "distribuciones"
 OUTPUT_PATH = ROOT / ".github" / "db" / "distros.json"
 
 REQUIRED_STRING_FIELDS = (

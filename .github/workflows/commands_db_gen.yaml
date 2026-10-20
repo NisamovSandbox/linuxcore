@@ -7,8 +7,8 @@ concurrency:
 on:
   push:
     paths:
-      - 'comandos/**'
-      - 'fundamentos/linux/distribuciones/**'
+      - 'json/comandos/**'
+      - 'json/distribuciones/**'
       - '.github/schemas/**'
       - '.github/scripts/validate_commands.py'
       - '.github/scripts/commands_db_gen.py'

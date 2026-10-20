@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "total_registros": 428
+    "total_registros": 426
   },
   "comandos": [
     {
@@ -262,7 +262,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/badblocks.json"
+      "archivo_fuente": "json/comandos/almacenamiento/badblocks.json"
     },
     {
       "id": "blkid",
@@ -578,7 +578,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/blkid.json"
+      "archivo_fuente": "json/comandos/almacenamiento/blkid.json"
     },
     {
       "id": "blockdev",
@@ -938,7 +938,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/blockdev.json"
+      "archivo_fuente": "json/comandos/almacenamiento/blockdev.json"
     },
     {
       "id": "btrfs",
@@ -1303,7 +1303,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/btrfs.json"
+      "archivo_fuente": "json/comandos/almacenamiento/btrfs.json"
     },
     {
       "id": "cfdisk",
@@ -1634,7 +1634,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/cfdisk.json"
+      "archivo_fuente": "json/comandos/almacenamiento/cfdisk.json"
     },
     {
       "id": "debugfs",
@@ -1894,7 +1894,7 @@
         "rollback": "e2undo"
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/debugfs.json"
+      "archivo_fuente": "json/comandos/almacenamiento/debugfs.json"
     },
     {
       "id": "df",
@@ -2231,7 +2231,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/df.json"
+      "archivo_fuente": "json/comandos/almacenamiento/df.json"
     },
     {
       "id": "du",
@@ -2362,7 +2362,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/du.json"
+      "archivo_fuente": "json/comandos/almacenamiento/du.json"
     },
     {
       "id": "e2fsck",
@@ -2503,7 +2503,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/e2fsck.json"
+      "archivo_fuente": "json/comandos/almacenamiento/e2fsck.json"
     },
     {
       "id": "fatlabel",
@@ -2625,7 +2625,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/fatlabel.json"
+      "archivo_fuente": "json/comandos/almacenamiento/fatlabel.json"
     },
     {
       "id": "fdisk",
@@ -2751,7 +2751,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/fdisk.json"
+      "archivo_fuente": "json/comandos/almacenamiento/fdisk.json"
     },
     {
       "id": "findmnt",
@@ -2891,7 +2891,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/findmnt.json"
+      "archivo_fuente": "json/comandos/almacenamiento/findmnt.json"
     },
     {
       "id": "fio",
@@ -3057,7 +3057,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/fio.json"
+      "archivo_fuente": "json/comandos/almacenamiento/fio.json"
     },
     {
       "id": "fsck",
@@ -3207,7 +3207,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/fsck.json"
+      "archivo_fuente": "json/comandos/almacenamiento/fsck.json"
     },
     {
       "id": "iostat",
@@ -3338,7 +3338,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/iostat.json"
+      "archivo_fuente": "json/comandos/almacenamiento/iostat.json"
     },
     {
       "id": "losetup",
@@ -3482,7 +3482,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/losetup.json"
+      "archivo_fuente": "json/comandos/almacenamiento/losetup.json"
     },
     {
       "id": "lsns",
@@ -3623,7 +3623,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/lsns.json"
+      "archivo_fuente": "json/comandos/almacenamiento/lsns.json"
     },
     {
       "id": "lvcreate",
@@ -3770,7 +3770,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/lvcreate.json"
+      "archivo_fuente": "json/comandos/almacenamiento/lvcreate.json"
     },
     {
       "id": "lvdisplay",
@@ -3878,7 +3878,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/lvdisplay.json"
+      "archivo_fuente": "json/comandos/almacenamiento/lvdisplay.json"
     },
     {
       "id": "lvextend",
@@ -4011,7 +4011,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/lvextend.json"
+      "archivo_fuente": "json/comandos/almacenamiento/lvextend.json"
     },
     {
       "id": "lvreduce",
@@ -4146,7 +4146,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/lvreduce.json"
+      "archivo_fuente": "json/comandos/almacenamiento/lvreduce.json"
     },
     {
       "id": "lvremove",
@@ -4257,7 +4257,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/lvremove.json"
+      "archivo_fuente": "json/comandos/almacenamiento/lvremove.json"
     },
     {
       "id": "lvrename",
@@ -4380,7 +4380,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/lvrename.json"
+      "archivo_fuente": "json/comandos/almacenamiento/lvrename.json"
     },
     {
       "id": "lvresize",
@@ -4514,7 +4514,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/lvresize.json"
+      "archivo_fuente": "json/comandos/almacenamiento/lvresize.json"
     },
     {
       "id": "lvs",
@@ -4637,7 +4637,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/lvs.json"
+      "archivo_fuente": "json/comandos/almacenamiento/lvs.json"
     },
     {
       "id": "lvscan",
@@ -4732,7 +4732,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/lvscan.json"
+      "archivo_fuente": "json/comandos/almacenamiento/lvscan.json"
     },
     {
       "id": "mdadm",
@@ -4877,7 +4877,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/mdadm.json"
+      "archivo_fuente": "json/comandos/almacenamiento/mdadm.json"
     },
     {
       "id": "mkfs",
@@ -4995,7 +4995,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/mkfs.json"
+      "archivo_fuente": "json/comandos/almacenamiento/mkfs.json"
     },
     {
       "id": "mkswap",
@@ -5117,7 +5117,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/mkswap.json"
+      "archivo_fuente": "json/comandos/almacenamiento/mkswap.json"
     },
     {
       "id": "mount",
@@ -5267,7 +5267,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/mount.json"
+      "archivo_fuente": "json/comandos/almacenamiento/mount.json"
     },
     {
       "id": "nvme-cli",
@@ -5399,7 +5399,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/nvme-cli.json"
+      "archivo_fuente": "json/comandos/almacenamiento/nvme-cli.json"
     },
     {
       "id": "parted",
@@ -5527,7 +5527,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/parted.json"
+      "archivo_fuente": "json/comandos/almacenamiento/parted.json"
     },
     {
       "id": "partx",
@@ -5669,7 +5669,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/partx.json"
+      "archivo_fuente": "json/comandos/almacenamiento/partx.json"
     },
     {
       "id": "pvcreate",
@@ -5802,7 +5802,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/pvcreate.json"
+      "archivo_fuente": "json/comandos/almacenamiento/pvcreate.json"
     },
     {
       "id": "pvdisplay",
@@ -5921,7 +5921,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/pvdisplay.json"
+      "archivo_fuente": "json/comandos/almacenamiento/pvdisplay.json"
     },
     {
       "id": "pvmove",
@@ -6185,7 +6185,7 @@
         "rollback": "pvmove <pv_destino> <pv_origen>"
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/pvmove.json"
+      "archivo_fuente": "json/comandos/almacenamiento/pvmove.json"
     },
     {
       "id": "pvremove",
@@ -6477,7 +6477,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/pvremove.json"
+      "archivo_fuente": "json/comandos/almacenamiento/pvremove.json"
     },
     {
       "id": "pvs",
@@ -6997,7 +6997,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/pvs.json"
+      "archivo_fuente": "json/comandos/almacenamiento/pvs.json"
     },
     {
       "id": "quota",
@@ -7130,7 +7130,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/quota.json"
+      "archivo_fuente": "json/comandos/almacenamiento/quota.json"
     },
     {
       "id": "resize2fs",
@@ -7253,7 +7253,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/resize2fs.json"
+      "archivo_fuente": "json/comandos/almacenamiento/resize2fs.json"
     },
     {
       "id": "smartctl",
@@ -7392,7 +7392,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/smartctl.json"
+      "archivo_fuente": "json/comandos/almacenamiento/smartctl.json"
     },
     {
       "id": "swapoff",
@@ -7503,7 +7503,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/swapoff.json"
+      "archivo_fuente": "json/comandos/almacenamiento/swapoff.json"
     },
     {
       "id": "swapon",
@@ -7624,7 +7624,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/swapon.json"
+      "archivo_fuente": "json/comandos/almacenamiento/swapon.json"
     },
     {
       "id": "tune2fs",
@@ -7757,7 +7757,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/tune2fs.json"
+      "archivo_fuente": "json/comandos/almacenamiento/tune2fs.json"
     },
     {
       "id": "umount",
@@ -7891,7 +7891,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/umount.json"
+      "archivo_fuente": "json/comandos/almacenamiento/umount.json"
     },
     {
       "id": "vgchange",
@@ -8016,7 +8016,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/vgchange.json"
+      "archivo_fuente": "json/comandos/almacenamiento/vgchange.json"
     },
     {
       "id": "vgcreate",
@@ -8150,7 +8150,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/vgcreate.json"
+      "archivo_fuente": "json/comandos/almacenamiento/vgcreate.json"
     },
     {
       "id": "vgdisplay",
@@ -8247,7 +8247,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/vgdisplay.json"
+      "archivo_fuente": "json/comandos/almacenamiento/vgdisplay.json"
     },
     {
       "id": "vgextend",
@@ -8358,7 +8358,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/vgextend.json"
+      "archivo_fuente": "json/comandos/almacenamiento/vgextend.json"
     },
     {
       "id": "vgreduce",
@@ -8482,7 +8482,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/vgreduce.json"
+      "archivo_fuente": "json/comandos/almacenamiento/vgreduce.json"
     },
     {
       "id": "vgremove",
@@ -8593,7 +8593,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/vgremove.json"
+      "archivo_fuente": "json/comandos/almacenamiento/vgremove.json"
     },
     {
       "id": "vgs",
@@ -8715,7 +8715,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/vgs.json"
+      "archivo_fuente": "json/comandos/almacenamiento/vgs.json"
     },
     {
       "id": "vgscan",
@@ -8821,7 +8821,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/vgscan.json"
+      "archivo_fuente": "json/comandos/almacenamiento/vgscan.json"
     },
     {
       "id": "wipefs",
@@ -8966,7 +8966,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/wipefs.json"
+      "archivo_fuente": "json/comandos/almacenamiento/wipefs.json"
     },
     {
       "id": "xfs_info",
@@ -9052,7 +9052,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/xfs_info.json"
+      "archivo_fuente": "json/comandos/almacenamiento/xfs_info.json"
     },
     {
       "id": "xfs_repair",
@@ -9174,7 +9174,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/xfs_repair.json"
+      "archivo_fuente": "json/comandos/almacenamiento/xfs_repair.json"
     },
     {
       "id": "zfs",
@@ -9320,7 +9320,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/zfs.json"
+      "archivo_fuente": "json/comandos/almacenamiento/zfs.json"
     },
     {
       "id": "zpool",
@@ -9466,7 +9466,7 @@
         "rollback": null
       },
       "categoria_db": "almacenamiento",
-      "archivo_fuente": "comandos/almacenamiento/zpool.json"
+      "archivo_fuente": "json/comandos/almacenamiento/zpool.json"
     },
     {
       "id": "awk",
@@ -9588,7 +9588,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/awk.json"
+      "archivo_fuente": "json/comandos/archivos/awk.json"
     },
     {
       "id": "basename",
@@ -9701,7 +9701,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/basename.json"
+      "archivo_fuente": "json/comandos/archivos/basename.json"
     },
     {
       "id": "cat",
@@ -9822,7 +9822,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/cat.json"
+      "archivo_fuente": "json/comandos/archivos/cat.json"
     },
     {
       "id": "cd",
@@ -9934,7 +9934,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/cd.json"
+      "archivo_fuente": "json/comandos/archivos/cd.json"
     },
     {
       "id": "chattr",
@@ -10046,7 +10046,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/chattr.json"
+      "archivo_fuente": "json/comandos/archivos/chattr.json"
     },
     {
       "id": "chgrp",
@@ -10168,7 +10168,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/chgrp.json"
+      "archivo_fuente": "json/comandos/archivos/chgrp.json"
     },
     {
       "id": "cmp",
@@ -10278,7 +10278,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/cmp.json"
+      "archivo_fuente": "json/comandos/archivos/cmp.json"
     },
     {
       "id": "column",
@@ -10393,7 +10393,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/column.json"
+      "archivo_fuente": "json/comandos/archivos/column.json"
     },
     {
       "id": "comm",
@@ -10515,7 +10515,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/comm.json"
+      "archivo_fuente": "json/comandos/archivos/comm.json"
     },
     {
       "id": "cp",
@@ -10661,7 +10661,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/cp.json"
+      "archivo_fuente": "json/comandos/archivos/cp.json"
     },
     {
       "id": "cut",
@@ -10808,7 +10808,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/cut.json"
+      "archivo_fuente": "json/comandos/archivos/cut.json"
     },
     {
       "id": "diff",
@@ -10941,7 +10941,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/diff.json"
+      "archivo_fuente": "json/comandos/archivos/diff.json"
     },
     {
       "id": "dirname",
@@ -11029,7 +11029,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/dirname.json"
+      "archivo_fuente": "json/comandos/archivos/dirname.json"
     },
     {
       "id": "echo",
@@ -11143,7 +11143,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/echo.json"
+      "archivo_fuente": "json/comandos/archivos/echo.json"
     },
     {
       "id": "fallocate",
@@ -11266,7 +11266,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/fallocate.json"
+      "archivo_fuente": "json/comandos/archivos/fallocate.json"
     },
     {
       "id": "file",
@@ -11391,7 +11391,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/file.json"
+      "archivo_fuente": "json/comandos/archivos/file.json"
     },
     {
       "id": "find",
@@ -11542,7 +11542,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/find.json"
+      "archivo_fuente": "json/comandos/archivos/find.json"
     },
     {
       "id": "fmt",
@@ -11652,7 +11652,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/fmt.json"
+      "archivo_fuente": "json/comandos/archivos/fmt.json"
     },
     {
       "id": "fold",
@@ -11763,7 +11763,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/fold.json"
+      "archivo_fuente": "json/comandos/archivos/fold.json"
     },
     {
       "id": "grep",
@@ -11915,7 +11915,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/grep.json"
+      "archivo_fuente": "json/comandos/archivos/grep.json"
     },
     {
       "id": "head",
@@ -12036,7 +12036,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/head.json"
+      "archivo_fuente": "json/comandos/archivos/head.json"
     },
     {
       "id": "iconv",
@@ -12160,7 +12160,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/iconv.json"
+      "archivo_fuente": "json/comandos/archivos/iconv.json"
     },
     {
       "id": "install",
@@ -12297,7 +12297,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/install.json"
+      "archivo_fuente": "json/comandos/archivos/install.json"
     },
     {
       "id": "join",
@@ -12436,7 +12436,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/join.json"
+      "archivo_fuente": "json/comandos/archivos/join.json"
     },
     {
       "id": "less",
@@ -12557,7 +12557,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/less.json"
+      "archivo_fuente": "json/comandos/archivos/less.json"
     },
     {
       "id": "ln",
@@ -12683,7 +12683,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/ln.json"
+      "archivo_fuente": "json/comandos/archivos/ln.json"
     },
     {
       "id": "locate",
@@ -12806,7 +12806,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/locate.json"
+      "archivo_fuente": "json/comandos/archivos/locate.json"
     },
     {
       "id": "ls",
@@ -12951,7 +12951,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/ls.json"
+      "archivo_fuente": "json/comandos/archivos/ls.json"
     },
     {
       "id": "lsattr",
@@ -13072,7 +13072,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/lsattr.json"
+      "archivo_fuente": "json/comandos/archivos/lsattr.json"
     },
     {
       "id": "mkdir",
@@ -13183,7 +13183,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/mkdir.json"
+      "archivo_fuente": "json/comandos/archivos/mkdir.json"
     },
     {
       "id": "mkfifo",
@@ -13285,7 +13285,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/mkfifo.json"
+      "archivo_fuente": "json/comandos/archivos/mkfifo.json"
     },
     {
       "id": "mktemp",
@@ -13398,7 +13398,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/mktemp.json"
+      "archivo_fuente": "json/comandos/archivos/mktemp.json"
     },
     {
       "id": "mmv",
@@ -13499,7 +13499,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/mmv.json"
+      "archivo_fuente": "json/comandos/archivos/mmv.json"
     },
     {
       "id": "more",
@@ -13609,7 +13609,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/more.json"
+      "archivo_fuente": "json/comandos/archivos/more.json"
     },
     {
       "id": "mv",
@@ -13747,7 +13747,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/mv.json"
+      "archivo_fuente": "json/comandos/archivos/mv.json"
     },
     {
       "id": "namereply",
@@ -13831,7 +13831,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/namereply.json"
+      "archivo_fuente": "json/comandos/archivos/namereply.json"
     },
     {
       "id": "nautilus",
@@ -13930,7 +13930,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/nautilus.json"
+      "archivo_fuente": "json/comandos/archivos/nautilus.json"
     },
     {
       "id": "nl",
@@ -14062,7 +14062,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/nl.json"
+      "archivo_fuente": "json/comandos/archivos/nl.json"
     },
     {
       "id": "paste",
@@ -14163,7 +14163,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/paste.json"
+      "archivo_fuente": "json/comandos/archivos/paste.json"
     },
     {
       "id": "pr",
@@ -14297,7 +14297,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/pr.json"
+      "archivo_fuente": "json/comandos/archivos/pr.json"
     },
     {
       "id": "readlink",
@@ -14438,7 +14438,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/readlink.json"
+      "archivo_fuente": "json/comandos/archivos/readlink.json"
     },
     {
       "id": "realpath",
@@ -14574,7 +14574,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/realpath.json"
+      "archivo_fuente": "json/comandos/archivos/realpath.json"
     },
     {
       "id": "rename",
@@ -14664,7 +14664,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/rename.json"
+      "archivo_fuente": "json/comandos/archivos/rename.json"
     },
     {
       "id": "rev",
@@ -14752,7 +14752,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/rev.json"
+      "archivo_fuente": "json/comandos/archivos/rev.json"
     },
     {
       "id": "rm",
@@ -14893,7 +14893,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/rm.json"
+      "archivo_fuente": "json/comandos/archivos/rm.json"
     },
     {
       "id": "rmdir",
@@ -15003,7 +15003,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/rmdir.json"
+      "archivo_fuente": "json/comandos/archivos/rmdir.json"
     },
     {
       "id": "sed",
@@ -15138,7 +15138,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/sed.json"
+      "archivo_fuente": "json/comandos/archivos/sed.json"
     },
     {
       "id": "shasum",
@@ -15267,7 +15267,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/shasum.json"
+      "archivo_fuente": "json/comandos/archivos/shasum.json"
     },
     {
       "id": "shred",
@@ -15391,7 +15391,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/shred.json"
+      "archivo_fuente": "json/comandos/archivos/shred.json"
     },
     {
       "id": "sort",
@@ -15544,7 +15544,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/sort.json"
+      "archivo_fuente": "json/comandos/archivos/sort.json"
     },
     {
       "id": "split",
@@ -15691,7 +15691,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/split.json"
+      "archivo_fuente": "json/comandos/archivos/split.json"
     },
     {
       "id": "stat",
@@ -15816,7 +15816,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/stat.json"
+      "archivo_fuente": "json/comandos/archivos/stat.json"
     },
     {
       "id": "sync",
@@ -15919,7 +15919,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/sync.json"
+      "archivo_fuente": "json/comandos/archivos/sync.json"
     },
     {
       "id": "tac",
@@ -16032,7 +16032,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/tac.json"
+      "archivo_fuente": "json/comandos/archivos/tac.json"
     },
     {
       "id": "tail",
@@ -16170,7 +16170,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/tail.json"
+      "archivo_fuente": "json/comandos/archivos/tail.json"
     },
     {
       "id": "touch",
@@ -16311,7 +16311,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/touch.json"
+      "archivo_fuente": "json/comandos/archivos/touch.json"
     },
     {
       "id": "tr",
@@ -16427,7 +16427,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/tr.json"
+      "archivo_fuente": "json/comandos/archivos/tr.json"
     },
     {
       "id": "tree",
@@ -16549,7 +16549,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/tree.json"
+      "archivo_fuente": "json/comandos/archivos/tree.json"
     },
     {
       "id": "truncate",
@@ -16664,7 +16664,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/truncate.json"
+      "archivo_fuente": "json/comandos/archivos/truncate.json"
     },
     {
       "id": "uniq",
@@ -16817,7 +16817,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/uniq.json"
+      "archivo_fuente": "json/comandos/archivos/uniq.json"
     },
     {
       "id": "unlink",
@@ -16905,7 +16905,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/unlink.json"
+      "archivo_fuente": "json/comandos/archivos/unlink.json"
     },
     {
       "id": "updatedb",
@@ -16997,7 +16997,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/updatedb.json"
+      "archivo_fuente": "json/comandos/archivos/updatedb.json"
     },
     {
       "id": "wc",
@@ -17134,7 +17134,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/wc.json"
+      "archivo_fuente": "json/comandos/archivos/wc.json"
     },
     {
       "id": "xargs",
@@ -17270,7 +17270,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/xargs.json"
+      "archivo_fuente": "json/comandos/archivos/xargs.json"
     },
     {
       "id": "zgrep",
@@ -17405,7 +17405,7 @@
         "rollback": null
       },
       "categoria_db": "archivos",
-      "archivo_fuente": "comandos/archivos/zgrep.json"
+      "archivo_fuente": "json/comandos/archivos/zgrep.json"
     },
     {
       "id": "bzip2",
@@ -17623,7 +17623,7 @@
         "rollback": null
       },
       "categoria_db": "compresion",
-      "archivo_fuente": "comandos/compresion/bzip2.json"
+      "archivo_fuente": "json/comandos/compresion/bzip2.json"
     },
     {
       "id": "dd",
@@ -17819,7 +17819,7 @@
         "rollback": null
       },
       "categoria_db": "compresion",
-      "archivo_fuente": "comandos/compresion/dd.json"
+      "archivo_fuente": "json/comandos/compresion/dd.json"
     },
     {
       "id": "gzip",
@@ -18081,7 +18081,7 @@
         "rollback": null
       },
       "categoria_db": "compresion",
-      "archivo_fuente": "comandos/compresion/gzip.json"
+      "archivo_fuente": "json/comandos/compresion/gzip.json"
     },
     {
       "id": "rsync",
@@ -18365,7 +18365,7 @@
         "rollback": null
       },
       "categoria_db": "compresion",
-      "archivo_fuente": "comandos/compresion/rsync.json"
+      "archivo_fuente": "json/comandos/compresion/rsync.json"
     },
     {
       "id": "tar",
@@ -18594,7 +18594,7 @@
         "rollback": null
       },
       "categoria_db": "compresion",
-      "archivo_fuente": "comandos/compresion/tar.json"
+      "archivo_fuente": "json/comandos/compresion/tar.json"
     },
     {
       "id": "unzip",
@@ -18801,7 +18801,7 @@
         "rollback": null
       },
       "categoria_db": "compresion",
-      "archivo_fuente": "comandos/compresion/unzip.json"
+      "archivo_fuente": "json/comandos/compresion/unzip.json"
     },
     {
       "id": "xz",
@@ -19019,7 +19019,7 @@
         "rollback": null
       },
       "categoria_db": "compresion",
-      "archivo_fuente": "comandos/compresion/xz.json"
+      "archivo_fuente": "json/comandos/compresion/xz.json"
     },
     {
       "id": "zip",
@@ -19237,7 +19237,7 @@
         "rollback": null
       },
       "categoria_db": "compresion",
-      "archivo_fuente": "comandos/compresion/zip.json"
+      "archivo_fuente": "json/comandos/compresion/zip.json"
     },
     {
       "id": "zless",
@@ -19334,7 +19334,7 @@
         "rollback": null
       },
       "categoria_db": "compresion",
-      "archivo_fuente": "comandos/compresion/zless.json"
+      "archivo_fuente": "json/comandos/compresion/zless.json"
     },
     {
       "id": "arch",
@@ -19412,7 +19412,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/arch.json"
+      "archivo_fuente": "json/comandos/info_sistema/arch.json"
     },
     {
       "id": "cpuid",
@@ -19514,7 +19514,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/cpuid.json"
+      "archivo_fuente": "json/comandos/info_sistema/cpuid.json"
     },
     {
       "id": "dmidecode",
@@ -19629,7 +19629,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/dmidecode.json"
+      "archivo_fuente": "json/comandos/info_sistema/dmidecode.json"
     },
     {
       "id": "env",
@@ -19736,7 +19736,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/env.json"
+      "archivo_fuente": "json/comandos/info_sistema/env.json"
     },
     {
       "id": "fwupdmgr",
@@ -19846,7 +19846,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/fwupdmgr.json"
+      "archivo_fuente": "json/comandos/info_sistema/fwupdmgr.json"
     },
     {
       "id": "glxinfo",
@@ -19943,7 +19943,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/glxinfo.json"
+      "archivo_fuente": "json/comandos/info_sistema/glxinfo.json"
     },
     {
       "id": "hostname",
@@ -20051,7 +20051,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/hostname.json"
+      "archivo_fuente": "json/comandos/info_sistema/hostname.json"
     },
     {
       "id": "inxi",
@@ -20164,7 +20164,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/inxi.json"
+      "archivo_fuente": "json/comandos/info_sistema/inxi.json"
     },
     {
       "id": "ldd",
@@ -20272,7 +20272,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/ldd.json"
+      "archivo_fuente": "json/comandos/info_sistema/ldd.json"
     },
     {
       "id": "lscpu",
@@ -20376,7 +20376,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/lscpu.json"
+      "archivo_fuente": "json/comandos/info_sistema/lscpu.json"
     },
     {
       "id": "lsdev",
@@ -20458,7 +20458,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/lsdev.json"
+      "archivo_fuente": "json/comandos/info_sistema/lsdev.json"
     },
     {
       "id": "lshw",
@@ -20583,7 +20583,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/lshw.json"
+      "archivo_fuente": "json/comandos/info_sistema/lshw.json"
     },
     {
       "id": "lsinitramfs",
@@ -20667,7 +20667,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/lsinitramfs.json"
+      "archivo_fuente": "json/comandos/info_sistema/lsinitramfs.json"
     },
     {
       "id": "lsipc",
@@ -20780,7 +20780,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/lsipc.json"
+      "archivo_fuente": "json/comandos/info_sistema/lsipc.json"
     },
     {
       "id": "lslocks",
@@ -20887,7 +20887,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/lslocks.json"
+      "archivo_fuente": "json/comandos/info_sistema/lslocks.json"
     },
     {
       "id": "lsmod",
@@ -20969,7 +20969,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/lsmod.json"
+      "archivo_fuente": "json/comandos/info_sistema/lsmod.json"
     },
     {
       "id": "lspci",
@@ -21086,7 +21086,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/lspci.json"
+      "archivo_fuente": "json/comandos/info_sistema/lspci.json"
     },
     {
       "id": "lsscsi",
@@ -21201,7 +21201,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/lsscsi.json"
+      "archivo_fuente": "json/comandos/info_sistema/lsscsi.json"
     },
     {
       "id": "lstopo",
@@ -21315,7 +21315,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/lstopo.json"
+      "archivo_fuente": "json/comandos/info_sistema/lstopo.json"
     },
     {
       "id": "lsusb",
@@ -21435,7 +21435,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/lsusb.json"
+      "archivo_fuente": "json/comandos/info_sistema/lsusb.json"
     },
     {
       "id": "modinfo",
@@ -21550,7 +21550,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/modinfo.json"
+      "archivo_fuente": "json/comandos/info_sistema/modinfo.json"
     },
     {
       "id": "modprobe",
@@ -21659,7 +21659,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/modprobe.json"
+      "archivo_fuente": "json/comandos/info_sistema/modprobe.json"
     },
     {
       "id": "msr-tools",
@@ -21780,7 +21780,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/msr-tools.json"
+      "archivo_fuente": "json/comandos/info_sistema/msr-tools.json"
     },
     {
       "id": "numactl",
@@ -21899,7 +21899,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/numactl.json"
+      "archivo_fuente": "json/comandos/info_sistema/numactl.json"
     },
     {
       "id": "printenv",
@@ -21981,7 +21981,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/printenv.json"
+      "archivo_fuente": "json/comandos/info_sistema/printenv.json"
     },
     {
       "id": "screenfetch",
@@ -22074,7 +22074,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/screenfetch.json"
+      "archivo_fuente": "json/comandos/info_sistema/screenfetch.json"
     },
     {
       "id": "sysctl",
@@ -22197,7 +22197,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/sysctl.json"
+      "archivo_fuente": "json/comandos/info_sistema/sysctl.json"
     },
     {
       "id": "sysfsutils",
@@ -22316,7 +22316,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/sysfsutils.json"
+      "archivo_fuente": "json/comandos/info_sistema/sysfsutils.json"
     },
     {
       "id": "uname",
@@ -22429,7 +22429,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/uname.json"
+      "archivo_fuente": "json/comandos/info_sistema/uname.json"
     },
     {
       "id": "uptime",
@@ -22523,7 +22523,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/uptime.json"
+      "archivo_fuente": "json/comandos/info_sistema/uptime.json"
     },
     {
       "id": "virt-what",
@@ -22605,7 +22605,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/virt-what.json"
+      "archivo_fuente": "json/comandos/info_sistema/virt-what.json"
     },
     {
       "id": "xdpyinfo",
@@ -22712,7 +22712,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/xdpyinfo.json"
+      "archivo_fuente": "json/comandos/info_sistema/xdpyinfo.json"
     },
     {
       "id": "xrandr",
@@ -22835,7 +22835,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/xrandr.json"
+      "archivo_fuente": "json/comandos/info_sistema/xrandr.json"
     },
     {
       "id": "xwininfo",
@@ -22955,7 +22955,7 @@
         "rollback": null
       },
       "categoria_db": "info_sistema",
-      "archivo_fuente": "comandos/info_sistema/xwininfo.json"
+      "archivo_fuente": "json/comandos/info_sistema/xwininfo.json"
     },
     {
       "id": "alias",
@@ -23055,7 +23055,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/alias.json"
+      "archivo_fuente": "json/comandos/miscelaneo/alias.json"
     },
     {
       "id": "banner",
@@ -23133,7 +23133,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/banner.json"
+      "archivo_fuente": "json/comandos/miscelaneo/banner.json"
     },
     {
       "id": "bat",
@@ -23281,7 +23281,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/bat.json"
+      "archivo_fuente": "json/comandos/miscelaneo/bat.json"
     },
     {
       "id": "bc",
@@ -23414,7 +23414,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/bc.json"
+      "archivo_fuente": "json/comandos/miscelaneo/bc.json"
     },
     {
       "id": "cal",
@@ -23549,7 +23549,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/cal.json"
+      "archivo_fuente": "json/comandos/miscelaneo/cal.json"
     },
     {
       "id": "clear",
@@ -23638,7 +23638,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/clear.json"
+      "archivo_fuente": "json/comandos/miscelaneo/clear.json"
     },
     {
       "id": "cmatrix",
@@ -23790,7 +23790,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/cmatrix.json"
+      "archivo_fuente": "json/comandos/miscelaneo/cmatrix.json"
     },
     {
       "id": "cowsay",
@@ -23923,7 +23923,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/cowsay.json"
+      "archivo_fuente": "json/comandos/miscelaneo/cowsay.json"
     },
     {
       "id": "date",
@@ -24064,7 +24064,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/date.json"
+      "archivo_fuente": "json/comandos/miscelaneo/date.json"
     },
     {
       "id": "direnv",
@@ -24205,7 +24205,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/direnv.json"
+      "archivo_fuente": "json/comandos/miscelaneo/direnv.json"
     },
     {
       "id": "duf",
@@ -24342,7 +24342,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/duf.json"
+      "archivo_fuente": "json/comandos/miscelaneo/duf.json"
     },
     {
       "id": "exa",
@@ -24483,7 +24483,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/exa.json"
+      "archivo_fuente": "json/comandos/miscelaneo/exa.json"
     },
     {
       "id": "export",
@@ -24583,7 +24583,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/export.json"
+      "archivo_fuente": "json/comandos/miscelaneo/export.json"
     },
     {
       "id": "factor",
@@ -24683,7 +24683,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/factor.json"
+      "archivo_fuente": "json/comandos/miscelaneo/factor.json"
     },
     {
       "id": "figlet",
@@ -24825,7 +24825,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/figlet.json"
+      "archivo_fuente": "json/comandos/miscelaneo/figlet.json"
     },
     {
       "id": "fortune",
@@ -24984,7 +24984,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/fortune.json"
+      "archivo_fuente": "json/comandos/miscelaneo/fortune.json"
     },
     {
       "id": "fzf",
@@ -25139,7 +25139,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/fzf.json"
+      "archivo_fuente": "json/comandos/miscelaneo/fzf.json"
     },
     {
       "id": "history",
@@ -25272,7 +25272,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/history.json"
+      "archivo_fuente": "json/comandos/miscelaneo/history.json"
     },
     {
       "id": "hollywood",
@@ -25350,202 +25350,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/hollywood.json"
-    },
-    {
-      "id": "journalctl",
-      "nombre": "journalctl",
-      "descripcion": "Consulta y filtra registros almacenados por systemd-journald, incluidos registros del sistema, servicios, arranque y kernel.",
-      "clasificacion": {
-        "categoria": "miscelaneo",
-        "subcategoria": "general",
-        "tags": [
-          "miscelaneo"
-        ]
-      },
-      "sintaxis": {
-        "principal": "journalctl [opciones] [coincidencias ...]",
-        "alternativas": []
-      },
-      "parametros": [
-        {
-          "flag": "-u",
-          "argumento": "unidad",
-          "tipo": "string",
-          "requerido": false,
-          "default": null,
-          "valores": [],
-          "descripcion": "Filtra los mensajes asociados a una unidad systemd.",
-          "conflictos": [],
-          "requiere": []
-        },
-        {
-          "flag": "-b",
-          "argumento": "[id|desplazamiento]",
-          "tipo": "string",
-          "requerido": false,
-          "default": null,
-          "valores": [],
-          "descripcion": "Muestra registros del arranque actual o del arranque identificado/relativo.",
-          "conflictos": [],
-          "requiere": []
-        },
-        {
-          "flag": "-f",
-          "argumento": null,
-          "tipo": "boolean",
-          "requerido": false,
-          "default": null,
-          "valores": [],
-          "descripcion": "Sigue los registros nuevos, como tail -f.",
-          "conflictos": [],
-          "requiere": []
-        },
-        {
-          "flag": "-n",
-          "argumento": "cantidad",
-          "tipo": "integer",
-          "requerido": false,
-          "default": "10",
-          "valores": [],
-          "descripcion": "Limita la salida a las últimas entradas indicadas.",
-          "conflictos": [],
-          "requiere": []
-        },
-        {
-          "flag": "-p",
-          "argumento": "prioridad",
-          "tipo": "string",
-          "requerido": false,
-          "default": null,
-          "valores": [
-            "emerg",
-            "alert",
-            "crit",
-            "err",
-            "warning",
-            "notice",
-            "info",
-            "debug"
-          ],
-          "descripcion": "Filtra por la prioridad indicada o por prioridades más graves.",
-          "conflictos": [],
-          "requiere": []
-        },
-        {
-          "flag": "--since",
-          "argumento": "fecha",
-          "tipo": "string",
-          "requerido": false,
-          "default": null,
-          "valores": [],
-          "descripcion": "Muestra entradas desde una fecha o expresión temporal admitida.",
-          "conflictos": [],
-          "requiere": []
-        },
-        {
-          "flag": "--until",
-          "argumento": "fecha",
-          "tipo": "string",
-          "requerido": false,
-          "default": null,
-          "valores": [],
-          "descripcion": "Limita la salida hasta la fecha o expresión temporal indicada.",
-          "conflictos": [],
-          "requiere": []
-        },
-        {
-          "flag": "-k",
-          "argumento": null,
-          "tipo": "boolean",
-          "requerido": false,
-          "default": null,
-          "valores": [],
-          "descripcion": "Muestra mensajes del kernel.",
-          "conflictos": [],
-          "requiere": []
-        },
-        {
-          "flag": "-o",
-          "argumento": "formato",
-          "tipo": "string",
-          "requerido": false,
-          "default": "short",
-          "valores": [
-            "short",
-            "short-iso",
-            "json",
-            "json-pretty",
-            "cat",
-            "verbose"
-          ],
-          "descripcion": "Selecciona el formato de presentación de las entradas.",
-          "conflictos": [],
-          "requiere": []
-        },
-        {
-          "flag": "--no-pager",
-          "argumento": null,
-          "tipo": "boolean",
-          "requerido": false,
-          "default": null,
-          "valores": [],
-          "descripcion": "No canaliza la salida al paginador.",
-          "conflictos": [],
-          "requiere": []
-        }
-      ],
-      "requisitos": {
-        "permisos": [
-          "Lectura del journal; puede requerir pertenecer a systemd-journal/adm o usar root según la política del sistema"
-        ],
-        "dependencias": [],
-        "paquetes": []
-      },
-      "seguridad": {
-        "nivel": "medio",
-        "destructivo": false,
-        "requiere_root": false,
-        "requiere_confirmacion": false,
-        "advertencias": [
-          "Los registros pueden contener datos personales, direcciones IP o secretos expuestos por servicios; el acceso a registros de sistema puede requerir permisos de grupo o root."
-        ]
-      },
-      "instalacion": {
-        "instalable": true,
-        "metodo": "Viene con systemd; solo está disponible en sistemas que usan journald.",
-        "paquetes": {
-          "debian_ubuntu": "systemd (incluido en sistemas compatibles)",
-          "arch_linux": "systemd (incluido en el sistema)",
-          "rhel_centos": "systemd (incluido en el sistema)"
-        }
-      },
-      "ejemplos": [
-        {
-          "nombre": "Ver últimos mensajes de un servicio",
-          "comando": "journalctl -u ssh.service -n 50 --no-pager",
-          "descripcion": "Muestra hasta 50 entradas recientes de la unidad SSH sin abrir paginador.",
-          "resultado_esperado": "Registros de ssh.service en orden cronológico de presentación."
-        },
-        {
-          "nombre": "Seguir registros del arranque actual",
-          "comando": "journalctl -b -f",
-          "descripcion": "Muestra registros desde el arranque actual y sigue las nuevas entradas.",
-          "resultado_esperado": "Flujo continuo de mensajes; termine con Ctrl+C."
-        }
-      ],
-      "automatizacion": {
-        "idempotente": false,
-        "interactivo": false,
-        "apto_script": true,
-        "variables": [],
-        "validaciones": [
-          "Confirme que el sistema use systemd-journald y tenga permisos para consultar el ámbito requerido; use --no-pager en automatizaciones."
-        ],
-        "rollback": null
-      },
-      "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/journalctl.json"
+      "archivo_fuente": "json/comandos/miscelaneo/hollywood.json"
     },
     {
       "id": "jq",
@@ -25700,7 +25505,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/jq.json"
+      "archivo_fuente": "json/comandos/miscelaneo/jq.json"
     },
     {
       "id": "logger",
@@ -25844,7 +25649,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/logger.json"
+      "archivo_fuente": "json/comandos/miscelaneo/logger.json"
     },
     {
       "id": "logsave",
@@ -25966,7 +25771,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/logsave.json"
+      "archivo_fuente": "json/comandos/miscelaneo/logsave.json"
     },
     {
       "id": "look",
@@ -26088,7 +25893,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/look.json"
+      "archivo_fuente": "json/comandos/miscelaneo/look.json"
     },
     {
       "id": "man",
@@ -26236,7 +26041,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/man.json"
+      "archivo_fuente": "json/comandos/miscelaneo/man.json"
     },
     {
       "id": "manpath",
@@ -26358,7 +26163,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/manpath.json"
+      "archivo_fuente": "json/comandos/miscelaneo/manpath.json"
     },
     {
       "id": "ncdu",
@@ -26504,7 +26309,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/ncdu.json"
+      "archivo_fuente": "json/comandos/miscelaneo/ncdu.json"
     },
     {
       "id": "neofetch",
@@ -26637,7 +26442,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/neofetch.json"
+      "archivo_fuente": "json/comandos/miscelaneo/neofetch.json"
     },
     {
       "id": "proxychains",
@@ -26748,7 +26553,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/proxychains.json"
+      "archivo_fuente": "json/comandos/miscelaneo/proxychains.json"
     },
     {
       "id": "pv",
@@ -26903,7 +26708,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/pv.json"
+      "archivo_fuente": "json/comandos/miscelaneo/pv.json"
     },
     {
       "id": "pwd",
@@ -26994,7 +26799,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/pwd.json"
+      "archivo_fuente": "json/comandos/miscelaneo/pwd.json"
     },
     {
       "id": "screen",
@@ -27138,7 +26943,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/screen.json"
+      "archivo_fuente": "json/comandos/miscelaneo/screen.json"
     },
     {
       "id": "script",
@@ -27282,7 +27087,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/script.json"
+      "archivo_fuente": "json/comandos/miscelaneo/script.json"
     },
     {
       "id": "scriptreplay",
@@ -27404,7 +27209,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/scriptreplay.json"
+      "archivo_fuente": "json/comandos/miscelaneo/scriptreplay.json"
     },
     {
       "id": "shopt",
@@ -27541,7 +27346,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/shopt.json"
+      "archivo_fuente": "json/comandos/miscelaneo/shopt.json"
     },
     {
       "id": "sl",
@@ -27652,7 +27457,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/sl.json"
+      "archivo_fuente": "json/comandos/miscelaneo/sl.json"
     },
     {
       "id": "tee",
@@ -27768,7 +27573,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/tee.json"
+      "archivo_fuente": "json/comandos/miscelaneo/tee.json"
     },
     {
       "id": "time",
@@ -27857,7 +27662,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/time.json"
+      "archivo_fuente": "json/comandos/miscelaneo/time.json"
     },
     {
       "id": "tldr",
@@ -27995,7 +27800,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/tldr.json"
+      "archivo_fuente": "json/comandos/miscelaneo/tldr.json"
     },
     {
       "id": "tmate",
@@ -28132,7 +27937,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/tmate.json"
+      "archivo_fuente": "json/comandos/miscelaneo/tmate.json"
     },
     {
       "id": "tmux",
@@ -28291,7 +28096,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/tmux.json"
+      "archivo_fuente": "json/comandos/miscelaneo/tmux.json"
     },
     {
       "id": "toilet",
@@ -28424,7 +28229,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/toilet.json"
+      "archivo_fuente": "json/comandos/miscelaneo/toilet.json"
     },
     {
       "id": "units",
@@ -28570,7 +28375,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/units.json"
+      "archivo_fuente": "json/comandos/miscelaneo/units.json"
     },
     {
       "id": "yes",
@@ -28648,7 +28453,7 @@
         "rollback": null
       },
       "categoria_db": "miscelaneo",
-      "archivo_fuente": "comandos/miscelaneo/yes.json"
+      "archivo_fuente": "json/comandos/miscelaneo/yes.json"
     },
     {
       "id": "actualizacion_con_instalacion_de_paquetes",
@@ -28732,7 +28537,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/actualizacion_con_instalacion_de_paquetes.json"
+      "archivo_fuente": "json/comandos/monolinea/actualizacion_con_instalacion_de_paquetes.json"
     },
     {
       "id": "borrar_espacio_vacio_de_archivo",
@@ -28814,7 +28619,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/borrar_espacio_vacio_de_archivo.json"
+      "archivo_fuente": "json/comandos/monolinea/borrar_espacio_vacio_de_archivo.json"
     },
     {
       "id": "buscar_archivos_modificados_recientemente",
@@ -28917,7 +28722,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/buscar_archivos_modificados_recientemente.json"
+      "archivo_fuente": "json/comandos/monolinea/buscar_archivos_modificados_recientemente.json"
     },
     {
       "id": "comando_previo",
@@ -28999,7 +28804,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/comando_previo.json"
+      "archivo_fuente": "json/comandos/monolinea/comando_previo.json"
     },
     {
       "id": "comando_previo_con_superusuario",
@@ -29081,7 +28886,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/comando_previo_con_superusuario.json"
+      "archivo_fuente": "json/comandos/monolinea/comando_previo_con_superusuario.json"
     },
     {
       "id": "comprobacion_velocidad_disco",
@@ -29164,7 +28969,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/comprobacion_velocidad_disco.json"
+      "archivo_fuente": "json/comandos/monolinea/comprobacion_velocidad_disco.json"
     },
     {
       "id": "comprobar_cabeceras_http",
@@ -29256,7 +29061,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/comprobar_cabeceras_http.json"
+      "archivo_fuente": "json/comandos/monolinea/comprobar_cabeceras_http.json"
     },
     {
       "id": "comprobar_espacio_y_inodos",
@@ -29345,7 +29150,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/comprobar_espacio_y_inodos.json"
+      "archivo_fuente": "json/comandos/monolinea/comprobar_espacio_y_inodos.json"
     },
     {
       "id": "consultar_errores_kernel_recientes",
@@ -29457,7 +29262,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/consultar_errores_kernel_recientes.json"
+      "archivo_fuente": "json/comandos/monolinea/consultar_errores_kernel_recientes.json"
     },
     {
       "id": "consultar_resolucion_dns",
@@ -29547,7 +29352,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/consultar_resolucion_dns.json"
+      "archivo_fuente": "json/comandos/monolinea/consultar_resolucion_dns.json"
     },
     {
       "id": "copia_con_barra_de_progreso",
@@ -29641,7 +29446,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/copia_con_barra_de_progreso.json"
+      "archivo_fuente": "json/comandos/monolinea/copia_con_barra_de_progreso.json"
     },
     {
       "id": "copia_seguridad_rapida",
@@ -29724,7 +29529,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/copia_seguridad_rapida.json"
+      "archivo_fuente": "json/comandos/monolinea/copia_seguridad_rapida.json"
     },
     {
       "id": "crear_cien_directorios",
@@ -29806,7 +29611,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/crear_cien_directorios.json"
+      "archivo_fuente": "json/comandos/monolinea/crear_cien_directorios.json"
     },
     {
       "id": "crear_respaldo_comprimido_con_fecha",
@@ -29904,7 +29709,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/crear_respaldo_comprimido_con_fecha.json"
+      "archivo_fuente": "json/comandos/monolinea/crear_respaldo_comprimido_con_fecha.json"
     },
     {
       "id": "descargar_video_youtube",
@@ -29987,7 +29792,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/descargar_video_youtube.json"
+      "archivo_fuente": "json/comandos/monolinea/descargar_video_youtube.json"
     },
     {
       "id": "eliminacion_por_filtro_de_extension",
@@ -30070,7 +29875,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/eliminacion_por_filtro_de_extension.json"
+      "archivo_fuente": "json/comandos/monolinea/eliminacion_por_filtro_de_extension.json"
     },
     {
       "id": "eliminar_todo_archivo_recursivamente_con_cierta_extension",
@@ -30164,7 +29969,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/eliminar_todo_archivo_recursivamente_con_cierta_extension.json"
+      "archivo_fuente": "json/comandos/monolinea/eliminar_todo_archivo_recursivamente_con_cierta_extension.json"
     },
     {
       "id": "forkbomb",
@@ -30247,7 +30052,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/forkbomb.json"
+      "archivo_fuente": "json/comandos/monolinea/forkbomb.json"
     },
     {
       "id": "generar_clave_segura",
@@ -30327,7 +30132,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/generar_clave_segura.json"
+      "archivo_fuente": "json/comandos/monolinea/generar_clave_segura.json"
     },
     {
       "id": "limpiar_historial_de_terminal_de_sesion_actuall",
@@ -30409,7 +30214,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/limpiar_historial_de_terminal_de_sesion_actuall.json"
+      "archivo_fuente": "json/comandos/monolinea/limpiar_historial_de_terminal_de_sesion_actual.json"
     },
     {
       "id": "limpieza_residual_linea_produccion",
@@ -30494,7 +30299,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/limpieza_residual.json"
+      "archivo_fuente": "json/comandos/monolinea/limpieza_residual.json"
     },
     {
       "id": "listar_unidades_systemd_fallidas",
@@ -30591,7 +30396,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/listar_unidades_systemd_fallidas.json"
+      "archivo_fuente": "json/comandos/monolinea/listar_unidades_systemd_fallidas.json"
     },
     {
       "id": "localizar_enlaces_simbolicos_huerfanos",
@@ -30671,7 +30476,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/localizar_enlaces_simbolicos_huerfanos.json"
+      "archivo_fuente": "json/comandos/monolinea/localizar_enlaces_simbolicos_huerfanos.json"
     },
     {
       "id": "montaje_servidor_local_http",
@@ -30765,7 +30570,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/montaje_servidor_local_http.json"
+      "archivo_fuente": "json/comandos/monolinea/montaje_servidor_local_http.json"
     },
     {
       "id": "mostrar_clima",
@@ -30848,7 +30653,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/mostrar_clima.json"
+      "archivo_fuente": "json/comandos/monolinea/mostrar_clima.json"
     },
     {
       "id": "mostrar_directorios_archivos_mas_grandes_del_sistema",
@@ -30940,7 +30745,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/mostrar_directorios_archivos_mas_grandes_del_sistema.json"
+      "archivo_fuente": "json/comandos/monolinea/mostrar_directorios_archivos_mas_grandes_del_sistema.json"
     },
     {
       "id": "mostrar_puertos_abiertos",
@@ -31020,7 +30825,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/mostrar_puertos_abiertos.json"
+      "archivo_fuente": "json/comandos/monolinea/mostrar_puertos_abiertos.json"
     },
     {
       "id": "ping_con_salida_informacion",
@@ -31114,7 +30919,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/ping_con_salida_informacion.json"
+      "archivo_fuente": "json/comandos/monolinea/ping_con_salida_informacion.json"
     },
     {
       "id": "recargar_configuracion_shell",
@@ -31196,7 +31001,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/recargar_configuracion_shell.json"
+      "archivo_fuente": "json/comandos/monolinea/recargar_configuracion_shell.json"
     },
     {
       "id": "revisar_existencia_comando",
@@ -31276,7 +31081,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/revisar_existencia_comando.json"
+      "archivo_fuente": "json/comandos/monolinea/revisar_existencia_comando.json"
     },
     {
       "id": "ver_youtube_en_terminal",
@@ -31359,7 +31164,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/ver_youtube_en_terminal.json"
+      "archivo_fuente": "json/comandos/monolinea/ver_youtube_en_terminal.json"
     },
     {
       "id": "verificar_manifest_sha256",
@@ -31451,7 +31256,7 @@
         "rollback": null
       },
       "categoria_db": "monolinea",
-      "archivo_fuente": "comandos/monolinea/verificar_manifest_sha256.json"
+      "archivo_fuente": "json/comandos/monolinea/verificar_manifest_sha256.json"
     },
     {
       "id": "apk",
@@ -31595,7 +31400,7 @@
         "rollback": null
       },
       "categoria_db": "paquetes",
-      "archivo_fuente": "comandos/paquetes/apk.json"
+      "archivo_fuente": "json/comandos/paquetes/apk.json"
     },
     {
       "id": "apt",
@@ -31763,7 +31568,7 @@
         "rollback": null
       },
       "categoria_db": "paquetes",
-      "archivo_fuente": "comandos/paquetes/apt.json"
+      "archivo_fuente": "json/comandos/paquetes/apt.json"
     },
     {
       "id": "apt-cache",
@@ -31915,7 +31720,7 @@
         "rollback": null
       },
       "categoria_db": "paquetes",
-      "archivo_fuente": "comandos/paquetes/apt-cache.json"
+      "archivo_fuente": "json/comandos/paquetes/apt-cache.json"
     },
     {
       "id": "apt-get",
@@ -32081,7 +31886,7 @@
         "rollback": null
       },
       "categoria_db": "paquetes",
-      "archivo_fuente": "comandos/paquetes/apt-get.json"
+      "archivo_fuente": "json/comandos/paquetes/apt-get.json"
     },
     {
       "id": "dnf",
@@ -32257,7 +32062,7 @@
         "rollback": null
       },
       "categoria_db": "paquetes",
-      "archivo_fuente": "comandos/paquetes/dnf.json"
+      "archivo_fuente": "json/comandos/paquetes/dnf.json"
     },
     {
       "id": "dpkg",
@@ -32411,7 +32216,7 @@
         "rollback": null
       },
       "categoria_db": "paquetes",
-      "archivo_fuente": "comandos/paquetes/dpkg.json"
+      "archivo_fuente": "json/comandos/paquetes/dpkg.json"
     },
     {
       "id": "flatpak",
@@ -32594,7 +32399,7 @@
         "rollback": null
       },
       "categoria_db": "paquetes",
-      "archivo_fuente": "comandos/paquetes/flatpak.json"
+      "archivo_fuente": "json/comandos/paquetes/flatpak.json"
     },
     {
       "id": "pacman",
@@ -32767,7 +32572,7 @@
         "rollback": null
       },
       "categoria_db": "paquetes",
-      "archivo_fuente": "comandos/paquetes/pacman.json"
+      "archivo_fuente": "json/comandos/paquetes/pacman.json"
     },
     {
       "id": "rpm",
@@ -32950,7 +32755,7 @@
         "rollback": null
       },
       "categoria_db": "paquetes",
-      "archivo_fuente": "comandos/paquetes/rpm.json"
+      "archivo_fuente": "json/comandos/paquetes/rpm.json"
     },
     {
       "id": "snap_snapctl",
@@ -33123,7 +32928,7 @@
         "rollback": null
       },
       "categoria_db": "paquetes",
-      "archivo_fuente": "comandos/paquetes/snap_snapctl.json"
+      "archivo_fuente": "json/comandos/paquetes/snap_snapctl.json"
     },
     {
       "id": "yum",
@@ -33289,7 +33094,7 @@
         "rollback": null
       },
       "categoria_db": "paquetes",
-      "archivo_fuente": "comandos/paquetes/yum.json"
+      "archivo_fuente": "json/comandos/paquetes/yum.json"
     },
     {
       "id": "zypper",
@@ -33468,7 +33273,7 @@
         "rollback": null
       },
       "categoria_db": "paquetes",
-      "archivo_fuente": "comandos/paquetes/zypper.json"
+      "archivo_fuente": "json/comandos/paquetes/zypper.json"
     },
     {
       "id": "at",
@@ -33609,7 +33414,7 @@
         "rollback": "Eliminar el trabajo pendiente con atrm ID si aún no se ha ejecutado."
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/at.json"
+      "archivo_fuente": "json/comandos/procesos/at.json"
     },
     {
       "id": "atop",
@@ -33738,7 +33543,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/atop.json"
+      "archivo_fuente": "json/comandos/procesos/atop.json"
     },
     {
       "id": "bg",
@@ -33824,7 +33629,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/bg.json"
+      "archivo_fuente": "json/comandos/procesos/bg.json"
     },
     {
       "id": "chrt",
@@ -34005,7 +33810,7 @@
         "rollback": "Restaurar la política/prioridad anterior con chrt -p si se guardó y se conservan los permisos."
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/chrt.json"
+      "archivo_fuente": "json/comandos/procesos/chrt.json"
     },
     {
       "id": "crontab",
@@ -34144,7 +33949,7 @@
         "rollback": "Restaurar un respaldo revisado mediante crontab archivo_respaldo."
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/crontab.json"
+      "archivo_fuente": "json/comandos/procesos/crontab.json"
     },
     {
       "id": "dmesg",
@@ -34285,7 +34090,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/dmesg.json"
+      "archivo_fuente": "json/comandos/procesos/dmesg.json"
     },
     {
       "id": "dstat",
@@ -34430,7 +34235,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/dstat.json"
+      "archivo_fuente": "json/comandos/procesos/dstat.json"
     },
     {
       "id": "fg",
@@ -34516,7 +34321,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/fg.json"
+      "archivo_fuente": "json/comandos/procesos/fg.json"
     },
     {
       "id": "free",
@@ -34695,7 +34500,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/free.json"
+      "archivo_fuente": "json/comandos/procesos/free.json"
     },
     {
       "id": "fuser",
@@ -34836,7 +34641,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/fuser.json"
+      "archivo_fuente": "json/comandos/procesos/fuser.json"
     },
     {
       "id": "htop",
@@ -34969,7 +34774,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/htop.json"
+      "archivo_fuente": "json/comandos/procesos/htop.json"
     },
     {
       "id": "ionice",
@@ -35105,7 +34910,7 @@
         "rollback": "Restablecer la clase/nivel previos consultados, si se guardaron y aún se dispone de permisos."
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/ionice.json"
+      "archivo_fuente": "json/comandos/procesos/ionice.json"
     },
     {
       "id": "iotop",
@@ -35253,7 +35058,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/iotop.json"
+      "archivo_fuente": "json/comandos/procesos/iotop.json"
     },
     {
       "id": "jobs",
@@ -35387,7 +35192,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/jobs.json"
+      "archivo_fuente": "json/comandos/procesos/jobs.json"
     },
     {
       "id": "kill",
@@ -35520,7 +35325,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/kill.json"
+      "archivo_fuente": "json/comandos/procesos/kill.json"
     },
     {
       "id": "killall",
@@ -35669,7 +35474,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/killall.json"
+      "archivo_fuente": "json/comandos/procesos/killall.json"
     },
     {
       "id": "logrotate",
@@ -35806,7 +35611,7 @@
         "rollback": "Restaurar archivos rotados desde respaldo y recuperar la configuración/estado previos si la rotación produjo resultados no deseados."
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/logrotate.json"
+      "archivo_fuente": "json/comandos/procesos/logrotate.json"
     },
     {
       "id": "lsof",
@@ -35955,7 +35760,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/lsof.json"
+      "archivo_fuente": "json/comandos/procesos/lsof.json"
     },
     {
       "id": "ltrace",
@@ -36093,7 +35898,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/ltrace.json"
+      "archivo_fuente": "json/comandos/procesos/ltrace.json"
     },
     {
       "id": "nice",
@@ -36183,7 +35988,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/nice.json"
+      "archivo_fuente": "json/comandos/procesos/nice.json"
     },
     {
       "id": "nmon",
@@ -36312,7 +36117,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/nmon.json"
+      "archivo_fuente": "json/comandos/procesos/nmon.json"
     },
     {
       "id": "nohup",
@@ -36402,7 +36207,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/nohup.json"
+      "archivo_fuente": "json/comandos/procesos/nohup.json"
     },
     {
       "id": "nsenter",
@@ -36581,7 +36386,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/nsenter.json"
+      "archivo_fuente": "json/comandos/procesos/nsenter.json"
     },
     {
       "id": "pgrep",
@@ -36729,7 +36534,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/pgrep.json"
+      "archivo_fuente": "json/comandos/procesos/pgrep.json"
     },
     {
       "id": "pidof",
@@ -36839,7 +36644,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/pidof.json"
+      "archivo_fuente": "json/comandos/procesos/pidof.json"
     },
     {
       "id": "pidstat",
@@ -36985,7 +36790,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/pidstat.json"
+      "archivo_fuente": "json/comandos/procesos/pidstat.json"
     },
     {
       "id": "pkill",
@@ -37134,7 +36939,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/pkill.json"
+      "archivo_fuente": "json/comandos/procesos/pkill.json"
     },
     {
       "id": "pmap",
@@ -37279,7 +37084,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/pmap.json"
+      "archivo_fuente": "json/comandos/procesos/pmap.json"
     },
     {
       "id": "prlimit",
@@ -37395,7 +37200,7 @@
         "rollback": "Para un proceso existente, restaurar los límites anteriores con privilegios suficientes; un comando ya iniciado requiere finalizarse para descartar sus límites heredados."
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/prlimit.json"
+      "archivo_fuente": "json/comandos/procesos/prlimit.json"
     },
     {
       "id": "ps",
@@ -37544,7 +37349,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/ps.json"
+      "archivo_fuente": "json/comandos/procesos/ps.json"
     },
     {
       "id": "pstree",
@@ -37677,7 +37482,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/pstree.json"
+      "archivo_fuente": "json/comandos/procesos/pstree.json"
     },
     {
       "id": "renice",
@@ -37801,7 +37606,7 @@
         "rollback": "Restaurar el valor nice anterior con renice, si aún es posible y se conservan los permisos."
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/renice.json"
+      "archivo_fuente": "json/comandos/procesos/renice.json"
     },
     {
       "id": "sensors",
@@ -37922,7 +37727,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/sensors.json"
+      "archivo_fuente": "json/comandos/procesos/sensors.json"
     },
     {
       "id": "slabtop",
@@ -38044,7 +37849,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/slabtop.json"
+      "archivo_fuente": "json/comandos/procesos/slabtop.json"
     },
     {
       "id": "strace",
@@ -38193,7 +37998,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/strace.json"
+      "archivo_fuente": "json/comandos/procesos/strace.json"
     },
     {
       "id": "taskset",
@@ -38312,7 +38117,7 @@
         "rollback": "Restaurar la lista de CPU anterior mediante taskset -pc con los permisos necesarios."
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/taskset.json"
+      "archivo_fuente": "json/comandos/procesos/taskset.json"
     },
     {
       "id": "timeout",
@@ -38436,7 +38241,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/timeout.json"
+      "archivo_fuente": "json/comandos/procesos/timeout.json"
     },
     {
       "id": "tload",
@@ -38537,7 +38342,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/tload.json"
+      "archivo_fuente": "json/comandos/procesos/tload.json"
     },
     {
       "id": "top",
@@ -38683,7 +38488,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/top.json"
+      "archivo_fuente": "json/comandos/procesos/top.json"
     },
     {
       "id": "unshare",
@@ -38854,7 +38659,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/unshare.json"
+      "archivo_fuente": "json/comandos/procesos/unshare.json"
     },
     {
       "id": "vmstat",
@@ -39011,7 +38816,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/vmstat.json"
+      "archivo_fuente": "json/comandos/procesos/vmstat.json"
     },
     {
       "id": "watch",
@@ -39145,7 +38950,7 @@
         "rollback": null
       },
       "categoria_db": "procesos",
-      "archivo_fuente": "comandos/procesos/watch.json"
+      "archivo_fuente": "json/comandos/procesos/watch.json"
     },
     {
       "id": "arp",
@@ -39277,7 +39082,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/arp.json"
+      "archivo_fuente": "json/comandos/red/arp.json"
     },
     {
       "id": "arping",
@@ -39399,7 +39204,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/arping.json"
+      "archivo_fuente": "json/comandos/red/arping.json"
     },
     {
       "id": "bridge",
@@ -39520,7 +39325,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/bridge.json"
+      "archivo_fuente": "json/comandos/red/bridge.json"
     },
     {
       "id": "conntrack",
@@ -39656,7 +39461,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/conntrack.json"
+      "archivo_fuente": "json/comandos/red/conntrack.json"
     },
     {
       "id": "curl",
@@ -39828,7 +39633,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/curl.json"
+      "archivo_fuente": "json/comandos/red/curl.json"
     },
     {
       "id": "dig",
@@ -39980,7 +39785,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/dig.json"
+      "archivo_fuente": "json/comandos/red/dig.json"
     },
     {
       "id": "driftnet",
@@ -40101,151 +39906,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/driftnet.json"
-    },
-    {
-      "id": "ebtables",
-      "nombre": "ebtables",
-      "descripcion": "Configura reglas de filtrado de tramas Ethernet en puentes Linux mediante las cadenas de la tabla bridge de Netfilter.",
-      "clasificacion": {
-        "categoria": "red",
-        "subcategoria": "general",
-        "tags": [
-          "red"
-        ]
-      },
-      "sintaxis": {
-        "principal": "ebtables [opciones] { -L | -A | -D | -I | -P | -F } [cadena] [regla]",
-        "alternativas": []
-      },
-      "parametros": [
-        {
-          "flag": "-L, --list",
-          "argumento": "[cadena]",
-          "tipo": "string",
-          "requerido": false,
-          "default": null,
-          "valores": [
-            "INPUT",
-            "OUTPUT",
-            "FORWARD"
-          ],
-          "descripcion": "Lista reglas de una cadena o de todas las cadenas.",
-          "conflictos": [],
-          "requiere": []
-        },
-        {
-          "flag": "-A, --append",
-          "argumento": "cadena",
-          "tipo": "string",
-          "requerido": false,
-          "default": null,
-          "valores": [
-            "INPUT",
-            "OUTPUT",
-            "FORWARD"
-          ],
-          "descripcion": "Anade una regla al final de la cadena indicada.",
-          "conflictos": [],
-          "requiere": []
-        },
-        {
-          "flag": "-D, --delete",
-          "argumento": "cadena regla",
-          "tipo": "string",
-          "requerido": false,
-          "default": null,
-          "valores": [],
-          "descripcion": "Elimina una regla coincidente de la cadena indicada.",
-          "conflictos": [],
-          "requiere": []
-        },
-        {
-          "flag": "-P, --policy",
-          "argumento": "cadena accion",
-          "tipo": "string",
-          "requerido": false,
-          "default": null,
-          "valores": [
-            "ACCEPT",
-            "DROP",
-            "RETURN"
-          ],
-          "descripcion": "Establece la politica predeterminada de una cadena integrada.",
-          "conflictos": [],
-          "requiere": []
-        },
-        {
-          "flag": "-F, --flush",
-          "argumento": "[cadena]",
-          "tipo": "string",
-          "requerido": false,
-          "default": null,
-          "valores": [],
-          "descripcion": "Vacía reglas de la cadena o tabla seleccionada.",
-          "conflictos": [],
-          "requiere": []
-        }
-      ],
-      "requisitos": {
-        "permisos": [
-          "root o CAP_NET_ADMIN"
-        ],
-        "dependencias": [
-          "soporte bridge Netfilter del kernel; ebtables"
-        ],
-        "paquetes": [
-          "ebtables"
-        ]
-      },
-      "seguridad": {
-        "nivel": "alto",
-        "destructivo": true,
-        "requiere_root": true,
-        "requiere_confirmacion": false,
-        "advertencias": [
-          "Reglas o politicas incorrectas pueden cortar conectividad de puente o dejar expuestas redes; guarde la configuracion antes de modificarla.",
-          "En sistemas modernos ebtables puede usar el backend nf_tables; verifique compatibilidad con nftables."
-        ]
-      },
-      "instalacion": {
-        "instalable": true,
-        "metodo": "gestor_paquetes",
-        "paquetes": {
-          "debian_ubuntu": "sudo apt install ebtables",
-          "arch_linux": "sudo pacman -S ebtables",
-          "rhel_centos": "sudo dnf install ebtables"
-        }
-      },
-      "ejemplos": [
-        {
-          "nombre": "Listar reglas bridge",
-          "comando": "sudo ebtables -L --Lc",
-          "descripcion": "Consulta las reglas bridge actuales con contadores en el sistema propio.",
-          "resultado_esperado": "Se listan cadenas y reglas configuradas, sin cambiar el filtrado."
-        },
-        {
-          "nombre": "Consultar cadena FORWARD",
-          "comando": "sudo ebtables -L FORWARD",
-          "descripcion": "Muestra las reglas que procesan tramas reenviadas por puentes locales.",
-          "resultado_esperado": "Se imprimen las reglas de FORWARD o se indica que no hay reglas."
-        }
-      ],
-      "automatizacion": {
-        "idempotente": false,
-        "interactivo": false,
-        "apto_script": true,
-        "variables": [
-          "cadena",
-          "regla"
-        ],
-        "validaciones": [
-          "Guardar reglas actuales, validar la cadena y aplicar cambios con acceso de consola o mecanismo de recuperacion."
-        ],
-        "rollback": null
-      },
-      "categoria_db": "red",
-      "archivo_fuente": "comandos/red/ebtables.json"
+      "archivo_fuente": "json/comandos/red/driftnet.json"
     },
     {
       "id": "ethtool",
@@ -40377,7 +40038,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/ethtool.json"
+      "archivo_fuente": "json/comandos/red/ethtool.json"
     },
     {
       "id": "ftp",
@@ -40510,7 +40171,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/ftp.json"
+      "archivo_fuente": "json/comandos/red/ftp.json"
     },
     {
       "id": "get",
@@ -40609,7 +40270,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/get.json"
+      "archivo_fuente": "json/comandos/red/get.json"
     },
     {
       "id": "host",
@@ -40740,7 +40401,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/host.json"
+      "archivo_fuente": "json/comandos/red/host.json"
     },
     {
       "id": "hostnamectl",
@@ -40871,7 +40532,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/hostnamectl.json"
+      "archivo_fuente": "json/comandos/red/hostnamectl.json"
     },
     {
       "id": "hping3",
@@ -41015,7 +40676,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/hping3.json"
+      "archivo_fuente": "json/comandos/red/hping3.json"
     },
     {
       "id": "httrack",
@@ -41148,7 +40809,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/httrack.json"
+      "archivo_fuente": "json/comandos/red/httrack.json"
     },
     {
       "id": "ifconfig",
@@ -41281,7 +40942,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/ifconfig.json"
+      "archivo_fuente": "json/comandos/red/ifconfig.json"
     },
     {
       "id": "ip",
@@ -41440,7 +41101,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/ip.json"
+      "archivo_fuente": "json/comandos/red/ip.json"
     },
     {
       "id": "ipcalc",
@@ -41559,7 +41220,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/ipcalc.json"
+      "archivo_fuente": "json/comandos/red/ipcalc.json"
     },
     {
       "id": "iperf3",
@@ -41709,7 +41370,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/iperf3.json"
+      "archivo_fuente": "json/comandos/red/iperf3.json"
     },
     {
       "id": "iw",
@@ -41841,7 +41502,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/iw.json"
+      "archivo_fuente": "json/comandos/red/iw.json"
     },
     {
       "id": "iwconfig",
@@ -41972,7 +41633,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/iwconfig.json"
+      "archivo_fuente": "json/comandos/red/iwconfig.json"
     },
     {
       "id": "mget",
@@ -42060,7 +41721,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/mget.json"
+      "archivo_fuente": "json/comandos/red/mget.json"
     },
     {
       "id": "mput",
@@ -42148,7 +41809,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/mput.json"
+      "archivo_fuente": "json/comandos/red/mput.json"
     },
     {
       "id": "mtr",
@@ -42297,7 +41958,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/mtr.json"
+      "archivo_fuente": "json/comandos/red/mtr.json"
     },
     {
       "id": "nc",
@@ -42441,7 +42102,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/nc.json"
+      "archivo_fuente": "json/comandos/red/nc.json"
     },
     {
       "id": "netplan",
@@ -42584,7 +42245,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/netplan.json"
+      "archivo_fuente": "json/comandos/red/netplan.json"
     },
     {
       "id": "netstat",
@@ -42738,7 +42399,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/netstat.json"
+      "archivo_fuente": "json/comandos/red/netstat.json"
     },
     {
       "id": "network",
@@ -42859,7 +42520,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/network.json"
+      "archivo_fuente": "json/comandos/red/network.json"
     },
     {
       "id": "ngrep",
@@ -43008,7 +42669,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/ngrep.json"
+      "archivo_fuente": "json/comandos/red/ngrep.json"
     },
     {
       "id": "nmap",
@@ -43151,7 +42812,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/nmap.json"
+      "archivo_fuente": "json/comandos/red/nmap.json"
     },
     {
       "id": "nmcli",
@@ -43298,7 +42959,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/nmcli.json"
+      "archivo_fuente": "json/comandos/red/nmcli.json"
     },
     {
       "id": "nmtui",
@@ -43419,7 +43080,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/nmtui.json"
+      "archivo_fuente": "json/comandos/red/nmtui.json"
     },
     {
       "id": "nslookup",
@@ -43549,7 +43210,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/nslookup.json"
+      "archivo_fuente": "json/comandos/red/nslookup.json"
     },
     {
       "id": "ping",
@@ -43697,7 +43358,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/ping.json"
+      "archivo_fuente": "json/comandos/red/ping.json"
     },
     {
       "id": "put",
@@ -43796,7 +43457,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/put.json"
+      "archivo_fuente": "json/comandos/red/put.json"
     },
     {
       "id": "route",
@@ -43936,7 +43597,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/route.json"
+      "archivo_fuente": "json/comandos/red/route.json"
     },
     {
       "id": "scp",
@@ -44082,7 +43743,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/scp.json"
+      "archivo_fuente": "json/comandos/red/scp.json"
     },
     {
       "id": "sftp",
@@ -44228,7 +43889,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/sftp.json"
+      "archivo_fuente": "json/comandos/red/sftp.json"
     },
     {
       "id": "socat",
@@ -44368,7 +44029,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/socat.json"
+      "archivo_fuente": "json/comandos/red/socat.json"
     },
     {
       "id": "speedtest-cli",
@@ -44510,7 +44171,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/speedtest-cli.json"
+      "archivo_fuente": "json/comandos/red/speedtest-cli.json"
     },
     {
       "id": "ss",
@@ -44665,7 +44326,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/ss.json"
+      "archivo_fuente": "json/comandos/red/ss.json"
     },
     {
       "id": "ssh",
@@ -44810,7 +44471,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/ssh.json"
+      "archivo_fuente": "json/comandos/red/ssh.json"
     },
     {
       "id": "ssh-copy-id",
@@ -44944,7 +44605,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/ssh-copy-id.json"
+      "archivo_fuente": "json/comandos/red/ssh-copy-id.json"
     },
     {
       "id": "ssh-keygen",
@@ -45092,7 +44753,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/ssh-keygen.json"
+      "archivo_fuente": "json/comandos/red/ssh-keygen.json"
     },
     {
       "id": "sshd",
@@ -45239,7 +44900,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/sshd.json"
+      "archivo_fuente": "json/comandos/red/sshd.json"
     },
     {
       "id": "tc",
@@ -45382,7 +45043,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/tc.json"
+      "archivo_fuente": "json/comandos/red/tc.json"
     },
     {
       "id": "tcpdump",
@@ -45538,7 +45199,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/tcpdump.json"
+      "archivo_fuente": "json/comandos/red/tcpdump.json"
     },
     {
       "id": "teamd",
@@ -45681,7 +45342,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/teamd.json"
+      "archivo_fuente": "json/comandos/red/teamd.json"
     },
     {
       "id": "traceroute",
@@ -45829,7 +45490,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/traceroute.json"
+      "archivo_fuente": "json/comandos/red/traceroute.json"
     },
     {
       "id": "tshark",
@@ -46002,7 +45663,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/tshark.json"
+      "archivo_fuente": "json/comandos/red/tshark.json"
     },
     {
       "id": "wget",
@@ -46157,7 +45818,7 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/wget.json"
+      "archivo_fuente": "json/comandos/red/wget.json"
     },
     {
       "id": "whois",
@@ -46278,12 +45939,12 @@
         "rollback": null
       },
       "categoria_db": "red",
-      "archivo_fuente": "comandos/red/whois.json"
+      "archivo_fuente": "json/comandos/red/whois.json"
     },
     {
-      "id": "apparmor_status",
-      "nombre": "apparmor_status",
-      "descripcion": "Muestra el estado de AppArmor, los perfiles cargados y cuántos están en modo enforce o complain; es una consulta de auditoría.",
+      "id": "apparmor",
+      "nombre": "apparmor",
+      "descripcion": "AppArmor, perfiles cargados y cuántos están en modo enforce o complain; es una consulta de auditoría.",
       "clasificacion": {
         "categoria": "seguridad",
         "subcategoria": "general",
@@ -46292,7 +45953,7 @@
         ]
       },
       "sintaxis": {
-        "principal": "apparmor_status",
+        "principal": "apparmor",
         "alternativas": []
       },
       "parametros": [
@@ -46362,13 +46023,13 @@
       "ejemplos": [
         {
           "nombre": "Resumen del estado",
-          "comando": "sudo apparmor_status",
+          "comando": "sudo apparmor",
           "descripcion": "Consulta perfiles y modos de AppArmor en el equipo administrado.",
           "resultado_esperado": "Resumen de perfiles cargados, enforce y complain."
         },
         {
           "nombre": "Comprobar habilitación",
-          "comando": "apparmor_status --enabled",
+          "comando": "apparmor --enabled",
           "descripcion": "Comprueba si AppArmor está habilitado sin modificar políticas.",
           "resultado_esperado": "Indicación de habilitación o deshabilitación."
         }
@@ -46384,7 +46045,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/apparmor_status.json"
+      "archivo_fuente": "json/comandos/seguridad/apparmor_status.json"
     },
     {
       "id": "arptables",
@@ -46523,7 +46184,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/arptables.json"
+      "archivo_fuente": "json/comandos/seguridad/arptables.json"
     },
     {
       "id": "auditctl",
@@ -46665,7 +46326,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/auditctl.json"
+      "archivo_fuente": "json/comandos/seguridad/auditctl.json"
     },
     {
       "id": "aureport",
@@ -46798,7 +46459,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/aureport.json"
+      "archivo_fuente": "json/comandos/seguridad/aureport.json"
     },
     {
       "id": "ausearch",
@@ -46942,7 +46603,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/ausearch.json"
+      "archivo_fuente": "json/comandos/seguridad/ausearch.json"
     },
     {
       "id": "chcon",
@@ -47079,7 +46740,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/chcon.json"
+      "archivo_fuente": "json/comandos/seguridad/chcon.json"
     },
     {
       "id": "chmod",
@@ -47201,7 +46862,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/chmod.json"
+      "archivo_fuente": "json/comandos/seguridad/chmod.json"
     },
     {
       "id": "chown",
@@ -47324,7 +46985,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/chown.json"
+      "archivo_fuente": "json/comandos/seguridad/chown.json"
     },
     {
       "id": "cksum",
@@ -47443,7 +47104,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/cksum.json"
+      "archivo_fuente": "json/comandos/seguridad/cksum.json"
     },
     {
       "id": "cracklib-check",
@@ -47531,7 +47192,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/cracklib-check.json"
+      "archivo_fuente": "json/comandos/seguridad/cracklib-check.json"
     },
     {
       "id": "ebtables",
@@ -47670,7 +47331,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/ebtables.json"
+      "archivo_fuente": "json/comandos/seguridad/ebtables.json"
     },
     {
       "id": "exiftool",
@@ -47797,7 +47458,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/exiftool.json"
+      "archivo_fuente": "json/comandos/seguridad/exiftool.json"
     },
     {
       "id": "faillog",
@@ -47922,7 +47583,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/faillog.json"
+      "archivo_fuente": "json/comandos/seguridad/faillog.json"
     },
     {
       "id": "getcap",
@@ -48030,7 +47691,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/getcap.json"
+      "archivo_fuente": "json/comandos/seguridad/getcap.json"
     },
     {
       "id": "getenforce",
@@ -48112,7 +47773,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/getenforce.json"
+      "archivo_fuente": "json/comandos/seguridad/getenforce.json"
     },
     {
       "id": "getfacl",
@@ -48220,7 +47881,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/getfacl.json"
+      "archivo_fuente": "json/comandos/seguridad/getfacl.json"
     },
     {
       "id": "getsebool",
@@ -48326,7 +47987,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/getsebool.json"
+      "archivo_fuente": "json/comandos/seguridad/getsebool.json"
     },
     {
       "id": "gpg",
@@ -48453,7 +48114,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/gpg.json"
+      "archivo_fuente": "json/comandos/seguridad/gpg.json"
     },
     {
       "id": "hashcat",
@@ -48587,7 +48248,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/hashcat.json"
+      "archivo_fuente": "json/comandos/seguridad/hashcat.json"
     },
     {
       "id": "ip6tables",
@@ -48740,7 +48401,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/ip6tables.json"
+      "archivo_fuente": "json/comandos/seguridad/ip6tables.json"
     },
     {
       "id": "iptables",
@@ -48893,7 +48554,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/iptables.json"
+      "archivo_fuente": "json/comandos/seguridad/iptables.json"
     },
     {
       "id": "lastlog",
@@ -49002,7 +48663,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/lastlog.json"
+      "archivo_fuente": "json/comandos/seguridad/lastlog.json"
     },
     {
       "id": "lime",
@@ -49106,7 +48767,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/lime.json"
+      "archivo_fuente": "json/comandos/seguridad/lime.json"
     },
     {
       "id": "lynis",
@@ -49225,7 +48886,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/lynis.json"
+      "archivo_fuente": "json/comandos/seguridad/lynis.json"
     },
     {
       "id": "md5sum",
@@ -49345,7 +49006,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/md5sum.json"
+      "archivo_fuente": "json/comandos/seguridad/md5sum.json"
     },
     {
       "id": "nftables",
@@ -49480,7 +49141,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/nftables.json"
+      "archivo_fuente": "json/comandos/seguridad/nftables.json"
     },
     {
       "id": "openssl",
@@ -49611,7 +49272,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/openssl.json"
+      "archivo_fuente": "json/comandos/seguridad/openssl.json"
     },
     {
       "id": "restorecon",
@@ -49733,7 +49394,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/restorecon.json"
+      "archivo_fuente": "json/comandos/seguridad/restorecon.json"
     },
     {
       "id": "sealert",
@@ -49832,7 +49493,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/sealert.json"
+      "archivo_fuente": "json/comandos/seguridad/sealert.json"
     },
     {
       "id": "setcap",
@@ -49954,7 +49615,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/setcap.json"
+      "archivo_fuente": "json/comandos/seguridad/setcap.json"
     },
     {
       "id": "setenforce",
@@ -50044,7 +49705,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/setenforce.json"
+      "archivo_fuente": "json/comandos/seguridad/setenforce.json"
     },
     {
       "id": "setfacl",
@@ -50178,7 +49839,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/setfacl.json"
+      "archivo_fuente": "json/comandos/seguridad/setfacl.json"
     },
     {
       "id": "setsebool",
@@ -50281,7 +49942,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/setsebool.json"
+      "archivo_fuente": "json/comandos/seguridad/setsebool.json"
     },
     {
       "id": "sha1sum",
@@ -50401,7 +50062,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/sha1sum.json"
+      "archivo_fuente": "json/comandos/seguridad/sha1sum.json"
     },
     {
       "id": "sha256sum",
@@ -50522,7 +50183,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/sha256sum.json"
+      "archivo_fuente": "json/comandos/seguridad/sha256sum.json"
     },
     {
       "id": "steghide",
@@ -50688,7 +50349,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/steghide.json"
+      "archivo_fuente": "json/comandos/seguridad/steghide.json"
     },
     {
       "id": "sudo",
@@ -50835,7 +50496,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/sudo.json"
+      "archivo_fuente": "json/comandos/seguridad/sudo.json"
     },
     {
       "id": "ufw",
@@ -50985,7 +50646,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/ufw.json"
+      "archivo_fuente": "json/comandos/seguridad/ufw.json"
     },
     {
       "id": "umask",
@@ -51082,7 +50743,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/umask.json"
+      "archivo_fuente": "json/comandos/seguridad/umask.json"
     },
     {
       "id": "visudo",
@@ -51203,7 +50864,7 @@
         "rollback": null
       },
       "categoria_db": "seguridad",
-      "archivo_fuente": "comandos/seguridad/visudo.json"
+      "archivo_fuente": "json/comandos/seguridad/visudo.json"
     },
     {
       "id": "chkconfig",
@@ -51340,7 +51001,7 @@
         "rollback": null
       },
       "categoria_db": "servicios",
-      "archivo_fuente": "comandos/servicios/chkconfig.json"
+      "archivo_fuente": "json/comandos/servicios/chkconfig.json"
     },
     {
       "id": "initctl",
@@ -51499,7 +51160,7 @@
         "rollback": null
       },
       "categoria_db": "servicios",
-      "archivo_fuente": "comandos/servicios/initctl.json"
+      "archivo_fuente": "json/comandos/servicios/initctl.json"
     },
     {
       "id": "journalctl",
@@ -51706,7 +51367,7 @@
         "rollback": null
       },
       "categoria_db": "servicios",
-      "archivo_fuente": "comandos/servicios/journalctl.json"
+      "archivo_fuente": "json/comandos/servicios/journalctl.json"
     },
     {
       "id": "ldapadd",
@@ -51893,7 +51554,7 @@
         "rollback": null
       },
       "categoria_db": "servicios",
-      "archivo_fuente": "comandos/servicios/ldapadd.json"
+      "archivo_fuente": "json/comandos/servicios/ldapadd.json"
     },
     {
       "id": "ldapmodify",
@@ -52091,7 +51752,7 @@
         "rollback": null
       },
       "categoria_db": "servicios",
-      "archivo_fuente": "comandos/servicios/ldapmodify.json"
+      "archivo_fuente": "json/comandos/servicios/ldapmodify.json"
     },
     {
       "id": "ldapsearch",
@@ -52305,7 +51966,7 @@
         "rollback": null
       },
       "categoria_db": "servicios",
-      "archivo_fuente": "comandos/servicios/ldapsearch.json"
+      "archivo_fuente": "json/comandos/servicios/ldapsearch.json"
     },
     {
       "id": "rc-service",
@@ -52456,7 +52117,7 @@
         "rollback": null
       },
       "categoria_db": "servicios",
-      "archivo_fuente": "comandos/servicios/rc-service.json"
+      "archivo_fuente": "json/comandos/servicios/rc-service.json"
     },
     {
       "id": "rc-status",
@@ -52598,7 +52259,7 @@
         "rollback": null
       },
       "categoria_db": "servicios",
-      "archivo_fuente": "comandos/servicios/rc-status.json"
+      "archivo_fuente": "json/comandos/servicios/rc-status.json"
     },
     {
       "id": "service",
@@ -52704,7 +52365,7 @@
         "rollback": null
       },
       "categoria_db": "servicios",
-      "archivo_fuente": "comandos/servicios/service.json"
+      "archivo_fuente": "json/comandos/servicios/service.json"
     },
     {
       "id": "slapcat",
@@ -52854,7 +52515,7 @@
         "rollback": null
       },
       "categoria_db": "servicios",
-      "archivo_fuente": "comandos/servicios/slapcat.json"
+      "archivo_fuente": "json/comandos/servicios/slapcat.json"
     },
     {
       "id": "slappasswd",
@@ -53020,7 +52681,7 @@
         "rollback": null
       },
       "categoria_db": "servicios",
-      "archivo_fuente": "comandos/servicios/slappasswd.json"
+      "archivo_fuente": "json/comandos/servicios/slappasswd.json"
     },
     {
       "id": "snmpbulkwalk",
@@ -53262,7 +52923,7 @@
         "rollback": null
       },
       "categoria_db": "servicios",
-      "archivo_fuente": "comandos/servicios/snmpbulkwalk.json"
+      "archivo_fuente": "json/comandos/servicios/snmpbulkwalk.json"
     },
     {
       "id": "snmpget",
@@ -53494,7 +53155,7 @@
         "rollback": null
       },
       "categoria_db": "servicios",
-      "archivo_fuente": "comandos/servicios/snmpget.json"
+      "archivo_fuente": "json/comandos/servicios/snmpget.json"
     },
     {
       "id": "snmpwalk",
@@ -53725,7 +53386,7 @@
         "rollback": null
       },
       "categoria_db": "servicios",
-      "archivo_fuente": "comandos/servicios/snmpwalk.json"
+      "archivo_fuente": "json/comandos/servicios/snmpwalk.json"
     },
     {
       "id": "systemctl",
@@ -53909,7 +53570,7 @@
         "rollback": null
       },
       "categoria_db": "servicios",
-      "archivo_fuente": "comandos/servicios/systemctl.json"
+      "archivo_fuente": "json/comandos/servicios/systemctl.json"
     },
     {
       "id": "systemd-analyze",
@@ -54066,7 +53727,7 @@
         "rollback": null
       },
       "categoria_db": "servicios",
-      "archivo_fuente": "comandos/servicios/systemd-analyze.json"
+      "archivo_fuente": "json/comandos/servicios/systemd-analyze.json"
     },
     {
       "id": "update-rc.d",
@@ -54223,7 +53884,7 @@
         "rollback": null
       },
       "categoria_db": "servicios",
-      "archivo_fuente": "comandos/servicios/update-rc.d.json"
+      "archivo_fuente": "json/comandos/servicios/update-rc.d.json"
     },
     {
       "id": "adduser",
@@ -54369,7 +54030,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/adduser.json"
+      "archivo_fuente": "json/comandos/usuarios/adduser.json"
     },
     {
       "id": "chage",
@@ -54525,7 +54186,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/chage.json"
+      "archivo_fuente": "json/comandos/usuarios/chage.json"
     },
     {
       "id": "chfn",
@@ -54658,7 +54319,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/chfn.json"
+      "archivo_fuente": "json/comandos/usuarios/chfn.json"
     },
     {
       "id": "chsh",
@@ -54758,7 +54419,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/chsh.json"
+      "archivo_fuente": "json/comandos/usuarios/chsh.json"
     },
     {
       "id": "deluser",
@@ -54882,7 +54543,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/deluser.json"
+      "archivo_fuente": "json/comandos/usuarios/deluser.json"
     },
     {
       "id": "gpasswd",
@@ -55027,7 +54688,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/gpasswd.json"
+      "archivo_fuente": "json/comandos/usuarios/gpasswd.json"
     },
     {
       "id": "groupadd",
@@ -55162,7 +54823,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/groupadd.json"
+      "archivo_fuente": "json/comandos/usuarios/groupadd.json"
     },
     {
       "id": "groupdel",
@@ -55251,7 +54912,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/groupdel.json"
+      "archivo_fuente": "json/comandos/usuarios/groupdel.json"
     },
     {
       "id": "groupmod",
@@ -55387,7 +55048,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/groupmod.json"
+      "archivo_fuente": "json/comandos/usuarios/groupmod.json"
     },
     {
       "id": "groups",
@@ -55486,7 +55147,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/groups.json"
+      "archivo_fuente": "json/comandos/usuarios/groups.json"
     },
     {
       "id": "id",
@@ -55621,7 +55282,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/id.json"
+      "archivo_fuente": "json/comandos/usuarios/id.json"
     },
     {
       "id": "last",
@@ -55755,7 +55416,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/last.json"
+      "archivo_fuente": "json/comandos/usuarios/last.json"
     },
     {
       "id": "newgrp",
@@ -55843,7 +55504,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/newgrp.json"
+      "archivo_fuente": "json/comandos/usuarios/newgrp.json"
     },
     {
       "id": "passwd",
@@ -56011,7 +55672,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/passwd.json"
+      "archivo_fuente": "json/comandos/usuarios/passwd.json"
     },
     {
       "id": "pwconv",
@@ -56099,7 +55760,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/pwconv.json"
+      "archivo_fuente": "json/comandos/usuarios/pwconv.json"
     },
     {
       "id": "pwuconv",
@@ -56171,7 +55832,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/pwuconv.json"
+      "archivo_fuente": "json/comandos/usuarios/pwuconv.json"
     },
     {
       "id": "su",
@@ -56310,7 +55971,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/su.json"
+      "archivo_fuente": "json/comandos/usuarios/su.json"
     },
     {
       "id": "useradd",
@@ -56507,7 +56168,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/useradd.json"
+      "archivo_fuente": "json/comandos/usuarios/useradd.json"
     },
     {
       "id": "userdel",
@@ -56607,7 +56268,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/userdel.json"
+      "archivo_fuente": "json/comandos/usuarios/userdel.json"
     },
     {
       "id": "w",
@@ -56750,7 +56411,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/w.json"
+      "archivo_fuente": "json/comandos/usuarios/w.json"
     },
     {
       "id": "wall",
@@ -56861,7 +56522,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/wall.json"
+      "archivo_fuente": "json/comandos/usuarios/wall.json"
     },
     {
       "id": "who",
@@ -57004,7 +56665,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/who.json"
+      "archivo_fuente": "json/comandos/usuarios/who.json"
     },
     {
       "id": "whoami",
@@ -57099,7 +56760,7 @@
         "rollback": null
       },
       "categoria_db": "usuarios",
-      "archivo_fuente": "comandos/usuarios/whoami.json"
+      "archivo_fuente": "json/comandos/usuarios/whoami.json"
     }
   ]
 }
