@@ -1,20 +1,3 @@
-<meta name="description" content="LinuxCore es un repositorio técnico en español sobre Linux, administración de sistemas, seguridad informática, redes, Docker, Kubernetes, Bash, MySQL/MariaDB, almacenamiento, virtualización y DevOps. Documentación práctica para aprender y consultar.">
-<meta name="keywords" content="linux, linux tutoriales, administración linux, bash scripting, seguridad informática, redes, docker, kubernetes, mysql, mariadb, almacenamiento, raid, sysadmin, devops, virtualización, forense digital, ssh, openssl, certificados ssl, fundamentos linux, ciberseguridad">
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-<meta name="author" content="Nisamov">
-<meta name="theme-color" content="#0969da">
-<meta property="og:title" content="LinuxCore - Documentación técnica de Linux, seguridad, redes y administración de sistemas">
-<meta property="og:description" content="Repositorio en español con documentación técnica y práctica sobre Linux, administración de sistemas, seguridad, Docker, Kubernetes, Bash, MySQL, redes y virtualización.">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="LinuxCore">
-<meta property="og:url" content="https://github.com/nisamov/linuxcore">
-<meta property="og:image" content="https://raw.githubusercontent.com/nisamov/linuxcore/main/.github/media/top.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="LinuxCore - Linux, seguridad y administración de sistemas">
-<meta name="twitter:description" content="Documentación técnica en español sobre Linux, seguridad, Docker, Kubernetes, MySQL, Bash, redes y virtualización.">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/nisamov/linuxcore/main/.github/media/top.png">
-<meta name="twitter:site" content="@nisamov">
-
 <p align="center">
   <img src=".github/media/top.png" alt="LinuxCore Header" width="100%">
 </p>
@@ -42,7 +25,7 @@ El contenido se desarrolla en español y está orientado tanto al aprendizaje es
 
 > [!NOTE]
 > **Base de datos exportable**
-> El proyecto distribuye la referencia de comandos en formato **JSON**, optimizada para alimentar el sitio web **[linuxcore.site](https://linuxcore.site)** o para tus propias automatizaciones. 
+> El proyecto distribuye la referencia de comandos y distribuciones en formato **JSON**, optimizada para alimentar el sitio web **[linuxcore.site](https://linuxcore.site)**. 
 >
 > __Descargar la última versión compilada:__ [![Latest Release](https://img.shields.io/github/v/release/nisamov/linuxcore?display_name=release&style=flat-square&color=0969da&label=release)](https://github.com/nisamov/linuxcore/releases/latest)
 

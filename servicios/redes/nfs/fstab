@@ -1,0 +1,4 @@
+# /etc/fstab
+
+UUID=ce086...   /   ext4    errors=remount-ro   0   1
+192.168.1.2:/compartida     /home/usuario/compartidalocal   nfs     defaults,auto   0   0
