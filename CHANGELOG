@@ -8,6 +8,11 @@
 
 Todos los cambios relevantes de **LinuxCore** se documentan en este archivo.
 
+## [00-00-00-02]
+
+### Cambiado
+- Corrección de enlaces rotos en `README.md` y `/documentacion/redes/*`
+
 ## [00-00-00-01]
 
 ### Añadido
