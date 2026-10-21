@@ -31,6 +31,7 @@
 - Control de acceso: Verificar si un determinado usuario puede realizar cierta acción sobre un objeto en el sistema, en cuyo caso, permitir la acción (implementado mediante perfiles de usuario, privilegios, permisos...).
 
 ## Virus y amenazas
+
 - **Virus:** Necesita ser ejecutado para causar daño. Se propaga a través de archivos adjuntos, descargas o dispositivos de almacenamiento externos.
 - **Gusano:** Se propaga automáticamente a través de redes sin necesidad de ser ejecutado. Puede causar daño al consumir recursos del sistema y ralentizar la red.
 - **Spyware:** Se instala sin el conocimiento del usuario y recopila información personal o confidencial. Puede causar daño al comprometer la privacidad y seguridad de los datos.
