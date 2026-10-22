@@ -1,0 +1,13 @@
+{
+    "nombre":  "Raspbian",
+    "descripcion":  "Distribución de Linux optimizada para Raspberry Pi.",
+    "web_oficial":  "https://www.raspberrypi.com/software/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "",
+                    ""
+                ],
+    "distribucion_base":  "Debian",
+    "gestor_paquetes":  ["APT"],
+    "fuentes": ["https://www.raspberrypi.com/software/"]
+}

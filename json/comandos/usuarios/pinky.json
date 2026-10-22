@@ -1,0 +1,74 @@
+{
+    "id": "pinky",
+    "nombre": "pinky",
+    "descripcion": "Muestra información breve sobre los usuarios con sesión iniciada (nombre de inicio de sesión, nombre completo, terminal, tiempo de inactividad, hora de entrada y host remoto). Es una versión ligera de finger incluida en GNU coreutils.",
+    "clasificacion": {
+        "categoria": "usuarios",
+        "subcategoria": "informacion",
+        "tags": [
+            "usuarios",
+            "sesiones",
+            "finger",
+            "coreutils"
+        ]
+    },
+    "sintaxis": {
+        "principal": "pinky [opciones] [usuario...]",
+        "alternativas": [
+            "pinky [opciones] --lookup [usuario...]"
+        ]
+    },
+    "parametros": [
+        {"flag":"-s","argumento":null,"tipo":"boolean","requerido":false,"default":true,"valores":[],"descripcion":"Usa el formato corto, una línea por sesión. Es el comportamiento predeterminado.","conflictos":["-l"],"requiere":[]},
+        {"flag":"-l","argumento":null,"tipo":"boolean","requerido":false,"default":false,"valores":[],"descripcion":"Usa el formato largo, que muestra un bloque detallado por usuario (directorio personal, shell, y contenido de los archivos .project y .plan). Requiere indicar al menos un usuario.","conflictos":["-s"],"requiere":[]},
+        {"flag":"-b","argumento":null,"tipo":"boolean","requerido":false,"default":false,"valores":[],"descripcion":"En formato largo, omite el directorio personal y el shell del usuario.","conflictos":[],"requiere":["-l"]},
+        {"flag":"-h","argumento":null,"tipo":"boolean","requerido":false,"default":false,"valores":[],"descripcion":"En formato largo, omite el contenido del archivo .project del usuario.","conflictos":[],"requiere":["-l"]},
+        {"flag":"-p","argumento":null,"tipo":"boolean","requerido":false,"default":false,"valores":[],"descripcion":"En formato largo, omite el contenido del archivo .plan del usuario.","conflictos":[],"requiere":["-l"]},
+        {"flag":"-f","argumento":null,"tipo":"boolean","requerido":false,"default":false,"valores":[],"descripcion":"En formato corto, omite la línea de cabecera de columnas.","conflictos":[],"requiere":[]},
+        {"flag":"-w","argumento":null,"tipo":"boolean","requerido":false,"default":false,"valores":[],"descripcion":"En formato corto, omite el nombre completo del usuario.","conflictos":[],"requiere":[]},
+        {"flag":"-i","argumento":null,"tipo":"boolean","requerido":false,"default":false,"valores":[],"descripcion":"En formato corto, omite el nombre completo y el host remoto.","conflictos":[],"requiere":[]},
+        {"flag":"-q","argumento":null,"tipo":"boolean","requerido":false,"default":false,"valores":[],"descripcion":"En formato corto, omite el nombre completo, el host remoto y el tiempo de inactividad.","conflictos":[],"requiere":[]},
+        {"flag":"--lookup","argumento":null,"tipo":"boolean","requerido":false,"default":false,"valores":[],"descripcion":"Intenta canonicalizar los nombres de host mediante consultas DNS.","conflictos":[],"requiere":[]},
+        {"flag":"--help","argumento":null,"tipo":"boolean","requerido":false,"default":false,"valores":[],"descripcion":"Muestra la ayuda y termina.","conflictos":[],"requiere":[]},
+        {"flag":"--version","argumento":null,"tipo":"boolean","requerido":false,"default":false,"valores":[],"descripcion":"Muestra la versión y termina.","conflictos":[],"requiere":[]}
+    ],
+    "requisitos": {
+        "permisos": ["usuario normal"],
+        "dependencias": ["registro de sesiones activas (utmp)", "base de datos local de cuentas (/etc/passwd)"],
+        "paquetes": ["coreutils"]
+    },
+    "seguridad": {
+        "nivel": "bajo",
+        "destructivo": false,
+        "requiere_root": false,
+        "requiere_confirmacion": false,
+        "advertencias": [
+            "Expone nombres de usuario, terminales y hosts remotos de las sesiones activas; evita compartir su salida sin revisarla.",
+            "En formato largo lee los archivos .project y .plan del directorio personal de otros usuarios, por lo que puede mostrar texto que ellos hayan escrito.",
+            "En algunas distribuciones pinky puede no estar disponible en instalaciones mínimas o contenedores, y su salida depende de que exista el registro utmp."
+        ]
+    },
+    "instalacion": {
+        "instalable": true,
+        "metodo": "Gestor de paquetes; forma parte de coreutils y normalmente ya está instalado.",
+        "paquetes": {
+            "debian_ubuntu": "sudo apt install coreutils",
+            "arch_linux": "sudo pacman -S coreutils",
+            "rhel_centos": "sudo dnf install coreutils"
+        }
+    },
+    "ejemplos": [
+        {"nombre":"Listar usuarios con sesión activa","comando":"pinky","descripcion":"Muestra en formato corto una línea por cada sesión abierta en el sistema.","resultado_esperado":"Tabla con las columnas Login, Name, TTY, Idle, When y Where."},
+        {"nombre":"Salida compacta sin cabecera","comando":"pinky -f -q","descripcion":"Muestra las sesiones sin cabecera, sin nombre completo, sin host remoto y sin tiempo de inactividad.","resultado_esperado":"Una línea por sesión con solo login, terminal y hora de inicio."},
+        {"nombre":"Información detallada de un usuario","comando":"pinky -l ana","descripcion":"Muestra el formato largo de la cuenta ana, con directorio personal, shell y los archivos .plan y .project si existen.","resultado_esperado":"Bloque con Login, Name, Directory, Shell y, si existen, los textos de Project y Plan."},
+        {"nombre":"Formato largo sin planes ni proyectos","comando":"pinky -l -p -h ana","descripcion":"Muestra los datos de la cuenta ana omitiendo el contenido de .plan y .project.","resultado_esperado":"Solo login, nombre, directorio y shell del usuario."}
+    ],
+    "automatizacion": {
+        "idempotente": true,
+        "interactivo": false,
+        "apto_script": false,
+        "variables": ["usuario"],
+        "validaciones": ["Comprobar que el usuario consultado exista con getent passwd antes de usar -l.", "Para scripts, preferir who, w o loginctl list-sessions, cuya salida es más estable y fácil de procesar."],
+        "rollback": null
+    }
+}
