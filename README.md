@@ -6,7 +6,8 @@
 
 # Linux Core
 
-[![MIT License](https://img.shields.io/github/license/nisamov/linuxcore?style=flat-square&color=0969da)](LICENSE) [![Website](https://img.shields.io/badge/website-linuxcore.site-0969da?style=flat-square)](https://linuxcore.site/) [![DB Build](https://img.shields.io/github/actions/workflow/status/nisamov/linuxcore/commands_db_gen.yaml?style=flat-square&color=0969da&label=db%20build)](https://github.com/nisamov/linuxcore/actions) [![Last Commit](https://img.shields.io/github/last-commit/nisamov/linuxcore?style=flat-square&color=0969da)](https://github.com/nisamov/linuxcore/commits)![Visitas](https://visitor-badge.laobi.icu/badge?page_id=nisamov.linuxcore)
+[![MIT License](https://img.shields.io/github/license/nisamov/linuxcore?style=flat-square&color=0969da)](LICENSE) [![Website](https://img.shields.io/badge/website-linuxcore.site-0969da?style=flat-square)](https://linuxcore.site/) [![DB Build](https://img.shields.io/github/actions/workflow/status/nisamov/linuxcore/commands_db_gen.yaml?style=flat-square&color=0969da&label=db%20build)](https://github.com/nisamov/linuxcore/actions) [![Last Commit](https://img.shields.io/github/last-commit/nisamov/linuxcore?style=flat-square&color=0969da)](https://github.com/nisamov/linuxcore/commits)[![Visitas](https://api.visitorbadge.io/api/combined?path=nisamov.linuxcore&countColor=0969da&style=flat-square)](https://github.com/nisamov/linuxcore)
+
 **Documentación y fundamentos de informática en Español**
 
 </div>
@@ -97,7 +98,6 @@ El contenido se desarrolla en español y está orientado tanto al aprendizaje es
 | Forense | [Foremost](documentacion/seguridad/forense/herramientas/foremost.md) | Recuperación de archivos. |
 | Forense | [Definición de datos](documentacion/seguridad/forense/herramientas/datadefinition.md) | Conceptos de datos. |
 | Forense | [Logrotate](documentacion/seguridad/forense/herramientas/logrotate.md) | Rotación de registros. |
-| Ofensiva | `seguridad/ofensiva/` | En preparación. |
 | OSINT | `seguridad/osint/` | En preparación. |
 
 ### Servicios
@@ -124,7 +124,7 @@ El contenido se desarrolla en español y está orientado tanto al aprendizaje es
 | Contenedores | [Docker: instalación](documentacion/infraestructura/contenedores/docker/instalacion.md) | Puesta en marcha. |
 | Contenedores | [Kubernetes](documentacion/infraestructura/contenedores/kubernetes/teoria_kubernetes.md) | Orquestación. |
 | Contenedores | [LXC](documentacion/infraestructura/contenedores/lxc/teoria_lxc.md) | Contenedores de sistema. |
-| Copias de seguridad | [Borg](documentacion/infraestructura/contenedores/borg/teoria_borg.md) | Backups deduplicados. |
+| Copias de seguridad | [Borg](documentacion\infraestructura\copias_seguridad\borg\teoria_borg.md) | Backups deduplicados. |
 
 ### Bases de datos
 
@@ -155,10 +155,11 @@ Scripts SQL: [`declaracion`](documentacion/bases_de_datos/mysql_mariadb/sql/decl
 | PHP | [Condicionales](documentacion/programacion/php/condicionales.php) · [Conversión](documentacion/programacion/php/conversion.php) | Lógica y tipos. |
 
 ## LinuxCore.site
+
 [![Vista previa de LinuxCore Web | Comandos y Distribuciones](.github/media/linuxcore-site-preview.GIF)](https://linuxcore.site/)
 <p align="center">
   <a href="https://linuxcore.site/">
-    <strong>Abrir LinuxCore Web</strong>
+    <img src="https://img.shields.io/badge/Abrir_LinuxCore_Web-ffffff?style=flat&logoColor=0969da&labelColor=ffffff&color=0969da" alt="Abrir LinuxCore Web" />
   </a>
 </p>
 

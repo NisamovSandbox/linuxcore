@@ -2,9 +2,38 @@
   <img src=".github/media/top.png" alt="LinuxCore Header" width="100%">
 </p>
 
-# Registro de Cambios | Linux Core
+<div align="center">
+  <h1>Registro de Cambios | Linux Core</h1>
 
-Todos los cambios relevantes de **Linux Core** se documentan en este archivo. Las versiones más recientes aparecen primero.
+<p>Todos los cambios relevantes de <b>Linux Core</b> se documentan en este archivo. Las versiones más recientes aparecen primero.</p>
+</div>
+
+## [`00-00-00-05`]
+
+### Añadido
+
+- Pasados comandos de `ssh` a `documentacion/redes/ssh/uso.md`
+
+### Cambiado
+
+- Ediciones generales en `README.md`:
+  - Modificación de redireccionamiento a "linuxcore.site"
+  - Modificación en el diseño y formato de shields
+  - Modificación de Formato de colaboradores
+- Modificada completa sobre la teoría `ssh` en `documentacion/redes/ssh/teoria_ssh.md`
+- Corrección y expansión de apuntes en `documentacion/programacion/php/variables.php`
+
+### Corregido
+
+- Corregido el enlace roto en `README.md` del archivo `documentacion/infraestructura/copias_seguridad/borg/teoria_borg.md`
+- Corregido enlace de contribuciones en `README.md`y `.github/CONTRIBUTING.md`
+
+### Eliminado
+
+- Eliminada la sección `documentación/seguridad/ofensiva/`
+- Se han retirado los nombres de las entidades que no deseaban aparecer en `.github/AGRADECIMIENTOS.md`.
+
+---
 
 ## [`00-00-00-04`]
 
@@ -23,6 +52,8 @@ Todos los cambios relevantes de **Linux Core** se documentan en este archivo. La
 
 - Deteccion de visualizaciones de `README.md`
 
+---
+
 ## [`00-00-00-03`]
 
 ### Cambiado
@@ -31,11 +62,15 @@ Todos los cambios relevantes de **Linux Core** se documentan en este archivo. La
 - Ajustes menores de formato en `CHANGELOG.md`
 - Formato de las tablas de `README.md` cambiado de `markdown` a `html`
 
+---
+
 ## [`00-00-00-02`]
 
 ### Corregido
 
 - Enlaces rotos en `README.md` y `documentacion/redes/*`
+
+---
 
 ## [`00-00-00-01`]
 

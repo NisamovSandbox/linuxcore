@@ -1,52 +1,109 @@
-# Seguridad Informática
+# Teoría General de Seguridad informática
 
-Área de la informaática que se preocupa de la protección de los sistemas informáticos y redes ante filtraciones o robos de información, ante el robo o daño al hardware o al software, así como de evitar la interrupción de los servicios que proveen.
+La seguridad informática comprende las medidas destinadas a proteger los sistemas, las redes, la información y las personas frente a daños, accesos no autorizados, robos, pérdidas o interrupciones de servicio. La ciberseguridad se centra especialmente en proteger los sistemas conectados y los activos digitales frente a amenazas que se producen en el ciberespacio.
 
-- **Seguridad Física:** Se refiere a la protección de los activos físicos de una organización, como edificios, equipos y personas, contra amenazas como robos, vandalismo y desastres naturales. Las medidas de seguridad física pueden incluir controles de acceso, vigilancia y protección contra incendios.
-- **Seguridad Lógica:** Se refiere a la protección de los activos digitales de una organización, como datos, sistemas y redes, contra amenazas como ataques cibernéticos, malware y acceso no autorizado. Las medidas de seguridad lógica pueden incluir firewalls, antivirus y autenticación de usuarios.
-- **Seguridad Activa:** Se refiere a las medidas de seguridad que se implementan para prevenir o mitigar los riesgos de seguridad. Estas medidas pueden incluir políticas de seguridad, capacitación de empleados y controles de acceso.
-- **Seguridad Pasiva:** Se refiere a las medidas de seguridad que se implementan para minimizar el impacto de un incidente de seguridad. Estas medidas pueden incluir planes de contingencia, copias de seguridad y sistemas de recuperación ante desastres.
-- **Seguridad Preventiva:** Se refiere a las medidas de seguridad que se implementan para evitar que ocurran incidentes de seguridad. Estas medidas pueden incluir políticas de seguridad, capacitación de empleados y controles de acceso.
-- **Seguridad Correctiva:** Se refiere a las medidas de seguridad que se implementan para corregir los daños causados por un incidente de seguridad. Estas medidas pueden incluir planes de contingencia, copias de seguridad y sistemas de recuperación ante desastres.
-- **Seguridad Hardware:** Se refiere a la protección de los componentes físicos de un sistema, como servidores, computadoras y dispositivos de red, contra amenazas como robos, vandalismo y desastres naturales. Las medidas de seguridad hardware pueden incluir controles de acceso, vigilancia y protección contra incendios.
-- **Seguridad Software:** Se refiere a la protección de los programas y aplicaciones de un sistema contra amenazas como ataques cibernéticos, malware y acceso no autorizado. Las medidas de seguridad software pueden incluir firewalls, antivirus y autenticación de usuarios.
-- **Seguridad Network:** Se refiere a la protección de las redes de una organización contra amenazas como ataques cibernéticos, malware y acceso no autorizado. Las medidas de seguridad de red pueden incluir firewalls, sistemas de detección de intrusos y autenticación de usuarios.
+La seguridad combina medidas preventivas, de detección, respuesta y recuperación. Su objetivo no es solo evitar incidentes, sino también reducir su probabilidad e impacto y permitir que los servicios se restablezcan cuanto antes.
 
-## Dimensiones de la seguridad informática
+## Ámbitos y tipos de medidas
 
-### Dimensiones básicas (Trío CIA)
+- **Seguridad física:** protege edificios, equipos, soportes y personas frente a robos, vandalismo, accidentes y desastres. Incluye controles de acceso, vigilancia, protección contra incendios y condiciones ambientales adecuadas.
+- **Seguridad lógica:** protege cuentas, datos, aplicaciones, sistemas y redes mediante medidas como autenticación, permisos, cifrado, cortafuegos y actualizaciones.
+- **Seguridad de hardware:** protege los componentes físicos, por ejemplo, mediante control de acceso, mantenimiento, redundancia y protección eléctrica.
+- **Seguridad de software:** reduce los defectos y accesos indebidos en sistemas operativos y aplicaciones mediante desarrollo seguro, actualizaciones y controles de acceso.
+- **Seguridad de red:** protege las comunicaciones y los dispositivos de red mediante segmentación, cortafuegos, cifrado y monitorización.
+- **Medidas preventivas:** buscan evitar incidentes o reducir su probabilidad, por ejemplo, aplicando actualizaciones, formando al personal y configurando correctamente los permisos.
+- **Medidas de detección:** permiten identificar actividades anómalas o incidentes, por ejemplo, mediante registros y sistemas de monitorización.
+- **Medidas de respuesta y recuperación:** limitan los daños y ayudan a restablecer el servicio. Incluyen planes de respuesta, copias de seguridad y procedimientos de recuperación ante desastres.
 
-- **Confidencialidad:** La información solo ha de ser leida por el destinatario de la misma, esta seguridad se implemente mediante un cifrado (simétrico/asimétrico).
-- **Integridad:** La información ha de llegar al destinatario sin haber sido alterada respecto a como salió del emisor, esta seguridad se implementa mediante funciones o resumen hash.
-- **Disponibilidad (availability):** Garantiza que la información esté disponible en el momento que es solicitada, así como se debe evitar la pérdida o bloqueo de la información (ya sea por ataques, malas operaciones, desastres...).
+Los términos *activa* y *pasiva* pueden emplearse para clasificar medidas de distintas maneras según el contexto. No son equivalentes exactos a *preventiva* y *correctiva*.
 
-#### Otras dimensiones
+## Perfiles de atacantes
 
-- Autenticación: Verificación de entidades, accesos, acciones... (asociado al control de recursos).
-- No repudio (saber trazar quien hizo cada accion):
-  - En los sistemas: Registro de acciones, así como quien las hace y cuando, ediante trazabilidad.
-  - En las comunicaciones:
-    - No repudio en origen: Demuestra que el mensaje recibido proviene del emisor (mediante firmas únicas).
-    - No repudio en destino: Demuestra que el receptor recibió la comunicación (mediante firmas únicas).
-- Control de acceso: Verificar si un determinado usuario puede realizar cierta acción sobre un objeto en el sistema, en cuyo caso, permitir la acción (implementado mediante perfiles de usuario, privilegios, permisos...).
+- **Hacktivistas:** utilizan técnicas informáticas para promover causas políticas o sociales.
+- **Usuarios de herramientas ajenas (*script kiddies*):** emplean herramientas creadas por otras personas y pueden tener conocimientos limitados. Aun así, sus acciones pueden causar daños.
+- **Personas internas (*insiders*):** miembros de una organización, actuales o anteriores, que hacen un uso indebido de sus conocimientos o accesos, de forma intencionada o accidental.
+- **Estados y grupos patrocinados por estados:** pueden llevar a cabo actividades de espionaje, influencia o sabotaje, además de proteger sus propias infraestructuras.
+- **Ciberdelincuentes:** buscan obtener beneficios económicos. Pueden especializarse en distintas etapas del delito, como el robo o la venta de datos, la extorsión o la interrupción de servicios.
 
-## Virus y amenazas
+También se emplean estos términos para describir la intención o autorización de quien realiza pruebas de seguridad:
 
-- **Virus:** Necesita ser ejecutado para causar daño. Se propaga a través de archivos adjuntos, descargas o dispositivos de almacenamiento externos.
-- **Gusano:** Se propaga automáticamente a través de redes sin necesidad de ser ejecutado. Puede causar daño al consumir recursos del sistema y ralentizar la red.
-- **Spyware:** Se instala sin el conocimiento del usuario y recopila información personal o confidencial. Puede causar daño al comprometer la privacidad y seguridad de los datos.
-- **Ransomware:** Encripta los archivos de la víctima y exige un rescate para desbloquearlos. Puede causar daño al impedir el acceso a datos importantes y comprometer la seguridad de la información.
-- **Cryptojacking:** Utiliza los recursos del sistema de la víctima para minar criptomonedas sin su conocimiento. Puede causar daño al ralentizar el rendimiento del sistema y aumentar el consumo de energía.
-- **Interrupción de servicio (DoS):** Sobrecarga un sistema o red con tráfico para hacer que los servicios sean inaccesibles. Puede causar daño al interrumpir las operaciones normales y afectar la disponibilidad de los servicios.
-- **MITM (Man in the Middle):** Intercepta y manipula la comunicación entre dos partes sin que ellas lo sepan. Puede causar daño al comprometer la confidencialidad e integridad de la información transmitida.
-- **Phishing:** Es un tipo de ataque en el que los atacantes se hacen pasar por una entidad confiable para engañar a las víctimas y obtener información confidencial, como contraseñas o datos de tarjetas de crédito. Puede causar daño al comprometer la seguridad de la información personal y financiera de las víctimas.
-- **SQL Injection:** Es un tipo de ataque en el que los atacantes insertan código malicioso en una consulta SQL para acceder a datos no autorizados o manipular la base de datos. Puede causar daño al comprometer la integridad y confidencialidad de los datos almacenados en la base de datos.
-- **Fabricacion web:** Es un tipo de ataque en el que los atacantes crean sitios web falsos que imitan a sitios legítimos para engañar a los usuarios y obtener información confidencial. Puede causar daño al comprometer la seguridad de la información personal y financiera de las víctimas.
-- **Vulnerabilidad:** Es una debilidad en un sistema que puede ser explotada por un atacante para comprometer la seguridad del sistema. Las vulnerabilidades pueden ser causadas por errores de programación, configuraciones incorrectas o falta de actualizaciones de seguridad.
-- **Ingeniería social:** Es un tipo de ataque en el que los atacantes manipulan a las personas para obtener información confidencial o acceso no autorizado a sistemas. Puede causar daño al comprometer la seguridad de la información personal y financiera de las víctimas.
-- **Ataque de fuerza bruta:** Es un tipo de ataque en el que los atacantes intentan adivinar contraseñas o claves de acceso mediante la prueba de todas las combinaciones posibles. Puede causar daño al comprometer la seguridad de la información personal y financiera de las víctimas.
-- **Ataque de diccionario:** Es un tipo de ataque en el que los atacantes intentan adivinar contraseñas o claves de acceso utilizando una lista de palabras comunes o frases. Puede causar daño al comprometer la seguridad de la información personal y financiera de las víctimas.
-- **Ataque de día cero:** Es un tipo de ataque en el que los atacantes explotan una vulnerabilidad desconocida o sin parchear en un sistema. Puede causar daño al comprometer la seguridad de la información personal y financiera de las víctimas.
-- **Puerta trasera:** Es un tipo de ataque en el que los atacantes crean una forma oculta de acceder a un sistema sin autorización. Puede causar daño al comprometer la seguridad de la información personal y financiera de las víctimas.
-- **Bomba lógica:** Es un tipo de ataque en el que los atacantes insertan código malicioso en un sistema que se activa en un momento específico o bajo ciertas condiciones. Puede causar daño al comprometer la seguridad de la información personal y financiera de las víctimas.
-- **Flooding:** Es un tipo de ataque en el que los atacantes envían una gran cantidad de tráfico a un sistema o red para agotar sus recursos y hacer que los servicios sean inaccesibles. Puede causar daño al interrumpir las operaciones normales y afectar la disponibilidad de los servicios.
+- **Black hat:** actúa sin autorización y con fines maliciosos o ilícitos.
+- **White hat:** trabaja con autorización para evaluar y mejorar la seguridad.
+- **Gray hat:** puede investigar o acceder a sistemas sin autorización formal, aunque no persiga necesariamente causar daño. La falta de intención maliciosa no convierte esa actividad en legal ni autorizada.
+
+Un **cracker** es un término usado para describir a quien vulnera sistemas o protecciones, habitualmente sin autorización. En el uso cotidiano suele asociarse a actividades maliciosas, aunque el término no siempre se emplea de manera uniforme.
+
+## Gestión de riesgos
+
+- **Activo:** recurso que tiene valor para una organización y que se desea proteger, como información, servicios, equipos, aplicaciones o instalaciones.
+- **Vulnerabilidad:** debilidad de un activo o de las medidas que lo protegen que podría ser aprovechada. Puede deberse a errores de software, configuraciones inadecuadas, credenciales débiles, falta de actualizaciones o errores humanos.
+- **Amenaza:** circunstancia, evento o agente que puede causar daño a un activo. Una amenaza puede aprovechar una vulnerabilidad, aunque no toda amenaza llega a materializarse.
+- **Impacto:** consecuencias que tendría un incidente sobre los activos o la organización, por ejemplo, pérdida de datos o interrupción de un servicio.
+- **Probabilidad:** posibilidad de que una amenaza se materialice en unas circunstancias determinadas.
+- **Riesgo:** combinación de la probabilidad de que ocurra un incidente y la gravedad de sus consecuencias. En algunos métodos se representa como el producto de probabilidad e impacto, pero la evaluación concreta depende de la metodología utilizada.
+
+## Vulnerabilidades, pruebas y código de explotación
+
+Una **vulnerabilidad de día cero** (*zero-day*) es una vulnerabilidad que todavía no cuenta con una solución disponible para quienes administran o mantienen el sistema afectado. El término se refiere a la falta de tiempo o de una corrección eficaz; no implica necesariamente que nadie conozca la vulnerabilidad.
+
+Una **prueba de penetración** (*pentest*) es una evaluación de seguridad autorizada y delimitada. Se realiza con un alcance, unas reglas y unos objetivos acordados para identificar debilidades y valorar su impacto.
+
+Un **exploit** es código, una técnica o una herramienta que aprovecha una vulnerabilidad. Según el caso, podría permitir, por ejemplo, ejecutar código, elevar privilegios, provocar una denegación de servicio o acceder a información. Un exploit no es necesariamente malware: puede utilizarse en pruebas autorizadas, aunque también puede formar parte de un ataque.
+
+La **carga útil** (*payload*) es la acción o el contenido que se ejecuta o entrega después de aprovechar una vulnerabilidad. Un mismo exploit puede asociarse a distintas cargas útiles. No todos los exploits entregan malware.
+
+El **malware** es software creado para realizar acciones no autorizadas o perjudiciales, como robar información, alterar datos, interferir con un sistema o impedir el acceso a recursos. Puede llegar a un equipo mediante distintas vías, entre ellas la explotación de vulnerabilidades o el engaño a una persona mediante ingeniería social.
+
+## Identificación y valoración de vulnerabilidades
+
+**CVE** (*Common Vulnerabilities and Exposures*) es un sistema de identificadores públicos para vulnerabilidades conocidas. Un identificador tiene el formato `CVE-AAAA-NNNN`, donde `AAAA` indica el año y la secuencia numérica puede tener cuatro o más dígitos. MITRE gestiona el programa CVE y coordina la asignación de identificadores junto con organizaciones autorizadas.
+
+La **NVD** (*National Vulnerability Database*) es una base de datos mantenida por el NIST estadounidense. Incluye información y análisis sobre vulnerabilidades identificadas mediante CVE. Un identificador CVE sirve para referirse a una vulnerabilidad; por sí solo no expresa su gravedad.
+
+El **CVSS** (*Common Vulnerability Scoring System*) es un sistema para describir y puntuar la gravedad técnica de una vulnerabilidad. La puntuación no equivale por sí sola al riesgo real para una organización, que también depende del contexto, la exposición y el valor de los activos afectados.
+
+En **CVSS 3.1**, el vector base puede expresarse, por ejemplo, como `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H`. Sus métricas son:
+
+- **AV (Attack Vector, vector de ataque):** contexto desde el que se puede explotar la vulnerabilidad: `N` (Network, a través de una red), `A` (Adjacent, desde una red adyacente), `L` (Local, con acceso local al sistema) o `P` (Physical, con acceso físico al dispositivo).
+- **AC (Attack Complexity, complejidad del ataque):** condiciones adicionales necesarias para explotar la vulnerabilidad: `L` (Low, bajas) o `H` (High, altas).
+- **PR (Privileges Required, privilegios requeridos):** nivel de privilegios que debe tener el atacante antes de la explotación: `N` (None, ninguno), `L` (Low, bajos) o `H` (High, altos).
+- **UI (User Interaction, interacción del usuario):** indica si la explotación requiere que otra persona realice alguna acción: `N` (None, no se requiere) o `R` (Required, se requiere).
+- **S (Scope, ámbito):** indica si el impacto se limita a la autoridad de seguridad del componente vulnerable (`U`, Unchanged) o afecta a recursos fuera de ella (`C`, Changed).
+- **C, I y A:** impacto en la confidencialidad (*Confidentiality*), la integridad (*Integrity*) y la disponibilidad (*Availability*). Cada métrica puede ser `H` (High, alto), `L` (Low, bajo) o `N` (None, ninguno).
+
+## Dimensiones de la seguridad
+
+### Tríada CIA
+
+- **Confidencialidad:** solo las personas o sistemas autorizados pueden acceder a la información. El cifrado ayuda a protegerla frente a accesos no autorizados.
+- **Integridad:** la información y los sistemas se mantienen correctos y no sufren modificaciones no autorizadas. Los hashes permiten detectar cambios, pero para proteger la integridad frente a una manipulación deliberada se necesitan mecanismos autenticados, como códigos MAC o firmas digitales.
+- **Disponibilidad:** la información y los servicios están accesibles cuando se necesitan. La redundancia, las copias de seguridad y los planes de recuperación contribuyen a mantenerla.
+
+### Otras dimensiones y controles
+
+- **Autenticación:** verifica la identidad de una persona, dispositivo o servicio.
+- **Control de acceso:** determina qué acciones puede realizar una entidad autenticada sobre un recurso, de acuerdo con sus permisos y privilegios.
+- **Trazabilidad:** permite reconstruir qué acciones se realizaron, cuándo y, cuando es posible, quién las realizó. Los registros deben protegerse para que sean fiables.
+- **No repudio:** aporta evidencias que dificultan negar la participación en una acción o comunicación. Las firmas digitales pueden ayudar a demostrar el origen e integridad de un mensaje; acreditar su recepción suele requerir mecanismos adicionales, como un acuse de recibo verificable.
+
+## Amenazas y tipos de ataque
+
+- **Virus:** malware que se inserta en archivos o programas y se propaga cuando se ejecuta el elemento infectado.
+- **Gusano:** malware capaz de propagarse automáticamente entre sistemas, normalmente a través de una red, sin tener que adjuntarse a un archivo anfitrión.
+- **Spyware:** software que recopila información o supervisa la actividad sin el conocimiento o consentimiento adecuado de la persona afectada.
+- **Ransomware:** malware que cifra o bloquea datos y exige un pago. Pagar no garantiza recuperar la información.
+- **Cryptojacking:** uso no autorizado de los recursos de un dispositivo para minar criptomonedas.
+- **Denegación de servicio (DoS):** acción que busca impedir o degradar el acceso a un sistema o servicio. Si se origina desde numerosos sistemas, se denomina denegación de servicio distribuida (DDoS).
+- **Intermediario en la comunicación (MITM, *Man in the Middle*):** interceptación o posible modificación de comunicaciones entre partes que creen comunicarse directamente.
+- **Phishing:** engaño que suplanta a una entidad de confianza para inducir a la víctima a revelar información, abrir contenido o realizar una acción. La suplantación dirigida a una organización o persona concreta se conoce como *spear phishing*.
+- **Inyección SQL:** vulnerabilidad que aparece cuando una aplicación incorpora datos no confiables en una consulta SQL sin tratarlos de forma segura. Puede permitir consultar o modificar datos de manera no autorizada.
+- **Suplantación de sitios web:** creación de páginas que imitan servicios legítimos para engañar a las personas, por ejemplo, para que introduzcan sus credenciales.
+- **Ingeniería social:** manipulación de personas para obtener información, inducir acciones o conseguir acceso no autorizado.
+- **Ataque de fuerza bruta:** intento sistemático de adivinar una contraseña o clave probando muchas combinaciones.
+- **Ataque de diccionario:** intento de adivinar credenciales probando palabras o combinaciones frecuentes.
+- **Explotación de día cero:** aprovechamiento de una vulnerabilidad para la que todavía no hay una corrección disponible.
+- **Puerta trasera:** mecanismo oculto o no autorizado que permite volver a acceder a un sistema o eludir sus controles habituales.
+- **Bomba lógica:** código que se activa cuando se cumple una condición o llega un momento determinado.
+- **Flooding:** envío de una cantidad elevada de solicitudes o tráfico para consumir recursos y degradar o interrumpir un servicio. Puede formar parte de una denegación de servicio.
+
+Una vulnerabilidad es una debilidad que puede ser aprovechada; no es, por sí misma, un ataque. Del mismo modo, no todas las amenazas son malware ni todos los incidentes tienen origen malicioso.

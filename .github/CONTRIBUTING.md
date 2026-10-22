@@ -169,6 +169,6 @@ Gracias por contribuir al proyecto, si tu pull request es aceptado, aparecerás 
 
 <div align="center">
   <a href="https://github.com/nisamov/linuxcore/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=nisamov/linuxcore" alt="Contribuyentes de LinuxCore" />
+    <img src="https://contrib.rocks/image?repo=Nisamov/linuxcore" alt="Contribuyentes de LinuxCore" />
   </a>
 </div>
