@@ -10,9 +10,21 @@
 
 ## [`00-00-00-05`]
 
+### Corregido
+
+- Corregido el enlace simbolico del `README.md` de `teoria_borg.md`
+
+### Eliminado
+
+- Eliminada la referencia del enlace a un archivo inexistente `diagnosticar_ssh.md`
+
+---
+
+## [`00-00-00-05`]
+
 ### Añadido
 
-- Pasados comandos de `ssh` a `documentacion/redes/ssh/uso.md`
+- Creada teoria general de `ssh` en `documentacion/redes/ssh/uso.md`
 
 ### Cambiado
 

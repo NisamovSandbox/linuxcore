@@ -76,7 +76,6 @@ El contenido se desarrolla en español y está orientado tanto al aprendizaje es
 | NFS | [Teoría de NFS](documentacion/redes/nfs/teoria_nfs.md) | Recursos compartidos en red; ver también [`exports`](documentacion/redes/nfs/exports) y [`fstab`](documentacion/redes/nfs/fstab). |
 | Samba | [General de Samba](documentacion/redes/samba/general_samba.md) | Compartición con Windows; ver [`smb.conf`](documentacion/redes/samba/smb.conf). |
 | SSH | [Teoría de SSH](documentacion/redes/ssh/teoria_ssh.md) | Acceso remoto seguro. |
-| SSH | [Diagnosticar SSH](documentacion/redes/ssh/diagnosticar_ssh.md) | Resolución de problemas. |
 
 ### Seguridad
 
@@ -124,7 +123,7 @@ El contenido se desarrolla en español y está orientado tanto al aprendizaje es
 | Contenedores | [Docker: instalación](documentacion/infraestructura/contenedores/docker/instalacion.md) | Puesta en marcha. |
 | Contenedores | [Kubernetes](documentacion/infraestructura/contenedores/kubernetes/teoria_kubernetes.md) | Orquestación. |
 | Contenedores | [LXC](documentacion/infraestructura/contenedores/lxc/teoria_lxc.md) | Contenedores de sistema. |
-| Copias de seguridad | [Borg](documentacion\infraestructura\copias_seguridad\borg\teoria_borg.md) | Backups deduplicados. |
+| Copias de seguridad | [Borg](documentacion/infraestructura/copias_seguridad/borg/teoria_borg.md) | Backups deduplicados. |
 
 ### Bases de datos
 
