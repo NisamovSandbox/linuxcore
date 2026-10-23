@@ -8,9 +8,22 @@
 <p>Todos los cambios relevantes de <b>Linux Core</b> se documentan en este archivo. Las versiones más recientes aparecen primero.</p>
 </div>
 
+## [`00-00-01-03`]
+
+### Añadido
+
+- Agregado `.github/dependabot` con automatización mensual.
+- Creado `.github/ACCESSIBILITY`
+
+### Cambiado
+
+- Agregado nuevo contenido y reformado sectores de `documentacion/bases_de_datos/mysql_mariadb/usuarios_y_permisos.md`
+
+---
+
 ## [`00-00-01-02`]
 
-## Añadido
+### Añadido
 
 - Creación de directorio `docker/`
 

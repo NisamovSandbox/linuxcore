@@ -38,7 +38,6 @@ El contenido se desarrolla en español y está orientado tanto al aprendizaje es
 > ```
 >
 > Abre <http://localhost:8080>. Para actualizar: `docker pull ghcr.io/nisamov/linuxcore:latest` y recrea el contenedor.
-> La imagen es una instantánea de cada release; usa una etiqueta de versión para fijarla.
 
 ## Estructura de Contenidos
 

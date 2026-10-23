@@ -8,9 +8,9 @@ CREATE USER 'usuario' IDENTIFIED BY 'clave';
 
 Variantes de la sentencia de creación:
 
-- `CREATE USER`: error si el usuario ya existe.
-- `CREATE OR REPLACE USER`: si el usuario existe, primero lo elimina y luego lo crea.
-- `CREATE USER IF NOT EXISTS`: si el usuario ya existe no da error, solo muestra un warning.
+* `CREATE USER`: error si el usuario ya existe.
+* `CREATE OR REPLACE USER`: si el usuario existe, primero lo elimina y luego lo crea.
+* `CREATE USER IF NOT EXISTS`: si el usuario ya existe no da error, solo muestra un warning.
 
 ### El usuario y su origen (host)
 
@@ -31,10 +31,12 @@ CREATE USER 'manolo'@'192.168.7.%';
 CREATE USER 'manolo'@'%';
 ```
 
-### La contraseña
+## Contraseñas y políticas de acceso
+
+### Definición y cambio de contraseña
 
 ```sql
--- Clave en texto plano
+-- Clave en texto plano al crear
 CREATE USER 'manolo'@'localhost' IDENTIFIED BY 'clave123';
 
 -- Clave en hash
@@ -44,25 +46,25 @@ CREATE USER 'manolo'@'localhost' IDENTIFIED BY PASSWORD '*2565c0f13c54139d8b8971
 SELECT PASSWORD('manolo');
 ```
 
-Los plugins de autenticación (`ed25519`, `pam`) y los requisitos SSL están en `05_seguridad_ssl_pam_apparmor.md`.
+*Nota: Los plugins de autenticación (`ed25519`, `pam`) y los requisitos SSL se configuran aparte en la seguridad del servidor.*
 
-## Forzar el cambio de contraseña en el primer acceso
+### Forzar el cambio de contraseña en el primer acceso
 
 ```sql
 CREATE USER 'nuevo_usuario'@'%' IDENTIFIED BY 'miclave123' PASSWORD EXPIRE;
--- Un vez dentro de ese usuario, no permitirá ejecutar comnandos hasta que se haya cambiado su clave
+-- Un vez dentro de ese usuario, no permitirá ejecutar comandos hasta que se haya cambiado su clave
 
 -- Al entrar con ese usuario
 SET PASSWORD = PASSWORD('TuNuevaContraseña');
 
--- Probar permisos
+-- Probar permisos tras el cambio
 SHOW DATABASES;
 ```
 
-## Politicas de clave
+### Políticas de expiración
 
 ```sql
--- Politicas por defecto
+-- Políticas por defecto
 CREATE USER 'usuario'@'%' IDENTIFIED BY 'clave' PASSWORD EXPIRE DEFAULT;
 
 -- La clave no expirará
@@ -72,15 +74,28 @@ CREATE USER 'usuario'@'%' IDENTIFIED BY 'clave' PASSWORD EXPIRE NEVER;
 CREATE USER 'usuario'@'%' IDENTIFIED BY 'clave' PASSWORD EXPIRE INTERVAL 365 DAY;
 ```
 
+### Cambiar o recuperar la contraseña de root
+
+```sql
+-- Cambiar la clave
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'NuevaContraseña';
+
+-- Restablecer la configuración inicial (se entra como root sin contraseña, por unix_socket)
+ALTER USER 'root'@'localhost' IDENTIFIED VIA unix_socket;
+
+-- Después de cualquiera de las dos
+FLUSH PRIVILEGES;
+```
+
 ## Límites de recursos
 
 Se pueden fijar al crear el usuario, aunque es preferible hacerlo con `ALTER USER`.
 
-- `MAX_QUERIES_PER_HOUR`: cualquier sentencia ejecutada por el usuario (`INSERT`, `UPDATE`, `SELECT`...).
-- `MAX_UPDATES_PER_HOUR`: sentencias que modifican tablas o datos. No cuenta crear usuarios, tablas, etc.
-- `MAX_CONNECTIONS_PER_HOUR`: conexiones por hora.
-- `MAX_USER_CONNECTIONS`: máximo de conexiones simultáneas.
-- `MAX_STATEMENT_TIME`: tiempo máximo de una consulta.
+* `MAX_QUERIES_PER_HOUR`: cualquier sentencia ejecutada por el usuario (`INSERT`, `UPDATE`, `SELECT`...).
+* `MAX_UPDATES_PER_HOUR`: sentencias que modifican tablas o datos. No cuenta crear usuarios, tablas, etc.
+* `MAX_CONNECTIONS_PER_HOUR`: conexiones por hora.
+* `MAX_USER_CONNECTIONS`: máximo de conexiones simultáneas.
+* `MAX_STATEMENT_TIME`: tiempo máximo de una consulta.
 
 ```sql
 CREATE USER 'borbon'@'localhost' IDENTIFIED BY 'PASS'
@@ -88,27 +103,50 @@ CREATE USER 'borbon'@'localhost' IDENTIFIED BY 'PASS'
          MAX_UPDATES_PER_HOUR 50;
 ```
 
-## Conceder permisos
+## Privilegios y permisos
+
+Si no se indica ningún permiso al crear un usuario o se le asigna `USAGE`, este solo tendrá permiso para conectarse al servidor, pero no podrá realizar ninguna acción. Para permitirle interactuar con las bases de datos, se otorgan privilegios específicos mediante la instrucción `GRANT`.
+
+### Tabla de parámetros y privilegios
+
+### Ejemplos de asignación de permisos
 
 ```sql
--- Permisos básicos (solo conectar)
+-- Permisos básicos (solo conectar, equivalente a no asignar nada)
 GRANT USAGE ON *.* TO 'usuario'@'localhost' IDENTIFIED BY 'clave';
 
--- Todos los privilegios sobre una base de datos
-GRANT ALL PRIVILEGES ON nombre_bd.* TO 'usuario'@'localhost';
+-- Todos los privilegios sobre una base de datos específica
+GRANT ALL PRIVILEGES ON BASE1.* TO 'invitado'@'localhost';
 
--- Todos los privilegios sobre todo, pudiendo conceder a otros
+-- Permisos DML (manipulación de datos) para una sola base de datos
+GRANT SELECT, INSERT, UPDATE, DELETE ON BASE1.* TO 'invitado'@'localhost';
+
+-- Permisos estructurales y bloqueo en una base de datos
+GRANT CREATE, DROP, ALTER, CREATE VIEW, LOCK TABLES ON BASE1.* TO 'administrador'@'localhost';
+
+-- Permisos de nivel global (aplicados a *.*)
+GRANT SHOW DATABASES ON *.* TO 'invitado1'@'localhost';
+
+-- Permisos para automatización en cualquier base de datos
+GRANT TRIGGERS, EVENT ON *.* TO 'administrador'@'localhost';
+
+-- Permisos administrativos y de replicación a nivel de servidor
+GRANT CREATE USER, PROCESS, FILE, RELOAD, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'administrador'@'localhost';
+
+-- Todos los privilegios sobre todo el servidor, pudiendo concederlos a otros
 CREATE USER 'nisamov'@'%' IDENTIFIED BY 'clave_de_acceso';
 GRANT ALL PRIVILEGES ON *.* TO 'nisamov'@'%' WITH GRANT OPTION;
 ```
 
-Aplicar los cambios:
+### Aplicar los cambios de privilegios
 
 ```sql
 FLUSH PRIVILEGES;
 ```
 
-## Listar usuarios y privilegios
+## Gestión y bloqueo de cuentas
+
+### Listar usuarios y privilegios
 
 ```sql
 -- Todos los usuarios
@@ -126,26 +164,7 @@ WHERE GRANTEE = "'nombre_usuario'@'%'";
 SELECT User, Host, Priv FROM mysql.global_priv WHERE User = 'root';
 ```
 
-## Cambiar o recuperar la contraseña de root
-
-```sql
--- Cambiar la clave
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'NuevaContraseña';
-
--- Restablecer la configuración inicial (se entra como root sin contraseña, por unix_socket)
-ALTER USER 'root'@'localhost' IDENTIFIED VIA unix_socket;
-
--- Después de cualquiera de las dos
-FLUSH PRIVILEGES;
-```
-
-## Eliminar usuarios
-
-```sql
-DROP USER 'nombre_usuario'@'host';
-```
-
-## Bloqueo de usuarios
+### Bloqueo de usuarios
 
 ```sql
 -- Bloqueo de cuenta 
@@ -153,4 +172,10 @@ ALTER USER 'usuario'@'%' ACCOUNT LOCK;
 
 -- Desbloqueo de cuenta
 ALTER USER 'usuario'@'%' ACCOUNT UNLOCK;
+```
+
+### Eliminar usuarios
+
+```sql
+DROP USER 'nombre_usuario'@'host';
 ```
