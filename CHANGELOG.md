@@ -8,6 +8,20 @@
 <p>Todos los cambios relevantes de <b>Linux Core</b> se documentan en este archivo. Las versiones más recientes aparecen primero.</p>
 </div>
 
+## [`00-00-01-02`]
+
+## Añadido
+
+- Creación de directorio `docker/`
+
+### Cambiado
+
+- Optimizado el `Dockerfile` y movido a `docker/Dockerfile`
+- Nueva entrada en `README.md` referenciando el contendor.
+- Cambio de shields (adaptación a cambios recientes).
+
+---
+
 ## [`00-00-01-01`]
 
 ### Cambiado
@@ -18,11 +32,15 @@
 
 - Eliminado el workflow relacionado con el Dockerfile
 
+---
+
 ## [`00-00-01-00`]
 
 ### Añadido
 
 - Contenedor y despliegue Docker automático en nueva rama del repositorio
+
+---
 
 ## [`00-00-00-06`]
 

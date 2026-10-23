@@ -6,7 +6,7 @@
 
 # Linux Core
 
-[![MIT License](https://img.shields.io/github/license/nisamov/linuxcore?style=flat-square&color=0969da)](LICENSE) [![Website](https://img.shields.io/badge/website-linuxcore.site-0969da?style=flat-square)](https://linuxcore.site/) [![DB Build](https://img.shields.io/github/actions/workflow/status/nisamov/linuxcore/commands_db_gen.yaml?style=flat-square&color=0969da&label=db%20build)](https://github.com/nisamov/linuxcore/actions) [![Last Commit](https://img.shields.io/github/last-commit/nisamov/linuxcore?style=flat-square&color=0969da)](https://github.com/nisamov/linuxcore/commits)[![Visitas](https://api.visitorbadge.io/api/combined?path=nisamov.linuxcore&countColor=0969da&style=flat-square)](https://github.com/nisamov/linuxcore)
+[![MIT License](https://img.shields.io/github/license/nisamov/linuxcore?style=flat-square&color=0969da)](LICENSE) [![Website](https://img.shields.io/badge/website-linuxcore.site-0969da?style=flat-square)](https://linuxcore.site/) [![DB Build](https://img.shields.io/github/actions/workflow/status/nisamov/linuxcore/commands_db_gen.yaml?style=flat-square&color=0969da&label=db%20build)](https://github.com/nisamov/linuxcore/actions) [![Docker](https://img.shields.io/badge/ghcr.io-nisamov%2Flinuxcore-0969da?style=flat-square&logo=docker&logoColor=white)](https://github.com/nisamov/linuxcore/pkgs/container/linuxcore) [![Visitas](https://api.visitorbadge.io/api/combined?path=nisamov.linuxcore&countColor=0969da&style=flat-square)](https://github.com/nisamov/linuxcore)
 
 **Documentación y fundamentos de informática en Español**
 
@@ -28,6 +28,17 @@ El contenido se desarrolla en español y está orientado tanto al aprendizaje es
 > El proyecto distribuye la referencia de comandos y distribuciones en formato **JSON**, optimizada para alimentar el sitio web **[linuxcore.site](https://linuxcore.site)**.
 >
 > __Descargar la última versión compilada:__ [![Latest Release](https://img.shields.io/github/v/release/nisamov/linuxcore?display_name=release&style=flat-square&color=0969da&label=release)](https://github.com/nisamov/linuxcore/releases/latest)
+
+> [!TIP]
+> **LinuxCore en local con Docker**
+> Ejecuta la web en tu equipo, con los datos de la última release y sin depender de `linuxcore.site`:
+>
+> ```bash
+> docker run -d --name linuxcore -p 8080:80 --restart unless-stopped ghcr.io/nisamov/linuxcore:latest
+> ```
+>
+> Abre <http://localhost:8080>. Para actualizar: `docker pull ghcr.io/nisamov/linuxcore:latest` y recrea el contenedor.
+> La imagen es una instantánea de cada release; usa una etiqueta de versión para fijarla.
 
 ## Estructura de Contenidos
 
