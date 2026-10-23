@@ -1,38 +1,13 @@
-# Este dockerfile permite simular un entorno local con el contenido actualizado del repositorio
-# Este contenedor se subirá al repositorio y se mantendrá actualizado en caso de cambios
-# Cualquier cambio en la web o el repositorio afectará a este contendor
-
-# AVISO: En caso de que no funcione, abre un ISSUE o un PR con la corrección.
-# Gracias por usar linuxcore.
-
-# Usar nginx para web
 FROM nginx:alpine
 
-# Ddependencias para descargas y descompresión
-RUN apk add --no-舆-cache \
-    curl \
-    wget \
-    jq \
-    unzip \
-    tar
+RUN apk add --no-cache curl wget jq unzip tar
 
-# Raíz web
 WORKDIR /var/www/linuxcore.site
 
-# Extraer los archivos del sitio web desde https://linuxcore.site/
-RUN wget --mirror \
-        --convert-links \
-        --adjust-extension \
-        --page-requisites \
-        --no-parent \
-        --no-host-directories \
-        -P /var/www/linuxcore.site/ \
-        https://linuxcore.site/ || true
+RUN wget --mirror --convert-links --adjust-extension --page-requisites --no-parent --no-host-directories -P /var/www/linuxcore.site/ https://linuxcore.site/ || true
 
-# Crear la carpeta /var/www/linuxcore.site/db/ si no existe
 RUN mkdir -p /var/www/linuxcore.site/db/
 
-# Descargar todos los archivos sueltos de la última release del repositorio
 RUN API_URL="https://api.github.com/repos/nisamov/linuxcore/releases/latest" && \
     ASSETS_URLS=$(curl -s $API_URL | jq -r '.assets[].browser_download_url') && \
     for url in $ASSETS_URLS; do \
@@ -49,7 +24,6 @@ RUN API_URL="https://api.github.com/repos/nisamov/linuxcore/releases/latest" && 
         fi; \
     done
 
-# Configuración de Nginx
 RUN echo 'server {' > /etc/nginx/conf.d/default.conf && \
     echo '    listen 80;' >> /etc/nginx/conf.d/default.conf && \
     echo '    server_name localhost;' >> /etc/nginx/conf.d/default.conf && \
@@ -60,7 +34,6 @@ RUN echo 'server {' > /etc/nginx/conf.d/default.conf && \
     echo '    }' >> /etc/nginx/conf.d/default.conf && \
     echo '}' >> /etc/nginx/conf.d/default.conf
 
-# Asignación de permisos
 RUN chown -R nginx:nginx /var/www/linuxcore.site
 
 EXPOSE 80

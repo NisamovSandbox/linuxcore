@@ -8,6 +8,16 @@
 <p>Todos los cambios relevantes de <b>Linux Core</b> se documentan en este archivo. Las versiones más recientes aparecen primero.</p>
 </div>
 
+## [`00-00-01-01`]
+
+### Cambiado
+
+- Cambio en la ubicación del `Dockerfile` a primer plano
+
+### Eliminado
+
+- Eliminado el workflow relacionado con el Dockerfile
+
 ## [`00-00-01-00`]
 
 ### Añadido
