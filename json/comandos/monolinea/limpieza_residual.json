@@ -1,5 +1,5 @@
 {
-  "id": "limpieza_residual_linea_produccion",
+  "id": "limpieza_residual",
   "nombre": "Limpieza residual de la línea de producción",
   "descripcion": "En Debian/Ubuntu elimina paquetes considerados innecesarios y sus configuraciones residuales, limpia la caché local de paquetes y borra el historial de la shell actual y ~/.bash_history antes de desactivar HISTFILE. No actualiza ni instala actualizaciones, pese a la descripción anterior del registro.",
   "clasificacion": {
@@ -47,7 +47,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "No requiere instalación adicional en sistemas Debian/Ubuntu; utiliza APT, dpkg y herramientas habituales del sistema.",
+    "metodo": "gestor_paquetes",
+    "notas": "No requiere instalación adicional en sistemas Debian/Ubuntu; utiliza APT, dpkg y herramientas habituales del sistema.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

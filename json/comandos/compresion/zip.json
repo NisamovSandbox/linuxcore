@@ -184,7 +184,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "Compruebe primero `command -v zip`; si falta, instale el paquete zip con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install zip`; Arch: `sudo pacman -S zip`; RHEL/CentOS: `sudo dnf install zip`).",
+    "metodo": "gestor_paquetes",
+    "notas": "Compruebe primero `command -v zip`; si falta, instale el paquete zip con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install zip`; Arch: `sudo pacman -S zip`; RHEL/CentOS: `sudo dnf install zip`).",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

@@ -45,7 +45,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "No requiere instalación adicional; la expansión de historial la proporciona el shell interactivo compatible.",
+    "metodo": "builtin_shell",
+    "notas": "No requiere instalación adicional; la expansión de historial la proporciona el shell interactivo compatible.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

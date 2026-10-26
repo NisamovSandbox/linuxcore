@@ -38,7 +38,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Suele venir instalado como parte de las herramientas base.",
+    "metodo": "incluido_en_sistema",
+    "notas": "Suele venir instalado como parte de las herramientas base.",
     "paquetes": {
       "debian_ubuntu": "sudo apt install util-linux",
       "arch_linux": "sudo pacman -S util-linux",

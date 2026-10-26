@@ -31,7 +31,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Utilidad de ncurses en la mayoría de las distribuciones.",
+    "metodo": "gestor_paquetes",
+    "notas": "Utilidad de ncurses en la mayoría de las distribuciones.",
     "paquetes": {
       "debian_ubuntu": "ncurses-bin (normalmente instalado)",
       "arch_linux": "ncurses (normalmente instalado)",

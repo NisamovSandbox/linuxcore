@@ -30,7 +30,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "gestor_paquetes (paquete initramfs-tools en Debian/Ubuntu)",
+    "metodo": "gestor_paquetes",
+    "notas": "gestor_paquetes (paquete initramfs-tools en Debian/Ubuntu)",
     "paquetes": {
       "debian_ubuntu": "sudo apt install initramfs-tools",
       "arch_linux": "",

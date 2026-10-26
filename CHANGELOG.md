@@ -9,6 +9,18 @@
 <p>Los cambios de cada versión se agrupan en <b>Añadido</b>, <b>Cambiado</b>, <b>Corregido</b> y <b>Eliminado</b>.</p>
 </div>
 
+## [`00-00-01-05`] - 2026-10-26
+
+### Cambiado
+
+- Migrados los métodos de instalación de 270 fichas en `json/comandos/` a los valores definidos por el esquema.
+
+### Corregido
+
+- Corregidos los `id` de `json/comandos/seguridad/apparmor_status.json`, `json/comandos/monolinea/limpiar_historial_de_terminal_de_sesion_actual.json` y `json/comandos/monolinea/limpieza_residual.json` para que coincidan con sus nombres de archivo.
+
+---
+
 ## [`00-00-01-04`] - 2026-10-26
 
 ### Añadido

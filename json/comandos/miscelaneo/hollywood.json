@@ -30,7 +30,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalable como paquete hollywood en distribuciones que lo ofrecen; algunas dependencias abren interfaces terminales adicionales.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalable como paquete hollywood en distribuciones que lo ofrecen; algunas dependencias abren interfaces terminales adicionales.",
     "paquetes": {
       "debian_ubuntu": "hollywood (disponible en versiones/repositorios concretos)",
       "arch_linux": "hollywood (AUR o repositorio comunitario, según disponibilidad)",

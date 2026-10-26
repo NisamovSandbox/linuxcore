@@ -35,7 +35,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalable mediante el paquete tldr de la distribución o un cliente Node/Python; las opciones cambian entre clientes.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalable mediante el paquete tldr de la distribución o un cliente Node/Python; las opciones cambian entre clientes.",
     "paquetes": {
       "debian_ubuntu": "tldr (paquete disponible según versión)",
       "arch_linux": "tealdeer o tldr (cliente disponible en repositorios)",

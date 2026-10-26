@@ -35,7 +35,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instale direnv y configure el hook correspondiente en el archivo de inicio del shell (por ejemplo, eval \"$(direnv hook bash)\").",
+    "metodo": "builtin_shell",
+    "notas": "Instale direnv y configure el hook correspondiente en el archivo de inicio del shell (por ejemplo, eval \"$(direnv hook bash)\").",
     "paquetes": {
       "debian_ubuntu": "direnv",
       "arch_linux": "direnv",

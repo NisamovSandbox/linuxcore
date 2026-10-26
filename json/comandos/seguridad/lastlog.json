@@ -32,7 +32,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "incluido_en_shadow_utils_si_disponible",
+    "metodo": "incluido_en_sistema",
+    "notas": "incluido_en_shadow_utils_si_disponible",
     "paquetes": {
       "debian_ubuntu": "incluido en login/shadow-utils según versión",
       "arch_linux": "incluido en shadow",

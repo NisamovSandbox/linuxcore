@@ -34,7 +34,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Parte de util-linux; requiere archivos generados con script.",
+    "metodo": "incluido_en_sistema",
+    "notas": "Parte de util-linux; requiere archivos generados con script.",
     "paquetes": {
       "debian_ubuntu": "util-linux (normalmente instalado)",
       "arch_linux": "util-linux (normalmente instalado)",

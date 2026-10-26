@@ -38,7 +38,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Incluido en procps/procps-ng.",
+    "metodo": "incluido_en_sistema",
+    "notas": "Incluido en procps/procps-ng.",
     "paquetes": {
       "debian_ubuntu": "sudo apt install procps",
       "arch_linux": "sudo pacman -S procps-ng",

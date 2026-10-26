@@ -38,7 +38,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalar curl desde el gestor de paquetes si no está disponible.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalar curl desde el gestor de paquetes si no está disponible.",
     "paquetes": {
       "debian_ubuntu": "sudo apt install curl",
       "arch_linux": "sudo pacman -S curl",

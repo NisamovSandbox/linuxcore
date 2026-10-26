@@ -38,7 +38,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Componente del ecosistema RPM; puede instalarse como paquete rpm en distribuciones que soporten RPM.",
+    "metodo": "gestor_paquetes",
+    "notas": "Componente del ecosistema RPM; puede instalarse como paquete rpm en distribuciones que soporten RPM.",
     "paquetes": {
       "debian_ubuntu": "rpm",
       "arch_linux": "rpm",

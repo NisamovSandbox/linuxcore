@@ -37,7 +37,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Herramienta nativa de sistemas RPM antiguos, especialmente RHEL/CentOS 7; en versiones actuales puede ser una interfaz compatible de DNF.",
+    "metodo": "gestor_paquetes",
+    "notas": "Herramienta nativa de sistemas RPM antiguos, especialmente RHEL/CentOS 7; en versiones actuales puede ser una interfaz compatible de DNF.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

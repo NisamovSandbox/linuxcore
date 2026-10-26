@@ -32,7 +32,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalar diffutils mediante el gestor de paquetes de la distribución.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalar diffutils mediante el gestor de paquetes de la distribución.",
     "paquetes": {
       "debian_ubuntu": "diffutils",
       "arch_linux": "diffutils",

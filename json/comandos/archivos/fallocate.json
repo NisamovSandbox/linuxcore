@@ -33,7 +33,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalar util-linux mediante el gestor de paquetes; suele estar disponible por defecto.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalar util-linux mediante el gestor de paquetes; suele estar disponible por defecto.",
     "paquetes": {
       "debian_ubuntu": "util-linux",
       "arch_linux": "util-linux",

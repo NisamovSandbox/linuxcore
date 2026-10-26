@@ -38,7 +38,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Gestor nativo de openSUSE y SUSE Linux Enterprise, normalmente instalado por defecto.",
+    "metodo": "incluido_en_sistema",
+    "notas": "Gestor nativo de openSUSE y SUSE Linux Enterprise, normalmente instalado por defecto.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

@@ -35,7 +35,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Gestor nativo de Alpine Linux, normalmente incluido en el sistema base como apk-tools.",
+    "metodo": "incluido_en_sistema",
+    "notas": "Gestor nativo de Alpine Linux, normalmente incluido en el sistema base como apk-tools.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

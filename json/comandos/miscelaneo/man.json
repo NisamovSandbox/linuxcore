@@ -36,7 +36,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Parte del sistema man-db o man; instale los paquetes de manual de los programas consultados.",
+    "metodo": "gestor_paquetes",
+    "notas": "Parte del sistema man-db o man; instale los paquetes de manual de los programas consultados.",
     "paquetes": {
       "debian_ubuntu": "man-db",
       "arch_linux": "man-db",

@@ -33,7 +33,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Incluido en el paquete de utilidades shadow.",
+    "metodo": "incluido_en_sistema",
+    "notas": "Incluido en el paquete de utilidades shadow.",
     "paquetes": {
       "debian_ubuntu": "sudo apt install passwd",
       "arch_linux": "sudo pacman -S shadow",

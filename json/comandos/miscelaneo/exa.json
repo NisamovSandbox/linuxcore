@@ -35,7 +35,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Paquete exa heredado o discontinuado; se recomienda instalar eza como reemplazo compatible en muchas opciones.",
+    "metodo": "no_estandar",
+    "notas": "Paquete exa heredado o discontinuado; se recomienda instalar eza como reemplazo compatible en muchas opciones.",
     "paquetes": {
       "debian_ubuntu": "exa (según versión); eza como sucesor",
       "arch_linux": "exa o eza, según repositorio actual",

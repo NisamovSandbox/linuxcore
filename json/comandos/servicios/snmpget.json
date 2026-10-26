@@ -40,7 +40,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Utilidad cliente del conjunto Net-SNMP; instale el paquete de cliente correspondiente a la distribución.",
+    "metodo": "gestor_paquetes",
+    "notas": "Utilidad cliente del conjunto Net-SNMP; instale el paquete de cliente correspondiente a la distribución.",
     "paquetes": {
       "debian_ubuntu": "snmp",
       "arch_linux": "net-snmp",

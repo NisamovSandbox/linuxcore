@@ -38,7 +38,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "gestor_paquetes (Ubuntu/Debian; disponibilidad depende de version)",
+    "metodo": "gestor_paquetes",
+    "notas": "gestor_paquetes (Ubuntu/Debian; disponibilidad depende de version)",
     "paquetes": {
       "debian_ubuntu": "sudo apt install netplan.io",
       "arch_linux": "No suele ser el gestor de red predeterminado; verificar repositorios",

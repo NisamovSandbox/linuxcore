@@ -470,7 +470,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "Forma parte de LVM2. Compruebe primero `command -v pvs`; si no está instalado, instale lvm2 con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install lvm2`; Arch: `sudo pacman -S lvm2`; RHEL/CentOS: `sudo dnf install lvm2`).",
+    "metodo": "gestor_paquetes",
+    "notas": "Forma parte de LVM2. Compruebe primero `command -v pvs`; si no está instalado, instale lvm2 con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install lvm2`; Arch: `sudo pacman -S lvm2`; RHEL/CentOS: `sudo dnf install lvm2`).",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

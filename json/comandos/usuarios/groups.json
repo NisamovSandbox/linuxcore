@@ -34,7 +34,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Suele formar parte de GNU coreutils o del paquete básico de herramientas del sistema.",
+    "metodo": "gestor_paquetes",
+    "notas": "Suele formar parte de GNU coreutils o del paquete básico de herramientas del sistema.",
     "paquetes": {
       "debian_ubuntu": "sudo apt install coreutils",
       "arch_linux": "sudo pacman -S coreutils",

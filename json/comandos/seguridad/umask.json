@@ -31,7 +31,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "builtin_de_shell",
+    "metodo": "builtin_shell",
+    "notas": "builtin_de_shell",
     "paquetes": {
       "debian_ubuntu": "Incluido como builtin en shells habituales (bash, dash, zsh).",
       "arch_linux": "Incluido como builtin en shells habituales (bash, zsh).",

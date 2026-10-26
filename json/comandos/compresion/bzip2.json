@@ -184,7 +184,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "Compruebe primero `command -v bzip2`; si falta, instale el paquete bzip2 con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install bzip2`; Arch: `sudo pacman -S bzip2`; RHEL/CentOS: `sudo dnf install bzip2`).",
+    "metodo": "gestor_paquetes",
+    "notas": "Compruebe primero `command -v bzip2`; si falta, instale el paquete bzip2 con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install bzip2`; Arch: `sudo pacman -S bzip2`; RHEL/CentOS: `sudo dnf install bzip2`).",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

@@ -45,7 +45,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "No requiere instalación adicional; utiliza sudo y la expansión de historial del shell interactivo.",
+    "metodo": "builtin_shell",
+    "notas": "No requiere instalación adicional; utiliza sudo y la expansión de historial del shell interactivo.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

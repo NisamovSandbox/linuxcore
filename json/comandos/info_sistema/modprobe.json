@@ -32,7 +32,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "incluido con kmod (normalmente preinstalado)",
+    "metodo": "incluido_en_sistema",
+    "notas": "incluido con kmod (normalmente preinstalado)",
     "paquetes": {
       "debian_ubuntu": "kmod",
       "arch_linux": "kmod",

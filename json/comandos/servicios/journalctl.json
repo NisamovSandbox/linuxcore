@@ -39,7 +39,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "Incluido con systemd en distribuciones que utilizan ese gestor init.",
+    "metodo": "incluido_en_sistema",
+    "notas": "Incluido con systemd en distribuciones que utilizan ese gestor init.",
     "paquetes": {
       "debian_ubuntu": "systemd",
       "arch_linux": "systemd",

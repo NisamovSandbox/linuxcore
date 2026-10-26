@@ -36,7 +36,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "Incluido en el paquete systemd de las distribuciones que usan systemd; no suele distribuirse por separado.",
+    "metodo": "gestor_paquetes",
+    "notas": "Incluido en el paquete systemd de las distribuciones que usan systemd; no suele distribuirse por separado.",
     "paquetes": {
       "debian_ubuntu": "systemd",
       "arch_linux": "systemd",

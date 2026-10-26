@@ -49,7 +49,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "normalmente_incluido_en_coreutils",
+    "metodo": "incluido_en_sistema",
+    "notas": "normalmente_incluido_en_coreutils",
     "paquetes": {
       "debian_ubuntu": "incluido en coreutils",
       "arch_linux": "incluido en coreutils",

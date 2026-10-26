@@ -38,7 +38,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "df forma parte normalmente de coreutils y suele estar preinstalado.",
+    "metodo": "incluido_en_sistema",
+    "notas": "df forma parte normalmente de coreutils y suele estar preinstalado.",
     "paquetes": {
       "debian_ubuntu": "sudo apt install coreutils",
       "arch_linux": "sudo pacman -S coreutils",

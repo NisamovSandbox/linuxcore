@@ -184,7 +184,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "Compruebe primero `command -v xz`; si falta, instale xz-utils (Debian/Ubuntu: `sudo apt install xz-utils`), xz (Arch: `sudo pacman -S xz`) o xz (RHEL/CentOS: `sudo dnf install xz`).",
+    "metodo": "gestor_paquetes",
+    "notas": "Compruebe primero `command -v xz`; si falta, instale xz-utils (Debian/Ubuntu: `sudo apt install xz-utils`), xz (Arch: `sudo pacman -S xz`) o xz (RHEL/CentOS: `sudo dnf install xz`).",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

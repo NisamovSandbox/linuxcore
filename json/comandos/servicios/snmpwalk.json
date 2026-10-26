@@ -40,7 +40,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Herramienta cliente del proyecto Net-SNMP, disponible en los repositorios de la distribución.",
+    "metodo": "gestor_paquetes",
+    "notas": "Herramienta cliente del proyecto Net-SNMP, disponible en los repositorios de la distribución.",
     "paquetes": {
       "debian_ubuntu": "snmp",
       "arch_linux": "net-snmp",

@@ -34,7 +34,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Parte del paquete e2fsprogs en muchas distribuciones Linux.",
+    "metodo": "gestor_paquetes",
+    "notas": "Parte del paquete e2fsprogs en muchas distribuciones Linux.",
     "paquetes": {
       "debian_ubuntu": "e2fsprogs (normalmente instalado)",
       "arch_linux": "e2fsprogs (normalmente instalado)",

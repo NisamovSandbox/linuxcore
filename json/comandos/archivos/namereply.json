@@ -30,7 +30,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "No se puede recomendar un paquete sin identificar qué producto o implementación se pretende documentar.",
+    "metodo": "gestor_paquetes",
+    "notas": "No se puede recomendar un paquete sin identificar qué producto o implementación se pretende documentar.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

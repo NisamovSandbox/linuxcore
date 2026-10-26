@@ -35,7 +35,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalar findutils mediante el gestor de paquetes; normalmente está preinstalado.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalar findutils mediante el gestor de paquetes; normalmente está preinstalado.",
     "paquetes": {
       "debian_ubuntu": "findutils",
       "arch_linux": "findutils",

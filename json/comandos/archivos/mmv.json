@@ -31,7 +31,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalar el paquete mmv solo si está disponible para la distribución; confirme el origen y la sintaxis del paquete.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalar el paquete mmv solo si está disponible para la distribución; confirme el origen y la sintaxis del paquete.",
     "paquetes": {
       "debian_ubuntu": "mmv",
       "arch_linux": "mmv",

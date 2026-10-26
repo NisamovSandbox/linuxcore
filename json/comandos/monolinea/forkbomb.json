@@ -46,7 +46,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "No requiere instalación adicional; las consultas de diagnóstico usan interfaces y herramientas del sistema. No ejecute una fork bomb.",
+    "metodo": "gestor_paquetes",
+    "notas": "No requiere instalación adicional; las consultas de diagnóstico usan interfaces y herramientas del sistema. No ejecute una fork bomb.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

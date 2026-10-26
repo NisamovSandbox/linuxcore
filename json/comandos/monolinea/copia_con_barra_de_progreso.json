@@ -56,7 +56,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "Requiere que rsync esté instalado y disponible en el sistema; no se prescribe un comando de instalación específico.",
+    "metodo": "gestor_paquetes",
+    "notas": "Requiere que rsync esté instalado y disponible en el sistema; no se prescribe un comando de instalación específico.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

@@ -36,7 +36,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Herramienta base del sistema de paquetes Debian; normalmente preinstalada en Debian y Ubuntu.",
+    "metodo": "gestor_paquetes",
+    "notas": "Herramienta base del sistema de paquetes Debian; normalmente preinstalada en Debian y Ubuntu.",
     "paquetes": {
       "debian_ubuntu": "dpkg (normalmente preinstalado)",
       "arch_linux": "",

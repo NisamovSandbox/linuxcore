@@ -99,7 +99,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "gestor_paquetes_psmisc",
+    "metodo": "gestor_paquetes",
+    "notas": "gestor_paquetes_psmisc",
     "paquetes": {
       "debian_ubuntu": "sudo apt install psmisc",
       "arch_linux": "sudo pacman -S psmisc",

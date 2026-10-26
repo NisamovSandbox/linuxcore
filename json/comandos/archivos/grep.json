@@ -35,7 +35,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalar grep mediante el gestor de paquetes; suele estar preinstalado.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalar grep mediante el gestor de paquetes; suele estar preinstalado.",
     "paquetes": {
       "debian_ubuntu": "grep",
       "arch_linux": "grep",

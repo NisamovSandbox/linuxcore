@@ -162,7 +162,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "`dd` forma parte de GNU coreutils y normalmente ya está instalado; compruebe `command -v dd`. Si falta, instale coreutils (Debian/Ubuntu: `sudo apt install coreutils`; Arch: `sudo pacman -S coreutils`; RHEL/CentOS: `sudo dnf install coreutils`).",
+    "metodo": "gestor_paquetes",
+    "notas": "`dd` forma parte de GNU coreutils y normalmente ya está instalado; compruebe `command -v dd`. Si falta, instale coreutils (Debian/Ubuntu: `sudo apt install coreutils`; Arch: `sudo pacman -S coreutils`; RHEL/CentOS: `sudo dnf install coreutils`).",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

@@ -1,5 +1,5 @@
 {
-  "id": "apparmor",
+  "id": "apparmor_status",
   "nombre": "apparmor",
   "descripcion": "AppArmor, perfiles cargados y cuántos están en modo enforce o complain; es una consulta de auditoría.",
   "clasificacion": {

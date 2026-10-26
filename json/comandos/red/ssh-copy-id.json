@@ -37,7 +37,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "incluido_con_openssh_cliente",
+    "metodo": "incluido_en_sistema",
+    "notas": "incluido_con_openssh_cliente",
     "paquetes": {
       "debian_ubuntu": "sudo apt install openssh-client",
       "arch_linux": "sudo pacman -S openssh",

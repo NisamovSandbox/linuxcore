@@ -31,7 +31,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "Builtin habitual del shell; también existe la utilidad de GNU coreutils.",
+    "metodo": "builtin_shell",
+    "notas": "Builtin habitual del shell; también existe la utilidad de GNU coreutils.",
     "paquetes": {
       "debian_ubuntu": "bash y coreutils (normalmente instalados)",
       "arch_linux": "bash y coreutils (normalmente instalados)",

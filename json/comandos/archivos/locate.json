@@ -33,7 +33,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalar plocate o mlocate con el gestor de paquetes de la distribución; consulte cuál proporciona el comando locate.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalar plocate o mlocate con el gestor de paquetes de la distribución; consulte cuál proporciona el comando locate.",
     "paquetes": {
       "debian_ubuntu": "plocate (o mlocate en versiones antiguas)",
       "arch_linux": "plocate",

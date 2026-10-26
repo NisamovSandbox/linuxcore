@@ -43,7 +43,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "No requiere instalación adicional; command y type son funciones integradas de los shells compatibles.",
+    "metodo": "builtin_shell",
+    "notas": "No requiere instalación adicional; command y type son funciones integradas de los shells compatibles.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

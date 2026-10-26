@@ -35,7 +35,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalable desde los repositorios de la distribución; algunas compilaciones incluyen libcaca.",
+    "metodo": "compilacion",
+    "notas": "Instalable desde los repositorios de la distribución; algunas compilaciones incluyen libcaca.",
     "paquetes": {
       "debian_ubuntu": "toilet",
       "arch_linux": "toilet",

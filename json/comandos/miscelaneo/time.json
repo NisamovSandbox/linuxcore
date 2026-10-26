@@ -31,7 +31,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "Palabra reservada de Bash/POSIX shell; GNU time puede instalarse como utilidad externa.",
+    "metodo": "builtin_shell",
+    "notas": "Palabra reservada de Bash/POSIX shell; GNU time puede instalarse como utilidad externa.",
     "paquetes": {
       "debian_ubuntu": "bash (builtin); time (utilidad GNU externa, normalmente disponible)",
       "arch_linux": "bash (builtin); time (utilidad GNU externa)",

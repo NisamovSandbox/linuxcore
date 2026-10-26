@@ -56,7 +56,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "No requiere instalación adicional si ping y tee están disponibles en el sistema; sus paquetes varían según la distribución.",
+    "metodo": "gestor_paquetes",
+    "notas": "No requiere instalación adicional si ping y tee están disponibles en el sistema; sus paquetes varían según la distribución.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

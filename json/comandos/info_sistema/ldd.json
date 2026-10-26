@@ -32,7 +32,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "incluido con glibc (normalmente preinstalado)",
+    "metodo": "incluido_en_sistema",
+    "notas": "incluido con glibc (normalmente preinstalado)",
     "paquetes": {
       "debian_ubuntu": "libc-bin",
       "arch_linux": "glibc",

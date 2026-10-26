@@ -37,7 +37,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Gestor base de Arch Linux; está incluido en la distribución y en derivadas compatibles.",
+    "metodo": "gestor_paquetes",
+    "notas": "Gestor base de Arch Linux; está incluido en la distribución y en derivadas compatibles.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "pacman (incluido en Arch Linux)",

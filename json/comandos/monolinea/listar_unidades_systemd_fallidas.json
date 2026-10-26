@@ -38,7 +38,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "No requiere instalación adicional en distribuciones que utilizan systemd.",
+    "metodo": "gestor_paquetes",
+    "notas": "No requiere instalación adicional en distribuciones que utilizan systemd.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

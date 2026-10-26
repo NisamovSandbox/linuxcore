@@ -38,7 +38,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "gestor_paquetes (si esta disponible en la distribucion)",
+    "metodo": "gestor_paquetes",
+    "notas": "gestor_paquetes (si esta disponible en la distribucion)",
     "paquetes": {
       "debian_ubuntu": "sudo apt install libteam-utils",
       "arch_linux": "Verificar disponibilidad del paquete libteam en repositorios habilitados",

@@ -43,7 +43,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "No requiere instalación adicional; utiliza ss del paquete de herramientas de red disponible en el sistema.",
+    "metodo": "gestor_paquetes",
+    "notas": "No requiere instalación adicional; utiliza ss del paquete de herramientas de red disponible en el sistema.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

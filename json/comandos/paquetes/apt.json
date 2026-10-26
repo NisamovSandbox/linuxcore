@@ -37,7 +37,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Gestor de paquetes de Debian y Ubuntu; normalmente viene instalado en esas distribuciones.",
+    "metodo": "gestor_paquetes",
+    "notas": "Gestor de paquetes de Debian y Ubuntu; normalmente viene instalado en esas distribuciones.",
     "paquetes": {
       "debian_ubuntu": "apt (normalmente preinstalado)",
       "arch_linux": "",

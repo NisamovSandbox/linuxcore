@@ -195,7 +195,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "`tar` suele venir instalado en sistemas Linux; compruebe `command -v tar`. Si falta, instale el paquete tar (Debian/Ubuntu: `sudo apt install tar`; Arch: `sudo pacman -S tar`; RHEL/CentOS: `sudo dnf install tar`).",
+    "metodo": "gestor_paquetes",
+    "notas": "`tar` suele venir instalado en sistemas Linux; compruebe `command -v tar`. Si falta, instale el paquete tar (Debian/Ubuntu: `sudo apt install tar`; Arch: `sudo pacman -S tar`; RHEL/CentOS: `sudo dnf install tar`).",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

@@ -30,7 +30,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalar coreutils mediante el gestor de paquetes; habitualmente viene preinstalado.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalar coreutils mediante el gestor de paquetes; habitualmente viene preinstalado.",
     "paquetes": {
       "debian_ubuntu": "coreutils",
       "arch_linux": "coreutils",

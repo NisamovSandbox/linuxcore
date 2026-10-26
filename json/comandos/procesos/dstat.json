@@ -104,7 +104,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "gestor_paquetes_si_disponible",
+    "metodo": "gestor_paquetes",
+    "notas": "gestor_paquetes_si_disponible",
     "paquetes": {
       "debian_ubuntu": "sudo apt install dstat (si está disponible en la versión de la distribución)",
       "arch_linux": "sudo pacman -S dstat (si está disponible en repositorios habilitados)",

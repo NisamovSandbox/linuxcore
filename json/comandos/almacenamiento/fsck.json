@@ -38,7 +38,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "incluido_en_util_linux_y_paquetes_de_sistema_de_archivos",
+    "metodo": "incluido_en_sistema",
+    "notas": "incluido_en_util_linux_y_paquetes_de_sistema_de_archivos",
     "paquetes": {
       "debian_ubuntu": "sudo apt install util-linux e2fsprogs (ext); instale xfsprogs u otras herramientas para otros tipos",
       "arch_linux": "sudo pacman -S util-linux e2fsprogs (ext); instale xfsprogs u otras herramientas para otros tipos",

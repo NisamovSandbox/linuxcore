@@ -45,7 +45,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "Requiere curl instalado y acceso de red al servicio wttr.in; use la implementación curl disponible en el sistema.",
+    "metodo": "gestor_paquetes",
+    "notas": "Requiere curl instalado y acceso de red al servicio wttr.in; use la implementación curl disponible en el sistema.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

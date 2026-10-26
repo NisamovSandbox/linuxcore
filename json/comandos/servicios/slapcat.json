@@ -35,7 +35,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Forma parte de las herramientas del servidor OpenLDAP; instale el paquete del servidor, no solo el cliente LDAP.",
+    "metodo": "gestor_paquetes",
+    "notas": "Forma parte de las herramientas del servidor OpenLDAP; instale el paquete del servidor, no solo el cliente LDAP.",
     "paquetes": {
       "debian_ubuntu": "slapd",
       "arch_linux": "openldap",

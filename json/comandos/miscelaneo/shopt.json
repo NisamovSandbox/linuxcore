@@ -35,7 +35,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "Builtin exclusivo de Bash; no se instala por separado.",
+    "metodo": "builtin_shell",
+    "notas": "Builtin exclusivo de Bash; no se instala por separado.",
     "paquetes": {
       "debian_ubuntu": "bash (incluido en el sistema)",
       "arch_linux": "bash (incluido en el sistema)",

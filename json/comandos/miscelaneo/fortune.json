@@ -37,7 +37,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instale fortune-mod y, si se desea, un paquete de bases de datos de citas.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instale fortune-mod y, si se desea, un paquete de bases de datos de citas.",
     "paquetes": {
       "debian_ubuntu": "fortune-mod; fortunes-min o fortunes (bases adicionales)",
       "arch_linux": "fortune-mod",

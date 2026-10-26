@@ -35,7 +35,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Gestor de paquetes de la distribución; OpenRC no debe instalarse para reemplazar init sin una migración planificada.",
+    "metodo": "gestor_paquetes",
+    "notas": "Gestor de paquetes de la distribución; OpenRC no debe instalarse para reemplazar init sin una migración planificada.",
     "paquetes": {
       "debian_ubuntu": "openrc (disponibilidad según versión)",
       "arch_linux": "openrc (paquete/repositorio según variante de Arch)",

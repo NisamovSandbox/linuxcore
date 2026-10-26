@@ -33,7 +33,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalable desde repositorios; el ejecutable se denomina habitualmente proxychains4.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalable desde repositorios; el ejecutable se denomina habitualmente proxychains4.",
     "paquetes": {
       "debian_ubuntu": "proxychains4",
       "arch_linux": "proxychains-ng",

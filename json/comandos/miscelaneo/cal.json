@@ -35,7 +35,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Utilidad de util-linux; normalmente viene instalada en distribuciones Linux.",
+    "metodo": "incluido_en_sistema",
+    "notas": "Utilidad de util-linux; normalmente viene instalada en distribuciones Linux.",
     "paquetes": {
       "debian_ubuntu": "util-linux (incluido en el sistema)",
       "arch_linux": "util-linux (incluido en el sistema)",

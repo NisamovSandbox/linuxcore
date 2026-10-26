@@ -32,7 +32,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalar util-linux mediante el gestor de paquetes; more suele estar incluido.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalar util-linux mediante el gestor de paquetes; more suele estar incluido.",
     "paquetes": {
       "debian_ubuntu": "util-linux",
       "arch_linux": "util-linux",

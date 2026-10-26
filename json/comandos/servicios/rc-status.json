@@ -35,7 +35,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Se distribuye como parte del paquete OpenRC en sistemas que lo ofrecen.",
+    "metodo": "gestor_paquetes",
+    "notas": "Se distribuye como parte del paquete OpenRC en sistemas que lo ofrecen.",
     "paquetes": {
       "debian_ubuntu": "openrc (disponibilidad según versión)",
       "arch_linux": "openrc (paquete/repositorio según variante de Arch)",

@@ -30,7 +30,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "GNU coreutils, normalmente instalado en Linux; las implementaciones pueden diferir.",
+    "metodo": "incluido_en_sistema",
+    "notas": "GNU coreutils, normalmente instalado en Linux; las implementaciones pueden diferir.",
     "paquetes": {
       "debian_ubuntu": "coreutils (incluido en el sistema)",
       "arch_linux": "coreutils (incluido en el sistema)",

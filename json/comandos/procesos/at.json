@@ -100,7 +100,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "gestor_paquetes_y_servicio_atd",
+    "metodo": "gestor_paquetes",
+    "notas": "gestor_paquetes_y_servicio_atd",
     "paquetes": {
       "debian_ubuntu": "sudo apt install at",
       "arch_linux": "sudo pacman -S at",

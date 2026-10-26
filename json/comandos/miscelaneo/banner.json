@@ -30,7 +30,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instale el paquete que proporciona banner; el nombre y la implementación dependen de la distribución.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instale el paquete que proporciona banner; el nombre y la implementación dependen de la distribución.",
     "paquetes": {
       "debian_ubuntu": "sysvbanner (si está disponible en la versión de Ubuntu/Debian)",
       "arch_linux": "No suele incluirse como banner clásico; puede usarse figlet",

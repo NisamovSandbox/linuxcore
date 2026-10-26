@@ -37,7 +37,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Incluido normalmente en util-linux.",
+    "metodo": "incluido_en_sistema",
+    "notas": "Incluido normalmente en util-linux.",
     "paquetes": {
       "debian_ubuntu": "sudo apt install util-linux",
       "arch_linux": "sudo pacman -S util-linux",

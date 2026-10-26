@@ -41,7 +41,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Normalmente instalado como parte de las utilidades de autenticación/cuentas.",
+    "metodo": "incluido_en_sistema",
+    "notas": "Normalmente instalado como parte de las utilidades de autenticación/cuentas.",
     "paquetes": {
       "debian_ubuntu": "sudo apt install passwd",
       "arch_linux": "sudo pacman -S shadow",

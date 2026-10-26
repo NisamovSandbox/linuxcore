@@ -49,7 +49,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "No requiere instalación adicional en sistemas con systemd-journald; journalctl forma parte de systemd.",
+    "metodo": "incluido_en_sistema",
+    "notas": "No requiere instalación adicional en sistemas con systemd-journald; journalctl forma parte de systemd.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

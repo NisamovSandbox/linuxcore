@@ -34,7 +34,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Se instala como parte de man-db en la mayoría de las distribuciones.",
+    "metodo": "gestor_paquetes",
+    "notas": "Se instala como parte de man-db en la mayoría de las distribuciones.",
     "paquetes": {
       "debian_ubuntu": "man-db",
       "arch_linux": "man-db",

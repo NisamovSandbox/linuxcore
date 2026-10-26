@@ -38,7 +38,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "gestor_paquetes_o_pip (segun distribucion y version)",
+    "metodo": "gestor_paquetes",
+    "notas": "gestor_paquetes_o_pip (segun distribucion y version)",
     "paquetes": {
       "debian_ubuntu": "sudo apt install speedtest-cli",
       "arch_linux": "AUR: speedtest-cli (verificar disponibilidad y procedencia)",

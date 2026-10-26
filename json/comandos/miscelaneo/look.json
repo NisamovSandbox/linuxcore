@@ -34,7 +34,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Parte de util-linux en muchas distribuciones; el diccionario suele instalarse por separado.",
+    "metodo": "gestor_paquetes",
+    "notas": "Parte de util-linux en muchas distribuciones; el diccionario suele instalarse por separado.",
     "paquetes": {
       "debian_ubuntu": "util-linux; wamerican o paquete de diccionario equivalente (opcional)",
       "arch_linux": "util-linux; words (opcional)",

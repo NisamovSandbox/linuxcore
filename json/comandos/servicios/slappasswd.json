@@ -36,7 +36,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Incluido habitualmente con el servidor OpenLDAP o sus utilidades administrativas.",
+    "metodo": "incluido_en_sistema",
+    "notas": "Incluido habitualmente con el servidor OpenLDAP o sus utilidades administrativas.",
     "paquetes": {
       "debian_ubuntu": "slapd",
       "arch_linux": "openldap",

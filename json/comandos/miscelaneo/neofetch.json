@@ -35,7 +35,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Paquete heredado disponible en algunos repositorios; el proyecto original no recibe mantenimiento activo.",
+    "metodo": "gestor_paquetes",
+    "notas": "Paquete heredado disponible en algunos repositorios; el proyecto original no recibe mantenimiento activo.",
     "paquetes": {
       "debian_ubuntu": "neofetch (si está disponible en la versión de la distribución)",
       "arch_linux": "neofetch (paquete heredado o AUR, según repositorios actuales)",

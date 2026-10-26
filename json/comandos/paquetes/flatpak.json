@@ -38,7 +38,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Disponible en los repositorios de las distribuciones principales; los remotos de aplicaciones se configuran aparte.",
+    "metodo": "gestor_paquetes",
+    "notas": "Disponible en los repositorios de las distribuciones principales; los remotos de aplicaciones se configuran aparte.",
     "paquetes": {
       "debian_ubuntu": "flatpak",
       "arch_linux": "flatpak",

@@ -93,7 +93,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "builtin_de_shell_o_comando_del_sistema",
+    "metodo": "builtin_shell",
+    "notas": "builtin_de_shell_o_comando_del_sistema",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

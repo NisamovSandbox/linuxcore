@@ -228,7 +228,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "Compruebe primero `command -v gzip`; si falta, instale el paquete gzip con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install gzip`; Arch: `sudo pacman -S gzip`; RHEL/CentOS: `sudo dnf install gzip`).",
+    "metodo": "gestor_paquetes",
+    "notas": "Compruebe primero `command -v gzip`; si falta, instale el paquete gzip con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install gzip`; Arch: `sudo pacman -S gzip`; RHEL/CentOS: `sudo dnf install gzip`).",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

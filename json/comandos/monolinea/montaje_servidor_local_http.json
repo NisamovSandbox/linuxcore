@@ -56,7 +56,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "No requiere instalación adicional si Python 3 está disponible; utiliza el módulo http.server incluido en su biblioteca estándar.",
+    "metodo": "gestor_paquetes",
+    "notas": "No requiere instalación adicional si Python 3 está disponible; utiliza el módulo http.server incluido en su biblioteca estándar.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

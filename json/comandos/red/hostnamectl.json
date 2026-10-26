@@ -37,7 +37,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "incluido_con_systemd",
+    "metodo": "incluido_en_sistema",
+    "notas": "incluido_con_systemd",
     "paquetes": {
       "debian_ubuntu": "Incluido con systemd (paquete systemd)",
       "arch_linux": "Incluido con systemd (paquete systemd)",

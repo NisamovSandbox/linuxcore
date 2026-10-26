@@ -30,7 +30,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalar plocate o mlocate según el proveedor de locate de la distribución; la actualización puede gestionarse con un timer del sistema.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalar plocate o mlocate según el proveedor de locate de la distribución; la actualización puede gestionarse con un timer del sistema.",
     "paquetes": {
       "debian_ubuntu": "plocate o mlocate",
       "arch_linux": "plocate",

@@ -35,7 +35,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Parte de GNU coreutils y normalmente instalada en Linux.",
+    "metodo": "incluido_en_sistema",
+    "notas": "Parte de GNU coreutils y normalmente instalada en Linux.",
     "paquetes": {
       "debian_ubuntu": "coreutils (incluido en el sistema)",
       "arch_linux": "coreutils (incluido en el sistema)",

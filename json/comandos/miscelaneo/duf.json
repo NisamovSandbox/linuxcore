@@ -35,7 +35,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalable desde los repositorios de algunas distribuciones o mediante los binarios oficiales del proyecto.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalable desde los repositorios de algunas distribuciones o mediante los binarios oficiales del proyecto.",
     "paquetes": {
       "debian_ubuntu": "duf (si está disponible en la versión de la distribución)",
       "arch_linux": "duf",

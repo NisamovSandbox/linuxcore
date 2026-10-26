@@ -37,7 +37,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalable desde los repositorios de la distribución.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalable desde los repositorios de la distribución.",
     "paquetes": {
       "debian_ubuntu": "jq",
       "arch_linux": "jq",

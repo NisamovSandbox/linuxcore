@@ -82,7 +82,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "normalmente_incluido_en_util_linux",
+    "metodo": "incluido_en_sistema",
+    "notas": "normalmente_incluido_en_util_linux",
     "paquetes": {
       "debian_ubuntu": "incluido habitualmente con util-linux",
       "arch_linux": "incluido en util-linux",

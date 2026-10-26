@@ -35,7 +35,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalable desde repositorios comunitarios o binarios del proyecto; requiere conectividad de red para establecer la pasarela de colaboración.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalable desde repositorios comunitarios o binarios del proyecto; requiere conectividad de red para establecer la pasarela de colaboración.",
     "paquetes": {
       "debian_ubuntu": "tmate",
       "arch_linux": "tmate (repositorio comunitario/AUR, según disponibilidad)",

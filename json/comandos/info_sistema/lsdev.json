@@ -30,7 +30,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "gestor_paquetes (disponibilidad dependiente de distribución)",
+    "metodo": "gestor_paquetes",
+    "notas": "gestor_paquetes (disponibilidad dependiente de distribución)",
     "paquetes": {
       "debian_ubuntu": "sudo apt install procinfo",
       "arch_linux": "",

@@ -54,7 +54,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "No requiere instalación adicional; utiliza du, sort y head proporcionados habitualmente por el sistema.",
+    "metodo": "gestor_paquetes",
+    "notas": "No requiere instalación adicional; utiliza du, sort y head proporcionados habitualmente por el sistema.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

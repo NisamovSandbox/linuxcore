@@ -31,7 +31,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "compilacion_controlada_del_modulo_para_el_kernel",
+    "metodo": "compilacion",
+    "notas": "compilacion_controlada_del_modulo_para_el_kernel",
     "paquetes": {
       "debian_ubuntu": "Compilar LiME desde una fuente verificada para la versión exacta del kernel; no hay paquete universal.",
       "arch_linux": "Compilar LiME desde una fuente verificada para la versión exacta del kernel; no hay paquete universal.",

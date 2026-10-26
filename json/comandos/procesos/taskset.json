@@ -76,7 +76,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "gestor_paquetes_util_linux",
+    "metodo": "gestor_paquetes",
+    "notas": "gestor_paquetes_util_linux",
     "paquetes": {
       "debian_ubuntu": "sudo apt install util-linux",
       "arch_linux": "sudo pacman -S util-linux",

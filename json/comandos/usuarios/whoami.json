@@ -33,7 +33,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Normalmente incluido en GNU coreutils.",
+    "metodo": "incluido_en_sistema",
+    "notas": "Normalmente incluido en GNU coreutils.",
     "paquetes": {
       "debian_ubuntu": "sudo apt install coreutils",
       "arch_linux": "sudo pacman -S coreutils",

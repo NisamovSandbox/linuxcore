@@ -36,7 +36,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Parte de util-linux en la mayoría de distribuciones Linux.",
+    "metodo": "incluido_en_sistema",
+    "notas": "Parte de util-linux en la mayoría de distribuciones Linux.",
     "paquetes": {
       "debian_ubuntu": "util-linux (normalmente instalado)",
       "arch_linux": "util-linux (normalmente instalado)",

@@ -35,7 +35,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "util-linux_y_paquete_del_sistema_de_archivos",
+    "metodo": "gestor_paquetes",
+    "notas": "util-linux_y_paquete_del_sistema_de_archivos",
     "paquetes": {
       "debian_ubuntu": "util-linux; e2fsprogs para ext, dosfstools para FAT, xfsprogs para XFS",
       "arch_linux": "util-linux; e2fsprogs para ext, dosfstools para FAT, xfsprogs para XFS",

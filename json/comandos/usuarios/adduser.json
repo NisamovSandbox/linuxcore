@@ -38,7 +38,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Gestor de paquetes; normalmente ya está instalado.",
+    "metodo": "gestor_paquetes",
+    "notas": "Gestor de paquetes; normalmente ya está instalado.",
     "paquetes": {
       "debian_ubuntu": "sudo apt install adduser",
       "arch_linux": "sudo pacman -S shadow",

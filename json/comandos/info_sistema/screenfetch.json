@@ -31,7 +31,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "gestor_paquetes (disponibilidad variable)",
+    "metodo": "gestor_paquetes",
+    "notas": "gestor_paquetes (disponibilidad variable)",
     "paquetes": {
       "debian_ubuntu": "sudo apt install screenfetch",
       "arch_linux": "sudo pacman -S screenfetch",

@@ -49,7 +49,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "findutils suele estar instalado; si falta, instale findutils desde el gestor de paquetes de la distribución.",
+    "metodo": "gestor_paquetes",
+    "notas": "findutils suele estar instalado; si falta, instale findutils desde el gestor de paquetes de la distribución.",
     "paquetes": {
       "debian_ubuntu": "sudo apt install findutils",
       "arch_linux": "sudo pacman -S findutils",

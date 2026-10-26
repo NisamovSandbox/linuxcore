@@ -34,7 +34,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "gestor_paquetes (parte del cliente FTP)",
+    "metodo": "gestor_paquetes",
+    "notas": "gestor_paquetes (parte del cliente FTP)",
     "paquetes": {
       "debian_ubuntu": "sudo apt install ftp",
       "arch_linux": "sudo pacman -S inetutils",

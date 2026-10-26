@@ -37,7 +37,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalable desde los repositorios de la distribución o mediante el gestor de paquetes correspondiente.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalable desde los repositorios de la distribución o mediante el gestor de paquetes correspondiente.",
     "paquetes": {
       "debian_ubuntu": "fzf",
       "arch_linux": "fzf",

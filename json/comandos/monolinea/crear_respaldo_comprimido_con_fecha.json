@@ -38,7 +38,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "tar, date, basename y dirname suelen estar disponibles; si faltan, instale tar y coreutils desde el gestor de paquetes.",
+    "metodo": "gestor_paquetes",
+    "notas": "tar, date, basename y dirname suelen estar disponibles; si faltan, instale tar y coreutils desde el gestor de paquetes.",
     "paquetes": {
       "debian_ubuntu": "sudo apt install tar coreutils",
       "arch_linux": "sudo pacman -S tar coreutils",

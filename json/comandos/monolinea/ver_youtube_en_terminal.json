@@ -45,7 +45,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "Requiere que mpv esté instalado y disponible; instálelo únicamente desde una fuente de confianza adecuada a su sistema.",
+    "metodo": "gestor_paquetes",
+    "notas": "Requiere que mpv esté instalado y disponible; instálelo únicamente desde una fuente de confianza adecuada a su sistema.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

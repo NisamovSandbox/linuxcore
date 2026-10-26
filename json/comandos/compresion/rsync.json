@@ -250,7 +250,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "Compruebe primero `command -v rsync`; si falta, instale el paquete rsync con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install rsync`; Arch: `sudo pacman -S rsync`; RHEL/CentOS: `sudo dnf install rsync`). Para transferencias remotas también se necesita un servicio/conexión SSH funcional si se usa `-e ssh`.",
+    "metodo": "gestor_paquetes",
+    "notas": "Compruebe primero `command -v rsync`; si falta, instale el paquete rsync con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install rsync`; Arch: `sudo pacman -S rsync`; RHEL/CentOS: `sudo dnf install rsync`). Para transferencias remotas también se necesita un servicio/conexión SSH funcional si se usa `-e ssh`.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

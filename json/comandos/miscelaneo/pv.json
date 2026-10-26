@@ -37,7 +37,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalable desde repositorios de la distribución.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalable desde repositorios de la distribución.",
     "paquetes": {
       "debian_ubuntu": "pv",
       "arch_linux": "pv",

@@ -38,7 +38,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Gestor nativo de Fedora y de RHEL 8 o posterior; normalmente se instala como parte del sistema.",
+    "metodo": "gestor_paquetes",
+    "notas": "Gestor nativo de Fedora y de RHEL 8 o posterior; normalmente se instala como parte del sistema.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

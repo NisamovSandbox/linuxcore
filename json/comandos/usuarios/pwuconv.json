@@ -31,7 +31,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "No hay una instalación estándar documentada para pwuconv. Para convertir shadow a passwd, verifica si la distribución proporciona pwunconv y consulta su manual.",
+    "metodo": "gestor_paquetes",
+    "notas": "No hay una instalación estándar documentada para pwuconv. Para convertir shadow a passwd, verifica si la distribución proporciona pwunconv y consulta su manual.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

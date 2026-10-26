@@ -43,7 +43,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "No requiere instalación adicional; utiliza find y las interfaces del sistema de archivos.",
+    "metodo": "gestor_paquetes",
+    "notas": "No requiere instalación adicional; utiliza find y las interfaces del sistema de archivos.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

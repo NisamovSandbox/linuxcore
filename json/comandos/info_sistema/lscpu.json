@@ -32,7 +32,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "incluido en util-linux (normalmente preinstalado)",
+    "metodo": "incluido_en_sistema",
+    "notas": "incluido en util-linux (normalmente preinstalado)",
     "paquetes": {
       "debian_ubuntu": "util-linux",
       "arch_linux": "util-linux",

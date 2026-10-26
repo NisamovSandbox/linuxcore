@@ -32,7 +32,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "El comando suele estar integrado en la shell; GNU /usr/bin/echo pertenece a coreutils.",
+    "metodo": "builtin_shell",
+    "notas": "El comando suele estar integrado en la shell; GNU /usr/bin/echo pertenece a coreutils.",
     "paquetes": {
       "debian_ubuntu": "coreutils",
       "arch_linux": "coreutils",

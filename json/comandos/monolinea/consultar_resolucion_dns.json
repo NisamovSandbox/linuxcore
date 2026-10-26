@@ -38,7 +38,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "getent suele estar incluido con la biblioteca C del sistema; no suele requerir instalación independiente.",
+    "metodo": "incluido_en_sistema",
+    "notas": "getent suele estar incluido con la biblioteca C del sistema; no suele requerir instalación independiente.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

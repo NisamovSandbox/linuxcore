@@ -1,5 +1,5 @@
 {
-  "id": "limpiar_historial_de_terminal_de_sesion_actuall",
+  "id": "limpiar_historial_de_terminal_de_sesion_actual",
   "nombre": "Limpiar historial de terminal de sesion actual",
   "descripcion": "Borra la lista de historial de la shell actual y luego la escribe en el archivo de historial configurado por la shell. En Bash normalmente vacía el historial persistente correspondiente a HISTFILE; no elimina registros de auditoría ni garantiza borrado seguro del almacenamiento.",
   "clasificacion": {
@@ -45,7 +45,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "No requiere instalación adicional; utiliza las funciones de historial del shell Bash interactivo.",
+    "metodo": "builtin_shell",
+    "notas": "No requiere instalación adicional; utiliza las funciones de historial del shell Bash interactivo.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

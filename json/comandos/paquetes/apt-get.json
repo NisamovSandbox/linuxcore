@@ -37,7 +37,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Incluido en el paquete apt de Debian y Ubuntu; suele estar preinstalado.",
+    "metodo": "incluido_en_sistema",
+    "notas": "Incluido en el paquete apt de Debian y Ubuntu; suele estar preinstalado.",
     "paquetes": {
       "debian_ubuntu": "apt",
       "arch_linux": "",

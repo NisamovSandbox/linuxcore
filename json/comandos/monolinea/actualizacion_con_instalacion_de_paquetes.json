@@ -46,7 +46,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "No requiere instalar una utilidad adicional; necesita APT y acceso a los repositorios configurados del sistema.",
+    "metodo": "gestor_paquetes",
+    "notas": "No requiere instalar una utilidad adicional; necesita APT y acceso a los repositorios configurados del sistema.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

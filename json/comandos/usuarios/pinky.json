@@ -50,7 +50,8 @@
     },
     "instalacion": {
         "instalable": true,
-        "metodo": "Gestor de paquetes; forma parte de coreutils y normalmente ya está instalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Gestor de paquetes; forma parte de coreutils y normalmente ya está instalado.",
         "paquetes": {
             "debian_ubuntu": "sudo apt install coreutils",
             "arch_linux": "sudo pacman -S coreutils",

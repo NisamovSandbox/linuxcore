@@ -33,7 +33,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Paquete de entretenimiento disponible en repositorios de algunas distribuciones.",
+    "metodo": "gestor_paquetes",
+    "notas": "Paquete de entretenimiento disponible en repositorios de algunas distribuciones.",
     "paquetes": {
       "debian_ubuntu": "sl",
       "arch_linux": "sl",

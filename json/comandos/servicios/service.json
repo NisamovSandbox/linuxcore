@@ -31,7 +31,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "Suele instalarse como utilidad de compatibilidad junto con el sistema init o sus herramientas; el paquete varía por distribución.",
+    "metodo": "gestor_paquetes",
+    "notas": "Suele instalarse como utilidad de compatibilidad junto con el sistema init o sus herramientas; el paquete varía por distribución.",
     "paquetes": {
       "debian_ubuntu": "init-system-helpers",
       "arch_linux": "openrc (si se usa OpenRC; no es comando del paquete systemd)",

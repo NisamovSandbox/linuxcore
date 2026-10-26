@@ -173,7 +173,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "Compruebe primero `command -v unzip`; si falta, instale el paquete unzip con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install unzip`; Arch: `sudo pacman -S unzip`; RHEL/CentOS: `sudo dnf install unzip`).",
+    "metodo": "gestor_paquetes",
+    "notas": "Compruebe primero `command -v unzip`; si falta, instale el paquete unzip con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install unzip`; Arch: `sudo pacman -S unzip`; RHEL/CentOS: `sudo dnf install unzip`).",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

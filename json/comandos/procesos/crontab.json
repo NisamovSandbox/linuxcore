@@ -98,7 +98,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "gestor_paquetes_y_servicio_cron",
+    "metodo": "gestor_paquetes",
+    "notas": "gestor_paquetes_y_servicio_cron",
     "paquetes": {
       "debian_ubuntu": "sudo apt install cron",
       "arch_linux": "sudo pacman -S cronie",

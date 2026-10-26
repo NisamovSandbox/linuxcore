@@ -36,7 +36,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalable como bat o batcat según la distribución; algunas distribuciones renombran el ejecutable por conflicto de nombres.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalable como bat o batcat según la distribución; algunas distribuciones renombran el ejecutable por conflicto de nombres.",
     "paquetes": {
       "debian_ubuntu": "bat (el ejecutable puede llamarse batcat)",
       "arch_linux": "bat",

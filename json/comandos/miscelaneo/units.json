@@ -36,7 +36,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalable desde repositorios de la distribución; la implementación más extendida es GNU units.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalable desde repositorios de la distribución; la implementación más extendida es GNU units.",
     "paquetes": {
       "debian_ubuntu": "units",
       "arch_linux": "units",

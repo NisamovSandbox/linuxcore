@@ -39,7 +39,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "paquete_openzfs_especifico_de_distribucion",
+    "metodo": "gestor_paquetes",
+    "notas": "paquete_openzfs_especifico_de_distribucion",
     "paquetes": {
       "debian_ubuntu": "zfsutils-linux (repositorios compatibles; disponibilidad depende de versión/kernel)",
       "arch_linux": "zfs-utils (repositorio compatible con el kernel)",

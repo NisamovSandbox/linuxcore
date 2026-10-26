@@ -31,7 +31,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalar Nautilus desde los repositorios de la distribución; requiere componentes GNOME.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalar Nautilus desde los repositorios de la distribución; requiere componentes GNOME.",
     "paquetes": {
       "debian_ubuntu": "nautilus",
       "arch_linux": "nautilus",

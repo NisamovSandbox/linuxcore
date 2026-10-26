@@ -36,7 +36,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "Herramienta propia de Upstart; el paquete no está disponible o soportado en muchas versiones actuales de las distribuciones.",
+    "metodo": "gestor_paquetes",
+    "notas": "Herramienta propia de Upstart; el paquete no está disponible o soportado en muchas versiones actuales de las distribuciones.",
     "paquetes": {
       "debian_ubuntu": "upstart (solo versiones heredadas; no instalar como reemplazo de systemd sin plan de migración)",
       "arch_linux": "",

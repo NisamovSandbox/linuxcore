@@ -37,7 +37,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "El cliente snap se instala junto con snapd; la activación del servicio y la disponibilidad varían por distribución.",
+    "metodo": "gestor_paquetes",
+    "notas": "El cliente snap se instala junto con snapd; la activación del servicio y la disponibilidad varían por distribución.",
     "paquetes": {
       "debian_ubuntu": "snapd",
       "arch_linux": "snapd (AUR; requiere configuración del servicio)",

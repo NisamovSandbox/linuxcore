@@ -33,7 +33,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "Normalmente lo proporciona la biblioteca C del sistema; en sistemas que lo separan, instale el paquete iconv/libiconv de la distribución.",
+    "metodo": "gestor_paquetes",
+    "notas": "Normalmente lo proporciona la biblioteca C del sistema; en sistemas que lo separan, instale el paquete iconv/libiconv de la distribución.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

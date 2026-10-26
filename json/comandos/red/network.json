@@ -36,7 +36,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "No es un comando universal; lo proporciona la distribucion como script de servicio heredado",
+    "metodo": "no_estandar",
+    "notas": "No es un comando universal; lo proporciona la distribucion como script de servicio heredado",
     "paquetes": {
       "debian_ubuntu": "No universal; depende de configuracion/paquetes heredados instalados",
       "arch_linux": "No es servicio estandar de Arch Linux",

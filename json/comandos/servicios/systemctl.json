@@ -38,7 +38,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "Herramienta incluida con systemd en distribuciones que usan este gestor; normalmente no se instala de forma independiente.",
+    "metodo": "incluido_en_sistema",
+    "notas": "Herramienta incluida con systemd en distribuciones que usan este gestor; normalmente no se instala de forma independiente.",
     "paquetes": {
       "debian_ubuntu": "systemd (incluido en la instalación base)",
       "arch_linux": "systemd",

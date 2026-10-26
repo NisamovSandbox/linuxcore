@@ -34,7 +34,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalar sed mediante el gestor de paquetes; GNU sed suele estar preinstalado.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalar sed mediante el gestor de paquetes; GNU sed suele estar preinstalado.",
     "paquetes": {
       "debian_ubuntu": "sed",
       "arch_linux": "sed",

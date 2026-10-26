@@ -38,7 +38,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Cliente de OpenLDAP disponible mediante el gestor de paquetes de la distribución.",
+    "metodo": "gestor_paquetes",
+    "notas": "Cliente de OpenLDAP disponible mediante el gestor de paquetes de la distribución.",
     "paquetes": {
       "debian_ubuntu": "ldap-utils",
       "arch_linux": "openldap",

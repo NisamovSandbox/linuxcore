@@ -45,7 +45,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "No requiere instalación adicional; utiliza cp y expansión de llaves del shell Bash.",
+    "metodo": "builtin_shell",
+    "notas": "No requiere instalación adicional; utiliza cp y expansión de llaves del shell Bash.",
     "paquetes": {
       "debian_ubuntu": "",
       "arch_linux": "",

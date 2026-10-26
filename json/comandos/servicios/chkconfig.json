@@ -34,7 +34,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "Utilidad heredada disponible en determinadas distribuciones SysV/RHEL antiguas; no suele ser apropiada para sistemas actuales con systemd.",
+    "metodo": "no_estandar",
+    "notas": "Utilidad heredada disponible en determinadas distribuciones SysV/RHEL antiguas; no suele ser apropiada para sistemas actuales con systemd.",
     "paquetes": {
       "debian_ubuntu": "chkconfig (disponibilidad según versión)",
       "arch_linux": "No suele incluirse en los repositorios oficiales actuales",

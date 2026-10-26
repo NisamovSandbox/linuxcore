@@ -35,7 +35,8 @@
   },
   "instalacion": {
     "instalable": false,
-    "metodo": "Provisto por init-system-helpers en Debian y derivados; habitualmente ya está instalado y no es una utilidad genérica de todas las distribuciones.",
+    "metodo": "gestor_paquetes",
+    "notas": "Provisto por init-system-helpers en Debian y derivados; habitualmente ya está instalado y no es una utilidad genérica de todas las distribuciones.",
     "paquetes": {
       "debian_ubuntu": "init-system-helpers",
       "arch_linux": "No es el gestor estándar; disponibilidad según compatibilidad SysV local",

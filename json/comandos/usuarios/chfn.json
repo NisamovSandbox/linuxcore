@@ -37,7 +37,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Incluido en el paquete de utilidades de cuentas de la distribución.",
+    "metodo": "incluido_en_sistema",
+    "notas": "Incluido en el paquete de utilidades de cuentas de la distribución.",
     "paquetes": {
       "debian_ubuntu": "sudo apt install passwd",
       "arch_linux": "sudo pacman -S shadow",

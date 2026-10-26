@@ -34,7 +34,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalar gzip desde el gestor de paquetes; zgrep suele incluirse en ese paquete.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalar gzip desde el gestor de paquetes; zgrep suele incluirse en ese paquete.",
     "paquetes": {
       "debian_ubuntu": "gzip",
       "arch_linux": "gzip",

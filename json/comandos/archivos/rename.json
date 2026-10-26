@@ -30,7 +30,8 @@
   },
   "instalacion": {
     "instalable": true,
-    "metodo": "Instalar la implementación rename documentada por la distribución; inspeccionar rename --version y man rename antes de usarla.",
+    "metodo": "gestor_paquetes",
+    "notas": "Instalar la implementación rename documentada por la distribución; inspeccionar rename --version y man rename antes de usarla.",
     "paquetes": {
       "debian_ubuntu": "rename o util-linux, según implementación",
       "arch_linux": "perl-rename o util-linux, según implementación",
