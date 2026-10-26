@@ -68,7 +68,11 @@
       "required": ["instalable", "metodo", "paquetes"],
       "properties": {
         "instalable": { "type": "boolean" },
-        "metodo": { "type": "string" },
+        "metodo": {
+          "type": "string",
+          "enum": ["gestor_paquetes", "incluido_en_sistema", "builtin_shell", "compilacion", "no_estandar"]
+        },
+        "notas": { "type": "string" },
         "paquetes": { "type": "object", "additionalProperties": { "type": "string" } }
       },
       "additionalProperties": true

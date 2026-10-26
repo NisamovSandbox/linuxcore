@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Guía de contribución
+    url: https://github.com/nisamov/linuxcore/blob/main/.github/CONTRIBUTING.md
+    about: Cómo aportar documentación, fichas de comandos y distribuciones mediante un Pull Request.
+  - name: Política de seguridad
+    url: https://github.com/nisamov/linuxcore/blob/main/.github/SECURITY.md
+    about: Directrices de uso seguro y qué hacer con credenciales o datos sensibles.
+  - name: Accesibilidad
+    url: https://github.com/nisamov/linuxcore/blob/main/ACCESSIBILITY.md
+    about: Criterios de accesibilidad del proyecto y cómo comunicar una barrera de accesibilidad.

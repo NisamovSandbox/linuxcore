@@ -8,26 +8,31 @@ assignees: ""
 
 # Solicitud de documentación
 
-## ¿Qué contenido falta o necesita mejora?
+## Contenido que falta o necesita mejora
 
-Describe brevemente el tema o la sección que quieres añadir o corregir.
+Describe el tema o la sección que quieres que se añada o se amplíe.
 
 ## Motivación
 
-Explica por qué es útil este contenido para el proyecto o para la comunidad.
+Explica para qué sirve este contenido y a quién ayudaría.
 
 ## Alcance
 
 - [ ] Nueva documentación
-- [ ] Corrección de contenido existente
-- [ ] Mejoras de claridad o estructura
-- [ ] Ejemplo práctico / ejercicio
+- [ ] Ampliación de contenido existente
+- [ ] Mejora de claridad o estructura
+- [ ] Ejemplo práctico o ejercicio
 - [ ] Otro: _______
 
-## Ruta sugerida
+## Ubicación sugerida
 
-Indica la carpeta o archivo donde debería ir este contenido, si lo sabes.
+Indica la carpeta o el archivo donde debería ir, si lo sabes. Las áreas actuales son `bases_de_datos`, `infraestructura`, `programacion`, `redes`, `seguridad`, `servicios` y `sistema`, dentro de `documentacion/`.
 
 ## Referencias
 
-Añade enlaces, capturas, comandos o documentos que sirvan de referencia.
+Añade enlaces a documentación oficial, páginas de manual o comandos que sirvan de base para el contenido.
+
+## ¿Quieres escribirlo tú?
+
+- [ ] Sí, me gustaría preparar el contenido y abrir un Pull Request.
+- [ ] No, solo propongo el tema.

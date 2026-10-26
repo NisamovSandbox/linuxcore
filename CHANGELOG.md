@@ -5,147 +5,181 @@
 <div align="center">
   <h1>Registro de Cambios | Linux Core</h1>
 
-<p>Todos los cambios relevantes de <b>Linux Core</b> se documentan en este archivo. Las versiones más recientes aparecen primero.</p>
+<p>Todos los cambios relevantes de <b>Linux Core</b> se documentan en este archivo. Las versiones más recientes aparecen primero y cada una indica su fecha (año-mes-día).</p>
+<p>Los cambios de cada versión se agrupan en <b>Añadido</b>, <b>Cambiado</b>, <b>Corregido</b> y <b>Eliminado</b>.</p>
 </div>
 
-## [`00-00-01-03`]
+## [`00-00-01-04`] - 2026-10-26
 
 ### Añadido
 
-- Agregado `.github/dependabot` con automatización mensual.
-- Creado `.github/ACCESSIBILITY`
+- Plantilla de incidencia `.github/ISSUE_TEMPLATE/nuevo_comando.md` para proponer comandos o corregir fichas.
+- `.github/ISSUE_TEMPLATE/config.yml`: desactiva las incidencias en blanco y enlaza la guía de contribución, la política de seguridad y la accesibilidad.
+- Comprobaciones en `.github/scripts/validate_commands.py`: el `id` debe coincidir con el nombre del archivo, la categoría con la carpeta y no puede haber `id` repetidos.
+- Avisos de seguridad en `.github/scripts/validate_commands.py` para comandos destructivos con nivel `bajo` o `medio`, sin advertencias o sin confirmación.
+- Campo opcional `instalacion.notas` en `.github/schemas/comando.schema.json`.
+- Nueva distribución `json/distribuciones/lunariaos.json` (LunariaOS).
 
 ### Cambiado
 
-- Agregado nuevo contenido y reformado sectores de `documentacion/bases_de_datos/mysql_mariadb/usuarios_y_permisos.md`
-
----
-
-## [`00-00-01-02`]
-
-### Añadido
-
-- Creación de directorio `docker/`
-
-### Cambiado
-
-- Optimizado el `Dockerfile` y movido a `docker/Dockerfile`
-- Nueva entrada en `README.md` referenciando el contendor.
-- Cambio de shields (adaptación a cambios recientes).
-
----
-
-## [`00-00-01-01`]
-
-### Cambiado
-
-- Cambio en la ubicación del `Dockerfile` a primer plano
-
-### Eliminado
-
-- Eliminado el workflow relacionado con el Dockerfile
-
----
-
-## [`00-00-01-00`]
-
-### Añadido
-
-- Contenedor y despliegue Docker automático en nueva rama del repositorio
-
----
-
-## [`00-00-00-06`]
+- Reescrito `.github/CONTRIBUTING.md`: flujo paso a paso, reglas por tipo de aporte (documentación, fichas de comandos y distribuciones).
+- Rehecho `README.md`: inicio rápido, consultas de ejemplo con `jq`, estructura de las fichas de comandos, categorías, rutas de aprendizaje recomendadas, estructura del repositorio, automatización y documentos del proyecto.
+- Mejoradas la plantilla de Pull Request y las plantillas de incidencias `correccion_documentacion.md`, `documentacion.md` y `critico.md`.
+- `instalacion.metodo` pasa a un conjunto cerrado de valores (`gestor_paquetes`, `incluido_en_sistema`, `builtin_shell`, `compilacion` y `no_estandar`). El texto anterior se conserva en `instalacion.notas`.
+- `.github/workflows/commands_db_gen.yaml` solo publica desde `main`, valida en Pull Requests sin publicar y guarda `.github/db/` en el repositorio.
 
 ### Corregido
 
-- Corregido el enlace simbolico del `README.md` de `teoria_borg.md`
+- `.github/scripts/validate_markdown.py` ya no marca como rotos los enlaces con ancla, ignora los bloques de código, valida también las imágenes y muestra el número de línea.
+- Corregidos los `id` de `apparmor_status` (antes `apparmor`), `limpiar_historial_de_terminal_de_sesion_actual` (antes con una `l` de más) y `limpieza_residual` (antes `limpieza_residual_linea_produccion`).
+- `documentacion/redes/ssh/uso.md` no estaba enlazado en `README.md`.
+- Corrección general del fichero `CHANGELOG` y su formato.
 
 ### Eliminado
 
-- Eliminada la referencia del enlace a un archivo inexistente `diagnosticar_ssh.md`
+- Retirada del `README.md` y el repositorio general el GIF de vista previa sobre `linuxcore.site`.
 
 ---
 
-## [`00-00-00-05`]
+## [`00-00-01-03`] - 2026-10-23
 
 ### Añadido
 
-- Creada teoria general de `ssh` en `documentacion/redes/ssh/uso.md`
+- `.github/dependabot.yml` con revisión mensual de las acciones de GitHub.
+- `ACCESSIBILITY.md` con los criterios de accesibilidad del proyecto.
+
+### Cambiado
+
+- Ampliado y reorganizado `documentacion/bases_de_datos/mysql_mariadb/usuarios_y_permisos.md`.
+
+---
+
+## [`00-00-01-02`] - 2026-10-23
+
+### Añadido
+
+- Directorio `docker/`.
+- Workflow `.github/workflows/docker-publish.yaml` para publicar la imagen en `ghcr.io`.
+
+### Cambiado
+
+- Optimizado el `Dockerfile` y movido a `docker/Dockerfile`.
+- Nueva entrada en `README.md` que referencia el contenedor.
+- Cambio de insignias (adaptación a cambios recientes).
+
+---
+
+## [`00-00-01-01`] - 2026-10-23
+
+### Cambiado
+
+- Movido el `Dockerfile` a la raíz del repositorio.
+
+### Eliminado
+
+- Eliminado el workflow relacionado con el `Dockerfile`.
+
+---
+
+## [`00-00-01-00`] - 2026-10-22
+
+### Añadido
+
+- Contenedor Docker (`.github/dockerfile`) y workflow de publicación automática (`.github/workflows/docker-publish.yml`).
+
+---
+
+## [`00-00-00-06`] - 2026-10-22
+
+### Corregido
+
+- Corregido el enlace de `README.md` a `teoria_borg.md`.
+
+### Eliminado
+
+- Eliminada la referencia a un archivo inexistente, `diagnosticar_ssh.md`.
+
+---
+
+## [`00-00-00-05`] - 2026-10-22
+
+### Añadido
+
+- Creado `documentacion/redes/ssh/uso.md` con comandos y casos de uso de `ssh`.
 
 ### Cambiado
 
 - Ediciones generales en `README.md`:
-  - Modificación de redireccionamiento a "linuxcore.site"
-  - Modificación en el diseño y formato de shields
-  - Modificación de Formato de colaboradores
-- Modificada completa sobre la teoría `ssh` en `documentacion/redes/ssh/teoria_ssh.md`
-- Corrección y expansión de apuntes en `documentacion/programacion/php/variables.php`
+  - Redireccionamiento a "linuxcore.site".
+  - Diseño y formato de las insignias.
+  - Formato de colaboradores.
+- Reescrita la teoría de `ssh` en `documentacion/redes/ssh/teoria_ssh.md`.
+- Ampliada y revisada la teoría de seguridad en `documentacion/seguridad/teoria_seguridad.md`.
+- Corrección y ampliación de apuntes en `documentacion/programacion/php/variables.php`.
 
 ### Corregido
 
-- Corregido el enlace roto en `README.md` del archivo `documentacion/infraestructura/copias_seguridad/borg/teoria_borg.md`
-- Corregido enlace de contribuciones en `README.md`y `.github/CONTRIBUTING.md`
+- Corregido el enlace roto de `README.md` a `documentacion/infraestructura/copias_seguridad/borg/teoria_borg.md`.
+- Corregido el enlace de contribuciones en `README.md` y `.github/CONTRIBUTING.md`.
 
 ### Eliminado
 
-- Eliminada la sección `documentación/seguridad/ofensiva/`
-- Se han retirado los nombres de las entidades que no deseaban aparecer en `.github/AGRADECIMIENTOS.md`.
+- Eliminada la sección `documentacion/seguridad/ofensiva/`.
+- Retirados los nombres de las entidades que no deseaban aparecer en `.github/AGRADECIMIENTOS.md`.
 
 ---
 
-## [`00-00-00-04`]
+## [`00-00-00-04`] - 2026-10-22
 
 ### Añadido
 
-- Nueva distribución `Raspbian` en `json/distribuciones/raspbian.json`
-- Comando `pinky` en `json/comandos/usuarios/pinky.json`
+- Nueva distribución `Raspbian` en `json/distribuciones/raspbian.json`.
+- Comando `pinky` en `json/comandos/usuarios/pinky.json`.
 
 ### Cambiado
 
-- Revertido el cambio de formato de las tablas de `README.md` introducido en `00-00-00-03` (vuelven a `markdown`)
-- Modificación ligera en el formato de colaboradores
-- Movido `documentacion/infraestructura/contenedores/borg/teoria_borg.md` a `documentacion/infraestructura/copias_seguridad/`
+- Revertido el cambio de formato de las tablas de `README.md` introducido en `00-00-00-03` (vuelven a Markdown).
+- Modificación ligera en el formato de colaboradores.
+- Movido `documentacion/infraestructura/contenedores/borg/teoria_borg.md` a `documentacion/infraestructura/copias_seguridad/borg/teoria_borg.md`.
 
 ### Corregido
 
-- Deteccion de visualizaciones de `README.md`
+- Corregida la detección de visualizaciones de `README.md`.
 
 ---
 
-## [`00-00-00-03`]
+## [`00-00-00-03`] - 2026-10-21
 
 ### Cambiado
 
-- Renombrado `CHANGELOG` a `CHANGELOG.md`
-- Ajustes menores de formato en `CHANGELOG.md`
-- Formato de las tablas de `README.md` cambiado de `markdown` a `html`
+- Renombrado `CHANGELOG` a `CHANGELOG.md`.
+- Ajustes menores de formato en `CHANGELOG.md`.
+- Formato de las tablas de `README.md` cambiado de Markdown a HTML.
 
 ---
 
-## [`00-00-00-02`]
+## [`00-00-00-02`] - 2026-10-21
 
 ### Corregido
 
-- Enlaces rotos en `README.md` y `documentacion/redes/*`
+- Enlaces rotos en `README.md` y `documentacion/redes/*`.
 
 ---
 
-## [`00-00-00-01`]
+## [`00-00-00-01`] - 2026-10-21
 
 ### Añadido
 
-- Creación de `CHANGELOG`
+- Creación de `CHANGELOG`.
+- Marcador `documentacion/seguridad/osint/en.espera` para la sección OSINT, en preparación.
 
 ### Cambiado
 
-- Fusionados los archivos duplicados en `documentacion/redes/dhcp/teoria_dhcp.md`
-- Actualizada la ruta de referencia a `ddns.key.example` en `documentacion/redes/dns/bind9/dinamico/procedimiento.md`
-- `README.md` adaptado a la nueva estructura del repositorio
-
-### Seguridad
-
-- Renombrado `ddns.key` a `ddns.key.example` en `documentacion/redes/dns/bind9/dinamico/`
+- Fusionados los archivos duplicados `dhcp_FUSIONAR.md` y `teoria_dhcp_FUSIONAR.md` en `documentacion/redes/dhcp/teoria_dhcp.md`.
+- Renombrado `documentacion/redes/samba/smb_FUSIONAR.conf` a `smb_test2.conf`.
+- Actualizada la ruta de referencia a `ddns.key.example` en `documentacion/redes/dns/bind9/dinamico/procedimiento.md`.
+- `README.md` adaptado a la nueva estructura del repositorio.
+- Renombrado `ddns.key` a `ddns.key.example` en `documentacion/redes/dns/bind9/dinamico/`.
 
 ---
 

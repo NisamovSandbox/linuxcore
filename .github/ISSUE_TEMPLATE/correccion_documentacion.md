@@ -10,24 +10,27 @@ assignees: ""
 
 ## Ubicación
 
-Especifica la ruta del archivo o carpeta afectada.
+Indica la ruta del archivo afectado y, si puedes, el título de la sección o el número de línea.
+
+Ejemplo: `documentacion/redes/dns/bind9/teoria_bind9.md`, sección «Zonas».
 
 ## Descripción del problema
 
-Explica el error, la errata, el enlace roto o la sección confusa.
+Explica qué es incorrecto: el error, la errata, el enlace roto o la sección confusa. Si es un error técnico, indica qué ocurre realmente.
 
 ## Evidencia
 
-Adjunta una captura, fragmento de texto o referencia que ayude a reproducir el problema.
+Aporta lo que ayude a comprobarlo: el fragmento de texto afectado, la versión del software, el resultado de un comando o un enlace a la documentación oficial.
 
 ## Solución propuesta
 
-Si tienes una idea de cómo corregirlo, descríbela aquí.
+Si sabes cómo corregirlo, escribe aquí el texto o el comando correcto. También puedes abrir directamente un Pull Request siguiendo la [guía de contribución](https://github.com/nisamov/linuxcore/blob/main/.github/CONTRIBUTING.md).
 
-## Impacto
+## Tipo de problema
 
 - [ ] Error de contenido
 - [ ] Enlace roto
-- [ ] Errores de redacción
+- [ ] Errata o error de redacción
 - [ ] Problema de estructura o navegación
+- [ ] Problema de accesibilidad
 - [ ] Otro: _______

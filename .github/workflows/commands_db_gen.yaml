@@ -6,6 +6,8 @@ concurrency:
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'json/comandos/**'
       - 'json/distribuciones/**'
@@ -14,6 +16,14 @@ on:
       - '.github/scripts/commands_db_gen.py'
       - '.github/scripts/distros_db_gen.py'
       - '.github/workflows/commands_db_gen.yaml'
+  pull_request:
+    paths:
+      - 'json/comandos/**'
+      - 'json/distribuciones/**'
+      - '.github/schemas/**'
+      - '.github/scripts/validate_commands.py'
+      - '.github/scripts/commands_db_gen.py'
+      - '.github/scripts/distros_db_gen.py'
   workflow_dispatch:
 
 jobs:
@@ -43,7 +53,22 @@ jobs:
       - name: Base de datos de distribuciones
         run: python .github/scripts/distros_db_gen.py
 
+      # Solo se publica desde main.
+      - name: Guardar bases de datos en el repositorio
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/db/commands.json .github/db/distros.json
+          if git diff --cached --quiet; then
+            echo "Las bases de datos versionadas ya están actualizadas."
+          else
+            git commit -m "docs: actualización automática de bases de datos"
+            git push || { git pull --rebase origin main && git push; }
+          fi
+
       - name: Publicar Release
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |

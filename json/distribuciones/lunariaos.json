@@ -1,0 +1,12 @@
+{
+    "nombre":  "Lunaria OS",
+    "descripcion":  "Distribución basada en Debian, con un enfoque en la simplicidad y la facilidad de uso, ofreciendo un entorno de escritorio ligero y personalizable.",
+    "web_oficial":  "https://www.lunariaos.org/",
+    "fecha_origen":  "",
+    "autores":  [
+                    "Maksieku"
+                ],
+    "distribucion_base":  "Debian",
+    "gestor_paquetes":  ["APT"],
+    "fuentes": ["https://www.lunariaos.org/"]
+}
