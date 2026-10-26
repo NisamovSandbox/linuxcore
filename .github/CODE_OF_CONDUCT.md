@@ -1,4 +1,10 @@
-# Código de Conducta – LinuxCore
+<p align="center">
+  <img src="media/top.png" alt="LinuxCore Header" width="100%">
+</p>
+
+<div align="center">
+  <h1>Código de Conducta | Linux Core</h1>
+</div>
 
 ## Compromiso
 Este repositorio busca ser un recurso profesional y útil para todos los usuarios y colaboradores. Esperamos que todas las contribuciones se realicen con **respeto, cuidado y profesionalidad**.
@@ -22,3 +28,13 @@ El incumplimiento de estas normas puede derivar en:
 
 ## Alcance
 Estas normas se aplican a **todas las contribuciones** al repositorio: código, documentación, ejemplos y cualquier otro archivo incluido en **LinuxCore**.
+
+---
+
+<div align="center">
+  <p><b>Linux Core - Nisamov | MIT License - 2026</b></p>
+  <p><b>Contacto:</b> <a href="mailto:nisamov.contact@gmail.com">nisamov.contact@gmail.com</a></p>
+  <p align="center">
+    <img src="media/bottom.png" alt="LinuxCore Footer" width="100%">
+  </p>
+</div>

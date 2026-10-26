@@ -1,4 +1,11 @@
-# Política de Seguridad
+<p align="center">
+  <img src="media/top.png" alt="LinuxCore Header" width="100%">
+</p>
+
+<div align="center">
+  <h1>Política de Seguridad | Linux Core</h1>
+<p>Todo contenido mencionado en este documento se encuentra en espera y no cuenta con una fecha estimada.</p>
+</div>
 
 ## Directrices de Uso Seguro
 El contenido de este repositorio se proporciona "tal cual", para fines informativos. Se recomienda a los usuarios:
@@ -9,3 +16,13 @@ El contenido de este repositorio se proporciona "tal cual", para fines informati
 
 ---
 *Gracias por contribuir a que el proyecto LinuxCore sea más seguro y preciso.*
+
+---
+
+<div align="center">
+  <p><b>Linux Core - Nisamov | MIT License - 2026</b></p>
+  <p><b>Contacto:</b> <a href="mailto:nisamov.contact@gmail.com">nisamov.contact@gmail.com</a></p>
+  <p align="center">
+    <img src="media/bottom.png" alt="LinuxCore Footer" width="100%">
+  </p>
+</div>

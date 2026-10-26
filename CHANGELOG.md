@@ -9,6 +9,30 @@
 <p>Los cambios de cada versión se agrupan en <b>Añadido</b>, <b>Cambiado</b>, <b>Corregido</b> y <b>Eliminado</b>.</p>
 </div>
 
+## [`00-00-01-06`] - 2026-10-26
+
+## Añadido
+
+- Nuevo comando `json/comandos/seguridad/foremost.json` relacionado directamente con `documentacion/seguridad/forense/herramientas/foremost.md`.
+- Creación de ruta `documentacion/seguridad/pentesting/redes`.
+- Nueva herramienta en `documentacion/seguridad/forense/herramientas/hping3.md` (Investigación de red y puertos, relacionado con auditorias y seguridad).
+- Nueva herramienta en `documentacion/seguridad/forense/herramientas/nmap.md`.
+- Agregado archivo `documentacion/seguridad/pentesting/redes/hping3.md` en la nueva ruta mencionada (`documentacion/seguridad/pentesting/redes`).
+- Agregado archivo `documentacion/seguridad/pentesting/redes/nmap.md` en la nueva ruta mencionada (`documentacion/seguridad/pentesting/redes`).
+- Creación de ruta `documentacion/seguridad/osint/herramientas` y documentación de contenido `holehe.md`, `owasp_amass.md`, `theharvester.md`, `maigret.md` y `sherlock.md` junto a la creación de la teoría general que les acompaña `documentacion/seguridad/osint/teoria_osint.md`.
+- Creación de archivo `TODO.md` como lista de espera para contenido pendiente.
+
+## Eliminado
+
+- Retirado el documento `documentacion/seguridad/forense/herramientas/logrotate.md` al no corresponder a dicha sección.
+- Eliminado el documento  `documentacion/seguridad/osint/en.espera` por haber cumplido su función hasta la fecha.
+
+## Cambiado
+
+– Asignación de decoración estandar en `ACCESSIBILITY.md`, `.github/CONTRIBUTING.md`, `.github/CODE_OF_CONDUCT.md` y `.github/SECURITY.md`
+
+---
+
 ## [`00-00-01-05`] - 2026-10-26
 
 ### Cambiado

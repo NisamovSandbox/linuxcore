@@ -1,4 +1,10 @@
-# Accesibilidad en LinuxCore
+<p align="center">
+  <img src=".github/media/top.png" alt="LinuxCore Header" width="100%">
+</p>
+
+<div align="center">
+  <h1>Accesibilidad | Linux Core</h1>
+</div>
 
 LinuxCore quiere que su documentación técnica y los recursos publicados en [linuxcore.site](https://linuxcore.site/) sean consultables por el mayor número posible de personas, incluidas aquellas que utilizan lectores de pantalla, navegación por teclado, ampliación de pantalla, reconocimiento de voz u otras tecnologías de apoyo.
 
@@ -103,4 +109,10 @@ La estructura y los contenidos del proyecto evolucionan. Los criterios de este d
 
 ---
 
-Última revisión del documento: octubre de 2026.
+<div align="center">
+  <p><b>Linux Core - Nisamov | MIT License - 2026</b></p>
+  <p><b>Contacto:</b> <a href="mailto:nisamov.contact@gmail.com">nisamov.contact@gmail.com</a></p>
+  <p align="center">
+    <img src=".github/media/bottom.png" alt="LinuxCore Footer" width="100%">
+  </p>
+</div>

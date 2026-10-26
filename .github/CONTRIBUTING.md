@@ -1,4 +1,10 @@
-# Guía de contribución a LinuxCore
+<p align="center">
+  <img src="media/top.png" alt="LinuxCore Header" width="100%">
+</p>
+
+<div align="center">
+  <h1>Guía de contribución | Linux Core</h1>
+</div>
 
 Gracias por querer aportar a LinuxCore. Esta guía explica qué se puede aportar, dónde va cada cosa, qué pasos seguir y qué comprobaciones se ejecutan antes de que un cambio se publique en [linuxcore.site](https://linuxcore.site).
 
@@ -346,3 +352,13 @@ Todas las contribuciones están sujetas al [Código de Conducta](CODE_OF_CONDUCT
 Quienes tengan un Pull Request aceptado aparecen en el [listado de contribuyentes de GitHub](https://github.com/nisamov/linuxcore/graphs/contributors). El archivo [AGRADECIMIENTOS.md](AGRADECIMIENTOS.md) es un reconocimiento personal del autor y no admite modificaciones externas.
 
 Para dudas que no encajen en una incidencia, escribe a [nisamov.contact@gmail.com](mailto:nisamov.contact@gmail.com).
+
+---
+
+<div align="center">
+  <p><b>Linux Core - Nisamov | MIT License - 2026</b></p>
+  <p><b>Contacto:</b> <a href="mailto:nisamov.contact@gmail.com">nisamov.contact@gmail.com</a></p>
+  <p align="center">
+    <img src="media/bottom.png" alt="LinuxCore Footer" width="100%">
+  </p>
+</div>

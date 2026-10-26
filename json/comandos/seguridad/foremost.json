@@ -1,0 +1,66 @@
+{
+  "id": "hping3",
+  "nombre": "hping3",
+  "descripcion": "Analizador de red y ensamblador de paquetes orientado a la línea de comandos capaz de construir y enviar paquetes TCP, UDP, ICMP o RAW IP personalizados para pruebas de penetración, auditoría de firewalls y escaneo de puertos.",
+  "clasificacion": {
+    "categoria": "red",
+    "subcategoria": "auditoria_y_escaneo",
+    "tags": [
+      "redes",
+      "escaneo",
+      "tcp",
+      "auditoria",
+      "seguridad"
+    ]
+  },
+  "sintaxis": {
+    "principal": "hping3 [opciones] <objetivo>",
+    "alternativas": []
+  },
+  "parametros": [
+    {"flag": "-S", "argumento": null, "tipo": "boolean", "requerido": false, "default": false, "valores": [], "descripcion": "Activa el flag SYN en la cabecera TCP para simular el inicio de una conexión.", "conflictos": [], "requiere": []},
+    {"flag": "--scan", "argumento": "rango", "tipo": "string", "requerido": false, "default": null, "valores": [], "descripcion": "Habilita el modo de escaneo de puertos sobre el rango de destino especificado.", "conflictos": [], "requiere": []},
+    {"flag": "-p", "argumento": "puerto", "tipo": "integer", "requerido": false, "default": 0, "valores": [], "descripcion": "Define el puerto de destino al que se enviarán los paquetes construidos.", "conflictos": [], "requiere": []},
+    {"flag": "-c", "argumento": "cantidad", "tipo": "integer", "requerido": false, "default": null, "valores": [], "descripcion": "Limita el número total de paquetes a enviar antes de finalizar la ejecución.", "conflictos": [], "requiere": []},
+    {"flag": "-a", "argumento": "ip", "tipo": "string", "requerido": false, "default": null, "valores": [], "descripcion": "Permite falsificar (spoofing) la dirección IP de origen de los paquetes enviador.", "conflictos": [], "requiere": []},
+    {"flag": "--flood", "argumento": null, "tipo": "boolean", "requerido": false, "default": false, "valores": [], "descripcion": "Envía paquetes a la máxima velocidad posible sin esperar respuestas.", "conflictos": ["-c"], "requiere": []},
+    {"flag": "-1", "argumento": null, "tipo": "boolean", "requerido": false, "default": false, "valores": [], "descripcion": "Establece el modo de operación en protocolo ICMP.", "conflictos": ["-2", "-S"], "requiere": []},
+    {"flag": "-2", "argumento": null, "tipo": "boolean", "requerido": false, "default": false, "valores": [], "descripcion": "Establece el modo de operación en protocolo UDP.", "conflictos": ["-1", "-S"], "requiere": []},
+    {"flag": "-f", "argumento": null, "tipo": "boolean", "requerido": false, "default": false, "valores": [], "descripcion": "Fragmenta los paquetes enviados para evadir sistemas de detección de intrusos.", "conflictos": [], "requiere": []}
+  ],
+  "requisitos": {
+    "permisos": ["Se requieren privilegios de superusuario (root) para la creación e inyección de sockets crudos (raw sockets)."],
+    "dependencias": ["Librería libpcap."],
+    "paquetes": ["hping3"]
+  },
+  "seguridad": {
+    "nivel": "alto",
+    "destructivo": false,
+    "requiere_root": true,
+    "requiere_confirmacion": false,
+    "advertencias": ["El uso indebido de opciones de saturación (--flood) o su ejecución en redes no autorizadas puede provocar denegación de servicio e incurrir en violaciones legales."]
+  },
+  "instalacion": {
+    "instalable": true,
+    "metodo": "gestor_paquetes",
+    "notas": "Disponible en la mayoría de repositorios de Linux bajo el paquete hping3.",
+    "paquetes": {
+      "debian_ubuntu": "hping3",
+      "arch_linux": "hping3",
+      "rhel_centos": "hping3"
+    }
+  },
+  "ejemplos": [
+    {"nombre": "Escaneo de puertos SYN", "comando": "sudo hping3 192.168.101.3 --scan 10-1000 -S", "descripcion": "Escanea el rango de puertos del 10 al 1000 enviando paquetes TCP SYN para determinar puertos abiertos.", "resultado_esperado": "Muestra por consola la lista de puertos que responden con flags SYN/ACK."},
+    {"nombre": "Prueba de conectividad por puerto", "comando": "hping3 -S -p 80 -c 4 destino.com", "descripcion": "Envía cuatro paquetes TCP SYN al puerto 80 del host de destino para verificar respuestas a nivel de transporte.", "resultado_esperado": "Muestra las estadísticas de paquetes enviados, recibidos y tiempos de respuesta RTT."},
+    {"nombre": "Simulación de tráfico con IP origen falsificada", "comando": "sudo hping3 -S -p 443 --flood -a 192.168.1.99 objetivo.local", "descripcion": "Envía una ráfaga continua de paquetes SYN al puerto 443 falseando la IP de origen.", "resultado_esperado": "Inyecta paquetes masivos en la red sin imprimir salida hasta que se interrumpe la ejecución."}
+  ],
+  "automatizacion": {
+    "idempotente": false,
+    "interactivo": false,
+    "apto_script": true,
+    "variables": ["ip_objetivo", "rango_puertos", "puerto_destino"],
+    "validaciones": ["Comprobar que el sistema cuente con interfaz de red activa y permisos de superusuario."],
+    "rollback": null
+  }
+}
