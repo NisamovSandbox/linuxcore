@@ -9,6 +9,20 @@
 <p>Los cambios de cada versión se agrupan en <b>Añadido</b>, <b>Cambiado</b>, <b>Corregido</b> y <b>Eliminado</b>.</p>
 </div>
 
+## [`00-00-01-07`] - 2026-10-26
+
+## Eliminado
+
+. Enlaces rotos de `README.md`
+- `foremost.json` de `json/comandos/seguridad` por contenido duplicado (contenia un comando duplicado).
+
+## Corregido
+
+- Corregidas las rutas de las imágenes de cabecera y pie en `.github/CONTRIBUTING.md`, `.github/CODE_OF_CONDUCT.md` y `.github/SECURITY.md`.
+- Actualizadas las imágenes de `.github/AGRADECIMIENTOS.md` para cargarlas desde las URL directas de GitHub.
+
+---
+
 ## [`00-00-01-06`] - 2026-10-26
 
 ## Añadido

@@ -254,7 +254,6 @@ Cada ruta se lee en el orden indicado.
 | Forense | [Planificación de auditoría](documentacion/seguridad/forense/auditoria/audit_planning.md) | Auditoría con `auditd`. |
 | Forense | [Foremost](documentacion/seguridad/forense/herramientas/foremost.md) | Recuperación de archivos. |
 | Forense | [Definición de datos](documentacion/seguridad/forense/herramientas/datadefinition.md) | Conceptos de datos. |
-| Forense | [Logrotate](documentacion/seguridad/forense/herramientas/logrotate.md) | Rotación de registros. |
 | OSINT | `seguridad/osint/` | En preparación. |
 
 ### Servicios

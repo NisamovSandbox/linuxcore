@@ -5,7 +5,7 @@ No está permitido agregar / quitar entidades sin autorización.
 Estas entidades se tienen en cuenta desde el repositorio origen "Linux Commands"
 -->
 <p align="center">
-  <img src="media/top.png" alt="LinuxCore Header" width="100%">
+  <img src="https://raw.githubusercontent.com/nisamov/linuxcore/main/.github/media/top.png" alt="LinuxCore Header" width="100%">
 </p>
 <h1 align="center">Agradecimientos</h1>
 
@@ -25,6 +25,6 @@ Se agradece a todos los que han aportado conocimiento a este proyecto.
   <p><b>Linux Core - Nisamov | MIT License - 2026</b></p>
   <p><b>Contacto:</b> <a href="mailto:nisamov.contact@gmail.com">nisamov.contact@gmail.com</a></p>
   <p align="center">
-    <img src="media/bottom.png" alt="LinuxCore Footer" width="100%">
+    <img src="https://raw.githubusercontent.com/nisamov/linuxcore/main/.github/media/bottom.png" alt="LinuxCore Footer" width="100%">
   </p>
 </div>

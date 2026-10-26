@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/top.png" alt="LinuxCore Header" width="100%">
+  <img src=".github/media/top.png" alt="LinuxCore Header" width="100%">
 </p>
 
 <div align="center">
@@ -23,6 +23,6 @@ El contenido de este repositorio se proporciona "tal cual", para fines informati
   <p><b>Linux Core - Nisamov | MIT License - 2026</b></p>
   <p><b>Contacto:</b> <a href="mailto:nisamov.contact@gmail.com">nisamov.contact@gmail.com</a></p>
   <p align="center">
-    <img src="media/bottom.png" alt="LinuxCore Footer" width="100%">
+    <img src=".github/media/bottom.png" alt="LinuxCore Footer" width="100%">
   </p>
 </div>
