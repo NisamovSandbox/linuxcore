@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "total_registros": 426
+    "total_registros": 427
   },
   "comandos": [
     {
@@ -3170,7 +3170,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido_en_util_linux_y_paquetes_de_sistema_de_archivos",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido_en_util_linux_y_paquetes_de_sistema_de_archivos",
         "paquetes": {
           "debian_ubuntu": "sudo apt install util-linux e2fsprogs (ext); instale xfsprogs u otras herramientas para otros tipos",
           "arch_linux": "sudo pacman -S util-linux e2fsprogs (ext); instale xfsprogs u otras herramientas para otros tipos",
@@ -4958,7 +4959,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "util-linux_y_paquete_del_sistema_de_archivos",
+        "metodo": "gestor_paquetes",
+        "notas": "util-linux_y_paquete_del_sistema_de_archivos",
         "paquetes": {
           "debian_ubuntu": "util-linux; e2fsprogs para ext, dosfstools para FAT, xfsprogs para XFS",
           "arch_linux": "util-linux; e2fsprogs para ext, dosfstools para FAT, xfsprogs para XFS",
@@ -6439,7 +6441,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Forma parte de LVM2. Compruebe primero `command -v pvremove`; si no está instalado, instale lvm2 con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install lvm2`; Arch: `sudo pacman -S lvm2`; RHEL/CentOS: `sudo dnf install lvm2`).",
+        "metodo": "gestor_paquetes",
+        "notas": "Forma parte de LVM2. Compruebe primero `command -v pvremove`; si no está instalado, instale lvm2 con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install lvm2`; Arch: `sudo pacman -S lvm2`; RHEL/CentOS: `sudo dnf install lvm2`).",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -6951,7 +6954,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Forma parte de LVM2. Compruebe primero `command -v pvs`; si no está instalado, instale lvm2 con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install lvm2`; Arch: `sudo pacman -S lvm2`; RHEL/CentOS: `sudo dnf install lvm2`).",
+        "metodo": "gestor_paquetes",
+        "notas": "Forma parte de LVM2. Compruebe primero `command -v pvs`; si no está instalado, instale lvm2 con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install lvm2`; Arch: `sudo pacman -S lvm2`; RHEL/CentOS: `sudo dnf install lvm2`).",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -9283,7 +9287,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "paquete_openzfs_especifico_de_distribucion",
+        "metodo": "gestor_paquetes",
+        "notas": "paquete_openzfs_especifico_de_distribucion",
         "paquetes": {
           "debian_ubuntu": "zfsutils-linux (repositorios compatibles; disponibilidad depende de versión/kernel)",
           "arch_linux": "zfs-utils (repositorio compatible con el kernel)",
@@ -9429,7 +9434,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "paquete_openzfs_especifico_de_distribucion",
+        "metodo": "gestor_paquetes",
+        "notas": "paquete_openzfs_especifico_de_distribucion",
         "paquetes": {
           "debian_ubuntu": "zfsutils-linux (repositorios compatibles; disponibilidad depende de versión/kernel)",
           "arch_linux": "zfs-utils (repositorio compatible con el kernel)",
@@ -9551,7 +9557,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar el paquete gawk con el gestor de paquetes de la distribución; awk puede venir proporcionado por otra implementación.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar el paquete gawk con el gestor de paquetes de la distribución; awk puede venir proporcionado por otra implementación.",
         "paquetes": {
           "debian_ubuntu": "gawk",
           "arch_linux": "gawk",
@@ -9666,7 +9673,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes de la distribución; normalmente ya está instalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes de la distribución; normalmente ya está instalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -9787,7 +9795,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; suele estar preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; suele estar preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -9899,7 +9908,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Integrado en la shell; no se instala por separado.",
+        "metodo": "builtin_shell",
+        "notas": "Integrado en la shell; no se instala por separado.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -10009,7 +10019,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar e2fsprogs mediante el gestor de paquetes de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar e2fsprogs mediante el gestor de paquetes de la distribución.",
         "paquetes": {
           "debian_ubuntu": "e2fsprogs",
           "arch_linux": "e2fsprogs",
@@ -10132,7 +10143,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente ya está instalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente ya está instalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -10242,7 +10254,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar diffutils mediante el gestor de paquetes de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar diffutils mediante el gestor de paquetes de la distribución.",
         "paquetes": {
           "debian_ubuntu": "diffutils",
           "arch_linux": "diffutils",
@@ -10357,7 +10370,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar util-linux mediante el gestor de paquetes; habitualmente ya está presente.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar util-linux mediante el gestor de paquetes; habitualmente ya está presente.",
         "paquetes": {
           "debian_ubuntu": "util-linux",
           "arch_linux": "util-linux",
@@ -10479,7 +10493,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente viene preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente viene preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -10624,7 +10639,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils con el gestor de paquetes; suele estar preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils con el gestor de paquetes; suele estar preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -10771,7 +10787,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente ya está instalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente ya está instalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -10905,7 +10922,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar diffutils mediante el gestor de paquetes.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar diffutils mediante el gestor de paquetes.",
         "paquetes": {
           "debian_ubuntu": "diffutils",
           "arch_linux": "diffutils",
@@ -10994,7 +11012,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; habitualmente viene preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; habitualmente viene preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -11108,7 +11127,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "El comando suele estar integrado en la shell; GNU /usr/bin/echo pertenece a coreutils.",
+        "metodo": "builtin_shell",
+        "notas": "El comando suele estar integrado en la shell; GNU /usr/bin/echo pertenece a coreutils.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -11229,7 +11249,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar util-linux mediante el gestor de paquetes; suele estar disponible por defecto.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar util-linux mediante el gestor de paquetes; suele estar disponible por defecto.",
         "paquetes": {
           "debian_ubuntu": "util-linux",
           "arch_linux": "util-linux",
@@ -11356,7 +11377,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar el paquete file mediante el gestor de paquetes de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar el paquete file mediante el gestor de paquetes de la distribución.",
         "paquetes": {
           "debian_ubuntu": "file",
           "arch_linux": "file",
@@ -11504,7 +11526,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar findutils mediante el gestor de paquetes; normalmente está preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar findutils mediante el gestor de paquetes; normalmente está preinstalado.",
         "paquetes": {
           "debian_ubuntu": "findutils",
           "arch_linux": "findutils",
@@ -11616,7 +11639,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente está preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente está preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -11727,7 +11751,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente está preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente está preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -11878,7 +11903,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar grep mediante el gestor de paquetes; suele estar preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar grep mediante el gestor de paquetes; suele estar preinstalado.",
         "paquetes": {
           "debian_ubuntu": "grep",
           "arch_linux": "grep",
@@ -12000,7 +12026,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente ya está instalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente ya está instalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -12122,7 +12149,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Normalmente lo proporciona la biblioteca C del sistema; en sistemas que lo separan, instale el paquete iconv/libiconv de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Normalmente lo proporciona la biblioteca C del sistema; en sistemas que lo separan, instale el paquete iconv/libiconv de la distribución.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -12257,7 +12285,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente está preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente está preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -12397,7 +12426,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente está preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente está preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -12522,7 +12552,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar less mediante el gestor de paquetes de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar less mediante el gestor de paquetes de la distribución.",
         "paquetes": {
           "debian_ubuntu": "less",
           "arch_linux": "less",
@@ -12646,7 +12677,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente viene preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente viene preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -12770,7 +12802,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar plocate o mlocate con el gestor de paquetes de la distribución; consulte cuál proporciona el comando locate.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar plocate o mlocate con el gestor de paquetes de la distribución; consulte cuál proporciona el comando locate.",
         "paquetes": {
           "debian_ubuntu": "plocate (o mlocate en versiones antiguas)",
           "arch_linux": "plocate",
@@ -12916,7 +12949,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; generalmente viene preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; generalmente viene preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -13037,7 +13071,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar e2fsprogs mediante el gestor de paquetes de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar e2fsprogs mediante el gestor de paquetes de la distribución.",
         "paquetes": {
           "debian_ubuntu": "e2fsprogs",
           "arch_linux": "e2fsprogs",
@@ -13147,7 +13182,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente viene preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente viene preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -13248,7 +13284,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente ya está instalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente ya está instalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -13361,7 +13398,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente viene preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente viene preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -13462,7 +13500,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar el paquete mmv solo si está disponible para la distribución; confirme el origen y la sintaxis del paquete.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar el paquete mmv solo si está disponible para la distribución; confirme el origen y la sintaxis del paquete.",
         "paquetes": {
           "debian_ubuntu": "mmv",
           "arch_linux": "mmv",
@@ -13574,7 +13613,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar util-linux mediante el gestor de paquetes; more suele estar incluido.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar util-linux mediante el gestor de paquetes; more suele estar incluido.",
         "paquetes": {
           "debian_ubuntu": "util-linux",
           "arch_linux": "util-linux",
@@ -13710,7 +13750,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente ya está instalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente ya está instalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -13798,7 +13839,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No se puede recomendar un paquete sin identificar qué producto o implementación se pretende documentar.",
+        "metodo": "gestor_paquetes",
+        "notas": "No se puede recomendar un paquete sin identificar qué producto o implementación se pretende documentar.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -13895,7 +13937,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar Nautilus desde los repositorios de la distribución; requiere componentes GNOME.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar Nautilus desde los repositorios de la distribución; requiere componentes GNOME.",
         "paquetes": {
           "debian_ubuntu": "nautilus",
           "arch_linux": "nautilus",
@@ -14025,7 +14068,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; suele estar preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; suele estar preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -14126,7 +14170,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; suele estar preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; suele estar preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -14260,7 +14305,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; suele estar preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; suele estar preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -14403,7 +14449,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente está preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente está preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -14539,7 +14586,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente está preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente está preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -14627,7 +14675,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar la implementación rename documentada por la distribución; inspeccionar rename --version y man rename antes de usarla.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar la implementación rename documentada por la distribución; inspeccionar rename --version y man rename antes de usarla.",
         "paquetes": {
           "debian_ubuntu": "rename o util-linux, según implementación",
           "arch_linux": "perl-rename o util-linux, según implementación",
@@ -14717,7 +14766,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar util-linux mediante el gestor de paquetes; rev suele incluirse en el paquete.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar util-linux mediante el gestor de paquetes; rev suele incluirse en el paquete.",
         "paquetes": {
           "debian_ubuntu": "util-linux",
           "arch_linux": "util-linux",
@@ -14857,7 +14907,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente está preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente está preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -14968,7 +15019,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente viene preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente viene preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -15101,7 +15153,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar sed mediante el gestor de paquetes; GNU sed suele estar preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar sed mediante el gestor de paquetes; GNU sed suele estar preinstalado.",
         "paquetes": {
           "debian_ubuntu": "sed",
           "arch_linux": "sed",
@@ -15230,7 +15283,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar Perl con Digest::SHA; shasum suele incluirse en la distribución de Perl.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar Perl con Digest::SHA; shasum suele incluirse en la distribución de Perl.",
         "paquetes": {
           "debian_ubuntu": "perl",
           "arch_linux": "perl",
@@ -15354,7 +15408,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; shred suele estar preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; shred suele estar preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -15505,7 +15560,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; sort normalmente viene preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; sort normalmente viene preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -15653,7 +15709,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente ya está instalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente ya está instalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -15779,7 +15836,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; habitualmente está preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; habitualmente está preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -15884,7 +15942,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; suele estar preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; suele estar preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -15996,7 +16055,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente está instalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente está instalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -16133,7 +16193,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; tail suele estar preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; tail suele estar preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -16273,7 +16334,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; touch normalmente está preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; touch normalmente está preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -16390,7 +16452,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente viene preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente viene preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -16513,7 +16576,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar el paquete tree desde los repositorios de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar el paquete tree desde los repositorios de la distribución.",
         "paquetes": {
           "debian_ubuntu": "tree",
           "arch_linux": "tree",
@@ -16627,7 +16691,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; suele estar preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; suele estar preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -16781,7 +16846,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; generalmente está preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; generalmente está preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -16870,7 +16936,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente está preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente está preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -16959,7 +17026,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar plocate o mlocate según el proveedor de locate de la distribución; la actualización puede gestionarse con un timer del sistema.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar plocate o mlocate según el proveedor de locate de la distribución; la actualización puede gestionarse con un timer del sistema.",
         "paquetes": {
           "debian_ubuntu": "plocate o mlocate",
           "arch_linux": "plocate",
@@ -17098,7 +17166,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar coreutils mediante el gestor de paquetes; normalmente está preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar coreutils mediante el gestor de paquetes; normalmente está preinstalado.",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -17232,7 +17301,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar findutils mediante el gestor de paquetes; xargs suele estar preinstalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar findutils mediante el gestor de paquetes; xargs suele estar preinstalado.",
         "paquetes": {
           "debian_ubuntu": "findutils",
           "arch_linux": "findutils",
@@ -17368,7 +17438,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar gzip desde el gestor de paquetes; zgrep suele incluirse en ese paquete.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar gzip desde el gestor de paquetes; zgrep suele incluirse en ese paquete.",
         "paquetes": {
           "debian_ubuntu": "gzip",
           "arch_linux": "gzip",
@@ -17593,7 +17664,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Compruebe primero `command -v bzip2`; si falta, instale el paquete bzip2 con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install bzip2`; Arch: `sudo pacman -S bzip2`; RHEL/CentOS: `sudo dnf install bzip2`).",
+        "metodo": "gestor_paquetes",
+        "notas": "Compruebe primero `command -v bzip2`; si falta, instale el paquete bzip2 con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install bzip2`; Arch: `sudo pacman -S bzip2`; RHEL/CentOS: `sudo dnf install bzip2`).",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -17789,7 +17861,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "`dd` forma parte de GNU coreutils y normalmente ya está instalado; compruebe `command -v dd`. Si falta, instale coreutils (Debian/Ubuntu: `sudo apt install coreutils`; Arch: `sudo pacman -S coreutils`; RHEL/CentOS: `sudo dnf install coreutils`).",
+        "metodo": "gestor_paquetes",
+        "notas": "`dd` forma parte de GNU coreutils y normalmente ya está instalado; compruebe `command -v dd`. Si falta, instale coreutils (Debian/Ubuntu: `sudo apt install coreutils`; Arch: `sudo pacman -S coreutils`; RHEL/CentOS: `sudo dnf install coreutils`).",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -18051,7 +18124,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Compruebe primero `command -v gzip`; si falta, instale el paquete gzip con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install gzip`; Arch: `sudo pacman -S gzip`; RHEL/CentOS: `sudo dnf install gzip`).",
+        "metodo": "gestor_paquetes",
+        "notas": "Compruebe primero `command -v gzip`; si falta, instale el paquete gzip con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install gzip`; Arch: `sudo pacman -S gzip`; RHEL/CentOS: `sudo dnf install gzip`).",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -18335,7 +18409,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Compruebe primero `command -v rsync`; si falta, instale el paquete rsync con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install rsync`; Arch: `sudo pacman -S rsync`; RHEL/CentOS: `sudo dnf install rsync`). Para transferencias remotas también se necesita un servicio/conexión SSH funcional si se usa `-e ssh`.",
+        "metodo": "gestor_paquetes",
+        "notas": "Compruebe primero `command -v rsync`; si falta, instale el paquete rsync con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install rsync`; Arch: `sudo pacman -S rsync`; RHEL/CentOS: `sudo dnf install rsync`). Para transferencias remotas también se necesita un servicio/conexión SSH funcional si se usa `-e ssh`.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -18564,7 +18639,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "`tar` suele venir instalado en sistemas Linux; compruebe `command -v tar`. Si falta, instale el paquete tar (Debian/Ubuntu: `sudo apt install tar`; Arch: `sudo pacman -S tar`; RHEL/CentOS: `sudo dnf install tar`).",
+        "metodo": "gestor_paquetes",
+        "notas": "`tar` suele venir instalado en sistemas Linux; compruebe `command -v tar`. Si falta, instale el paquete tar (Debian/Ubuntu: `sudo apt install tar`; Arch: `sudo pacman -S tar`; RHEL/CentOS: `sudo dnf install tar`).",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -18771,7 +18847,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Compruebe primero `command -v unzip`; si falta, instale el paquete unzip con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install unzip`; Arch: `sudo pacman -S unzip`; RHEL/CentOS: `sudo dnf install unzip`).",
+        "metodo": "gestor_paquetes",
+        "notas": "Compruebe primero `command -v unzip`; si falta, instale el paquete unzip con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install unzip`; Arch: `sudo pacman -S unzip`; RHEL/CentOS: `sudo dnf install unzip`).",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -18989,7 +19066,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Compruebe primero `command -v xz`; si falta, instale xz-utils (Debian/Ubuntu: `sudo apt install xz-utils`), xz (Arch: `sudo pacman -S xz`) o xz (RHEL/CentOS: `sudo dnf install xz`).",
+        "metodo": "gestor_paquetes",
+        "notas": "Compruebe primero `command -v xz`; si falta, instale xz-utils (Debian/Ubuntu: `sudo apt install xz-utils`), xz (Arch: `sudo pacman -S xz`) o xz (RHEL/CentOS: `sudo dnf install xz`).",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -19207,7 +19285,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Compruebe primero `command -v zip`; si falta, instale el paquete zip con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install zip`; Arch: `sudo pacman -S zip`; RHEL/CentOS: `sudo dnf install zip`).",
+        "metodo": "gestor_paquetes",
+        "notas": "Compruebe primero `command -v zip`; si falta, instale el paquete zip con el gestor de paquetes de su distribución (Debian/Ubuntu: `sudo apt install zip`; Arch: `sudo pacman -S zip`; RHEL/CentOS: `sudo dnf install zip`).",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -19304,7 +19383,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "`zless` suele instalarse como parte de gzip y necesita `less` para paginar; compruebe `command -v zless` y `command -v less`. Si faltan, instale gzip y less (Debian/Ubuntu: `sudo apt install gzip less`; Arch: `sudo pacman -S gzip less`; RHEL/CentOS: `sudo dnf install gzip less`).",
+        "metodo": "gestor_paquetes",
+        "notas": "`zless` suele instalarse como parte de gzip y necesita `less` para paginar; compruebe `command -v zless` y `command -v less`. Si faltan, instale gzip y less (Debian/Ubuntu: `sudo apt install gzip less`; Arch: `sudo pacman -S gzip less`; RHEL/CentOS: `sudo dnf install gzip less`).",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -19380,7 +19460,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido en coreutils (normalmente preinstalado)",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido en coreutils (normalmente preinstalado)",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -19699,7 +19780,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido en coreutils (normalmente preinstalado)",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido en coreutils (normalmente preinstalado)",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -20238,7 +20320,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido con glibc (normalmente preinstalado)",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido con glibc (normalmente preinstalado)",
         "paquetes": {
           "debian_ubuntu": "libc-bin",
           "arch_linux": "glibc",
@@ -20342,7 +20425,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido en util-linux (normalmente preinstalado)",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido en util-linux (normalmente preinstalado)",
         "paquetes": {
           "debian_ubuntu": "util-linux",
           "arch_linux": "util-linux",
@@ -20426,7 +20510,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "gestor_paquetes (disponibilidad dependiente de distribución)",
+        "metodo": "gestor_paquetes",
+        "notas": "gestor_paquetes (disponibilidad dependiente de distribución)",
         "paquetes": {
           "debian_ubuntu": "sudo apt install procinfo",
           "arch_linux": "",
@@ -20633,7 +20718,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "gestor_paquetes (paquete initramfs-tools en Debian/Ubuntu)",
+        "metodo": "gestor_paquetes",
+        "notas": "gestor_paquetes (paquete initramfs-tools en Debian/Ubuntu)",
         "paquetes": {
           "debian_ubuntu": "sudo apt install initramfs-tools",
           "arch_linux": "",
@@ -20748,7 +20834,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido en util-linux (normalmente preinstalado)",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido en util-linux (normalmente preinstalado)",
         "paquetes": {
           "debian_ubuntu": "util-linux",
           "arch_linux": "util-linux",
@@ -20852,7 +20939,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido en util-linux (normalmente preinstalado)",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido en util-linux (normalmente preinstalado)",
         "paquetes": {
           "debian_ubuntu": "util-linux",
           "arch_linux": "util-linux",
@@ -20937,7 +21025,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido con kmod (normalmente preinstalado)",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido con kmod (normalmente preinstalado)",
         "paquetes": {
           "debian_ubuntu": "kmod",
           "arch_linux": "kmod",
@@ -21052,7 +21141,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido en pciutils (normalmente preinstalado)",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido en pciutils (normalmente preinstalado)",
         "paquetes": {
           "debian_ubuntu": "pciutils",
           "arch_linux": "pciutils",
@@ -21398,7 +21488,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido en usbutils (normalmente preinstalado)",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido en usbutils (normalmente preinstalado)",
         "paquetes": {
           "debian_ubuntu": "usbutils",
           "arch_linux": "usbutils",
@@ -21514,7 +21605,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido con kmod (normalmente preinstalado)",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido con kmod (normalmente preinstalado)",
         "paquetes": {
           "debian_ubuntu": "kmod",
           "arch_linux": "kmod",
@@ -21624,7 +21716,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido con kmod (normalmente preinstalado)",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido con kmod (normalmente preinstalado)",
         "paquetes": {
           "debian_ubuntu": "kmod",
           "arch_linux": "kmod",
@@ -21947,7 +22040,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido en coreutils (normalmente preinstalado)",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido en coreutils (normalmente preinstalado)",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -22042,7 +22136,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "gestor_paquetes (disponibilidad variable)",
+        "metodo": "gestor_paquetes",
+        "notas": "gestor_paquetes (disponibilidad variable)",
         "paquetes": {
           "debian_ubuntu": "sudo apt install screenfetch",
           "arch_linux": "sudo pacman -S screenfetch",
@@ -22161,7 +22256,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido en procps/procps-ng (normalmente preinstalado)",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido en procps/procps-ng (normalmente preinstalado)",
         "paquetes": {
           "debian_ubuntu": "procps",
           "arch_linux": "procps-ng",
@@ -22397,7 +22493,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido en coreutils (normalmente preinstalado)",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido en coreutils (normalmente preinstalado)",
         "paquetes": {
           "debian_ubuntu": "coreutils",
           "arch_linux": "coreutils",
@@ -22491,7 +22588,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido en procps/procps-ng (normalmente preinstalado)",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido en procps/procps-ng (normalmente preinstalado)",
         "paquetes": {
           "debian_ubuntu": "procps",
           "arch_linux": "procps-ng",
@@ -23023,7 +23121,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Builtin de Bash y otros shells; no se instala por separado.",
+        "metodo": "builtin_shell",
+        "notas": "Builtin de Bash y otros shells; no se instala por separado.",
         "paquetes": {
           "debian_ubuntu": "bash (incluido en el sistema)",
           "arch_linux": "bash (incluido en el sistema)",
@@ -23101,7 +23200,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instale el paquete que proporciona banner; el nombre y la implementación dependen de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instale el paquete que proporciona banner; el nombre y la implementación dependen de la distribución.",
         "paquetes": {
           "debian_ubuntu": "sysvbanner (si está disponible en la versión de Ubuntu/Debian)",
           "arch_linux": "No suele incluirse como banner clásico; puede usarse figlet",
@@ -23249,7 +23349,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalable como bat o batcat según la distribución; algunas distribuciones renombran el ejecutable por conflicto de nombres.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalable como bat o batcat según la distribución; algunas distribuciones renombran el ejecutable por conflicto de nombres.",
         "paquetes": {
           "debian_ubuntu": "bat (el ejecutable puede llamarse batcat)",
           "arch_linux": "bat",
@@ -23382,7 +23483,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalable desde los repositorios de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalable desde los repositorios de la distribución.",
         "paquetes": {
           "debian_ubuntu": "bc",
           "arch_linux": "bc",
@@ -23517,7 +23619,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Utilidad de util-linux; normalmente viene instalada en distribuciones Linux.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Utilidad de util-linux; normalmente viene instalada en distribuciones Linux.",
         "paquetes": {
           "debian_ubuntu": "util-linux (incluido en el sistema)",
           "arch_linux": "util-linux (incluido en el sistema)",
@@ -23606,7 +23709,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Utilidad de ncurses en la mayoría de las distribuciones.",
+        "metodo": "gestor_paquetes",
+        "notas": "Utilidad de ncurses en la mayoría de las distribuciones.",
         "paquetes": {
           "debian_ubuntu": "ncurses-bin (normalmente instalado)",
           "arch_linux": "ncurses (normalmente instalado)",
@@ -23758,7 +23862,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalable desde los repositorios de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalable desde los repositorios de la distribución.",
         "paquetes": {
           "debian_ubuntu": "cmatrix",
           "arch_linux": "cmatrix",
@@ -23891,7 +23996,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalable desde los repositorios de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalable desde los repositorios de la distribución.",
         "paquetes": {
           "debian_ubuntu": "cowsay",
           "arch_linux": "cowsay",
@@ -24032,7 +24138,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Parte de GNU coreutils y normalmente instalada en Linux.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Parte de GNU coreutils y normalmente instalada en Linux.",
         "paquetes": {
           "debian_ubuntu": "coreutils (incluido en el sistema)",
           "arch_linux": "coreutils (incluido en el sistema)",
@@ -24173,7 +24280,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instale direnv y configure el hook correspondiente en el archivo de inicio del shell (por ejemplo, eval \"$(direnv hook bash)\").",
+        "metodo": "builtin_shell",
+        "notas": "Instale direnv y configure el hook correspondiente en el archivo de inicio del shell (por ejemplo, eval \"$(direnv hook bash)\").",
         "paquetes": {
           "debian_ubuntu": "direnv",
           "arch_linux": "direnv",
@@ -24310,7 +24418,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalable desde los repositorios de algunas distribuciones o mediante los binarios oficiales del proyecto.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalable desde los repositorios de algunas distribuciones o mediante los binarios oficiales del proyecto.",
         "paquetes": {
           "debian_ubuntu": "duf (si está disponible en la versión de la distribución)",
           "arch_linux": "duf",
@@ -24451,7 +24560,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Paquete exa heredado o discontinuado; se recomienda instalar eza como reemplazo compatible en muchas opciones.",
+        "metodo": "no_estandar",
+        "notas": "Paquete exa heredado o discontinuado; se recomienda instalar eza como reemplazo compatible en muchas opciones.",
         "paquetes": {
           "debian_ubuntu": "exa (según versión); eza como sucesor",
           "arch_linux": "exa o eza, según repositorio actual",
@@ -24551,7 +24661,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Builtin de Bash/POSIX shell; no se instala por separado.",
+        "metodo": "builtin_shell",
+        "notas": "Builtin de Bash/POSIX shell; no se instala por separado.",
         "paquetes": {
           "debian_ubuntu": "bash (incluido en el sistema)",
           "arch_linux": "bash (incluido en el sistema)",
@@ -24651,7 +24762,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Utilidad de GNU coreutils, normalmente instalada en Linux.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Utilidad de GNU coreutils, normalmente instalada en Linux.",
         "paquetes": {
           "debian_ubuntu": "coreutils (incluido en el sistema)",
           "arch_linux": "coreutils (incluido en el sistema)",
@@ -24793,7 +24905,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalable desde los repositorios de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalable desde los repositorios de la distribución.",
         "paquetes": {
           "debian_ubuntu": "figlet",
           "arch_linux": "figlet",
@@ -24952,7 +25065,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instale fortune-mod y, si se desea, un paquete de bases de datos de citas.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instale fortune-mod y, si se desea, un paquete de bases de datos de citas.",
         "paquetes": {
           "debian_ubuntu": "fortune-mod; fortunes-min o fortunes (bases adicionales)",
           "arch_linux": "fortune-mod",
@@ -25107,7 +25221,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalable desde los repositorios de la distribución o mediante el gestor de paquetes correspondiente.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalable desde los repositorios de la distribución o mediante el gestor de paquetes correspondiente.",
         "paquetes": {
           "debian_ubuntu": "fzf",
           "arch_linux": "fzf",
@@ -25240,7 +25355,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Builtin de Bash; no se instala por separado.",
+        "metodo": "builtin_shell",
+        "notas": "Builtin de Bash; no se instala por separado.",
         "paquetes": {
           "debian_ubuntu": "bash (incluido en el sistema)",
           "arch_linux": "bash (incluido en el sistema)",
@@ -25318,7 +25434,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalable como paquete hollywood en distribuciones que lo ofrecen; algunas dependencias abren interfaces terminales adicionales.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalable como paquete hollywood en distribuciones que lo ofrecen; algunas dependencias abren interfaces terminales adicionales.",
         "paquetes": {
           "debian_ubuntu": "hollywood (disponible en versiones/repositorios concretos)",
           "arch_linux": "hollywood (AUR o repositorio comunitario, según disponibilidad)",
@@ -25473,7 +25590,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalable desde los repositorios de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalable desde los repositorios de la distribución.",
         "paquetes": {
           "debian_ubuntu": "jq",
           "arch_linux": "jq",
@@ -25617,7 +25735,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Parte de util-linux en la mayoría de distribuciones Linux.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Parte de util-linux en la mayoría de distribuciones Linux.",
         "paquetes": {
           "debian_ubuntu": "util-linux (normalmente instalado)",
           "arch_linux": "util-linux (normalmente instalado)",
@@ -25739,7 +25858,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Parte del paquete e2fsprogs en muchas distribuciones Linux.",
+        "metodo": "gestor_paquetes",
+        "notas": "Parte del paquete e2fsprogs en muchas distribuciones Linux.",
         "paquetes": {
           "debian_ubuntu": "e2fsprogs (normalmente instalado)",
           "arch_linux": "e2fsprogs (normalmente instalado)",
@@ -25861,7 +25981,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Parte de util-linux en muchas distribuciones; el diccionario suele instalarse por separado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Parte de util-linux en muchas distribuciones; el diccionario suele instalarse por separado.",
         "paquetes": {
           "debian_ubuntu": "util-linux; wamerican o paquete de diccionario equivalente (opcional)",
           "arch_linux": "util-linux; words (opcional)",
@@ -26009,7 +26130,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Parte del sistema man-db o man; instale los paquetes de manual de los programas consultados.",
+        "metodo": "gestor_paquetes",
+        "notas": "Parte del sistema man-db o man; instale los paquetes de manual de los programas consultados.",
         "paquetes": {
           "debian_ubuntu": "man-db",
           "arch_linux": "man-db",
@@ -26131,7 +26253,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Se instala como parte de man-db en la mayoría de las distribuciones.",
+        "metodo": "gestor_paquetes",
+        "notas": "Se instala como parte de man-db en la mayoría de las distribuciones.",
         "paquetes": {
           "debian_ubuntu": "man-db",
           "arch_linux": "man-db",
@@ -26277,7 +26400,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalable desde repositorios de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalable desde repositorios de la distribución.",
         "paquetes": {
           "debian_ubuntu": "ncdu",
           "arch_linux": "ncdu",
@@ -26410,7 +26534,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Paquete heredado disponible en algunos repositorios; el proyecto original no recibe mantenimiento activo.",
+        "metodo": "gestor_paquetes",
+        "notas": "Paquete heredado disponible en algunos repositorios; el proyecto original no recibe mantenimiento activo.",
         "paquetes": {
           "debian_ubuntu": "neofetch (si está disponible en la versión de la distribución)",
           "arch_linux": "neofetch (paquete heredado o AUR, según repositorios actuales)",
@@ -26521,7 +26646,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalable desde repositorios; el ejecutable se denomina habitualmente proxychains4.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalable desde repositorios; el ejecutable se denomina habitualmente proxychains4.",
         "paquetes": {
           "debian_ubuntu": "proxychains4",
           "arch_linux": "proxychains-ng",
@@ -26676,7 +26802,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalable desde repositorios de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalable desde repositorios de la distribución.",
         "paquetes": {
           "debian_ubuntu": "pv",
           "arch_linux": "pv",
@@ -26767,7 +26894,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Builtin habitual del shell; también existe la utilidad de GNU coreutils.",
+        "metodo": "builtin_shell",
+        "notas": "Builtin habitual del shell; también existe la utilidad de GNU coreutils.",
         "paquetes": {
           "debian_ubuntu": "bash y coreutils (normalmente instalados)",
           "arch_linux": "bash y coreutils (normalmente instalados)",
@@ -26911,7 +27039,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalable desde repositorios de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalable desde repositorios de la distribución.",
         "paquetes": {
           "debian_ubuntu": "screen",
           "arch_linux": "screen",
@@ -27055,7 +27184,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Parte de util-linux en la mayoría de las distribuciones Linux.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Parte de util-linux en la mayoría de las distribuciones Linux.",
         "paquetes": {
           "debian_ubuntu": "util-linux (normalmente instalado)",
           "arch_linux": "util-linux (normalmente instalado)",
@@ -27177,7 +27307,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Parte de util-linux; requiere archivos generados con script.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Parte de util-linux; requiere archivos generados con script.",
         "paquetes": {
           "debian_ubuntu": "util-linux (normalmente instalado)",
           "arch_linux": "util-linux (normalmente instalado)",
@@ -27314,7 +27445,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Builtin exclusivo de Bash; no se instala por separado.",
+        "metodo": "builtin_shell",
+        "notas": "Builtin exclusivo de Bash; no se instala por separado.",
         "paquetes": {
           "debian_ubuntu": "bash (incluido en el sistema)",
           "arch_linux": "bash (incluido en el sistema)",
@@ -27425,7 +27557,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Paquete de entretenimiento disponible en repositorios de algunas distribuciones.",
+        "metodo": "gestor_paquetes",
+        "notas": "Paquete de entretenimiento disponible en repositorios de algunas distribuciones.",
         "paquetes": {
           "debian_ubuntu": "sl",
           "arch_linux": "sl",
@@ -27541,7 +27674,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "GNU coreutils, normalmente instalado en Linux.",
+        "metodo": "incluido_en_sistema",
+        "notas": "GNU coreutils, normalmente instalado en Linux.",
         "paquetes": {
           "debian_ubuntu": "coreutils (incluido en el sistema)",
           "arch_linux": "coreutils (incluido en el sistema)",
@@ -27630,7 +27764,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Palabra reservada de Bash/POSIX shell; GNU time puede instalarse como utilidad externa.",
+        "metodo": "builtin_shell",
+        "notas": "Palabra reservada de Bash/POSIX shell; GNU time puede instalarse como utilidad externa.",
         "paquetes": {
           "debian_ubuntu": "bash (builtin); time (utilidad GNU externa, normalmente disponible)",
           "arch_linux": "bash (builtin); time (utilidad GNU externa)",
@@ -27768,7 +27903,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalable mediante el paquete tldr de la distribución o un cliente Node/Python; las opciones cambian entre clientes.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalable mediante el paquete tldr de la distribución o un cliente Node/Python; las opciones cambian entre clientes.",
         "paquetes": {
           "debian_ubuntu": "tldr (paquete disponible según versión)",
           "arch_linux": "tealdeer o tldr (cliente disponible en repositorios)",
@@ -27905,7 +28041,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalable desde repositorios comunitarios o binarios del proyecto; requiere conectividad de red para establecer la pasarela de colaboración.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalable desde repositorios comunitarios o binarios del proyecto; requiere conectividad de red para establecer la pasarela de colaboración.",
         "paquetes": {
           "debian_ubuntu": "tmate",
           "arch_linux": "tmate (repositorio comunitario/AUR, según disponibilidad)",
@@ -28064,7 +28201,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalable desde los repositorios de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalable desde los repositorios de la distribución.",
         "paquetes": {
           "debian_ubuntu": "tmux",
           "arch_linux": "tmux",
@@ -28197,7 +28335,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalable desde los repositorios de la distribución; algunas compilaciones incluyen libcaca.",
+        "metodo": "compilacion",
+        "notas": "Instalable desde los repositorios de la distribución; algunas compilaciones incluyen libcaca.",
         "paquetes": {
           "debian_ubuntu": "toilet",
           "arch_linux": "toilet",
@@ -28343,7 +28482,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalable desde repositorios de la distribución; la implementación más extendida es GNU units.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalable desde repositorios de la distribución; la implementación más extendida es GNU units.",
         "paquetes": {
           "debian_ubuntu": "units",
           "arch_linux": "units",
@@ -28421,7 +28561,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "GNU coreutils, normalmente instalado en Linux; las implementaciones pueden diferir.",
+        "metodo": "incluido_en_sistema",
+        "notas": "GNU coreutils, normalmente instalado en Linux; las implementaciones pueden diferir.",
         "paquetes": {
           "debian_ubuntu": "coreutils (incluido en el sistema)",
           "arch_linux": "coreutils (incluido en el sistema)",
@@ -28503,7 +28644,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No requiere instalar una utilidad adicional; necesita APT y acceso a los repositorios configurados del sistema.",
+        "metodo": "gestor_paquetes",
+        "notas": "No requiere instalar una utilidad adicional; necesita APT y acceso a los repositorios configurados del sistema.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -28586,7 +28728,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No requiere instalación adicional; utiliza sed y funciones proporcionadas por el sistema.",
+        "metodo": "gestor_paquetes",
+        "notas": "No requiere instalación adicional; utiliza sed y funciones proporcionadas por el sistema.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -28686,7 +28829,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "findutils suele estar instalado; si falta, instale findutils desde el gestor de paquetes de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "findutils suele estar instalado; si falta, instale findutils desde el gestor de paquetes de la distribución.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install findutils",
           "arch_linux": "sudo pacman -S findutils",
@@ -28771,7 +28915,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No requiere instalación adicional; la expansión de historial la proporciona el shell interactivo compatible.",
+        "metodo": "builtin_shell",
+        "notas": "No requiere instalación adicional; la expansión de historial la proporciona el shell interactivo compatible.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -28853,7 +28998,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No requiere instalación adicional; utiliza sudo y la expansión de historial del shell interactivo.",
+        "metodo": "builtin_shell",
+        "notas": "No requiere instalación adicional; utiliza sudo y la expansión de historial del shell interactivo.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -28935,7 +29081,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No requiere instalación adicional; necesita dd y las herramientas básicas proporcionadas por el sistema.",
+        "metodo": "gestor_paquetes",
+        "notas": "No requiere instalación adicional; necesita dd y las herramientas básicas proporcionadas por el sistema.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -29025,7 +29172,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Instalar curl desde el gestor de paquetes si no está disponible.",
+        "metodo": "gestor_paquetes",
+        "notas": "Instalar curl desde el gestor de paquetes si no está disponible.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install curl",
           "arch_linux": "sudo pacman -S curl",
@@ -29115,7 +29263,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "df forma parte normalmente de coreutils y suele estar preinstalado.",
+        "metodo": "incluido_en_sistema",
+        "notas": "df forma parte normalmente de coreutils y suele estar preinstalado.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install coreutils",
           "arch_linux": "sudo pacman -S coreutils",
@@ -29226,7 +29375,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No requiere instalación adicional en sistemas con systemd-journald; journalctl forma parte de systemd.",
+        "metodo": "incluido_en_sistema",
+        "notas": "No requiere instalación adicional en sistemas con systemd-journald; journalctl forma parte de systemd.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -29317,7 +29467,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "getent suele estar incluido con la biblioteca C del sistema; no suele requerir instalación independiente.",
+        "metodo": "incluido_en_sistema",
+        "notas": "getent suele estar incluido con la biblioteca C del sistema; no suele requerir instalación independiente.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -29412,7 +29563,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Requiere que rsync esté instalado y disponible en el sistema; no se prescribe un comando de instalación específico.",
+        "metodo": "gestor_paquetes",
+        "notas": "Requiere que rsync esté instalado y disponible en el sistema; no se prescribe un comando de instalación específico.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -29495,7 +29647,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No requiere instalación adicional; utiliza cp y expansión de llaves del shell Bash.",
+        "metodo": "builtin_shell",
+        "notas": "No requiere instalación adicional; utiliza cp y expansión de llaves del shell Bash.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -29578,7 +29731,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No requiere instalación adicional; utiliza mkdir y expansión de llaves de Bash.",
+        "metodo": "gestor_paquetes",
+        "notas": "No requiere instalación adicional; utiliza mkdir y expansión de llaves de Bash.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -29673,7 +29827,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "tar, date, basename y dirname suelen estar disponibles; si faltan, instale tar y coreutils desde el gestor de paquetes.",
+        "metodo": "gestor_paquetes",
+        "notas": "tar, date, basename y dirname suelen estar disponibles; si faltan, instale tar y coreutils desde el gestor de paquetes.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install tar coreutils",
           "arch_linux": "sudo pacman -S tar coreutils",
@@ -29758,7 +29913,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Requiere que yt-dlp esté instalado y disponible; instálelo únicamente desde una fuente de confianza adecuada a su sistema.",
+        "metodo": "gestor_paquetes",
+        "notas": "Requiere que yt-dlp esté instalado y disponible; instálelo únicamente desde una fuente de confianza adecuada a su sistema.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -29841,7 +29997,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No requiere instalación adicional; utiliza find y utilidades proporcionadas por el sistema.",
+        "metodo": "gestor_paquetes",
+        "notas": "No requiere instalación adicional; utiliza find y utilidades proporcionadas por el sistema.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -29935,7 +30092,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No requiere instalación adicional; utiliza find y utilidades proporcionadas por el sistema.",
+        "metodo": "gestor_paquetes",
+        "notas": "No requiere instalación adicional; utiliza find y utilidades proporcionadas por el sistema.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -30019,7 +30177,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No requiere instalación adicional; las consultas de diagnóstico usan interfaces y herramientas del sistema. No ejecute una fork bomb.",
+        "metodo": "gestor_paquetes",
+        "notas": "No requiere instalación adicional; las consultas de diagnóstico usan interfaces y herramientas del sistema. No ejecute una fork bomb.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -30099,7 +30258,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Requiere que OpenSSL esté instalado y disponible en el sistema; no se prescribe un comando de instalación específico.",
+        "metodo": "gestor_paquetes",
+        "notas": "Requiere que OpenSSL esté instalado y disponible en el sistema; no se prescribe un comando de instalación específico.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -30135,7 +30295,7 @@
       "archivo_fuente": "json/comandos/monolinea/generar_clave_segura.json"
     },
     {
-      "id": "limpiar_historial_de_terminal_de_sesion_actuall",
+      "id": "limpiar_historial_de_terminal_de_sesion_actual",
       "nombre": "Limpiar historial de terminal de sesion actual",
       "descripcion": "Borra la lista de historial de la shell actual y luego la escribe en el archivo de historial configurado por la shell. En Bash normalmente vacía el historial persistente correspondiente a HISTFILE; no elimina registros de auditoría ni garantiza borrado seguro del almacenamiento.",
       "clasificacion": {
@@ -30181,7 +30341,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No requiere instalación adicional; utiliza las funciones de historial del shell Bash interactivo.",
+        "metodo": "builtin_shell",
+        "notas": "No requiere instalación adicional; utiliza las funciones de historial del shell Bash interactivo.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -30217,7 +30378,7 @@
       "archivo_fuente": "json/comandos/monolinea/limpiar_historial_de_terminal_de_sesion_actual.json"
     },
     {
-      "id": "limpieza_residual_linea_produccion",
+      "id": "limpieza_residual",
       "nombre": "Limpieza residual de la línea de producción",
       "descripcion": "En Debian/Ubuntu elimina paquetes considerados innecesarios y sus configuraciones residuales, limpia la caché local de paquetes y borra el historial de la shell actual y ~/.bash_history antes de desactivar HISTFILE. No actualiza ni instala actualizaciones, pese a la descripción anterior del registro.",
       "clasificacion": {
@@ -30265,7 +30426,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No requiere instalación adicional en sistemas Debian/Ubuntu; utiliza APT, dpkg y herramientas habituales del sistema.",
+        "metodo": "gestor_paquetes",
+        "notas": "No requiere instalación adicional en sistemas Debian/Ubuntu; utiliza APT, dpkg y herramientas habituales del sistema.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -30361,7 +30523,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No requiere instalación adicional en distribuciones que utilizan systemd.",
+        "metodo": "gestor_paquetes",
+        "notas": "No requiere instalación adicional en distribuciones que utilizan systemd.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -30443,7 +30606,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No requiere instalación adicional; utiliza find y las interfaces del sistema de archivos.",
+        "metodo": "gestor_paquetes",
+        "notas": "No requiere instalación adicional; utiliza find y las interfaces del sistema de archivos.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -30536,7 +30700,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No requiere instalación adicional si Python 3 está disponible; utiliza el módulo http.server incluido en su biblioteca estándar.",
+        "metodo": "gestor_paquetes",
+        "notas": "No requiere instalación adicional si Python 3 está disponible; utiliza el módulo http.server incluido en su biblioteca estándar.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -30619,7 +30784,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Requiere curl instalado y acceso de red al servicio wttr.in; use la implementación curl disponible en el sistema.",
+        "metodo": "gestor_paquetes",
+        "notas": "Requiere curl instalado y acceso de red al servicio wttr.in; use la implementación curl disponible en el sistema.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -30711,7 +30877,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No requiere instalación adicional; utiliza du, sort y head proporcionados habitualmente por el sistema.",
+        "metodo": "gestor_paquetes",
+        "notas": "No requiere instalación adicional; utiliza du, sort y head proporcionados habitualmente por el sistema.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -30792,7 +30959,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No requiere instalación adicional; utiliza ss del paquete de herramientas de red disponible en el sistema.",
+        "metodo": "gestor_paquetes",
+        "notas": "No requiere instalación adicional; utiliza ss del paquete de herramientas de red disponible en el sistema.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -30885,7 +31053,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No requiere instalación adicional si ping y tee están disponibles en el sistema; sus paquetes varían según la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "No requiere instalación adicional si ping y tee están disponibles en el sistema; sus paquetes varían según la distribución.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -30968,7 +31137,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No requiere instalación adicional; utiliza Bash y el archivo de configuración del usuario.",
+        "metodo": "gestor_paquetes",
+        "notas": "No requiere instalación adicional; utiliza Bash y el archivo de configuración del usuario.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -31048,7 +31218,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No requiere instalación adicional; command y type son funciones integradas de los shells compatibles.",
+        "metodo": "builtin_shell",
+        "notas": "No requiere instalación adicional; command y type son funciones integradas de los shells compatibles.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -31130,7 +31301,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Requiere que mpv esté instalado y disponible; instálelo únicamente desde una fuente de confianza adecuada a su sistema.",
+        "metodo": "gestor_paquetes",
+        "notas": "Requiere que mpv esté instalado y disponible; instálelo únicamente desde una fuente de confianza adecuada a su sistema.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -31221,7 +31393,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "sha256sum forma parte normalmente de coreutils y suele estar preinstalado.",
+        "metodo": "incluido_en_sistema",
+        "notas": "sha256sum forma parte normalmente de coreutils y suele estar preinstalado.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install coreutils",
           "arch_linux": "sudo pacman -S coreutils",
@@ -31367,7 +31540,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Gestor nativo de Alpine Linux, normalmente incluido en el sistema base como apk-tools.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Gestor nativo de Alpine Linux, normalmente incluido en el sistema base como apk-tools.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -31534,7 +31708,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Gestor de paquetes de Debian y Ubuntu; normalmente viene instalado en esas distribuciones.",
+        "metodo": "gestor_paquetes",
+        "notas": "Gestor de paquetes de Debian y Ubuntu; normalmente viene instalado en esas distribuciones.",
         "paquetes": {
           "debian_ubuntu": "apt (normalmente preinstalado)",
           "arch_linux": "",
@@ -31687,7 +31862,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Incluido en el paquete apt de Debian y Ubuntu; suele estar preinstalado.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Incluido en el paquete apt de Debian y Ubuntu; suele estar preinstalado.",
         "paquetes": {
           "debian_ubuntu": "apt",
           "arch_linux": "",
@@ -31852,7 +32028,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Incluido en el paquete apt de Debian y Ubuntu; suele estar preinstalado.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Incluido en el paquete apt de Debian y Ubuntu; suele estar preinstalado.",
         "paquetes": {
           "debian_ubuntu": "apt",
           "arch_linux": "",
@@ -32028,7 +32205,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Gestor nativo de Fedora y de RHEL 8 o posterior; normalmente se instala como parte del sistema.",
+        "metodo": "gestor_paquetes",
+        "notas": "Gestor nativo de Fedora y de RHEL 8 o posterior; normalmente se instala como parte del sistema.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -32182,7 +32360,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Herramienta base del sistema de paquetes Debian; normalmente preinstalada en Debian y Ubuntu.",
+        "metodo": "gestor_paquetes",
+        "notas": "Herramienta base del sistema de paquetes Debian; normalmente preinstalada en Debian y Ubuntu.",
         "paquetes": {
           "debian_ubuntu": "dpkg (normalmente preinstalado)",
           "arch_linux": "",
@@ -32365,7 +32544,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Disponible en los repositorios de las distribuciones principales; los remotos de aplicaciones se configuran aparte.",
+        "metodo": "gestor_paquetes",
+        "notas": "Disponible en los repositorios de las distribuciones principales; los remotos de aplicaciones se configuran aparte.",
         "paquetes": {
           "debian_ubuntu": "flatpak",
           "arch_linux": "flatpak",
@@ -32538,7 +32718,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Gestor base de Arch Linux; está incluido en la distribución y en derivadas compatibles.",
+        "metodo": "gestor_paquetes",
+        "notas": "Gestor base de Arch Linux; está incluido en la distribución y en derivadas compatibles.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "pacman (incluido en Arch Linux)",
@@ -32721,7 +32902,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Componente del ecosistema RPM; puede instalarse como paquete rpm en distribuciones que soporten RPM.",
+        "metodo": "gestor_paquetes",
+        "notas": "Componente del ecosistema RPM; puede instalarse como paquete rpm en distribuciones que soporten RPM.",
         "paquetes": {
           "debian_ubuntu": "rpm",
           "arch_linux": "rpm",
@@ -32894,7 +33076,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "El cliente snap se instala junto con snapd; la activación del servicio y la disponibilidad varían por distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "El cliente snap se instala junto con snapd; la activación del servicio y la disponibilidad varían por distribución.",
         "paquetes": {
           "debian_ubuntu": "snapd",
           "arch_linux": "snapd (AUR; requiere configuración del servicio)",
@@ -33060,7 +33243,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Herramienta nativa de sistemas RPM antiguos, especialmente RHEL/CentOS 7; en versiones actuales puede ser una interfaz compatible de DNF.",
+        "metodo": "gestor_paquetes",
+        "notas": "Herramienta nativa de sistemas RPM antiguos, especialmente RHEL/CentOS 7; en versiones actuales puede ser una interfaz compatible de DNF.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -33239,7 +33423,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Gestor nativo de openSUSE y SUSE Linux Enterprise, normalmente instalado por defecto.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Gestor nativo de openSUSE y SUSE Linux Enterprise, normalmente instalado por defecto.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -33377,7 +33562,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "gestor_paquetes_y_servicio_atd",
+        "metodo": "gestor_paquetes",
+        "notas": "gestor_paquetes_y_servicio_atd",
         "paquetes": {
           "debian_ubuntu": "sudo apt install at",
           "arch_linux": "sudo pacman -S at",
@@ -33594,7 +33780,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "builtin_de_shell",
+        "metodo": "builtin_shell",
+        "notas": "builtin_de_shell",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -33772,7 +33959,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "gestor_paquetes_util_linux",
+        "metodo": "gestor_paquetes",
+        "notas": "gestor_paquetes_util_linux",
         "paquetes": {
           "debian_ubuntu": "sudo apt install util-linux",
           "arch_linux": "sudo pacman -S util-linux",
@@ -33912,7 +34100,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "gestor_paquetes_y_servicio_cron",
+        "metodo": "gestor_paquetes",
+        "notas": "gestor_paquetes_y_servicio_cron",
         "paquetes": {
           "debian_ubuntu": "sudo apt install cron",
           "arch_linux": "sudo pacman -S cronie",
@@ -34055,7 +34244,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido_en_util_linux",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido_en_util_linux",
         "paquetes": {
           "debian_ubuntu": "sudo apt install util-linux",
           "arch_linux": "sudo pacman -S util-linux",
@@ -34198,7 +34388,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "gestor_paquetes_si_disponible",
+        "metodo": "gestor_paquetes",
+        "notas": "gestor_paquetes_si_disponible",
         "paquetes": {
           "debian_ubuntu": "sudo apt install dstat (si está disponible en la versión de la distribución)",
           "arch_linux": "sudo pacman -S dstat (si está disponible en repositorios habilitados)",
@@ -34286,7 +34477,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "builtin_de_shell",
+        "metodo": "builtin_shell",
+        "notas": "builtin_de_shell",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -34603,7 +34795,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "gestor_paquetes_psmisc",
+        "metodo": "gestor_paquetes",
+        "notas": "gestor_paquetes_psmisc",
         "paquetes": {
           "debian_ubuntu": "sudo apt install psmisc",
           "arch_linux": "sudo pacman -S psmisc",
@@ -34872,7 +35065,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "gestor_paquetes_util_linux",
+        "metodo": "gestor_paquetes",
+        "notas": "gestor_paquetes_util_linux",
         "paquetes": {
           "debian_ubuntu": "sudo apt install util-linux",
           "arch_linux": "sudo pacman -S util-linux",
@@ -35157,7 +35351,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "builtin_de_shell",
+        "metodo": "builtin_shell",
+        "notas": "builtin_de_shell",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -35289,7 +35484,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "builtin_de_shell_o_comando_del_sistema",
+        "metodo": "builtin_shell",
+        "notas": "builtin_de_shell_o_comando_del_sistema",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -35437,7 +35633,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "gestor_paquetes_psmisc",
+        "metodo": "gestor_paquetes",
+        "notas": "gestor_paquetes_psmisc",
         "paquetes": {
           "debian_ubuntu": "sudo apt install psmisc",
           "arch_linux": "sudo pacman -S psmisc",
@@ -35951,7 +36148,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "normalmente_incluido_en_coreutils",
+        "metodo": "incluido_en_sistema",
+        "notas": "normalmente_incluido_en_coreutils",
         "paquetes": {
           "debian_ubuntu": "incluido en coreutils",
           "arch_linux": "incluido en coreutils",
@@ -36170,7 +36368,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "normalmente_incluido_en_coreutils",
+        "metodo": "incluido_en_sistema",
+        "notas": "normalmente_incluido_en_coreutils",
         "paquetes": {
           "debian_ubuntu": "incluido en coreutils",
           "arch_linux": "incluido en coreutils",
@@ -36348,7 +36547,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "gestor_paquetes_util_linux",
+        "metodo": "gestor_paquetes",
+        "notas": "gestor_paquetes_util_linux",
         "paquetes": {
           "debian_ubuntu": "sudo apt install util-linux",
           "arch_linux": "sudo pacman -S util-linux",
@@ -37161,7 +37361,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "gestor_paquetes_util_linux",
+        "metodo": "gestor_paquetes",
+        "notas": "gestor_paquetes_util_linux",
         "paquetes": {
           "debian_ubuntu": "sudo apt install util-linux",
           "arch_linux": "sudo pacman -S util-linux",
@@ -37568,7 +37769,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "normalmente_incluido_en_util_linux",
+        "metodo": "incluido_en_sistema",
+        "notas": "normalmente_incluido_en_util_linux",
         "paquetes": {
           "debian_ubuntu": "incluido habitualmente con util-linux",
           "arch_linux": "incluido en util-linux",
@@ -38080,7 +38282,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "gestor_paquetes_util_linux",
+        "metodo": "gestor_paquetes",
+        "notas": "gestor_paquetes_util_linux",
         "paquetes": {
           "debian_ubuntu": "sudo apt install util-linux",
           "arch_linux": "sudo pacman -S util-linux",
@@ -38203,7 +38406,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "normalmente_incluido_en_coreutils",
+        "metodo": "incluido_en_sistema",
+        "notas": "normalmente_incluido_en_coreutils",
         "paquetes": {
           "debian_ubuntu": "incluido en coreutils",
           "arch_linux": "incluido en coreutils",
@@ -38622,7 +38826,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "gestor_paquetes_util_linux",
+        "metodo": "gestor_paquetes",
+        "notas": "gestor_paquetes_util_linux",
         "paquetes": {
           "debian_ubuntu": "sudo apt install util-linux",
           "arch_linux": "sudo pacman -S util-linux",
@@ -40235,7 +40440,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "gestor_paquetes (parte del cliente FTP)",
+        "metodo": "gestor_paquetes",
+        "notas": "gestor_paquetes (parte del cliente FTP)",
         "paquetes": {
           "debian_ubuntu": "sudo apt install ftp",
           "arch_linux": "sudo pacman -S inetutils",
@@ -40498,7 +40704,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido_con_systemd",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido_con_systemd",
         "paquetes": {
           "debian_ubuntu": "Incluido con systemd (paquete systemd)",
           "arch_linux": "Incluido con systemd (paquete systemd)",
@@ -41686,7 +41893,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "gestor_paquetes (parte del cliente FTP)",
+        "metodo": "gestor_paquetes",
+        "notas": "gestor_paquetes (parte del cliente FTP)",
         "paquetes": {
           "debian_ubuntu": "sudo apt install ftp",
           "arch_linux": "sudo pacman -S inetutils",
@@ -41774,7 +41982,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "gestor_paquetes (parte del cliente FTP)",
+        "metodo": "gestor_paquetes",
+        "notas": "gestor_paquetes (parte del cliente FTP)",
         "paquetes": {
           "debian_ubuntu": "sudo apt install ftp",
           "arch_linux": "sudo pacman -S inetutils",
@@ -42210,7 +42419,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "gestor_paquetes (Ubuntu/Debian; disponibilidad depende de version)",
+        "metodo": "gestor_paquetes",
+        "notas": "gestor_paquetes (Ubuntu/Debian; disponibilidad depende de version)",
         "paquetes": {
           "debian_ubuntu": "sudo apt install netplan.io",
           "arch_linux": "No suele ser el gestor de red predeterminado; verificar repositorios",
@@ -42485,7 +42695,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No es un comando universal; lo proporciona la distribucion como script de servicio heredado",
+        "metodo": "no_estandar",
+        "notas": "No es un comando universal; lo proporciona la distribucion como script de servicio heredado",
         "paquetes": {
           "debian_ubuntu": "No universal; depende de configuracion/paquetes heredados instalados",
           "arch_linux": "No es servicio estandar de Arch Linux",
@@ -43422,7 +43633,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "gestor_paquetes (parte del cliente FTP)",
+        "metodo": "gestor_paquetes",
+        "notas": "gestor_paquetes (parte del cliente FTP)",
         "paquetes": {
           "debian_ubuntu": "sudo apt install ftp",
           "arch_linux": "sudo pacman -S inetutils",
@@ -43705,7 +43917,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido_con_openssh_cliente",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido_con_openssh_cliente",
         "paquetes": {
           "debian_ubuntu": "sudo apt install openssh-client",
           "arch_linux": "sudo pacman -S openssh",
@@ -43851,7 +44064,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido_con_openssh_cliente",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido_con_openssh_cliente",
         "paquetes": {
           "debian_ubuntu": "sudo apt install openssh-client",
           "arch_linux": "sudo pacman -S openssh",
@@ -44137,7 +44351,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "gestor_paquetes_o_pip (segun distribucion y version)",
+        "metodo": "gestor_paquetes",
+        "notas": "gestor_paquetes_o_pip (segun distribucion y version)",
         "paquetes": {
           "debian_ubuntu": "sudo apt install speedtest-cli",
           "arch_linux": "AUR: speedtest-cli (verificar disponibilidad y procedencia)",
@@ -44434,7 +44649,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido_con_openssh_cliente",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido_con_openssh_cliente",
         "paquetes": {
           "debian_ubuntu": "sudo apt install openssh-client",
           "arch_linux": "sudo pacman -S openssh",
@@ -44568,7 +44784,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido_con_openssh_cliente",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido_con_openssh_cliente",
         "paquetes": {
           "debian_ubuntu": "sudo apt install openssh-client",
           "arch_linux": "sudo pacman -S openssh",
@@ -44717,7 +44934,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido_con_openssh_cliente",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido_con_openssh_cliente",
         "paquetes": {
           "debian_ubuntu": "sudo apt install openssh-client",
           "arch_linux": "sudo pacman -S openssh",
@@ -45307,7 +45525,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "gestor_paquetes (si esta disponible en la distribucion)",
+        "metodo": "gestor_paquetes",
+        "notas": "gestor_paquetes (si esta disponible en la distribucion)",
         "paquetes": {
           "debian_ubuntu": "sudo apt install libteam-utils",
           "arch_linux": "Verificar disponibilidad del paquete libteam en repositorios habilitados",
@@ -45942,7 +46161,7 @@
       "archivo_fuente": "json/comandos/red/whois.json"
     },
     {
-      "id": "apparmor",
+      "id": "apparmor_status",
       "nombre": "apparmor",
       "descripcion": "AppArmor, perfiles cargados y cuántos están en modo enforce o complain; es una consulta de auditoría.",
       "clasificacion": {
@@ -46826,7 +47045,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido_en_coreutils",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido_en_coreutils",
         "paquetes": {
           "debian_ubuntu": "incluido en coreutils",
           "arch_linux": "incluido en coreutils",
@@ -46948,7 +47168,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido_en_coreutils",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido_en_coreutils",
         "paquetes": {
           "debian_ubuntu": "incluido en coreutils",
           "arch_linux": "incluido en coreutils",
@@ -47069,7 +47290,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido_en_coreutils",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido_en_coreutils",
         "paquetes": {
           "debian_ubuntu": "incluido en coreutils",
           "arch_linux": "incluido en coreutils",
@@ -47548,7 +47770,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido_en_shadow_utils_si_disponible",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido_en_shadow_utils_si_disponible",
         "paquetes": {
           "debian_ubuntu": "incluido en passwd/shadow-utils según versión",
           "arch_linux": "incluido en shadow",
@@ -48629,7 +48852,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido_en_shadow_utils_si_disponible",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido_en_shadow_utils_si_disponible",
         "paquetes": {
           "debian_ubuntu": "incluido en login/shadow-utils según versión",
           "arch_linux": "incluido en shadow",
@@ -48731,7 +48955,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "compilacion_controlada_del_modulo_para_el_kernel",
+        "metodo": "compilacion",
+        "notas": "compilacion_controlada_del_modulo_para_el_kernel",
         "paquetes": {
           "debian_ubuntu": "Compilar LiME desde una fuente verificada para la versión exacta del kernel; no hay paquete universal.",
           "arch_linux": "Compilar LiME desde una fuente verificada para la versión exacta del kernel; no hay paquete universal.",
@@ -48971,7 +49196,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido_en_coreutils",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido_en_coreutils",
         "paquetes": {
           "debian_ubuntu": "incluido en coreutils",
           "arch_linux": "incluido en coreutils",
@@ -50027,7 +50253,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido_en_coreutils",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido_en_coreutils",
         "paquetes": {
           "debian_ubuntu": "incluido en coreutils",
           "arch_linux": "incluido en coreutils",
@@ -50148,7 +50375,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "incluido_en_coreutils",
+        "metodo": "incluido_en_sistema",
+        "notas": "incluido_en_coreutils",
         "paquetes": {
           "debian_ubuntu": "incluido en coreutils",
           "arch_linux": "incluido en coreutils",
@@ -50708,7 +50936,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "builtin_de_shell",
+        "metodo": "builtin_shell",
+        "notas": "builtin_de_shell",
         "paquetes": {
           "debian_ubuntu": "Incluido como builtin en shells habituales (bash, dash, zsh).",
           "arch_linux": "Incluido como builtin en shells habituales (bash, zsh).",
@@ -50965,7 +51194,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Utilidad heredada disponible en determinadas distribuciones SysV/RHEL antiguas; no suele ser apropiada para sistemas actuales con systemd.",
+        "metodo": "no_estandar",
+        "notas": "Utilidad heredada disponible en determinadas distribuciones SysV/RHEL antiguas; no suele ser apropiada para sistemas actuales con systemd.",
         "paquetes": {
           "debian_ubuntu": "chkconfig (disponibilidad según versión)",
           "arch_linux": "No suele incluirse en los repositorios oficiales actuales",
@@ -51124,7 +51354,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Herramienta propia de Upstart; el paquete no está disponible o soportado en muchas versiones actuales de las distribuciones.",
+        "metodo": "gestor_paquetes",
+        "notas": "Herramienta propia de Upstart; el paquete no está disponible o soportado en muchas versiones actuales de las distribuciones.",
         "paquetes": {
           "debian_ubuntu": "upstart (solo versiones heredadas; no instalar como reemplazo de systemd sin plan de migración)",
           "arch_linux": "",
@@ -51329,7 +51560,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Incluido con systemd en distribuciones que utilizan ese gestor init.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Incluido con systemd en distribuciones que utilizan ese gestor init.",
         "paquetes": {
           "debian_ubuntu": "systemd",
           "arch_linux": "systemd",
@@ -51517,7 +51749,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Cliente de OpenLDAP disponible mediante el gestor de paquetes de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Cliente de OpenLDAP disponible mediante el gestor de paquetes de la distribución.",
         "paquetes": {
           "debian_ubuntu": "ldap-utils",
           "arch_linux": "openldap",
@@ -51715,7 +51948,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Cliente OpenLDAP instalable desde los repositorios de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Cliente OpenLDAP instalable desde los repositorios de la distribución.",
         "paquetes": {
           "debian_ubuntu": "ldap-utils",
           "arch_linux": "openldap",
@@ -51928,7 +52162,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Cliente OpenLDAP instalable desde los repositorios de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Cliente OpenLDAP instalable desde los repositorios de la distribución.",
         "paquetes": {
           "debian_ubuntu": "ldap-utils",
           "arch_linux": "openldap",
@@ -52081,7 +52316,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Gestor de paquetes de la distribución; OpenRC no debe instalarse para reemplazar init sin una migración planificada.",
+        "metodo": "gestor_paquetes",
+        "notas": "Gestor de paquetes de la distribución; OpenRC no debe instalarse para reemplazar init sin una migración planificada.",
         "paquetes": {
           "debian_ubuntu": "openrc (disponibilidad según versión)",
           "arch_linux": "openrc (paquete/repositorio según variante de Arch)",
@@ -52224,7 +52460,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Se distribuye como parte del paquete OpenRC en sistemas que lo ofrecen.",
+        "metodo": "gestor_paquetes",
+        "notas": "Se distribuye como parte del paquete OpenRC en sistemas que lo ofrecen.",
         "paquetes": {
           "debian_ubuntu": "openrc (disponibilidad según versión)",
           "arch_linux": "openrc (paquete/repositorio según variante de Arch)",
@@ -52329,7 +52566,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Suele instalarse como utilidad de compatibilidad junto con el sistema init o sus herramientas; el paquete varía por distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Suele instalarse como utilidad de compatibilidad junto con el sistema init o sus herramientas; el paquete varía por distribución.",
         "paquetes": {
           "debian_ubuntu": "init-system-helpers",
           "arch_linux": "openrc (si se usa OpenRC; no es comando del paquete systemd)",
@@ -52478,7 +52716,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Forma parte de las herramientas del servidor OpenLDAP; instale el paquete del servidor, no solo el cliente LDAP.",
+        "metodo": "gestor_paquetes",
+        "notas": "Forma parte de las herramientas del servidor OpenLDAP; instale el paquete del servidor, no solo el cliente LDAP.",
         "paquetes": {
           "debian_ubuntu": "slapd",
           "arch_linux": "openldap",
@@ -52645,7 +52884,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Incluido habitualmente con el servidor OpenLDAP o sus utilidades administrativas.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Incluido habitualmente con el servidor OpenLDAP o sus utilidades administrativas.",
         "paquetes": {
           "debian_ubuntu": "slapd",
           "arch_linux": "openldap",
@@ -52883,7 +53123,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Herramienta cliente incluida en Net-SNMP; paquete disponible en los repositorios de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Herramienta cliente incluida en Net-SNMP; paquete disponible en los repositorios de la distribución.",
         "paquetes": {
           "debian_ubuntu": "snmp",
           "arch_linux": "net-snmp",
@@ -53116,7 +53357,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Utilidad cliente del conjunto Net-SNMP; instale el paquete de cliente correspondiente a la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Utilidad cliente del conjunto Net-SNMP; instale el paquete de cliente correspondiente a la distribución.",
         "paquetes": {
           "debian_ubuntu": "snmp",
           "arch_linux": "net-snmp",
@@ -53347,7 +53589,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Herramienta cliente del proyecto Net-SNMP, disponible en los repositorios de la distribución.",
+        "metodo": "gestor_paquetes",
+        "notas": "Herramienta cliente del proyecto Net-SNMP, disponible en los repositorios de la distribución.",
         "paquetes": {
           "debian_ubuntu": "snmp",
           "arch_linux": "net-snmp",
@@ -53534,7 +53777,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Herramienta incluida con systemd en distribuciones que usan este gestor; normalmente no se instala de forma independiente.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Herramienta incluida con systemd en distribuciones que usan este gestor; normalmente no se instala de forma independiente.",
         "paquetes": {
           "debian_ubuntu": "systemd (incluido en la instalación base)",
           "arch_linux": "systemd",
@@ -53691,7 +53935,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Incluido en el paquete systemd de las distribuciones que usan systemd; no suele distribuirse por separado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Incluido en el paquete systemd de las distribuciones que usan systemd; no suele distribuirse por separado.",
         "paquetes": {
           "debian_ubuntu": "systemd",
           "arch_linux": "systemd",
@@ -53846,7 +54091,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "Provisto por init-system-helpers en Debian y derivados; habitualmente ya está instalado y no es una utilidad genérica de todas las distribuciones.",
+        "metodo": "gestor_paquetes",
+        "notas": "Provisto por init-system-helpers en Debian y derivados; habitualmente ya está instalado y no es una utilidad genérica de todas las distribuciones.",
         "paquetes": {
           "debian_ubuntu": "init-system-helpers",
           "arch_linux": "No es el gestor estándar; disponibilidad según compatibilidad SysV local",
@@ -53992,7 +54238,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Gestor de paquetes; normalmente ya está instalado.",
+        "metodo": "gestor_paquetes",
+        "notas": "Gestor de paquetes; normalmente ya está instalado.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install adduser",
           "arch_linux": "sudo pacman -S shadow",
@@ -54149,7 +54396,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Incluido en las utilidades shadow.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Incluido en las utilidades shadow.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install passwd",
           "arch_linux": "sudo pacman -S shadow",
@@ -54283,7 +54531,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Incluido en el paquete de utilidades de cuentas de la distribución.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Incluido en el paquete de utilidades de cuentas de la distribución.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install passwd",
           "arch_linux": "sudo pacman -S shadow",
@@ -54383,7 +54632,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Incluido en las utilidades de cuentas de la distribución.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Incluido en las utilidades de cuentas de la distribución.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install passwd",
           "arch_linux": "sudo pacman -S shadow",
@@ -54507,7 +54757,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Incluido en las utilidades de cuentas de la distribución.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Incluido en las utilidades de cuentas de la distribución.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install adduser",
           "arch_linux": "sudo pacman -S shadow",
@@ -54651,7 +54902,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Incluido en shadow/shadow-utils.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Incluido en shadow/shadow-utils.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install passwd",
           "arch_linux": "sudo pacman -S shadow",
@@ -54787,7 +55039,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Incluido en las utilidades shadow.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Incluido en las utilidades shadow.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install passwd",
           "arch_linux": "sudo pacman -S shadow",
@@ -54877,7 +55130,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Incluido en las utilidades shadow.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Incluido en las utilidades shadow.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install passwd",
           "arch_linux": "sudo pacman -S shadow",
@@ -55011,7 +55265,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Incluido en las utilidades shadow.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Incluido en las utilidades shadow.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install passwd",
           "arch_linux": "sudo pacman -S shadow",
@@ -55112,7 +55367,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Suele formar parte de GNU coreutils o del paquete básico de herramientas del sistema.",
+        "metodo": "gestor_paquetes",
+        "notas": "Suele formar parte de GNU coreutils o del paquete básico de herramientas del sistema.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install coreutils",
           "arch_linux": "sudo pacman -S coreutils",
@@ -55247,7 +55503,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Normalmente incluido en GNU coreutils.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Normalmente incluido en GNU coreutils.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install coreutils",
           "arch_linux": "sudo pacman -S coreutils",
@@ -55379,7 +55636,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Incluido normalmente en util-linux.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Incluido normalmente en util-linux.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install util-linux",
           "arch_linux": "sudo pacman -S util-linux",
@@ -55469,7 +55727,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Incluido en las utilidades shadow.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Incluido en las utilidades shadow.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install passwd",
           "arch_linux": "sudo pacman -S shadow",
@@ -55635,7 +55894,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Normalmente instalado como parte de las utilidades de autenticación/cuentas.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Normalmente instalado como parte de las utilidades de autenticación/cuentas.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install passwd",
           "arch_linux": "sudo pacman -S shadow",
@@ -55673,6 +55933,245 @@
       },
       "categoria_db": "usuarios",
       "archivo_fuente": "json/comandos/usuarios/passwd.json"
+    },
+    {
+      "id": "pinky",
+      "nombre": "pinky",
+      "descripcion": "Muestra información breve sobre los usuarios con sesión iniciada (nombre de inicio de sesión, nombre completo, terminal, tiempo de inactividad, hora de entrada y host remoto). Es una versión ligera de finger incluida en GNU coreutils.",
+      "clasificacion": {
+        "categoria": "usuarios",
+        "subcategoria": "informacion",
+        "tags": [
+          "usuarios",
+          "sesiones",
+          "finger",
+          "coreutils"
+        ]
+      },
+      "sintaxis": {
+        "principal": "pinky [opciones] [usuario...]",
+        "alternativas": [
+          "pinky [opciones] --lookup [usuario...]"
+        ]
+      },
+      "parametros": [
+        {
+          "flag": "-s",
+          "argumento": null,
+          "tipo": "boolean",
+          "requerido": false,
+          "default": true,
+          "valores": [],
+          "descripcion": "Usa el formato corto, una línea por sesión. Es el comportamiento predeterminado.",
+          "conflictos": [
+            "-l"
+          ],
+          "requiere": []
+        },
+        {
+          "flag": "-l",
+          "argumento": null,
+          "tipo": "boolean",
+          "requerido": false,
+          "default": false,
+          "valores": [],
+          "descripcion": "Usa el formato largo, que muestra un bloque detallado por usuario (directorio personal, shell, y contenido de los archivos .project y .plan). Requiere indicar al menos un usuario.",
+          "conflictos": [
+            "-s"
+          ],
+          "requiere": []
+        },
+        {
+          "flag": "-b",
+          "argumento": null,
+          "tipo": "boolean",
+          "requerido": false,
+          "default": false,
+          "valores": [],
+          "descripcion": "En formato largo, omite el directorio personal y el shell del usuario.",
+          "conflictos": [],
+          "requiere": [
+            "-l"
+          ]
+        },
+        {
+          "flag": "-h",
+          "argumento": null,
+          "tipo": "boolean",
+          "requerido": false,
+          "default": false,
+          "valores": [],
+          "descripcion": "En formato largo, omite el contenido del archivo .project del usuario.",
+          "conflictos": [],
+          "requiere": [
+            "-l"
+          ]
+        },
+        {
+          "flag": "-p",
+          "argumento": null,
+          "tipo": "boolean",
+          "requerido": false,
+          "default": false,
+          "valores": [],
+          "descripcion": "En formato largo, omite el contenido del archivo .plan del usuario.",
+          "conflictos": [],
+          "requiere": [
+            "-l"
+          ]
+        },
+        {
+          "flag": "-f",
+          "argumento": null,
+          "tipo": "boolean",
+          "requerido": false,
+          "default": false,
+          "valores": [],
+          "descripcion": "En formato corto, omite la línea de cabecera de columnas.",
+          "conflictos": [],
+          "requiere": []
+        },
+        {
+          "flag": "-w",
+          "argumento": null,
+          "tipo": "boolean",
+          "requerido": false,
+          "default": false,
+          "valores": [],
+          "descripcion": "En formato corto, omite el nombre completo del usuario.",
+          "conflictos": [],
+          "requiere": []
+        },
+        {
+          "flag": "-i",
+          "argumento": null,
+          "tipo": "boolean",
+          "requerido": false,
+          "default": false,
+          "valores": [],
+          "descripcion": "En formato corto, omite el nombre completo y el host remoto.",
+          "conflictos": [],
+          "requiere": []
+        },
+        {
+          "flag": "-q",
+          "argumento": null,
+          "tipo": "boolean",
+          "requerido": false,
+          "default": false,
+          "valores": [],
+          "descripcion": "En formato corto, omite el nombre completo, el host remoto y el tiempo de inactividad.",
+          "conflictos": [],
+          "requiere": []
+        },
+        {
+          "flag": "--lookup",
+          "argumento": null,
+          "tipo": "boolean",
+          "requerido": false,
+          "default": false,
+          "valores": [],
+          "descripcion": "Intenta canonicalizar los nombres de host mediante consultas DNS.",
+          "conflictos": [],
+          "requiere": []
+        },
+        {
+          "flag": "--help",
+          "argumento": null,
+          "tipo": "boolean",
+          "requerido": false,
+          "default": false,
+          "valores": [],
+          "descripcion": "Muestra la ayuda y termina.",
+          "conflictos": [],
+          "requiere": []
+        },
+        {
+          "flag": "--version",
+          "argumento": null,
+          "tipo": "boolean",
+          "requerido": false,
+          "default": false,
+          "valores": [],
+          "descripcion": "Muestra la versión y termina.",
+          "conflictos": [],
+          "requiere": []
+        }
+      ],
+      "requisitos": {
+        "permisos": [
+          "usuario normal"
+        ],
+        "dependencias": [
+          "registro de sesiones activas (utmp)",
+          "base de datos local de cuentas (/etc/passwd)"
+        ],
+        "paquetes": [
+          "coreutils"
+        ]
+      },
+      "seguridad": {
+        "nivel": "bajo",
+        "destructivo": false,
+        "requiere_root": false,
+        "requiere_confirmacion": false,
+        "advertencias": [
+          "Expone nombres de usuario, terminales y hosts remotos de las sesiones activas; evita compartir su salida sin revisarla.",
+          "En formato largo lee los archivos .project y .plan del directorio personal de otros usuarios, por lo que puede mostrar texto que ellos hayan escrito.",
+          "En algunas distribuciones pinky puede no estar disponible en instalaciones mínimas o contenedores, y su salida depende de que exista el registro utmp."
+        ]
+      },
+      "instalacion": {
+        "instalable": true,
+        "metodo": "gestor_paquetes",
+        "notas": "Gestor de paquetes; forma parte de coreutils y normalmente ya está instalado.",
+        "paquetes": {
+          "debian_ubuntu": "sudo apt install coreutils",
+          "arch_linux": "sudo pacman -S coreutils",
+          "rhel_centos": "sudo dnf install coreutils"
+        }
+      },
+      "ejemplos": [
+        {
+          "nombre": "Listar usuarios con sesión activa",
+          "comando": "pinky",
+          "descripcion": "Muestra en formato corto una línea por cada sesión abierta en el sistema.",
+          "resultado_esperado": "Tabla con las columnas Login, Name, TTY, Idle, When y Where."
+        },
+        {
+          "nombre": "Salida compacta sin cabecera",
+          "comando": "pinky -f -q",
+          "descripcion": "Muestra las sesiones sin cabecera, sin nombre completo, sin host remoto y sin tiempo de inactividad.",
+          "resultado_esperado": "Una línea por sesión con solo login, terminal y hora de inicio."
+        },
+        {
+          "nombre": "Información detallada de un usuario",
+          "comando": "pinky -l ana",
+          "descripcion": "Muestra el formato largo de la cuenta ana, con directorio personal, shell y los archivos .plan y .project si existen.",
+          "resultado_esperado": "Bloque con Login, Name, Directory, Shell y, si existen, los textos de Project y Plan."
+        },
+        {
+          "nombre": "Formato largo sin planes ni proyectos",
+          "comando": "pinky -l -p -h ana",
+          "descripcion": "Muestra los datos de la cuenta ana omitiendo el contenido de .plan y .project.",
+          "resultado_esperado": "Solo login, nombre, directorio y shell del usuario."
+        }
+      ],
+      "automatizacion": {
+        "idempotente": true,
+        "interactivo": false,
+        "apto_script": false,
+        "variables": [
+          "usuario"
+        ],
+        "validaciones": [
+          "Comprobar que el usuario consultado exista con getent passwd antes de usar -l.",
+          "Para scripts, preferir who, w o loginctl list-sessions, cuya salida es más estable y fácil de procesar."
+        ],
+        "rollback": null
+      },
+      "categoria_db": "usuarios",
+      "archivo_fuente": "json/comandos/usuarios/pinky.json"
     },
     {
       "id": "pwconv",
@@ -55725,7 +56224,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Incluido en el paquete de utilidades shadow.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Incluido en el paquete de utilidades shadow.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install passwd",
           "arch_linux": "sudo pacman -S shadow",
@@ -55799,7 +56299,8 @@
       },
       "instalacion": {
         "instalable": false,
-        "metodo": "No hay una instalación estándar documentada para pwuconv. Para convertir shadow a passwd, verifica si la distribución proporciona pwunconv y consulta su manual.",
+        "metodo": "gestor_paquetes",
+        "notas": "No hay una instalación estándar documentada para pwuconv. Para convertir shadow a passwd, verifica si la distribución proporciona pwunconv y consulta su manual.",
         "paquetes": {
           "debian_ubuntu": "",
           "arch_linux": "",
@@ -55934,7 +56435,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Suele venir instalado como parte de las herramientas base.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Suele venir instalado como parte de las herramientas base.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install util-linux",
           "arch_linux": "sudo pacman -S util-linux",
@@ -56128,7 +56630,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Incluido en las utilidades shadow.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Incluido en las utilidades shadow.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install passwd",
           "arch_linux": "sudo pacman -S shadow",
@@ -56232,7 +56735,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Incluido en las utilidades shadow.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Incluido en las utilidades shadow.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install passwd",
           "arch_linux": "sudo pacman -S shadow",
@@ -56376,7 +56880,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Incluido en procps/procps-ng.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Incluido en procps/procps-ng.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install procps",
           "arch_linux": "sudo pacman -S procps-ng",
@@ -56486,7 +56991,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Incluido normalmente en util-linux.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Incluido normalmente en util-linux.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install util-linux",
           "arch_linux": "sudo pacman -S util-linux",
@@ -56630,7 +57136,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Incluido normalmente en GNU coreutils.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Incluido normalmente en GNU coreutils.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install coreutils",
           "arch_linux": "sudo pacman -S coreutils",
@@ -56728,7 +57235,8 @@
       },
       "instalacion": {
         "instalable": true,
-        "metodo": "Normalmente incluido en GNU coreutils.",
+        "metodo": "incluido_en_sistema",
+        "notas": "Normalmente incluido en GNU coreutils.",
         "paquetes": {
           "debian_ubuntu": "sudo apt install coreutils",
           "arch_linux": "sudo pacman -S coreutils",

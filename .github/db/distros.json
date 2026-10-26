@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "total_registros": 60
+    "total_registros": 62
   },
   "distribuciones": [
     {
@@ -519,6 +519,23 @@
       "archivo_fuente": "json/distribuciones/lubuntu.json"
     },
     {
+      "nombre": "Lunaria OS",
+      "descripcion": "Distribución basada en Debian, con un enfoque en la simplicidad y la facilidad de uso, ofreciendo un entorno de escritorio ligero y personalizable.",
+      "web_oficial": "https://www.lunariaos.org/",
+      "fecha_origen": "",
+      "autores": [
+        "Maksieku"
+      ],
+      "distribucion_base": "Debian",
+      "gestor_paquetes": [
+        "APT"
+      ],
+      "fuentes": [
+        "https://www.lunariaos.org/"
+      ],
+      "archivo_fuente": "json/distribuciones/lunariaos.json"
+    },
+    {
       "nombre": "Manjaro Linux",
       "descripcion": "Distribución de actualización continua basada en Arch Linux, que ofrece herramientas y repositorios propios.",
       "web_oficial": "https://manjaro.org/",
@@ -705,6 +722,24 @@
         "https://doc.qubes-os.org/en/r4.3/user/templates/templates.html"
       ],
       "archivo_fuente": "json/distribuciones/qubes_os.json"
+    },
+    {
+      "nombre": "Raspbian",
+      "descripcion": "Distribución de Linux optimizada para Raspberry Pi.",
+      "web_oficial": "https://www.raspberrypi.com/software/",
+      "fecha_origen": "",
+      "autores": [
+        "",
+        ""
+      ],
+      "distribucion_base": "Debian",
+      "gestor_paquetes": [
+        "APT"
+      ],
+      "fuentes": [
+        "https://www.raspberrypi.com/software/"
+      ],
+      "archivo_fuente": "json/distribuciones/raspbian.json"
     },
     {
       "nombre": "Red Hat Enterprise Linux",
