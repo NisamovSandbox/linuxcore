@@ -384,12 +384,8 @@ python3 .github/scripts/validate_commands.py
   </a>
 </div>
 
-## Licencia
-
-Distribuido bajo la [licencia MIT](LICENSE).
-
 <div align="center">
-  <p><b>Linux Core - Nisamov | MIT License - 2026</b></p>
+  <p><b>Linux Core - Nisamov | <a href="LICENSE">Licencia MIT</a> - 2026</b></p>
   <p><b>Contacto:</b> <a href="mailto:nisamov.contact@gmail.com">nisamov.contact@gmail.com</a></p>
   <p align="center">
     <img src=".github/media/bottom.png" alt="LinuxCore Footer" width="100%">

@@ -19,8 +19,8 @@ fi
 echo "Hola mundo" # Esto es un comentario inline (a la derecha de la instrucción)
 
 # Usos principales de los comentarios:
-# 1. Documentar la lógica y propósito del código para futuras referencias.
-# 2. Desactivar fragmentos de código en pruebas/depuración sin borrarlos.
+#   Documentar la lógica y propósito del código para futuras referencias.
+#   Desactivar fragmentos de código en pruebas/depuración sin borrarlos.
 
 # Limitaciones de los comentarios en Bash:
 # No es posible anidar comentarios (comentarios dentro de otros comentarios).
@@ -35,9 +35,9 @@ o anular temporalmente grandes bloques de código.
 MI_COMENTARIO
 
 # Casos donde el símbolo '#' NO actúa como comentario:
-# 1. Dentro de cadenas entrecomilladas: echo "Esto # no es un comentario"
-# 2. En expansión de parámetros/variables: ${#VARIABLE} (devuelve la longitud del string)
-# 3. Si está escapado con barra invertida: echo Esto\ \#\ no\ es\ comentario
+#   Dentro de cadenas entrecomilladas: echo "Esto # no es un comentario"
+#   En expansión de parámetros/variables: ${#VARIABLE} (devuelve la longitud del string)
+#   Si está escapado con barra invertida: echo Esto\ \#\ no\ es\ comentario
 
 # Cuidado con la barra invertida '\' al final de un comentario:
 # Si un comentario termina con '\', el compilador continuará el comentario en la siguiente línea.

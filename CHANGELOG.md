@@ -9,11 +9,29 @@
 <p>Los cambios de cada versión se agrupan en <b>Añadido</b>, <b>Cambiado</b>, <b>Corregido</b> y <b>Eliminado</b>.</p>
 </div>
 
+## [`00-00-01-08`] - 2026-10-28
+
+## Añadido
+
+- Contenido en espera por ser implementado en `TODO.md`.
+- Agregada nueva extensión teórica en `documentacion/infraestructura/contenedores/docker/teoria_docker.md`.
+
+## Corregido
+
+- Contenido sobrante general en el repositorio `./*`.
+- Corrección general de formato en múltiples archivos, cumpliendo con `.github/CONTRIBUTING.md`.
+
+## Cambiado
+
+- Actualizado contenido de archivo `documentacion/infraestructura/contenedores/docker/instalacion.md`
+
+---
+
 ## [`00-00-01-07`] - 2026-10-26
 
 ## Eliminado
 
-. Enlaces rotos de `README.md`
+- Enlaces rotos de `README.md`
 - `foremost.json` de `json/comandos/seguridad` por contenido duplicado (contenia un comando duplicado).
 
 ## Corregido
